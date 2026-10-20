@@ -1,0 +1,504 @@
+{
+  "patch": "2026-10-15-v197-cma-frozen-shrinkage",
+  "backend": "torch",
+  "self_check": {
+    "status": "PASS",
+    "max_grad_diff": 2.983724378680108e-16,
+    "max_loss_diff": 4.440892098500626e-16,
+    "max_param_diff": 1.1234221524683298e-10,
+    "max_logit_diff": 1.1234302377260974e-10,
+    "tolerance": 1e-07
+  },
+  "knowledge_base": {
+    "enabled": true,
+    "path": "D:\\anning\\APT_data (2)\\APT_data\\Run\\attack_software_kb.json",
+    "classes_with_software": 23,
+    "software": 251,
+    "time_rule": "relationship date strictly earlier than the Report date; undated Reports score 0",
+    "dated_reports": 894,
+    "reports_with_time_valid_match": 295,
+    "source": "MITRE ATT&CK v19.2, enterprise + mobile domains (github.com/mitre-attack/attack-stix-data). Extracted: group -> software \"uses\" relationships with the date each relationship was created. (c) The MITRE Corporation; reproduced under the ATT&CK terms of use."
+  },
+  "optional_experts_requested": [],
+  "alias_mask": {
+    "enabled": false
+  },
+  "geo_context": {
+    "lambda": 0.5,
+    "C": 0.5,
+    "sides": "all",
+    "clusters": [
+      "Russia",
+      "South Asia",
+      "Iran",
+      "DPRK/Korea",
+      "Middle East",
+      "Other",
+      "East Asia other"
+    ],
+    "reports_with_mention": 912
+  },
+  "ioc_knowledge_index": {
+    "indicators": 168484,
+    "sources": [
+      "Cisco-Talos_IOCs",
+      "Neo23x0_signature-base",
+      "RedDrip7_APT_Digital_Weapon",
+      "StrangerealIntel_CyberThreatIntel",
+      "WithSecureLabs_iocs",
+      "Yara-Rules_rules",
+      "advanced-threat-research_IOCs",
+      "avast_ioc",
+      "bitdefender_malware-ioc",
+      "citizenlab_malware-indicators",
+      "collection_blackorbird",
+      "eset_malware-ioc",
+      "fireeye_iocs",
+      "maltrail",
+      "microsoft_mstic",
+      "pan-unit42_iocs",
+      "prodaft_malware-ioc",
+      "sophoslabs_IoCs",
+      "telekom-security_malware_analysis",
+      "threatlabz_iocs",
+      "volexity_threat-intel"
+    ],
+    "reports_with_match_any_date": 635,
+    "reports_with_match_strictly_earlier": 361,
+    "lag_days": 0,
+    "channel": "tok",
+    "file": "D:\\anning\\APT_data (2)\\APT_data\\Run\\public_ioc_index_v193.json.gz"
+  },
+  "route": {
+    "tau": 0.8,
+    "source": "fixed",
+    "random": false,
+    "routed_train": 216,
+    "routed_val": 55,
+    "routed_test": 51
+  },
+  "integrated": {
+    "layers": "learned",
+    "members": 5,
+    "lambda": 0.5310632215023199,
+    "gate_u": [
+      -0.06966237590879358,
+      -0.2469095257270247,
+      -0.06701486982405802,
+      -0.25454008685810703,
+      -0.07646822061825444,
+      -0.1837105996264406
+    ],
+    "gate_b": 1.9923525822199513,
+    "gated": true,
+    "pool": false,
+    "mu": 0.0,
+    "geo_feature": true,
+    "knowledge_attention": {
+      "gamma0": 0.19894575931726882,
+      "c": 0.9117168398246502,
+      "weights": {
+        "ioc_hash": 0.48269522503226125,
+        "ioc_domain": 0.10956815929552119,
+        "ioc_ip": 0.12240522705248717,
+        "src_trail": -0.0221340738101714,
+        "src_reddrip": 0.3957974404704072,
+        "src_vendor": 0.4543679491546446,
+        "src_rules": -0.10951620616969152,
+        "log_actors_claim": -0.15470467031484958,
+        "log_files_claim": 0.37762886813618013,
+        "log_days_before": 0.3515920984115163,
+        "hist_unseen": 0.43301439358627236,
+        "hist_same_actor": -0.2251283910923548,
+        "hist_other_only": 0.03766425396674081,
+        "text_only": 0.0,
+        "multi_actor": -0.03124537789312227
+      },
+      "facts": {
+        "train": 833,
+        "val": 228,
+        "test": 337
+      }
+    },
+    "parts": {
+      "evidence_branch": [
+        0.8776595744680851,
+        0.8210526315789474
+      ],
+      "middle_layer": [
+        0.8882978723404256,
+        0.8473684210526315
+      ]
+    }
+  },
+  "train": {
+    "acc": 0.8952654232424677,
+    "precision_macro": 0.8891189178537338,
+    "recall_macro": 0.8553094558953268,
+    "weighted_f1": 0.8919996340632692,
+    "macro_f1": 0.8589071564027375,
+    "mrr": 0.9337953586096889,
+    "top3": 0.9684361549497847,
+    "top5": 0.9827833572453372,
+    "wrong": 73,
+    "total": 697
+  },
+  "val": {
+    "acc": 0.8882978723404256,
+    "precision_macro": 0.9206628496951078,
+    "recall_macro": 0.8720150816925011,
+    "weighted_f1": 0.8854743909998862,
+    "macro_f1": 0.8840557631714473,
+    "mrr": 0.9291793313069907,
+    "top3": 0.9574468085106383,
+    "top5": 0.9893617021276596,
+    "wrong": 21,
+    "total": 188
+  },
+  "test": {
+    "acc": 0.8631578947368421,
+    "precision_macro": 0.8486785615817876,
+    "recall_macro": 0.8610450928999317,
+    "weighted_f1": 0.8603018500711446,
+    "macro_f1": 0.8360848360921492,
+    "mrr": 0.9098816336742034,
+    "top3": 0.9631578947368421,
+    "top5": 0.9631578947368421,
+    "wrong": 26,
+    "total": 190
+  },
+  "retrieval": {
+    "train_family_loo": {
+      "acc": 0.8436154949784792,
+      "precision_macro": 0.8319747381500393,
+      "recall_macro": 0.7637014967483435,
+      "weighted_f1": 0.8358531986494753,
+      "macro_f1": 0.7779163716898188,
+      "mrr": 0.8937731744770642,
+      "top3": 0.9296987087517934,
+      "top5": 0.9569583931133429,
+      "wrong": 109,
+      "total": 697
+    },
+    "val": {
+      "acc": 0.8457446808510638,
+      "precision_macro": 0.8781133293230068,
+      "recall_macro": 0.8306172322301354,
+      "weighted_f1": 0.8393106589405941,
+      "macro_f1": 0.8409545544262551,
+      "mrr": 0.897737747581302,
+      "top3": 0.9361702127659575,
+      "top5": 0.9574468085106383,
+      "wrong": 29,
+      "total": 188
+    },
+    "test": {
+      "acc": 0.8210526315789474,
+      "precision_macro": 0.7738942061522707,
+      "recall_macro": 0.7823500871887968,
+      "weighted_f1": 0.8139382530754675,
+      "macro_f1": 0.7555347344513671,
+      "mrr": 0.8695382967343918,
+      "top3": 0.9,
+      "top5": 0.9315789473684211,
+      "wrong": 34,
+      "total": 190
+    }
+  },
+  "best_epoch": 200,
+  "val_recovery": {
+    "recover": 10,
+    "destroy": 2,
+    "net": 8,
+    "wrong_to_wrong": 3
+  },
+  "test_recovery": {
+    "recover": 10,
+    "destroy": 2,
+    "net": 8,
+    "wrong_to_wrong": 4
+  },
+  "feature_names": [
+    "lex_retrieval",
+    "lex_gap",
+    "lex_is_anchor",
+    "lex_margin",
+    "lex_prior",
+    "entity_excl",
+    "entity_excl_adv",
+    "entity_excl_only",
+    "entity_excl_close",
+    "entity_shared",
+    "entity_shared_adv",
+    "entity_shared_only",
+    "entity_shared_close",
+    "knowledge",
+    "geo_actor_prior"
+  ],
+  "experts_used": [],
+  "ranker_parameters": 5675,
+  "knowledge_used": true,
+  "candidate_sets": {
+    "0.1": {
+      "target_coverage": 0.9,
+      "threshold": 0.7237417368843677,
+      "calibration": "val",
+      "test": {
+        "coverage": 0.8789473684210526,
+        "mean_size": 1.0578947368421052,
+        "single_share": 0.9421052631578948,
+        "single_accuracy": 0.88268156424581,
+        "share_size_le3": 1.0
+      }
+    },
+    "0.05": {
+      "target_coverage": 0.95,
+      "threshold": 0.9356095591345616,
+      "calibration": "val",
+      "test": {
+        "coverage": 0.9315789473684211,
+        "mean_size": 1.3789473684210527,
+        "single_share": 0.7578947368421053,
+        "single_accuracy": 0.9444444444444444,
+        "share_size_le3": 0.9631578947368421
+      }
+    }
+  },
+  "candidate_sets_group": {
+    "0.1": {
+      "target_coverage": 0.9,
+      "thresholds": {
+        "has_evidence": 0.40091805431061456,
+        "no_evidence": 0.9675464708385421
+      },
+      "calibration": "train+val",
+      "calibration_n": {
+        "has_evidence": 738,
+        "no_evidence": 147
+      },
+      "test": {
+        "coverage": 0.9,
+        "mean_size": 1.4894736842105263,
+        "single_share": 0.8473684210526315,
+        "single_accuracy": 0.9130434782608695,
+        "share_size_le3": 0.9105263157894737,
+        "no_evidence": {
+          "n": 36,
+          "coverage": 0.8055555555555556,
+          "mean_size": 3.5833333333333335
+        },
+        "has_evidence": {
+          "n": 154,
+          "coverage": 0.922077922077922,
+          "mean_size": 1.0
+        }
+      }
+    },
+    "0.05": {
+      "target_coverage": 0.95,
+      "thresholds": {
+        "has_evidence": 0.7972439719279523,
+        "no_evidence": 0.9782662339634878
+      },
+      "calibration": "train+val",
+      "calibration_n": {
+        "has_evidence": 738,
+        "no_evidence": 147
+      },
+      "test": {
+        "coverage": 0.9315789473684211,
+        "mean_size": 1.7263157894736842,
+        "single_share": 0.8,
+        "single_accuracy": 0.9407894736842105,
+        "share_size_le3": 0.8894736842105263,
+        "no_evidence": {
+          "n": 36,
+          "coverage": 0.8888888888888888,
+          "mean_size": 4.611111111111111
+        },
+        "has_evidence": {
+          "n": 154,
+          "coverage": 0.9415584415584416,
+          "mean_size": 1.051948051948052
+        }
+      }
+    }
+  },
+  "abstention": {
+    "max_set": 5,
+    "target_coverage": 0.9,
+    "test_abstained": 7,
+    "test_answered": 183,
+    "test_risk_coverage_auc": 0.038840455072945965,
+    "val_risk_coverage_auc": 0.03201256119876541,
+    "test_answered_accuracy": 0.8743169398907104,
+    "test_abstained_accuracy": 0.5714285714285714
+  },
+  "evidence_additivity_error": 6.270539643082884e-13,
+  "coverage": {
+    "val": {
+      "n": 188,
+      "accuracy": 0.8882978723404256,
+      "covered_n": 154,
+      "covered_accuracy": 0.974025974025974,
+      "uncovered_n": 34,
+      "uncovered_accuracy": 0.5,
+      "uncovered_share": 0.18085106382978725
+    },
+    "test": {
+      "n": 190,
+      "accuracy": 0.8631578947368421,
+      "covered_n": 147,
+      "covered_accuracy": 0.9659863945578231,
+      "uncovered_n": 43,
+      "uncovered_accuracy": 0.5116279069767442,
+      "uncovered_share": 0.22631578947368422
+    }
+  },
+  "interval_95": {
+    "method": "family_bootstrap",
+    "resamples": 2000,
+    "val": [
+      0.8404255319148937,
+      0.9308510638297872
+    ],
+    "test": [
+      0.8128258689839573,
+      0.91005291005291
+    ]
+  },
+  "hierarchical": {
+    "0.05": {
+      "rule": {
+        "t_actor": 0.7,
+        "t_cluster": 0.84
+      },
+      "test_actor": 155,
+      "test_cluster": 13,
+      "test_abstain": 22,
+      "test_selective_risk": 0.06547619047619048,
+      "test_actor_accuracy": 0.9290322580645162,
+      "sibling_errors_to_correct_cluster": 5,
+      "test_actor_errors": 26,
+      "test_ecosystem_accuracy": 0.9578947368421052
+    },
+    "0.1": {
+      "rule": {
+        "t_actor": 0.5,
+        "t_cluster": 0.44
+      },
+      "test_actor": 168,
+      "test_cluster": 19,
+      "test_abstain": 3,
+      "test_selective_risk": 0.0962566844919786,
+      "test_actor_accuracy": 0.9107142857142857,
+      "sibling_errors_to_correct_cluster": 7,
+      "test_actor_errors": 26,
+      "test_ecosystem_accuracy": 0.9578947368421052
+    }
+  },
+  "knowledge_only": {
+    "train": {
+      "voted": 12,
+      "reports": 697,
+      "top1": 0.75,
+      "top3": 0.75
+    },
+    "val": {
+      "voted": 5,
+      "reports": 188,
+      "top1": 1.0,
+      "top3": 1.0
+    },
+    "test": {
+      "voted": 5,
+      "reports": 190,
+      "top1": 1.0,
+      "top3": 1.0
+    }
+  },
+  "label_audit": {
+    "flagged": 7,
+    "both_paths": 2,
+    "strong_evidence": 5,
+    "val_flagged": 3,
+    "test_flagged": 0,
+    "val_acc_without_flagged": 0.9027027027027027,
+    "test_acc_without_flagged": 0.8631578947368421
+  },
+  "test_with_val_in_history": {
+    "retrieval": {
+      "acc": 0.8473684210526315,
+      "precision_macro": 0.7923852581110646,
+      "recall_macro": 0.8205017652598298,
+      "weighted_f1": 0.8411562857627708,
+      "macro_f1": 0.7889914063450967,
+      "mrr": 0.8939166464548467,
+      "top3": 0.9263157894736842,
+      "top5": 0.9421052631578948,
+      "wrong": 29,
+      "total": 190
+    },
+    "refit_ranker": {
+      "acc": 0.8631578947368421,
+      "precision_macro": 0.8261387805742645,
+      "recall_macro": 0.8576125039834717,
+      "weighted_f1": 0.8618404512945818,
+      "macro_f1": 0.8245587661060048,
+      "mrr": 0.9169110275689223,
+      "top3": 0.968421052631579,
+      "top5": 0.9736842105263158,
+      "wrong": 26,
+      "total": 190
+    }
+  },
+  "knowledge_path": {
+    "backend": "kmem",
+    "model": "public_kb_v192.json:attack+malpedia+misp+tidal:entity",
+    "book": "closed",
+    "call": "routed",
+    "fusion": "route",
+    "route_prob_threshold": 0.8,
+    "route_target_accuracy": 0.0,
+    "route_random": false,
+    "prompt_version": "v188-k3-prompt-1",
+    "prompt_id": "f907aac232976026",
+    "cache": "None",
+    "cache_match": "exact",
+    "cache_bad_lines": 0,
+    "date": "2026-10-18",
+    "fact_base": null,
+    "requested": 2150,
+    "kb_voted": 455,
+    "kb_no_exclusive_fact": 1682,
+    "kb_conflicting_facts": 13,
+    "cache_hits": 0,
+    "unparsed": 0,
+    "missing_in_cache": 0,
+    "knowledge_interactions": true,
+    "cost": {
+      "answers_with_tokens": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "answers_with_seconds": 0,
+      "seconds": 0.0
+    },
+    "knowledge_memory": {
+      "path": "D:\\anning\\APT_data (2)\\APT_data\\Run\\public_kb_v192.json",
+      "digest": "f907aac2329760262040deaf819d72b40c3b626994192c1543148c2bfcf02a02",
+      "facts": 557,
+      "sources": [
+        "attack",
+        "malpedia",
+        "misp",
+        "tidal"
+      ],
+      "match": "entity",
+      "time_bound": true,
+      "history_check": true,
+      "vote_rule": "unanimous",
+      "reports_with_exclusive_fact": 239,
+      "source_text": "Public sources: MITRE ATT&CK v19.2 (c) The MITRE Corporation, ATT&CK terms of use; MISP galaxy clusters (tidal-software, tidal-groups, tidal-references, malpedia, tool, threat-actor), github.com/MISP/misp-galaxy; Malpedia actor pages (Fraunhofer FKIE, CC BY-NC-SA 3.0), fetched 2026-10-12. Check each licence before redistribution."
+    }
+  }
+}

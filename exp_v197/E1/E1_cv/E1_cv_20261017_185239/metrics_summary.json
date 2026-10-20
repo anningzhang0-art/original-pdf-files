@@ -1,0 +1,209 @@
+{
+  "patch": "2026-10-15-v197-cma-frozen-shrinkage",
+  "backend": "torch",
+  "self_check": {
+    "status": "PASS",
+    "max_grad_diff": 2.983724378680108e-16,
+    "max_loss_diff": 4.440892098500626e-16,
+    "max_param_diff": 1.1234221524683298e-10,
+    "max_logit_diff": 1.1234302377260974e-10,
+    "tolerance": 1e-07
+  },
+  "knowledge_base": {
+    "enabled": true,
+    "path": "D:\\anning\\APT_data (2)\\APT_data\\Run\\attack_software_kb.json",
+    "classes_with_software": 23,
+    "software": 251,
+    "time_rule": "relationship date strictly earlier than the Report date; undated Reports score 0",
+    "dated_reports": 894,
+    "reports_with_time_valid_match": 295,
+    "source": "MITRE ATT&CK v19.2, enterprise + mobile domains (github.com/mitre-attack/attack-stix-data). Extracted: group -> software \"uses\" relationships with the date each relationship was created. (c) The MITRE Corporation; reproduced under the ATT&CK terms of use."
+  },
+  "optional_experts_requested": [],
+  "alias_mask": {
+    "enabled": false
+  },
+  "geo_context": {
+    "lambda": 0.5,
+    "C": 0.5,
+    "sides": "all",
+    "clusters": [
+      "Russia",
+      "South Asia",
+      "Iran",
+      "DPRK/Korea",
+      "Middle East",
+      "Other",
+      "East Asia other"
+    ],
+    "reports_with_mention": 912
+  },
+  "ioc_knowledge_index": {
+    "indicators": 168484,
+    "sources": [
+      "Cisco-Talos_IOCs",
+      "Neo23x0_signature-base",
+      "RedDrip7_APT_Digital_Weapon",
+      "StrangerealIntel_CyberThreatIntel",
+      "WithSecureLabs_iocs",
+      "Yara-Rules_rules",
+      "advanced-threat-research_IOCs",
+      "avast_ioc",
+      "bitdefender_malware-ioc",
+      "citizenlab_malware-indicators",
+      "collection_blackorbird",
+      "eset_malware-ioc",
+      "fireeye_iocs",
+      "maltrail",
+      "microsoft_mstic",
+      "pan-unit42_iocs",
+      "prodaft_malware-ioc",
+      "sophoslabs_IoCs",
+      "telekom-security_malware_analysis",
+      "threatlabz_iocs",
+      "volexity_threat-intel"
+    ],
+    "reports_with_match_any_date": 635,
+    "reports_with_match_strictly_earlier": 361,
+    "lag_days": 0,
+    "channel": "tok",
+    "file": "D:\\anning\\APT_data (2)\\APT_data\\Run\\public_ioc_index_v193.json.gz"
+  },
+  "cross_validation": {
+    "folds": 15,
+    "predictions": 3225,
+    "retrieval_acc": 0.870077519379845,
+    "final_acc": 0.8762790697674419,
+    "final_acc_fold_std": 0.028276244214214423,
+    "final_macro_f1_per_repeat": [
+      0.850544301852386,
+      0.8522329769143595,
+      0.833438965563508
+    ],
+    "final_vs_retrieval": {
+      "recover": 54,
+      "destroy": 34
+    },
+    "coverage": {
+      "uncovered_share": 0.17426356589147288,
+      "covered_accuracy": 0.9586932031543373,
+      "uncovered_accuracy": 0.48576512455516013
+    },
+    "final_acc_interval_95": [
+      0.8578555567382423,
+      0.8945900095112672
+    ],
+    "risk_coverage_auc": 0.01843545099393768,
+    "candidate_set_0.1": {
+      "coverage": 0.9038759689922481,
+      "mean_size": 1.1643410852713179,
+      "single_share": 0.8747286821705427,
+      "single_accuracy": 0.9208516540876786,
+      "share_size_le3": 0.9913178294573644
+    },
+    "group_candidate_set_0.1": {
+      "coverage": 0.9314728682170542,
+      "mean_size": 1.3265116279069769,
+      "no_evidence_share": 0.14449612403100776,
+      "no_evidence_coverage": 0.8991416309012875,
+      "no_evidence_mean_size": 3.259656652360515,
+      "ungrouped_coverage": 0.9134883720930232,
+      "ungrouped_mean_size": 1.0316279069767442,
+      "ungrouped_no_evidence_coverage": 0.7081545064377682,
+      "ungrouped_no_evidence_mean_size": 1.0793991416309012
+    },
+    "candidate_set_0.05": {
+      "coverage": 0.9568992248062016,
+      "mean_size": 1.8300775193798449,
+      "single_share": 0.6868217054263566,
+      "single_accuracy": 0.9818839892749669,
+      "share_size_le3": 0.8868217054263566
+    },
+    "group_candidate_set_0.05": {
+      "coverage": 0.9516279069767442,
+      "mean_size": 1.782015503875969,
+      "no_evidence_share": 0.14449612403100776,
+      "no_evidence_coverage": 0.9484978540772532,
+      "no_evidence_mean_size": 6.184549356223176,
+      "ungrouped_coverage": 0.9510077519379845,
+      "ungrouped_mean_size": 1.2573643410852713,
+      "ungrouped_no_evidence_coverage": 0.8261802575107297,
+      "ungrouped_no_evidence_mean_size": 1.96137339055794
+    },
+    "knowledge_gate": {
+      "base_acc": 0.8762790697674419,
+      "knowledge_acc": 0.9007751937984496,
+      "recover": 92,
+      "destroy": 13,
+      "net": 79,
+      "p_value": 7.984598955148479e-16,
+      "min_net": 10,
+      "max_p": 0.05,
+      "verdict": "ADOPT",
+      "routed_share": 0.25116279069767444,
+      "called_share": 0.014573643410852714,
+      "route_tau_mean": 0.8000000000000003,
+      "covered_accuracy": 0.9707097258730755,
+      "uncovered_accuracy": 0.5693950177935944,
+      "macro_f1_per_repeat": [
+        0.8719115902491219,
+        0.8816421738503873,
+        0.8781352466326398
+      ],
+      "knowledge_acc_interval_95": [
+        0.8831599936066491,
+        0.9170550589443256
+      ],
+      "k3_alone_voted_acc": 0.9148936170212766
+    }
+  },
+  "knowledge_path": {
+    "backend": "kmem",
+    "model": "public_kb_v192.json:attack+malpedia+misp+tidal:entity",
+    "book": "closed",
+    "call": "routed",
+    "fusion": "route",
+    "route_prob_threshold": 0.8,
+    "route_target_accuracy": 0.0,
+    "route_random": false,
+    "prompt_version": "v188-k3-prompt-1",
+    "prompt_id": "f907aac232976026",
+    "cache": "None",
+    "cache_match": "exact",
+    "cache_bad_lines": 0,
+    "date": "2026-10-17",
+    "fact_base": null,
+    "requested": 16125,
+    "kb_voted": 3414,
+    "kb_no_exclusive_fact": 12606,
+    "kb_conflicting_facts": 105,
+    "cache_hits": 0,
+    "unparsed": 0,
+    "missing_in_cache": 0,
+    "knowledge_interactions": true,
+    "cost": {
+      "answers_with_tokens": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "answers_with_seconds": 0,
+      "seconds": 0.0
+    },
+    "knowledge_memory": {
+      "path": "D:\\anning\\APT_data (2)\\APT_data\\Run\\public_kb_v192.json",
+      "digest": "f907aac2329760262040deaf819d72b40c3b626994192c1543148c2bfcf02a02",
+      "facts": 557,
+      "sources": [
+        "attack",
+        "malpedia",
+        "misp",
+        "tidal"
+      ],
+      "match": "entity",
+      "time_bound": true,
+      "history_check": true,
+      "vote_rule": "unanimous",
+      "reports_with_exclusive_fact": 239,
+      "source_text": "Public sources: MITRE ATT&CK v19.2 (c) The MITRE Corporation, ATT&CK terms of use; MISP galaxy clusters (tidal-software, tidal-groups, tidal-references, malpedia, tool, threat-actor), github.com/MISP/misp-galaxy; Malpedia actor pages (Fraunhofer FKIE, CC BY-NC-SA 3.0), fetched 2026-10-12. Check each licence before redistribution."
+    }
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "patch": "2026-10-15-v197-cma-frozen-shrinkage",
+  "backend": "torch",
+  "self_check": {
+    "status": "PASS",
+    "max_grad_diff": 2.983724378680108e-16,
+    "max_loss_diff": 4.440892098500626e-16,
+    "max_param_diff": 1.1234221524683298e-10,
+    "max_logit_diff": 1.1234302377260974e-10,
+    "tolerance": 1e-07
+  },
+  "knowledge_base": {
+    "enabled": true,
+    "path": "D:\\anning\\APT_data (2)\\APT_data\\Run\\attack_software_kb.json",
+    "classes_with_software": 23,
+    "software": 251,
+    "time_rule": "relationship date strictly earlier than the Report date; undated Reports score 0",
+    "dated_reports": 894,
+    "reports_with_time_valid_match": 295,
+    "source": "MITRE ATT&CK v19.2, enterprise + mobile domains (github.com/mitre-attack/attack-stix-data). Extracted: group -> software \"uses\" relationships with the date each relationship was created. (c) The MITRE Corporation; reproduced under the ATT&CK terms of use."
+  },
+  "optional_experts_requested": [],
+  "alias_mask": {
+    "enabled": false
+  },
+  "geo_context": {
+    "lambda": 0.5,
+    "C": 0.5,
+    "sides": "all",
+    "clusters": [
+      "Russia",
+      "South Asia",
+      "Iran",
+      "DPRK/Korea",
+      "Middle East",
+      "Other",
+      "East Asia other"
+    ],
+    "reports_with_mention": 912
+  },
+  "ioc_knowledge_index": {
+    "indicators": 168484,
+    "sources": [
+      "Cisco-Talos_IOCs",
+      "Neo23x0_signature-base",
+      "RedDrip7_APT_Digital_Weapon",
+      "StrangerealIntel_CyberThreatIntel",
+      "WithSecureLabs_iocs",
+      "Yara-Rules_rules",
+      "advanced-threat-research_IOCs",
+      "avast_ioc",
+      "bitdefender_malware-ioc",
+      "citizenlab_malware-indicators",
+      "collection_blackorbird",
+      "eset_malware-ioc",
+      "fireeye_iocs",
+      "maltrail",
+      "microsoft_mstic",
+      "pan-unit42_iocs",
+      "prodaft_malware-ioc",
+      "sophoslabs_IoCs",
+      "telekom-security_malware_analysis",
+      "threatlabz_iocs",
+      "volexity_threat-intel"
+    ],
+    "reports_with_match_any_date": 635,
+    "reports_with_match_strictly_earlier": 361,
+    "lag_days": 0,
+    "channel": "tok",
+    "file": "D:\\anning\\APT_data (2)\\APT_data\\Run\\public_ioc_index_v193.json.gz"
+  },
+  "route": {
+    "tau": 0.8,
+    "source": "fixed",
+    "random": false,
+    "routed_train": 211,
+    "routed_val": 52,
+    "routed_test": 51
+  },
+  "integrated": {
+    "layers": "learned",
+    "members": 5,
+    "lambda": 0.5366898620228497,
+    "gate_u": [
+      -0.048752336509062896,
+      -0.22436601531932882,
+      -0.021020111564104278,
+      -0.24902966270906818,
+      -0.05528696838764927,
+      -0.17068942565617357
+    ],
+    "gate_b": 2.013253544931354,
+    "gated": true,
+    "pool": false,
+    "mu": 0.0,
+    "geo_feature": true,
+    "knowledge_attention": {
+      "gamma0": 0.19818829051170522,
+      "c": 0.9067245832518175,
+      "weights": {
+        "ioc_hash": 0.47801707300672697,
+        "ioc_domain": 0.1052763285236327,
+        "ioc_ip": 0.11797765896505483,
+        "src_trail": -0.03729426631284169,
+        "src_reddrip": 0.39396366640704783,
+        "src_vendor": 0.4515014232214112,
+        "src_rules": -0.10414842401939298,
+        "log_actors_claim": -0.12462390839990445,
+        "log_files_claim": 0.37373769588789774,
+        "log_days_before": 0.34901231775703645,
+        "hist_unseen": 0.4293460147252036,
+        "hist_same_actor": -0.2468118177674569,
+        "hist_other_only": 0.051457102877350024,
+        "text_only": 0.0,
+        "multi_actor": -0.005046396615977876
+      },
+      "facts": {
+        "train": 833,
+        "val": 228,
+        "test": 337
+      }
+    },
+    "parts": {
+      "evidence_branch": [
+        0.8776595744680851,
+        0.8315789473684211
+      ],
+      "middle_layer": [
+        0.8882978723404256,
+        0.8526315789473684
+      ]
+    }
+  },
+  "train": {
+    "acc": 0.8923959827833573,
+    "precision_macro": 0.8877737030794072,
+    "recall_macro": 0.8506214221722517,
+    "weighted_f1": 0.8892402139760612,
+    "macro_f1": 0.8558380408105422,
+    "mrr": 0.9324067543875123,
+    "top3": 0.9684361549497847,
+    "top5": 0.9827833572453372,
+    "wrong": 75,
+    "total": 697
+  },
+  "val": {
+    "acc": 0.8882978723404256,
+    "precision_macro": 0.9206628496951078,
+    "recall_macro": 0.8720150816925011,
+    "weighted_f1": 0.8854743909998862,
+    "macro_f1": 0.8840557631714473,
+    "mrr": 0.9282928064842959,
+    "top3": 0.9574468085106383,
+    "top5": 0.9893617021276596,
+    "wrong": 21,
+    "total": 188
+  },
+  "test": {
+    "acc": 0.868421052631579,
+    "precision_macro": 0.8511599511599511,
+    "recall_macro": 0.8639776442195797,
+    "weighted_f1": 0.8661799664146349,
+    "macro_f1": 0.8391434752458649,
+    "mrr": 0.9125270630370843,
+    "top3": 0.9631578947368421,
+    "top5": 0.9631578947368421,
+    "wrong": 25,
+    "total": 190
+  },
+  "retrieval": {
+    "train_family_loo": {
+      "acc": 0.8436154949784792,
+      "precision_macro": 0.8319747381500393,
+      "recall_macro": 0.7637014967483435,
+      "weighted_f1": 0.8358531986494753,
+      "macro_f1": 0.7779163716898188,
+      "mrr": 0.8937731744770642,
+      "top3": 0.9296987087517934,
+      "top5": 0.9569583931133429,
+      "wrong": 109,
+      "total": 697
+    },
+    "val": {
+      "acc": 0.8457446808510638,
+      "precision_macro": 0.8781133293230068,
+      "recall_macro": 0.8306172322301354,
+      "weighted_f1": 0.8393106589405941,
+      "macro_f1": 0.8409545544262551,
+      "mrr": 0.897737747581302,
+      "top3": 0.9361702127659575,
+      "top5": 0.9574468085106383,
+      "wrong": 29,
+      "total": 188
+    },
+    "test": {
+      "acc": 0.8210526315789474,
+      "precision_macro": 0.7738942061522707,
+      "recall_macro": 0.7823500871887968,
+      "weighted_f1": 0.8139382530754675,
+      "macro_f1": 0.7555347344513671,
+      "mrr": 0.8695382967343918,
+      "top3": 0.9,
+      "top5": 0.9315789473684211,
+      "wrong": 34,
+      "total": 190
+    }
+  },
+  "best_epoch": 200,
+  "val_recovery": {
+    "recover": 10,
+    "destroy": 2,
+    "net": 8,
+    "wrong_to_wrong": 3
+  },
+  "test_recovery": {
+    "recover": 10,
+    "destroy": 1,
+    "net": 9,
+    "wrong_to_wrong": 4
+  },
+  "feature_names": [
+    "lex_retrieval",
+    "lex_gap",
+    "lex_is_anchor",
+    "lex_margin",
+    "lex_prior",
+    "entity_excl",
+    "entity_excl_adv",
+    "entity_excl_only",
+    "entity_excl_close",
+    "entity_shared",
+    "entity_shared_adv",
+    "entity_shared_only",
+    "entity_shared_close",
+    "knowledge",
+    "geo_actor_prior"
+  ],
+  "experts_used": [],
+  "ranker_parameters": 5675,
+  "knowledge_used": true,
+  "candidate_sets": {
+    "0.1": {
+      "target_coverage": 0.9,
+      "threshold": 0.733068849492236,
+      "calibration": "val",
+      "test": {
+        "coverage": 0.8842105263157894,
+        "mean_size": 1.063157894736842,
+        "single_share": 0.9368421052631579,
+        "single_accuracy": 0.8876404494382022,
+        "share_size_le3": 1.0
+      }
+    },
+    "0.05": {
+      "target_coverage": 0.95,
+      "threshold": 0.9334076642748815,
+      "calibration": "val",
+      "test": {
+        "coverage": 0.9263157894736842,
+        "mean_size": 1.3578947368421053,
+        "single_share": 0.7631578947368421,
+        "single_accuracy": 0.9379310344827586,
+        "share_size_le3": 0.9736842105263158
+      }
+    }
+  },
+  "candidate_sets_group": {
+    "0.1": {
+      "target_coverage": 0.9,
+      "thresholds": {
+        "has_evidence": 0.37966595559460226,
+        "no_evidence": 0.9680891739428138
+      },
+      "calibration": "train+val",
+      "calibration_n": {
+        "has_evidence": 737,
+        "no_evidence": 148
+      },
+      "test": {
+        "coverage": 0.9,
+        "mean_size": 1.4894736842105263,
+        "single_share": 0.8526315789473684,
+        "single_accuracy": 0.9135802469135802,
+        "share_size_le3": 0.9105263157894737,
+        "no_evidence": {
+          "n": 35,
+          "coverage": 0.8,
+          "mean_size": 3.657142857142857
+        },
+        "has_evidence": {
+          "n": 155,
+          "coverage": 0.9225806451612903,
+          "mean_size": 1.0
+        }
+      }
+    },
+    "0.05": {
+      "target_coverage": 0.95,
+      "thresholds": {
+        "has_evidence": 0.7952466518445894,
+        "no_evidence": 0.9774076614232151
+      },
+      "calibration": "train+val",
+      "calibration_n": {
+        "has_evidence": 737,
+        "no_evidence": 148
+      },
+      "test": {
+        "coverage": 0.9315789473684211,
+        "mean_size": 1.7157894736842105,
+        "single_share": 0.7947368421052632,
+        "single_accuracy": 0.9403973509933775,
+        "share_size_le3": 0.8894736842105263,
+        "no_evidence": {
+          "n": 35,
+          "coverage": 0.8857142857142857,
+          "mean_size": 4.628571428571429
+        },
+        "has_evidence": {
+          "n": 155,
+          "coverage": 0.9419354838709677,
+          "mean_size": 1.0580645161290323
+        }
+      }
+    }
+  },
+  "abstention": {
+    "max_set": 5,
+    "target_coverage": 0.9,
+    "test_abstained": 7,
+    "test_answered": 183,
+    "test_risk_coverage_auc": 0.037227346251738,
+    "val_risk_coverage_auc": 0.03189522255209712,
+    "test_answered_accuracy": 0.8797814207650273,
+    "test_abstained_accuracy": 0.5714285714285714
+  },
+  "evidence_additivity_error": 6.270539643082884e-13,
+  "coverage": {
+    "val": {
+      "n": 188,
+      "accuracy": 0.8882978723404256,
+      "covered_n": 154,
+      "covered_accuracy": 0.974025974025974,
+      "uncovered_n": 34,
+      "uncovered_accuracy": 0.5,
+      "uncovered_share": 0.18085106382978725
+    },
+    "test": {
+      "n": 190,
+      "accuracy": 0.868421052631579,
+      "covered_n": 147,
+      "covered_accuracy": 0.9727891156462585,
+      "uncovered_n": 43,
+      "uncovered_accuracy": 0.5116279069767442,
+      "uncovered_share": 0.22631578947368422
+    }
+  },
+  "interval_95": {
+    "method": "family_bootstrap",
+    "resamples": 2000,
+    "val": [
+      0.8404255319148937,
+      0.9308510638297872
+    ],
+    "test": [
+      0.8191489361702128,
+      0.9153439153439153
+    ]
+  },
+  "hierarchical": {
+    "0.05": {
+      "rule": {
+        "t_actor": 0.7,
+        "t_cluster": 0.84
+      },
+      "test_actor": 157,
+      "test_cluster": 12,
+      "test_abstain": 21,
+      "test_selective_risk": 0.07100591715976332,
+      "test_actor_accuracy": 0.9235668789808917,
+      "sibling_errors_to_correct_cluster": 3,
+      "test_actor_errors": 25,
+      "test_ecosystem_accuracy": 0.9578947368421052
+    },
+    "0.1": {
+      "rule": {
+        "t_actor": 0.5,
+        "t_cluster": 0.44
+      },
+      "test_actor": 170,
+      "test_cluster": 18,
+      "test_abstain": 2,
+      "test_selective_risk": 0.10106382978723404,
+      "test_actor_accuracy": 0.9117647058823529,
+      "sibling_errors_to_correct_cluster": 6,
+      "test_actor_errors": 25,
+      "test_ecosystem_accuracy": 0.9578947368421052
+    }
+  },
+  "open_world": {
+    "folds": 5,
+    "hidden": [
+      7,
+      6,
+      6,
+      6,
+      6
+    ],
+    "unknown": [
+      180,
+      170,
+      133,
+      127,
+      87
+    ],
+    "known": [
+      103,
+      105,
+      112,
+      114,
+      122
+    ],
+    "auroc": [
+      0.8755663430420711,
+      0.8059943977591036,
+      0.8737916219119226,
+      0.8642768338168256,
+      0.8632937629545883
+    ],
+    "auroc_single": [
+      0.811866235167206,
+      0.7834733893557424,
+      0.8189446831364126,
+      0.8550904821107888,
+      0.7472206519690974
+    ],
+    "fpr95": [
+      0.47572815533980584,
+      0.4857142857142857,
+      0.36607142857142855,
+      0.3333333333333333,
+      0.3524590163934426
+    ],
+    "known_actor_accuracy": [
+      0.9320388349514563,
+      0.9142857142857143,
+      0.8839285714285714,
+      0.8596491228070176,
+      0.860655737704918
+    ],
+    "threshold_95tpr": 0.28823959274658195,
+    "official_flagged_at_95tpr": {
+      "val": 84,
+      "test": 80
+    }
+  },
+  "knowledge_only": {
+    "train": {
+      "voted": 11,
+      "reports": 697,
+      "top1": 0.7272727272727273,
+      "top3": 0.7272727272727273
+    },
+    "val": {
+      "voted": 4,
+      "reports": 188,
+      "top1": 1.0,
+      "top3": 1.0
+    },
+    "test": {
+      "voted": 5,
+      "reports": 190,
+      "top1": 1.0,
+      "top3": 1.0
+    }
+  },
+  "label_audit": {
+    "flagged": 7,
+    "both_paths": 2,
+    "strong_evidence": 5,
+    "val_flagged": 3,
+    "test_flagged": 0,
+    "val_acc_without_flagged": 0.9027027027027027,
+    "test_acc_without_flagged": 0.868421052631579
+  },
+  "test_with_val_in_history": {
+    "retrieval": {
+      "acc": 0.8473684210526315,
+      "precision_macro": 0.7923852581110646,
+      "recall_macro": 0.8205017652598298,
+      "weighted_f1": 0.8411562857627708,
+      "macro_f1": 0.7889914063450967,
+      "mrr": 0.8939166464548467,
+      "top3": 0.9263157894736842,
+      "top5": 0.9421052631578948,
+      "wrong": 29,
+      "total": 190
+    },
+    "refit_ranker": {
+      "acc": 0.8631578947368421,
+      "precision_macro": 0.8261387805742645,
+      "recall_macro": 0.8576125039834717,
+      "weighted_f1": 0.8618404512945818,
+      "macro_f1": 0.8245587661060048,
+      "mrr": 0.9179252956953788,
+      "top3": 0.968421052631579,
+      "top5": 0.9736842105263158,
+      "wrong": 26,
+      "total": 190
+    }
+  },
+  "knowledge_path": {
+    "backend": "kmem",
+    "model": "public_kb_v192.json:attack+malpedia+misp+tidal:entity",
+    "book": "closed",
+    "call": "routed",
+    "fusion": "route",
+    "route_prob_threshold": 0.8,
+    "route_target_accuracy": 0.0,
+    "route_random": false,
+    "prompt_version": "v188-k3-prompt-1",
+    "prompt_id": "f907aac232976026",
+    "cache": "None",
+    "cache_match": "exact",
+    "cache_bad_lines": 0,
+    "date": "2026-10-19",
+    "fact_base": null,
+    "requested": 5635,
+    "kb_voted": 1148,
+    "kb_no_exclusive_fact": 4456,
+    "kb_conflicting_facts": 31,
+    "cache_hits": 0,
+    "unparsed": 0,
+    "missing_in_cache": 0,
+    "knowledge_interactions": true,
+    "cost": {
+      "answers_with_tokens": 0,
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "answers_with_seconds": 0,
+      "seconds": 0.0
+    },
+    "knowledge_memory": {
+      "path": "D:\\anning\\APT_data (2)\\APT_data\\Run\\public_kb_v192.json",
+      "digest": "f907aac2329760262040deaf819d72b40c3b626994192c1543148c2bfcf02a02",
+      "facts": 557,
+      "sources": [
+        "attack",
+        "malpedia",
+        "misp",
+        "tidal"
+      ],
+      "match": "entity",
+      "time_bound": true,
+      "history_check": true,
+      "vote_rule": "unanimous",
+      "reports_with_exclusive_fact": 239,
+      "source_text": "Public sources: MITRE ATT&CK v19.2 (c) The MITRE Corporation, ATT&CK terms of use; MISP galaxy clusters (tidal-software, tidal-groups, tidal-references, malpedia, tool, threat-actor), github.com/MISP/misp-galaxy; Malpedia actor pages (Fraunhofer FKIE, CC BY-NC-SA 3.0), fetched 2026-10-12. Check each licence before redistribution."
+    }
+  }
+}

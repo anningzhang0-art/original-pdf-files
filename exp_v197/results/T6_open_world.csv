@@ -1,0 +1,2 @@
+﻿AUROC (multi-feature rejector),AUROC (1 - max prob),FPR@95TPR,known-actor acc (actors hidden),official flagged val/test
+0.857 ± 0.026,0.803,0.403,0.8901,84.0/80.0

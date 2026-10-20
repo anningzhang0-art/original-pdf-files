@@ -1,0 +1,148 @@
+{
+ "rows": [
+  {
+   "setting": "holdout",
+   "partition": 1,
+   "k": 1,
+   "method": "tfidf_lr",
+   "hp": 100.0,
+   "hidden_queries": 1042,
+   "hidden_top1": 0.0019193857965451055,
+   "known_queries": 1512,
+   "known_top1": 0.7645502645502645,
+   "coverage": ""
+  },
+  {
+   "setting": "holdout",
+   "partition": 1,
+   "k": 1,
+   "method": "tfidf_svm",
+   "hp": 1.0,
+   "hidden_queries": 1042,
+   "hidden_top1": 0.02399232245681382,
+   "known_queries": 1512,
+   "known_top1": 0.7976190476190477,
+   "coverage": ""
+  },
+  {
+   "setting": "holdout",
+   "partition": 1,
+   "k": 1,
+   "method": "tfidf_cnb",
+   "hp": 0.01,
+   "hidden_queries": 1042,
+   "hidden_top1": 0.009596928982725527,
+   "known_queries": 1512,
+   "known_top1": 0.8068783068783069,
+   "coverage": ""
+  },
+  {
+   "setting": "holdout",
+   "partition": 1,
+   "k": 1,
+   "method": "tfidf_knn",
+   "hp": 5,
+   "hidden_queries": 1042,
+   "hidden_top1": 0.046065259117082535,
+   "known_queries": 1512,
+   "known_top1": 0.7427248677248677,
+   "coverage": ""
+  },
+  {
+   "setting": "holdout",
+   "partition": 1,
+   "k": 1,
+   "method": "tfidf_rf",
+   "hp": 500,
+   "hidden_queries": 1042,
+   "hidden_top1": 0.0028790786948176585,
+   "known_queries": 1512,
+   "known_top1": 0.6130952380952381,
+   "coverage": ""
+  },
+  {
+   "setting": "holdout",
+   "partition": 1,
+   "k": 1,
+   "method": "entity_lr",
+   "hp": 1.0,
+   "hidden_queries": 1042,
+   "hidden_top1": 0.018234165067178502,
+   "known_queries": 1512,
+   "known_top1": 0.673941798941799,
+   "coverage": ""
+  },
+  {
+   "setting": "holdout",
+   "partition": 1,
+   "k": 1,
+   "method": "ttp_rf",
+   "hp": 500,
+   "hidden_queries": 1042,
+   "hidden_top1": 0.0,
+   "known_queries": 1512,
+   "known_top1": 0.09259259259259259,
+   "coverage": ""
+  },
+  {
+   "setting": "holdout",
+   "partition": 1,
+   "k": 1,
+   "method": "ttp_svm",
+   "hp": 1.0,
+   "hidden_queries": 1042,
+   "hidden_top1": 0.036468330134357005,
+   "known_queries": 1512,
+   "known_top1": 0.08597883597883597,
+   "coverage": ""
+  },
+  {
+   "setting": "holdout",
+   "partition": 1,
+   "k": 1,
+   "method": "kb_vote",
+   "hp": null,
+   "hidden_queries": 1042,
+   "hidden_top1": 0.2677543186180422,
+   "known_queries": 1512,
+   "known_top1": 0.29894179894179895,
+   "coverage": 0.31813953488372093
+  },
+  {
+   "setting": "holdout",
+   "partition": 1,
+   "k": 1,
+   "method": "ioc_vote",
+   "hp": null,
+   "hidden_queries": 1042,
+   "hidden_top1": 0.2437619961612284,
+   "known_queries": 1512,
+   "known_top1": 0.24867724867724866,
+   "coverage": 0.3358139534883721
+  },
+  {
+   "setting": "holdout",
+   "partition": 1,
+   "k": 1,
+   "method": "ttp_profile",
+   "hp": null,
+   "hidden_queries": 1042,
+   "hidden_top1": 0.1401151631477927,
+   "known_queries": 1512,
+   "known_top1": 0.1349206349206349,
+   "coverage": 0.7441860465116279
+  },
+  {
+   "setting": "holdout",
+   "partition": 1,
+   "k": 1,
+   "method": "knowledge_rank",
+   "hp": null,
+   "hidden_queries": 1042,
+   "hidden_top1": 0.24856046065259116,
+   "known_queries": 1512,
+   "known_top1": 0.24603174603174602,
+   "coverage": ""
+  }
+ ]
+}

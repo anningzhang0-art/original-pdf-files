@@ -1,0 +1,32 @@
+﻿epoch,split,actor_id,actor_name,total,correct,wrong,accuracy,main_wrong_destination,main_wrong_destination_count,main_misclassified_source,main_misclassified_source_count
+200,train,0,APT28,31,22,9,0.7096774193548387,7,4,3,1
+200,train,1,White Elephant,50,47,3,0.94,17,2,8,2
+200,train,2,MuddyWater,52,48,4,0.9230769230769231,12,1,12,3
+200,train,3,Group123,55,52,3,0.9454545454545454,5,2,5,4
+200,train,4,SideWinder,35,31,4,0.8857142857142857,15,1,17,3
+200,train,5,Kimsuky,61,54,7,0.8852459016393442,3,4,8,3
+200,train,6,Bitter Group,40,38,2,0.95,17,1,8,1
+200,train,7,APT29,35,30,5,0.8571428571428571,13,3,0,4
+200,train,8,Darkhotel,31,22,9,0.7096774193548387,5,3,25,1
+200,train,9,Donot Team,27,26,1,0.9629629629629629,15,1,0,1
+200,train,10,Gamaredon Group,40,39,1,0.975,13,1,13,1
+200,train,11,C-Major,32,31,1,0.96875,16,1,16,4
+200,train,12,APT35,14,8,6,0.5714285714285714,2,3,0,1
+200,train,13,Sandworm,19,17,2,0.8947368421052632,30,1,7,3
+200,train,14,Turla,11,9,2,0.8181818181818182,7,2,2,1
+200,train,15,Arid Viper,24,22,2,0.9166666666666666,21,1,4,1
+200,train,16,SideCopy,13,9,4,0.6923076923076923,11,4,11,1
+200,train,17,Bahamut,16,9,7,0.5625,4,3,1,2
+200,train,18,Equation Group,14,13,1,0.9285714285714286,14,1,1,1
+200,train,19,OceanLotus Group,20,19,1,0.95,10,1,2,1
+200,train,20,Blind Eagle,15,15,0,1.0,-1,0,5,1
+200,train,21,OilRig,15,11,4,0.7333333333333333,2,1,12,1
+200,train,22,Green Spot,7,5,2,0.7142857142857143,19,1,27,2
+200,train,23,HEXANE,5,4,1,0.8,21,1,21,1
+200,train,24,APT27,6,6,0,1.0,-1,0,30,1
+200,train,25,Stealth Falcon,5,2,3,0.4,15,1,8,1
+200,train,26,PROMETHIUM,6,5,1,0.8333333333333334,15,1,15,1
+200,train,27,Blue Mushroom,4,2,2,0.5,22,2,-1,0
+200,train,28,TRITON,8,8,0,1.0,-1,0,0,1
+200,train,29,DarkCaracal,3,3,0,1.0,-1,0,-1,0
+200,train,30,Gaza Cybergang Group1,3,1,2,0.3333333333333333,15,1,13,1

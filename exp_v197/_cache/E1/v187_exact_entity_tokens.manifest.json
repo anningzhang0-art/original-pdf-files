@@ -1,0 +1,7 @@
+{
+  "key": "2b8f1b04adf93cb0dc3954909a16bb7c1b614ac1b1ee5a3278b7caf4869fa769",
+  "version": "2026-10-09-v185-evidence-parity-true-graph-v3-open-name",
+  "python": "3.10.19",
+  "numpy": "1.26.4",
+  "sklearn": "1.7.2"
+}

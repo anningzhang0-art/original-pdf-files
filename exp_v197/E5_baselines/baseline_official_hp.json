@@ -1,0 +1,16 @@
+{
+ "tfidf_lr": 100.0,
+ "tfidf_svm": 1.0,
+ "tfidf_cnb": 0.01,
+ "tfidf_knn": 5,
+ "tfidf_rf": 500,
+ "entity_lr": 1.0,
+ "ttp_rf": 500,
+ "ttp_svm": 1.0,
+ "kb_vote": null,
+ "ioc_vote": null,
+ "ttp_profile": null,
+ "knowledge_rank": null,
+ "textcnn": 30,
+ "bigru_att": 23
+}

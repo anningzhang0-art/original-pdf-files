@@ -1,0 +1,28 @@
+{
+ "rows": [
+  {
+   "setting": "holdout",
+   "partition": 1,
+   "k": 0,
+   "method": "textcnn",
+   "hp": 30,
+   "hidden_queries": 1075,
+   "hidden_top1": 0.0,
+   "known_queries": 1512,
+   "known_top1": 0.5859788359788359,
+   "coverage": ""
+  },
+  {
+   "setting": "holdout",
+   "partition": 1,
+   "k": 0,
+   "method": "bigru_att",
+   "hp": 23,
+   "hidden_queries": 1075,
+   "hidden_top1": 0.0,
+   "known_queries": 1512,
+   "known_top1": 0.46164021164021163,
+   "coverage": ""
+  }
+ ]
+}
