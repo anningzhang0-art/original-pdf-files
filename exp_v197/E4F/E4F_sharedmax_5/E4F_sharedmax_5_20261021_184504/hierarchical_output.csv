@@ -1,0 +1,191 @@
+﻿report_id,true_actor,true_cluster,level_0.05,answer_0.05,level_0.1,answer_0.1
+report|58d9f1f07092e4cb75a160dfed4ac2e10a5a4eac,APT28,Russia,cluster,Russia,cluster,Russia
+report|66d8ff8facc9e84340fbe97755c524faafa8c854,APT28,Russia,abstain,,abstain,
+report|848f8439edea39a1519ad53b053a5d62c6b0ad19,APT28,Russia,actor,APT28,actor,APT28
+report|945860ffbb0ff10316685bef8d317234c05d9134,APT28,Russia,actor,APT28,actor,APT28
+report|affe077f5be06699455f5638cdf51c04e6e6bb48,APT28,Russia,actor,APT28,actor,APT28
+report|c1dc02a049e71ce9ec25cbbf73f04bc3bd3afde1,APT28,Russia,actor,APT28,actor,APT28
+report|c4c6aff2993f8b40875f8a29688db2cd41131084,APT28,Russia,actor,APT28,actor,APT28
+report|d3a4c3743592b286a1d94f3148e3fd14c662ce4a,APT28,Russia,actor,APT28,actor,APT28
+report|e6b84bcbae274a09205ecd16a85cc7b772bf8f5e,APT28,Russia,actor,APT28,actor,APT28
+report|00583de9237881131440f6637d0f3178c57ee23c,White Elephant,South Asia,actor,White Elephant,actor,White Elephant
+report|17f12b06a33b59eece3c4570089bdaa0304d7095,White Elephant,South Asia,actor,White Elephant,actor,White Elephant
+report|3029effeac71308b34e2b9c9d23ebdb663a9f72c,White Elephant,South Asia,actor,White Elephant,actor,White Elephant
+report|404684de15d532cfce5a6f7523c461134d362319,White Elephant,South Asia,cluster,South Asia,cluster,South Asia
+report|6e34190620e79ee61682ea7451d816d3be3fe31a,White Elephant,South Asia,actor,White Elephant,actor,White Elephant
+report|710880328f86df758a51755ad4dec0bf4326f5ce,White Elephant,South Asia,actor,White Elephant,actor,White Elephant
+report|7361b633f5664c22255c02f206ad51306ae4fec7,White Elephant,South Asia,actor,White Elephant,actor,White Elephant
+report|7d25b2573a8ee093485c7a5ca0b8848a50efefba,White Elephant,South Asia,actor,White Elephant,actor,White Elephant
+report|a0d8845f0a00feda40ebf2507f75d33b0180c59e,White Elephant,South Asia,actor,White Elephant,actor,White Elephant
+report|a923ed3b50a1ddc3305b32aa2db17154e628f244,White Elephant,South Asia,actor,White Elephant,actor,White Elephant
+report|ae86ac48dd55ad0d425bc2daa71d623dc6516011,White Elephant,South Asia,actor,White Elephant,actor,White Elephant
+report|e139a965922399b19ae9abd96afd43e9cf23ae7d,White Elephant,South Asia,actor,White Elephant,actor,White Elephant
+report|fc3c31facc4cd386ce1ca9e985a45d965b088c97,White Elephant,South Asia,actor,White Elephant,actor,White Elephant
+report|07571d422a129baf513aabff515376c8875a221a,MuddyWater,Iran,actor,MuddyWater,actor,MuddyWater
+report|1174049de098533780743129a7ca7f0942460833,MuddyWater,Iran,actor,MuddyWater,actor,MuddyWater
+report|45a206fefc9a23d1b1280ce03c4217abaeefe834,MuddyWater,Iran,cluster,Iran,cluster,Iran
+report|54313fc1a109a895a780caed3a6ed67d829b4c00,MuddyWater,Iran,actor,MuddyWater,actor,MuddyWater
+report|781b47990381c5d03dcbdba0c5cd6332cf556a20,MuddyWater,Iran,actor,MuddyWater,actor,MuddyWater
+report|836cab113637a023f24c58d692bc136bcb3db0a8,MuddyWater,Iran,actor,MuddyWater,actor,MuddyWater
+report|937a037ee701830d6f9dde49929679d83f9e5ba1,MuddyWater,Iran,actor,MuddyWater,actor,MuddyWater
+report|97ce698b9a6bcca2744e9c6c3d3e93ff37c1035e,MuddyWater,Iran,actor,MuddyWater,actor,MuddyWater
+report|aa4ea0bee2e80052db14a20d3a64ad38fc55618b,MuddyWater,Iran,actor,MuddyWater,actor,MuddyWater
+report|ea90e2a12c7cd634b82cccac75a8c3349c54510e,MuddyWater,Iran,actor,MuddyWater,actor,MuddyWater
+report|ed6cf708b67fb80df97913f7d5fdde7e77be8ba6,MuddyWater,Iran,actor,MuddyWater,actor,MuddyWater
+report|f0f277ccd12e3623151435070b78b379bfdf6bd8,MuddyWater,Iran,actor,MuddyWater,actor,MuddyWater
+report|039911932224ed8eb1936fb2c1dfd9a68c408ee5,Group123,DPRK/Korea,actor,Group123,actor,Group123
+report|120412e4b32f20c0cde864b3b0025b2e15b0b1f4,Group123,DPRK/Korea,actor,Kimsuky,actor,Kimsuky
+report|25b833c447e92173a24fbe5f54261ed317e7b167,Group123,DPRK/Korea,actor,Group123,actor,Group123
+report|34477c6bd4a485023fda931a653ba3141b6503b0,Group123,DPRK/Korea,cluster,DPRK/Korea,actor,Kimsuky
+report|411c9d1891174d3eaee5e13c44b751521b8ac324,Group123,DPRK/Korea,actor,Group123,actor,Group123
+report|49e944acebff4d55910cf13bb0fb09b2db3066f8,Group123,DPRK/Korea,actor,Group123,actor,Group123
+report|50ffc63cb08bb19ef7f04a31e5819788fc164a05,Group123,DPRK/Korea,actor,Group123,actor,Group123
+report|68d50fc05275841cff614b83f3343f248d170d02,Group123,DPRK/Korea,actor,Group123,actor,Group123
+report|730113b9e5bf903e5f64fd410e2f0a6ab83affbc,Group123,DPRK/Korea,actor,Group123,actor,Group123
+report|7d1aa248cc1aaa8ebca677e2f3aa6c8488cd70c7,Group123,DPRK/Korea,actor,Group123,actor,Group123
+report|88f9624b94db4681cf06e747ea740819dbda2be2,Group123,DPRK/Korea,actor,Group123,actor,Group123
+report|9e6afc62401a0d2a500e992c8bdd02928862f35d,Group123,DPRK/Korea,cluster,DPRK/Korea,cluster,DPRK/Korea
+report|b262e09517bd3bf9abb0c19c20ef8fddb2b0012d,Group123,DPRK/Korea,actor,Group123,actor,Group123
+report|2d2b794de386cfa9815f6b0aeb95487abf4868e5,SideWinder,South Asia,actor,SideWinder,actor,SideWinder
+report|35dd1636b329cb8d039e4df982f25ebc95a1ea58,SideWinder,South Asia,actor,SideWinder,actor,SideWinder
+report|4693de89326a0e9455f33738ba53853e53150fa7,SideWinder,South Asia,abstain,,abstain,
+report|8271ea184af91f4e01d46dae1b31f7bdd5105ae7,SideWinder,South Asia,actor,SideWinder,actor,SideWinder
+report|8dd659bc44c60023898c22afd502ef8f16f2402e,SideWinder,South Asia,actor,SideWinder,actor,SideWinder
+report|9a98969a84bcf9149a75921c227046171b133266,SideWinder,South Asia,actor,SideWinder,actor,SideWinder
+report|a9963bc551a7a2694c7b4ce6ecc1f289f00c9c9b,SideWinder,South Asia,actor,SideWinder,actor,SideWinder
+report|aacadee612c5e6e01225e798d90938605e0e8e51,SideWinder,South Asia,actor,C-Major,actor,C-Major
+report|c7a846b6c2424d4fbcad02c4ecf7ae95322c2890,SideWinder,South Asia,actor,SideWinder,actor,SideWinder
+report|c8d58e702db5bfc5e1b1baf05227fb2e8f076400,SideWinder,South Asia,actor,SideWinder,actor,SideWinder
+report|021f5d5373ca6685d544bb4a137f7a87f9bc4b8b,Kimsuky,DPRK/Korea,actor,Group123,actor,Group123
+report|1dd82e3f4e9cf98b6f6061ef36535d0c98a35ee4,Kimsuky,DPRK/Korea,actor,Kimsuky,actor,Kimsuky
+report|35bd832ef2a56cb20faab3fd9e8b888304c5a640,Kimsuky,DPRK/Korea,abstain,,abstain,
+report|479d6026181dd75574d44cf6b179a5f9515813d7,Kimsuky,DPRK/Korea,actor,Kimsuky,actor,Kimsuky
+report|62fa0676f635ca056eca8dcd0f4ea5bc6abca8bd,Kimsuky,DPRK/Korea,actor,Kimsuky,actor,Kimsuky
+report|757485d511f4418f7d45f958c856aade3a6f0842,Kimsuky,DPRK/Korea,actor,Kimsuky,actor,Kimsuky
+report|8b3c0f402e0d6ba01ec22d9c52f6cbe284bb2774,Kimsuky,DPRK/Korea,actor,Group123,actor,Group123
+report|96fd808e7510eba9f6106cdd675b6255c2dde6a0,Kimsuky,DPRK/Korea,actor,Kimsuky,actor,Kimsuky
+report|aef4f35d137ea5390c052b8ee9e38a1d550c78de,Kimsuky,DPRK/Korea,actor,Kimsuky,actor,Kimsuky
+report|bf9d3200a13bea2f134d356716f573b6cf6e0ae0,Kimsuky,DPRK/Korea,actor,Kimsuky,actor,Kimsuky
+report|c0bce122950eb271ec6e58dc0beeef17f6915e3d,Kimsuky,DPRK/Korea,actor,Kimsuky,actor,Kimsuky
+report|d26953bf2707b6e4b9c3888f66f1c81b445d9dbb,Kimsuky,DPRK/Korea,actor,Kimsuky,actor,Kimsuky
+report|d6ac0a92dbedb93c7e97f12acdc752251ad3959d,Kimsuky,DPRK/Korea,actor,Kimsuky,actor,Kimsuky
+report|e0eb2adf07badea96c8eec9a08ba6a09c54f914e,Kimsuky,DPRK/Korea,abstain,,abstain,
+report|f9a04d5febf6801b9a4c2e542a275339604315bc,Kimsuky,DPRK/Korea,actor,Kimsuky,actor,Kimsuky
+report|fe57218bb1fac6322530e8a7f286dfb5fbc3035b,Kimsuky,DPRK/Korea,actor,Kimsuky,actor,Kimsuky
+report|27fa4f15b0bf089e2b51230ae3772dc8e84c8668,Bitter Group,South Asia,actor,Bitter Group,actor,Bitter Group
+report|2d8b9bd3dba2e8caa77949d88c610c4bd2631df4,Bitter Group,South Asia,actor,Bitter Group,actor,Bitter Group
+report|3557e394c14e539211c91802ba9b2aeb15be5782,Bitter Group,South Asia,cluster,South Asia,actor,Bitter Group
+report|355da87fb714d7b8e4f7067d7224aed996ff9473,Bitter Group,South Asia,actor,Bitter Group,actor,Bitter Group
+report|40da9e9bed749d84485a9bee0e0f0f960787ea03,Bitter Group,South Asia,cluster,South Asia,cluster,South Asia
+report|547f8badf16a8ae8389d099929eee83b475d85e7,Bitter Group,South Asia,actor,Bahamut,actor,Bahamut
+report|76504b22552c9935034538e8bc79bb29dc311678,Bitter Group,South Asia,cluster,South Asia,cluster,South Asia
+report|890a385f581766277276edcedf31b7cdb71b1a4d,Bitter Group,South Asia,abstain,,actor,Bitter Group
+report|958dfd5892a42fcf58553484559050dce8fd15e9,Bitter Group,South Asia,actor,Bitter Group,actor,Bitter Group
+report|e1da213f5f225fbf9ac7577c02a99e92b96c0b78,Bitter Group,South Asia,cluster,South Asia,actor,SideWinder
+report|e2245d643b7e0da51a18ca583ccd4705ae644ba6,Bitter Group,South Asia,actor,Bitter Group,actor,Bitter Group
+report|056744374338cf6083b3abb35c7ff4dc7c790fb6,APT29,Russia,actor,APT29,actor,APT29
+report|12591c3511652ffbdde27462aa582de85d7347b1,APT29,Russia,actor,APT29,actor,APT29
+report|18c6f528f465aa1bcd591dc13ff30a4942e139eb,APT29,Russia,actor,APT29,actor,APT29
+report|336f0aecaffc098333d03d87795abbf611434fa1,APT29,Russia,actor,APT29,actor,APT29
+report|560e6da8d06f2ebfcb2c6ede4c89bbf10841e11d,APT29,Russia,actor,APT29,actor,APT29
+report|5bf1d04c0119cb1d80921919ddece1fa28aa169d,APT29,Russia,actor,APT29,actor,APT29
+report|805fe680a6c52c643474ba24963630b0766317d2,APT29,Russia,actor,APT29,actor,APT29
+report|9a07c2de5a4a59afeda4856e91b56b850754b98c,APT29,Russia,actor,APT29,actor,APT29
+report|d8d52b8f1ffb8c25f0718e97fdeeb66d61cc1656,APT29,Russia,abstain,,actor,APT29
+report|e949240f03a19f2c33f911199f818f5e1f2fb85c,APT29,Russia,actor,APT29,actor,APT29
+report|5294a1ccd2d7ac090e3ac618aae23366fd0eb607,Darkhotel,DPRK/Korea,actor,Darkhotel,actor,Darkhotel
+report|a4f93dfde7fbd4e4fc6e4f42eabe99683610a8b5,Darkhotel,DPRK/Korea,abstain,,abstain,
+report|a7e0917c03144ee90fe876b652820a8474165460,Darkhotel,DPRK/Korea,abstain,,abstain,
+report|abdbc8f8a9b3aa993576c2589fe6510d3ffedf20,Darkhotel,DPRK/Korea,actor,Darkhotel,actor,Darkhotel
+report|c8d9f7ef573b8b85ef756fed4136dd78addfbe89,Darkhotel,DPRK/Korea,actor,Darkhotel,actor,Darkhotel
+report|cdfd61a766ad8132415f0eecc584f37e304d7ea6,Darkhotel,DPRK/Korea,actor,Darkhotel,actor,Darkhotel
+report|dc84757c3d42d2a384b2022e50addce8eb1dd0df,Darkhotel,DPRK/Korea,actor,Darkhotel,actor,Darkhotel
+report|44095b5bad49905ddac5ce51f5d9fa2c5599b049,Donot Team,South Asia,actor,Donot Team,actor,Donot Team
+report|59e7cb2115dc9684b8416dfd9ae1e703904adbf5,Donot Team,South Asia,actor,Donot Team,actor,Donot Team
+report|6300a60b42c2399a78098dcf93ded12ef2d25d8b,Donot Team,South Asia,actor,Donot Team,actor,Donot Team
+report|6bba0177b124530a6e70ce437a3bc5e399e933cc,Donot Team,South Asia,actor,Gamaredon Group,actor,Gamaredon Group
+report|b25a1fe7b5d033e811d6a981b81b15d895638b76,Donot Team,South Asia,actor,Donot Team,actor,Donot Team
+report|b3368627aa8fa1b9c13504343d730b184bd20f9c,Donot Team,South Asia,actor,Donot Team,actor,Donot Team
+report|bdf05f0aa0dd5add642dab6c330d68ff9d39be71,Donot Team,South Asia,actor,Donot Team,actor,Donot Team
+report|188cfe4ab77ae46d7c0f982f717e7ba15fb94c46,Gamaredon Group,Russia,actor,Gamaredon Group,actor,Gamaredon Group
+report|1e739ece00fdecd1a39bcaeaf34b7bbbe7c9b4f3,Gamaredon Group,Russia,actor,Gamaredon Group,actor,Gamaredon Group
+report|240f63f46220e5cec677f9d291c04c1e1d01e506,Gamaredon Group,Russia,actor,Gamaredon Group,actor,Gamaredon Group
+report|86c4b62d00ea31ccfba6e2b39ab29731616e59f7,Gamaredon Group,Russia,abstain,,abstain,
+report|c7b1760d49e50aa40144d371d2f003ac347b37dd,Gamaredon Group,Russia,actor,Gamaredon Group,actor,Gamaredon Group
+report|cbedbd781d85337478a374791fbc1dd00b53f748,Gamaredon Group,Russia,actor,Gamaredon Group,actor,Gamaredon Group
+report|d3f9c773389f17b868a23739bed521300cea3bae,Gamaredon Group,Russia,actor,Gamaredon Group,actor,Gamaredon Group
+report|d51463a3d950290f4d7c8a125629d12b6a826aa7,Gamaredon Group,Russia,actor,Gamaredon Group,actor,Gamaredon Group
+report|ecec7b39e4b7f9f4f6d4aad9c1c24669f445b503,Gamaredon Group,Russia,actor,Gamaredon Group,actor,Gamaredon Group
+report|f2bcd63e4bb2a9cc031670008f5bc89093a72df0,Gamaredon Group,Russia,cluster,Russia,cluster,Russia
+report|004dd41690b0e8ceaad5da35e0fee4397ae6d422,C-Major,South Asia,actor,C-Major,actor,C-Major
+report|76229bc2463328e6c773aee379c4d920635f2980,C-Major,South Asia,actor,C-Major,actor,C-Major
+report|79d179f5661e99d5db934b7dc8fbddeaf988634c,C-Major,South Asia,actor,C-Major,actor,C-Major
+report|909420f3408f3b006eb5b0aa68b30150abd3bf31,C-Major,South Asia,cluster,South Asia,actor,C-Major
+report|aad206e2874c28f98c47f42ce77aa932b4f7fe3d,C-Major,South Asia,actor,C-Major,actor,C-Major
+report|b352f8014b93250074d7330e4e7d5681a7cc848c,C-Major,South Asia,actor,C-Major,actor,C-Major
+report|b9d9ca445691a097d6694e780eb79480fc119edb,C-Major,South Asia,actor,C-Major,actor,C-Major
+report|bda7465267c096cf358e0d57e69c5c977cf06f33,C-Major,South Asia,actor,C-Major,actor,C-Major
+report|e90a77f2cf2ad1406c83fd8bc28d693ff6a6b9fa,C-Major,South Asia,actor,C-Major,actor,C-Major
+report|ea1c4d6c1e85b1ac7d903c2959c9f6ad6341d7ca,C-Major,South Asia,abstain,,abstain,
+report|03ea6ba69b6219101a1d04fc730d438f0b8d045c,APT35,Iran,actor,APT35,actor,APT35
+report|26680389ccb129753050f632336a9806cb14d782,APT35,Iran,actor,APT35,actor,APT35
+report|7825d0d1d7c87ebdf389c4650734d14408441c71,APT35,Iran,actor,APT35,actor,APT35
+report|f13fed3ed56faee9e0bcedc95af5c3c46ee9a7cf,APT35,Iran,actor,APT35,actor,APT35
+report|b926d77b20c1aa064d813c1a862a607fa08c923f,Sandworm,Russia,actor,Sandworm,actor,Sandworm
+report|c4514bc6fcd237699fe27f25e1137f69eb6e2c05,Sandworm,Russia,actor,Sandworm,actor,Sandworm
+report|c72821f6ec76ba2604250aaed31c1f8a58f2a968,Sandworm,Russia,actor,Sandworm,actor,Sandworm
+report|d16401908e7c5bc4df4cd5c1c92c9221c0ec4e8f,Sandworm,Russia,actor,Sandworm,actor,Sandworm
+report|1f735d39d3c81827da36c654db179baf08ba3b4f,Turla,Russia,actor,Turla,actor,Turla
+report|67bc8a288e1d9b9d47c7f6982c0109decf9c1193,Turla,Russia,abstain,,actor,APT29
+report|a7d44b8dc3cd7d68a12ea0a62dedc3d6e7507d99,Turla,Russia,actor,Turla,actor,Turla
+report|b27034ef7e0e2efae5a098cacc8d2bc81d0ece39,Turla,Russia,actor,Turla,actor,Turla
+report|1c3a36efd8c68bd9c5350259f14636909685c498,Arid Viper,Middle East,actor,Arid Viper,actor,Arid Viper
+report|3a78295e0fb63702209071103fb60a404c8d9b16,Arid Viper,Middle East,actor,Arid Viper,actor,Arid Viper
+report|3f99721784c6dc3885f2389e4607143fb6031264,Arid Viper,Middle East,actor,Arid Viper,actor,Arid Viper
+report|44c204b491f864816e77898e3e9767a16ac2766b,Arid Viper,Middle East,actor,Arid Viper,actor,Arid Viper
+report|5155db26e7ab6b6b464260d763e4adbb41808782,Arid Viper,Middle East,actor,Arid Viper,actor,Arid Viper
+report|623b86e588c02108d54cfd36f52e53943f5133a1,Arid Viper,Middle East,cluster,Middle East,actor,Gaza Cybergang Group1
+report|991c46544bcddd14f835548f11b00023053147ea,Arid Viper,Middle East,actor,Arid Viper,actor,Arid Viper
+report|2c8805b0fdaf96b8f2ec4f6883f2d7fe18a6ecf3,SideCopy,South Asia,actor,APT27,actor,APT27
+report|3b99a3503974ffd6e957c89acd9bd1d0b38f29da,SideCopy,South Asia,actor,SideCopy,actor,SideCopy
+report|43d7be34ac22e1f9229d97ed27c1cd1e0cf917af,SideCopy,South Asia,actor,C-Major,actor,C-Major
+report|56b8fc0ff59902b3d663b78ae155840aeed2f6fd,SideCopy,South Asia,actor,C-Major,actor,C-Major
+report|b21808a386c48c77a32cdcdca5ee26e837f6e6d0,SideCopy,South Asia,actor,SideCopy,actor,SideCopy
+report|0c74359ac5e3b0a7ebe639168fe2b9026585112d,Bahamut,South Asia,actor,Bahamut,actor,Bahamut
+report|28a04eab1e850617ada931e4822b10efa14fd036,Bahamut,South Asia,actor,Bahamut,actor,Bahamut
+report|2a419946e659c4aa8f56dbe9ce676dbb43a19669,Bahamut,South Asia,cluster,South Asia,actor,Bahamut
+report|a5e3a70283ff998bdc8b8a030c31882929a610a4,Bahamut,South Asia,actor,Bahamut,actor,Bahamut
+report|3723d025a72ead008afb9046eff8c6e75c6ef831,Equation Group,Other,actor,Equation Group,actor,Equation Group
+report|74f2a10cf97d4804511e9aaf467462ff1d0f9cdf,Equation Group,Other,actor,Equation Group,actor,Equation Group
+report|77b8f0a221eadfb051c248cbcb5d69dce4404e1c,Equation Group,Other,abstain,,abstain,
+report|e0e24015e1791320e5e81cd74aa57d88d4f5ef08,Equation Group,Other,actor,Stealth Falcon,actor,Stealth Falcon
+report|1a2d77734dfd3da7caf70881f2f6b52ac963f7c3,OceanLotus Group,East Asia other,actor,OceanLotus Group,actor,OceanLotus Group
+report|2d9fabebb2ddb83cd4ae121b9c2e90a9ffa221b4,OceanLotus Group,East Asia other,abstain,,actor,OceanLotus Group
+report|474ae8a3ad1ccc6f525464f403ac57bcac50be01,OceanLotus Group,East Asia other,abstain,,actor,OceanLotus Group
+report|69be894f7f70caa47af9a3e3b9fa01b07b3e6060,OceanLotus Group,East Asia other,abstain,,actor,OceanLotus Group
+report|b2103a9115509069f89cb997c5a6759ae085e383,OceanLotus Group,East Asia other,actor,OceanLotus Group,actor,OceanLotus Group
+report|e8469bd2bac27c00e317309630d2d4495630ea6b,OceanLotus Group,East Asia other,abstain,,abstain,
+report|f6d79fb44f42a622da427d87f238900a0b5e6b8e,OceanLotus Group,East Asia other,abstain,,actor,OceanLotus Group
+report|2892784eb77b413509d34321e0b8ee1a79a8e579,Blind Eagle,Other,actor,Blind Eagle,actor,Blind Eagle
+report|30ae91ca366114d8297f159cc8e85c26b35bc390,Blind Eagle,Other,actor,Blind Eagle,actor,Blind Eagle
+report|8559d989bd81653a44d2b4c90aae0889844b5fc3,Blind Eagle,Other,actor,Blind Eagle,actor,Blind Eagle
+report|9f8a5f6cabb02de390c9f214c538de9c195526fb,Blind Eagle,Other,actor,Blind Eagle,actor,Blind Eagle
+report|8adb13e98c1e125ee9387b25b67bd8708be96918,OilRig,Iran,actor,MuddyWater,actor,MuddyWater
+report|8b746ebdc14944ce8bf5e785dd4cdae846ae257f,OilRig,Iran,actor,OilRig,actor,OilRig
+report|e2269d348c0c1d535bd81acc0337016083292504,OilRig,Iran,actor,OilRig,actor,OilRig
+report|f5a81e774658bfdf0a0adddcdf065e0395b56e7b,OilRig,Iran,actor,OilRig,actor,OilRig
+report|4d97a51b7861a4446061053148a4a2a53dcc87c5,Green Spot,East Asia other,actor,Green Spot,actor,Green Spot
+report|542423b43d47f18acb9944ea86c73a14a1911810,Green Spot,East Asia other,actor,Green Spot,actor,Green Spot
+report|667f1379170388a9984c24154da1507f02b5fd19,Green Spot,East Asia other,actor,Green Spot,actor,Green Spot
+report|19ed71adf4dbc79f5599200646359e4989122ad6,HEXANE,Iran,actor,HEXANE,actor,HEXANE
+report|6ccc7e27eb5e17b7bb1e82e13fd53a41a40f61b2,HEXANE,Iran,abstain,,abstain,
+report|c3cec74dad798d59464b30f4344b5e26be5fd43c,APT27,East Asia other,abstain,,actor,APT27
+report|d41a67d3b2d798f3bd695746244cbc829fd87c88,APT27,East Asia other,actor,APT27,actor,APT27
+report|9d1e776a693bbb1940d2b9a361c8613ee80fb72e,Stealth Falcon,Middle East,actor,Stealth Falcon,actor,Stealth Falcon
+report|124e6dc70a5a8005beb8aee2e76ecd9a86fe9b26,PROMETHIUM,Other,actor,PROMETHIUM,actor,PROMETHIUM
+report|9401f14ea81c7fe67725724ad4b58f7e1fbe236b,PROMETHIUM,Other,actor,PROMETHIUM,actor,PROMETHIUM
+report|a0b41d8c4625c10374d0a87c638324009c81cdb7,Blue Mushroom,East Asia other,abstain,,abstain,
+report|9ce601818183f475fffb0e323e70b8f94818d3d8,TRITON,Russia,actor,TRITON,actor,TRITON
+report|ff73361ad8aa78c3819a0caf807a6411e980f303,TRITON,Russia,actor,TRITON,actor,TRITON
+report|57c099caa187be1fccb4926c1329d9ebccbdf5f4,DarkCaracal,Middle East,actor,DarkCaracal,actor,DarkCaracal
+report|a567f50338a2740bcfb6fae29c4a9eeb5c0ca3bd,Gaza Cybergang Group1,Middle East,actor,Gaza Cybergang Group1,actor,Gaza Cybergang Group1

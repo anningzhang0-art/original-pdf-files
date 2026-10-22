@@ -1,0 +1,8 @@
+﻿report_id,split,label,suggested_actor,reason,evidence_path_probability,exclusive_matches_suggested,exclusive_matches_label,llm_top1,llm_confidence
+report|61a5eb27ef3e633be66583c127de39fe19be7fb8,train,APT29,Sandworm,both_paths_agree_on_another_actor,0.6878,2,1,Sandworm,1.0
+report|e3a8e2503652dea2373afd1f1e00010a68bb903a,train,APT35,OilRig,strong_exclusive_evidence_for_another_actor,0.9554,5,0,,0.0
+report|b9ea3d1835fa241f5a71586587d8829749b6f33e,train,Arid Viper,OilRig,strong_exclusive_evidence_for_another_actor,0.923,7,0,,0.0
+report|ca49f24707a35db23492e7a10d3a37b90bbd098c,train,OilRig,HEXANE,both_paths_agree_on_another_actor,0.6347,3,0,HEXANE,1.0
+report|4bb3c1176798b3607d045b66e69f1662d4738462,val,White Elephant,SideWinder,strong_exclusive_evidence_for_another_actor,0.9405,3,0,,0.0
+report|72b871daebe8f2d04b205d91c6bc7fc050e65f2c,val,White Elephant,Bahamut,strong_exclusive_evidence_for_another_actor,0.9697,7,0,,0.0
+report|62a8d15706a62f93b1311327d3d86f7f60eb70c7,val,Donot Team,White Elephant,strong_exclusive_evidence_for_another_actor,0.9058,3,0,,0.0

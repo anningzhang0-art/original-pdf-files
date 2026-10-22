@@ -1,0 +1,4 @@
+﻿report_id,split,label,suggested_actor,reason,evidence_path_probability,exclusive_matches_suggested,exclusive_matches_label,llm_top1,llm_confidence
+report|e3a8e2503652dea2373afd1f1e00010a68bb903a,train,APT35,OilRig,strong_exclusive_evidence_for_another_actor,0.911,5,0,,0.0
+report|ca49f24707a35db23492e7a10d3a37b90bbd098c,train,OilRig,HEXANE,strong_exclusive_evidence_for_another_actor,0.9024,3,0,,0.0
+report|72b871daebe8f2d04b205d91c6bc7fc050e65f2c,val,White Elephant,Bahamut,strong_exclusive_evidence_for_another_actor,0.9627,7,0,,0.0

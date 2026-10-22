@@ -1,0 +1,1076 @@
+﻿split,report_id,report_date,true_actor,retrieval_top1,final_top1,correct,probability,true_rank,candidate_set_size_0.90,candidate_set_size_0.95,top_candidate_has_exclusive_evidence,true_actor_covered,group_candidate_set_size_0.90,group_candidate_set_size_0.95,abstain,routed_to_knowledge_path,llm_voted,llm_top1,llm_confidence,evidence_path_top1
+train,report|10729e2ca2c27bd5ac0c213c24873390effdb7b0,2024-08-05,APT28,APT28,APT28,True,0.9914449329288568,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|2268bdb16ce882db714e3488e9c26fc54bc82685,2022-06-20,APT28,APT28,APT28,True,0.7686114592894268,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|23b252c078fdb7cff3a357bc0fd2aae3f5027eb4,2022-05-09,APT28,APT28,APT28,True,0.9386273318683266,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|2bb703aefd9885f1a770475c6daecfeeb64d650e,2024-02-01,APT28,APT28,APT28,True,0.7334089649265793,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|33cbd2614fa099021e0e97932c7bfae6455dfa47,2022-02-16,APT28,APT29,APT29,False,0.7561618521085443,2,,,True,False,,,,False,False,,0.0,APT29
+train,report|483d7e98813c90477c70ca652ad3b8e171857570,2021-10-06,APT28,APT35,APT35,False,0.284775140255307,11,,,False,False,,,,True,False,,0.0,APT35
+train,report|627fb4d9d1d094aa39ba834c2118d9d4e22f2cfd,2025-06-26,APT28,APT28,APT28,True,0.9994310332010773,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|64c5dcbfefbe4379d7f61a8963a0aeefb0139822,2023-05-04,APT28,APT28,APT28,True,0.8884840276586918,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|6dbc679fe913fcd4f2a85575cf2b3e1b00dc9b48,2026-02-04,APT28,APT28,APT28,True,0.9929649558907834,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|794a7ee61ceff9a401aa526f614f056a5bd44f5d,2022-09-23,APT28,APT28,APT28,True,0.6956222751421929,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|8b17e316b0ddea58d8129631b23f6f127baff25d,2025-07-25,APT28,APT28,APT28,True,0.9953959682475821,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|8c87114d3f876089d2f40e4282c0c588d2e99ba6,,APT28,Kimsuky,Donot Team,False,0.3560495813875441,17,,,False,False,,,,True,False,,0.0,Donot Team
+train,report|92f63d47062cb462908fcd9b75325d869ec1b05a,2025-08-12,APT28,APT28,APT28,True,0.9629247419368135,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|99f98acc36e8ab258c5ed3bc050beb5cf8e1dc57,2020-12-09,APT28,MuddyWater,MuddyWater,False,0.4889013927829848,3,,,True,False,,,,True,False,,0.0,MuddyWater
+train,report|a9025d7f75fcea4f6b7f13cd44f721fed4f2096d,2026-01-26,APT28,APT28,APT28,True,0.9922659969505238,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|a9de4ae6730d8dc4d41ce1362924b34d97bbcbc8,2026-01-07,APT28,APT28,APT28,True,0.9665393391894654,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|ac020f271084fee2094ed0eeec3cabe9d803f996,2025-05-15,APT28,APT28,APT28,True,0.9943830459595286,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|aed53f16c085e33ed7c65ba8b81b682c5e66bee7,,APT28,APT28,APT28,True,0.9629546738077917,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|b10380e4381b132b94643873bb1e7753e8188d22,2025-02-25,APT28,MuddyWater,MuddyWater,False,0.41181750863271954,2,,,False,False,,,,True,False,,0.0,MuddyWater
+train,report|b828b9fb0a408f0469fe3cb03bd8f3a16a5a0e31,2024-01-02,APT28,APT28,APT28,True,0.9691127189949722,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|bcabc6ca9d26accc6123ef5e3e75f7861f4ed019,2024-03-19,APT28,APT28,APT28,True,0.9998898871876416,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|c45be0e65c358a482fb87a3d442399aad04a0ee6,2023-10-08,APT28,APT28,APT28,True,0.9450956451407173,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|c79591c20c5533c7f12605235f6e4e9a127042cf,2023-04-13,APT28,APT29,APT29,False,0.5995443239962209,2,,,False,False,,,,True,False,,0.0,APT29
+train,report|d15a00e350fcec1a10f1624a4a323e995e27c061,2025-05-28,APT28,APT29,APT29,False,0.7475951370643884,2,,,False,False,,,,True,False,,0.0,APT29
+train,report|de66ab8623322e0c315e90e0657ce7d1a941899a,2025-05-23,APT28,APT28,APT28,True,0.9726710008200519,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|e02e0133a134d25fdd60c3b4d74e947be1fcf7dd,2023-12-11,APT28,APT28,APT28,True,0.9513711101395311,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|eb96640a5bf9aebbd1321e8afe932ed573724f1f,2026-03-11,APT28,APT28,APT28,True,0.6673756126503778,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|ef6ca2078fe5264dca795bacc923417498901a7c,,APT28,APT29,APT29,False,0.4822573896302412,3,,,True,False,,,,True,False,,0.0,APT29
+train,report|f25e2b5739fae2b2d3495fa7ce1af3d701eda035,2022-12-16,APT28,APT29,TRITON,False,0.2563862563822912,5,,,False,False,,,,True,False,,0.0,TRITON
+train,report|f2fec9eda95b33d36c9c6bae20cebc0ec590a1ca,2025-08-12,APT28,APT28,APT28,True,0.9998879693039721,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|ff6dabae707edab5c39c6e5e8099eb31969614e3,2026-02-03,APT28,APT28,APT28,True,0.9829724104951482,1,,,True,True,,,,False,False,,0.0,APT28
+train,report|0069c54f797bf2d429b83dbfe74bb663a6b6e0c7,2024-07-24,White Elephant,White Elephant,White Elephant,True,0.44838150992991943,1,,,True,True,,,,True,False,,0.0,White Elephant
+train,report|088f62c065cb6c23eabd7309a557e3624086d2c0,2023-09-11,White Elephant,White Elephant,White Elephant,True,0.9614018493835106,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|0f87cc632a375a50196fc65ad678fadb8cee70dd,2018-06-07,White Elephant,White Elephant,White Elephant,True,0.9383302150567512,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|103b9dc502bc7b9fb70f1c612af13469fc79ef76,2013-05-16,White Elephant,White Elephant,White Elephant,True,0.711537270702943,1,,,False,False,,,,True,False,,0.0,White Elephant
+train,report|16d31e5ec79e667b9e3342628038f02e44e5b72e,2018-12-14,White Elephant,White Elephant,White Elephant,True,0.9601090523273611,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|190049d88c333bcf218a2daa4421cc6da20738c9,2013-05-16,White Elephant,White Elephant,White Elephant,True,0.6783707998117268,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|1c6f3730fdd28ef8fa8370039f36775f1d4e83ae,2025-04-10,White Elephant,White Elephant,White Elephant,True,0.7156191010886248,1,,,False,False,,,,True,False,,0.0,White Elephant
+train,report|1f7759f5530faf186f1a4279d0cec8cde9756bf1,2016-07-25,White Elephant,White Elephant,White Elephant,True,0.8775769917219725,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|23c9109ae4f840760435cb4740c731bfef67fe8d,2022-08-16,White Elephant,White Elephant,White Elephant,True,0.8836340165852162,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|24cbe6f6b856caa7f1bb3e029dac1b947a664663,,White Elephant,MuddyWater,White Elephant,True,0.38336351540501673,1,,,False,False,,,,True,False,,0.0,White Elephant
+train,report|2a9a7227ab37e37930199d0ae0a45aa85e451f9f,,White Elephant,White Elephant,White Elephant,True,0.9846625615879475,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|3091d5b0f43ed101eea33da9e9d32e7fcad2e257,2022-06-01,White Elephant,White Elephant,White Elephant,True,0.9699515463425661,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|3315f4514fe716b5a9a2b38953350d1f1925f1dc,2023-07-04,White Elephant,White Elephant,White Elephant,True,0.8578957110459386,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|347abca595efeb574abb1a85520c7a094363d186,2020-02-18,White Elephant,White Elephant,White Elephant,True,0.9842658080736781,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|37d81d77c21490e66f8393a882bc00ac2f48b500,2016-07-08,White Elephant,White Elephant,White Elephant,True,0.8696098533708646,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|3c2b63de3240b8ae98f9d9049c41281a1ce74a5e,,White Elephant,White Elephant,White Elephant,True,0.8208168461204643,1,,,False,False,,,,True,False,,0.0,White Elephant
+train,report|4238fb4192dc379cd53079d88505eaadb1f07d27,2018-04-06,White Elephant,White Elephant,White Elephant,True,0.9685736639240962,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|45a266c2ad1c75db1a2a232431558dab9ed73f2e,2025-07-23,White Elephant,White Elephant,White Elephant,True,0.8019884618147166,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|468d352fb390a571a28ebd69535a735493dfb941,2024-02-02,White Elephant,Arid Viper,White Elephant,True,0.893549394862176,1,,,True,True,,,,False,False,,0.0,PROMETHIUM
+train,report|5031a3630c6c4f8f3c816c83fb537b9cb7cd464e,2021-08-26,White Elephant,White Elephant,White Elephant,True,0.9177050561579565,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|5266639e18d9e433284b37fb0f2af58a3c9c72d6,2020-07-08,White Elephant,White Elephant,White Elephant,True,0.9996840327033809,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|589f32c3d4cb2d59bb182dd9c2053a26692d73e8,2020-02-01,White Elephant,White Elephant,White Elephant,True,0.9995935815542116,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|5fece7fa65545a97ebd58a19e05481c7f6f48e5b,,White Elephant,White Elephant,White Elephant,True,0.9746022670691856,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|6490d0cc63e66e6a7ab27cc5b3b95c25738e9440,,White Elephant,White Elephant,White Elephant,True,0.9727049602141995,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|67c1908a1f3376c6930d414e0ab65cd997d87e49,2024-07-15,White Elephant,White Elephant,White Elephant,True,0.8170657530509959,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|6eb9ed6209e5a118de4d4e260a2f3569466bb450,2024-02-13,White Elephant,White Elephant,White Elephant,True,0.8525377106081219,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|70cd2a69e76d222ccf82fe21a486d14f9fb70161,,White Elephant,White Elephant,White Elephant,True,0.9571297773957481,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|8b9cffe29e41f66bd231b27d52474a5d04c0b056,2021-01-18,White Elephant,White Elephant,White Elephant,True,0.8336112211725424,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|8d2023f3895b752736d2959f14c0f4e95ab954a1,2020-03-13,White Elephant,White Elephant,White Elephant,True,0.9957052171771722,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|923a6648e57f472a5a80f262d969d145945f2d62,2022-06-30,White Elephant,White Elephant,White Elephant,True,0.8837930558534853,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|934973abd00584c4b0444b07299b843f71475cde,2018-01-02,White Elephant,White Elephant,White Elephant,True,0.9072912413037,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|989eb7b69aba22c282ff22f925842fcc6d09446f,2022-10-27,White Elephant,White Elephant,White Elephant,True,0.9572028463885714,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|9a16edb2d1d6c00948720bffd19693fcdc8b92ad,2025-03-04,White Elephant,White Elephant,White Elephant,True,0.9272856037413045,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|9a2df8a3ed9a78c57b3fb19262506bdd6a140044,2013-05-16,White Elephant,White Elephant,White Elephant,True,0.3825877365034101,1,,,True,True,,,,True,False,,0.0,White Elephant
+train,report|a1beccd26102d1bc334ab4eccab7bd52a345afb5,2024-03-21,White Elephant,White Elephant,White Elephant,True,0.8971964823921608,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|a7ddda008d36a903f51d7e4d78a455de22d1f0b5,2018-01-06,White Elephant,White Elephant,White Elephant,True,0.7849084418100937,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|a85e52f00f6626bee94a6fd6e57b6aaf7c7ee941,,White Elephant,White Elephant,White Elephant,True,0.9675969152747151,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|ad2ce92bbe7103416f039b8e4ca46029fee8eaf0,2025-07-11,White Elephant,White Elephant,White Elephant,True,0.9794351450032339,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|c20df472e1af6c3f1ff8663851ff6f1f0b2d16d6,2013-11-07,White Elephant,MuddyWater,White Elephant,True,0.26956695696825644,1,,,True,True,,,,True,False,,0.0,MuddyWater
+train,report|c3973203db6b0db22b3c51fc61931806dc2cbacb,2020-02-08,White Elephant,White Elephant,White Elephant,True,0.8113158687595332,1,,,False,False,,,,True,False,,0.0,White Elephant
+train,report|c593d1f3ead77696ad2ee6bee48de2c3090722f1,2025-08-05,White Elephant,White Elephant,White Elephant,True,0.9319181779364684,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|c5c3b82bf73aae9ca16ccfad7d6128dff3aa03d0,2019-03-13,White Elephant,White Elephant,White Elephant,True,0.8918228349170672,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|cadde5c01173f53b619a7a270ab23a78475d486d,,White Elephant,White Elephant,White Elephant,True,0.7757069130602203,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|cf59852bcebd391bfa4208bb974338ce9c858ddc,2018-03-07,White Elephant,White Elephant,White Elephant,True,0.9622047430098088,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|d2d77e663f714848b4ea40224622ff7700f2150c,2023-06-15,White Elephant,White Elephant,White Elephant,True,0.9607913557905328,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|d3690e861aed806ba20cb996f7b1dc6fef7ce523,,White Elephant,White Elephant,White Elephant,True,0.9560815782468695,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|d5b9eacd403dc5478cefa05d9368288a47b97cd2,2018-03-30,White Elephant,White Elephant,White Elephant,True,0.96720239394736,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|dafed0f2a46c513004287c96588d3be3b7ae513a,,White Elephant,White Elephant,White Elephant,True,0.8122814177966912,1,,,True,True,,,,False,False,,0.0,White Elephant
+train,report|edba593460a32de03a3090e807db6fa9fa5276f1,2022-10-24,White Elephant,White Elephant,White Elephant,True,0.536450429720056,1,,,True,True,,,,True,False,,0.0,White Elephant
+train,report|f0c1c2e23f429fa9cccaabe2fd468843301ff610,2013-06-07,White Elephant,Equation Group,Equation Group,False,0.15976203925932883,26,,,False,False,,,,True,False,,0.0,Equation Group
+train,report|07b66a5a2016934a1f9b14c5d561f93e67cf6973,2022-08-25,MuddyWater,APT35,APT35,False,0.5254076780581262,2,,,True,True,,,,True,False,,0.0,APT35
+train,report|0fd3a03bd313269f2d0c07e9fb076d6d18fd86b1,2018-12-11,MuddyWater,MuddyWater,MuddyWater,True,0.9733555015174284,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|151604f37e89aa008206662d55435c7ad56816ac,2019-05-13,MuddyWater,MuddyWater,MuddyWater,True,0.9772344757159279,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|1621764fe433b86a206e56be1f28389272aa057b,2023-07-04,MuddyWater,MuddyWater,MuddyWater,True,0.9934504700425154,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|1e01945a92365d2d90d796ab4e709877f69e2a68,2026-01-10,MuddyWater,MuddyWater,MuddyWater,True,0.5379752772130656,1,,,False,False,,,,True,False,,0.0,MuddyWater
+train,report|20416c7ccf92007e9f0ef0e5928eef2f00b0a5b2,2025-08-20,MuddyWater,C-Major,MuddyWater,True,0.4215112897719399,1,,,False,False,,,,True,False,,0.0,C-Major
+train,report|23a149b5dc1a457493962b2cb4e4b7c6ba8f741a,2026-01-08,MuddyWater,MuddyWater,MuddyWater,True,0.9174168855391329,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|26c72143b32c14701e0d605aa2ef6734025fdcdd,,MuddyWater,MuddyWater,MuddyWater,True,0.8209398393494726,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|2baddaacb3513d8c5c2a339e70533f8526105187,2025-12-02,MuddyWater,MuddyWater,MuddyWater,True,0.9998578737646091,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|37b1c67c836c3d429e58f4cc31b3a5ed1a519200,2019-05-21,MuddyWater,MuddyWater,MuddyWater,True,0.9946916577193857,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|3dd8686d22dd646f434bdf9f2968720637334235,2018-03-13,MuddyWater,MuddyWater,MuddyWater,True,0.9953864833900868,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|430194694e898e9fe28f3daace1c5ae54491b0ba,2019-03-21,MuddyWater,MuddyWater,MuddyWater,True,0.9587803985750382,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|482538c71140cafee5a072a3c281a90c3b8faa61,2026-03-10,MuddyWater,MuddyWater,MuddyWater,True,0.7883814496776107,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|4a3ae751ecfd987354feb0a301f6c4e9a4274b87,2024-07-16,MuddyWater,MuddyWater,MuddyWater,True,0.999399452150986,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|4b58140ddc0362d040b75c9399f9ba7771e80167,,MuddyWater,MuddyWater,MuddyWater,True,0.9387253043856095,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|4d7ccc2d295829fd7db696c864d0c907c1d9047c,2019-04-29,MuddyWater,MuddyWater,MuddyWater,True,0.9759947247151578,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|540d7980a86c5f4f0bfeaa8a5aac5640204fb2b2,,MuddyWater,MuddyWater,MuddyWater,True,0.8477225087360635,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|5c4d0679675219025f787a2c9a4d7e6a942a33db,2019-04-10,MuddyWater,MuddyWater,Turla,False,0.4208427654526297,2,,,True,False,,,,True,False,,0.0,Turla
+train,report|5cba27544f87fb4ca62517a5bba3df7fdc8a1153,2021-12-16,MuddyWater,MuddyWater,MuddyWater,True,0.9888806722038923,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|651027dced52db0a79b2e8c2954e24cf6decaded,2018-05-28,MuddyWater,MuddyWater,MuddyWater,True,0.9020807336800182,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|6a7f02ee3941cacea262ff4d13c01c007552a37a,2020-01-07,MuddyWater,MuddyWater,MuddyWater,True,0.9834260289865698,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|6b113e31ed641cf44aa2522cd4ccb76fcfeb4c8e,2019-01-17,MuddyWater,MuddyWater,MuddyWater,True,0.9839357167688361,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|708df37c76f55fd23422486e444a4ed00e0944a4,2019-06-25,MuddyWater,MuddyWater,MuddyWater,True,0.9731005102779459,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|74272081a98488c19eb47c744ae6b8b14987ab58,2025-11-14,MuddyWater,MuddyWater,MuddyWater,True,0.9995050487386866,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|78c5437a7afc2f2d874c7cdac96b58abe073eeac,2023-12-20,MuddyWater,MuddyWater,MuddyWater,True,0.9280114569278363,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|85a32416112162723a8566131e32e7093cd02e01,2024-08-29,MuddyWater,MuddyWater,MuddyWater,True,0.9997276161164494,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|89492939d41c28e684c493aa6c5b462d9c6bade1,2019-01-04,MuddyWater,MuddyWater,MuddyWater,True,0.9868361565679099,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|8c1e4d913bd07faf4af6270cfbbe3a8573ec294c,2024-04-09,MuddyWater,MuddyWater,MuddyWater,True,0.996821213483397,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|9d227b3466094674f4074ccfe7d7db17364b8218,2025-10-22,MuddyWater,MuddyWater,MuddyWater,True,0.9628766011925978,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|a4b2723a26f9ea9ec6be01aa35d0fe0314d711aa,2022-01-12,MuddyWater,MuddyWater,MuddyWater,True,0.9468824459599374,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|a5fe751ad769bd0295bd26c70a711a2240e033be,2022-01-17,MuddyWater,MuddyWater,MuddyWater,True,0.9680695809330768,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|a8a91c6149e8446e2c689020387458e79a58ea51,2026-02-22,MuddyWater,MuddyWater,MuddyWater,True,0.9800052892040667,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|ae3f5f3ef2ca2f5e90c1909b47566255452291ed,,MuddyWater,MuddyWater,MuddyWater,True,0.9859751500404307,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|b01534445e48ad76fd1c9ba0b14254cfc96e8048,2018-03-12,MuddyWater,MuddyWater,MuddyWater,True,0.9932778800475122,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|b34d91049970374a5bd282cba65e60aa67688eaa,2021-01-04,MuddyWater,OceanLotus Group,OceanLotus Group,False,0.3604022903078832,4,,,False,False,,,,True,False,,0.0,OceanLotus Group
+train,report|b71b064766e7d82678599a59fc7807944d85492a,2020-02-26,MuddyWater,MuddyWater,MuddyWater,True,0.8758740247913949,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|b73c3df0e29326ceef9437e18900bb4656b397ab,2026-03-04,MuddyWater,MuddyWater,MuddyWater,True,0.996173079418516,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|bac383a3fb80a9d64756a8e27ee02af1b9c86dbf,2019-04-15,MuddyWater,MuddyWater,MuddyWater,True,0.9975797260878895,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|c2e3873dcfd1f54892f1729e732bff123c574de4,2019-04-10,MuddyWater,MuddyWater,MuddyWater,True,0.9418325940887988,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|c811a4b3d5b977205b0ef76019d2cf9f3128f483,2019-01-23,MuddyWater,MuddyWater,MuddyWater,True,0.9945202987873133,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|c83bdfe5a39ca3dcd50fa20f15fc3c985cf43c15,2023-04-18,MuddyWater,MuddyWater,MuddyWater,True,0.9941623475549504,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|ca28ac0540f750887e68235bbb1d665ef91af6d3,2021-02-10,MuddyWater,MuddyWater,MuddyWater,True,0.9967003356353932,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|d1915896b14d46413ef17aaceafc29efe13251dc,2019-06-27,MuddyWater,MuddyWater,MuddyWater,True,0.8881923425907667,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|d1fe29cba193304cc0f3e1b98fa529acc49ae34d,2026-01-26,MuddyWater,MuddyWater,MuddyWater,True,0.7332049453761975,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|d30e00004798e935cb83291eb38b1d30ac3aa791,2018-10-10,MuddyWater,MuddyWater,MuddyWater,True,0.9873337617030807,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|daf5036cf40f118c6e9219228b286e8c05d575c3,2020-01-02,MuddyWater,MuddyWater,MuddyWater,True,0.9954725750093766,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|e04a5c8e28e5067aa6d9330720243fc73b2c6217,2022-03-14,MuddyWater,MuddyWater,MuddyWater,True,0.9759239948722637,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|e05a4599aedc5cd3e8c211e904e1a047f23a8a8f,2022-02-07,MuddyWater,MuddyWater,MuddyWater,True,0.9009047060582906,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|e68ed336a939302d4cf4831e30359c5eb9f466d8,2020-08-07,MuddyWater,MuddyWater,MuddyWater,True,0.731574727132884,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|e899b60fb4dbb50146544933d54f1da936b6cfca,2019-05-02,MuddyWater,MuddyWater,MuddyWater,True,0.9617571869391157,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|fa1ad3f8c4243f762519d96876a13668b5ab0d88,2021-12-15,MuddyWater,MuddyWater,MuddyWater,True,0.9344554137361003,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|fa8076eec03932599e9e9006704573f84f374c38,,MuddyWater,MuddyWater,MuddyWater,True,0.9645724582669187,1,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|01d9818aa5beb9c3cec389da6210037b48ffd90f,,Group123,APT28,APT28,False,0.4592861374718138,8,,,False,False,,,,True,False,,0.0,APT28
+train,report|05bf68cfb5a3ca77acb76ab1ea17f5552e10a04d,2020-03-26,Group123,Group123,Group123,True,0.9941304802038399,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|07ca913efc915bc51111e57d12893512951533d2,,Group123,Group123,Group123,True,0.4003200795455013,1,,,False,False,,,,True,False,,0.0,Group123
+train,report|0aaa2f21e37c905b6561a914ff934dbc804b0fb1,2023-08-23,Group123,Kimsuky,Kimsuky,False,0.3331319531069525,2,,,False,True,,,,True,False,,0.0,Kimsuky
+train,report|0ee15716ac2dead9330fcb65dcc8c8f5af837962,2019-08-23,Group123,Group123,Group123,True,0.5779306708415731,1,,,False,False,,,,True,False,,0.0,Group123
+train,report|10eeb35b1835d7c8924d8fbabb415f436854cb5d,2023-07-11,Group123,Group123,Group123,True,0.9861252750039271,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|11e6f2ebe7b932b2764238cc76415c1021260be1,2023-09-12,Group123,Group123,Group123,True,0.9190573716590787,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|149418e27ac9b1965b9ab713c26dc4671a207e70,2018-05-03,Group123,Group123,Group123,True,0.7626578156694752,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|16eca0a31ad46e5aaa5ffe5f7c8db09cb5ecc912,2026-02-26,Group123,Group123,Group123,True,0.9739543105753399,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|21a1725c705479fe247d463f671c1ce6203eb82e,2018-11-16,Group123,Group123,Group123,True,0.980720200559395,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|2b2b19526e2a0e7d20945cc594b9890d3e483f33,,Group123,Group123,Group123,True,0.5581850487792305,1,,,True,True,,,,True,False,,0.0,Group123
+train,report|2e09df2984f5e5f0a116b8ccc5b62fd9de87e5c2,2023-02-15,Group123,Group123,Group123,True,0.8517303043754149,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|3686302e78312043c4147bdb397c599f43d2bd0c,2024-01-17,Group123,Group123,Group123,True,0.9347824120392254,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|3adda89a2b620bcc05efcd63ef50ee82ced1d185,,Group123,Group123,Group123,True,0.8304270461302626,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|3c86b2f498c4c70a5b9ec2f8813859e5c2a9a4d0,,Group123,Group123,Group123,True,0.9853105076417582,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|43234af8d9b91c9c77dfabb078cbb9c642dfbf26,2025-02-07,Group123,Group123,Group123,True,0.9705003844994801,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|47cc8dc25e3db40466cd885c9770723156570427,2025-08-05,Group123,Group123,Group123,True,0.9949363193324252,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|4f4c51a8289d3758930b0285e5b320c92ba28fd5,2019-04-22,Group123,Group123,Group123,True,0.9470177672825217,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|50c41ddd7d79e5ecedef7ed4335dfad9fa1e1588,2019-01-23,Group123,Group123,Group123,True,0.9277563518859,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|5769bf3fd34da5d203064d653b990dc15d364a2a,2025-03-28,Group123,Group123,Group123,True,0.40259631852284855,1,,,True,True,,,,True,False,,0.0,Group123
+train,report|57a83b7b98d8afd55a70c4cc1d556a1866071d38,2021-08-24,Group123,Group123,Group123,True,0.984932565041756,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|5e66550d6bb50e247d4c45d1b730576ba5699729,,Group123,Group123,Group123,True,0.9247481212368392,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|68a21c469e9e03f49bc19bb5151e2ff819df76dc,2025-05-14,Group123,Group123,Group123,True,0.9886518923774225,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|6e7530f11880d8281ab925c2ef07a2dcaa0edc02,2025-08-07,Group123,Group123,Group123,True,0.9997482095300625,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|738be9183b930eb0f3ad3e1752d162c58fe303c5,2023-12-01,Group123,Group123,Group123,True,0.9585268370292147,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|74d22ba2de6ed019cdd3650ea6fffbd703b6148d,2019-07-17,Group123,Group123,Group123,True,0.98108510050823,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|76794189773e8c844562d772e50050966c71dfdf,2024-10-03,Group123,Group123,Group123,True,0.8009570189795022,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|770e0a18081a0dbe82636f7a2ee071202c49d20c,2023-06-01,Group123,Group123,Kimsuky,False,0.281111369820013,2,,,False,False,,,,True,False,,0.0,Kimsuky
+train,report|78f98143e1e86cfc1ac1d8deb4ada66d2382d965,,Group123,Group123,Group123,True,0.7104287317645818,1,,,False,False,,,,True,False,,0.0,Group123
+train,report|7bb8bce3d6787ff1c1e9d544f1f6337f4bd4ae7a,,Group123,Group123,Group123,True,0.9752557422357172,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|7bf1ead42f1c335b215ed996bca5435d4409760d,2025-03-11,Group123,Group123,Group123,True,0.9806850870104141,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|7efccd7fb5a29a983e1198abd9dab1b7b3732639,2023-07-13,Group123,Group123,Group123,True,0.923808702257232,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|830dd9b7059e0b19c0dc98ce97b5eba5657655db,2023-05-01,Group123,Group123,Group123,True,0.9085906951243702,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|83710ed34e7a7fe24307313fc3f704ae42405516,2025-08-29,Group123,Group123,Group123,True,0.9993190227811944,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|83b521baa9e74677697b6aa15fe1b31c284511b4,2018-11-16,Group123,Group123,Group123,True,0.985366781910028,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|88269c5e1d402b7236f007e73e997b29393fe14a,2018-10-01,Group123,Group123,Group123,True,0.9882660792003735,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|897755275f1a4f025912f0ebe128ca5c137d39dd,,Group123,Group123,Group123,True,0.9359274435532677,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|8eceb64d5665d9045b0124ef79a97c7284eea27f,2020-01-23,Group123,Group123,Group123,True,0.9762355542100738,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|8f90b298b97e56b2004efa046ef17c43b959b409,2023-03-07,Group123,Group123,Group123,True,0.896123454795883,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|9de21314f1b9e4d345db813652120577fa934040,2018-12-07,Group123,Group123,Group123,True,0.9782601174684341,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|a73cf6f43c6cc7f87436f108cc98a67e87d39181,,Group123,Group123,Group123,True,0.98806169071884,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|ae9d770ee7de7893346e3234bf860698035d4578,2025-09-08,Group123,Group123,Group123,True,0.9981003636197076,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|aededd4742cc3f6e046205e903156e7c3860b2fb,2018-11-16,Group123,Group123,Group123,True,0.9427899724563578,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|b6d7d2dc3a6762bd0d0e235c20f3acb4d173b858,,Group123,Group123,Group123,True,0.8324139794734333,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|c7ac5abd211967d155ab8c45889d08a04776ab91,2021-11-23,Group123,Group123,Group123,True,0.9668469680086687,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|cba28104fcd36eeb01c93fe35ccc8ce53d3349e9,2025-03-20,Group123,Group123,Group123,True,0.8795184767411107,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|cbef42a521921ad464ab57c755ad4b3e55c70de6,2023-07-21,Group123,Group123,Group123,True,0.9831996168126639,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|cfbf75b48a40baab4caf25cce424d41ce221ee15,2020-03-26,Group123,Group123,Group123,True,0.9894058288183364,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|d00c707f82d7c3f05be87ebf137048438f77c7ef,2019-07-02,Group123,Group123,Group123,True,0.9473161812778274,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|d56a22ce23ad8ec60c9d1c23e16934154abd097d,2018-11-12,Group123,Group123,Group123,True,0.9484406010523263,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|d8dbec25a02580000be295f8b9c8b63a3518784a,2019-03-20,Group123,Group123,Group123,True,0.9735028619077737,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|e170402caa48a5315797bc38a49bd9bddb12c82a,2023-09-19,Group123,Group123,Group123,True,0.9007081339945116,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|e7b2d55740570785fe16ce2d49b3915b204e0bda,,Group123,Group123,Group123,True,0.9399906063498229,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|e903132028e2e5322e11765cb07df881df4b11f2,2019-08-05,Group123,Group123,Group123,True,0.952931366292782,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|f7bd13a2cff4fa469f182641bcd3eff3f2f9291a,2019-04-02,Group123,Group123,Group123,True,0.9870102298615793,1,,,True,True,,,,False,False,,0.0,Group123
+train,report|1b09ad7739c8aecd3ed43e9d2e00fd4557a1c92d,2019-02-27,SideWinder,SideWinder,SideWinder,True,0.9860212165439123,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|2187cf99c906ca7809c4d8a23a8679fe01afab96,2025-09-12,SideWinder,Arid Viper,SideWinder,True,0.3368052637797094,1,,,False,False,,,,True,False,,0.0,Arid Viper
+train,report|23dde98f5bebf90156118801d3573e22a816a887,,SideWinder,SideWinder,SideWinder,True,0.967149988781131,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|254891517bb8cc7a0fd22d8ce988862f97dda165,2025-08-10,SideWinder,SideWinder,SideWinder,True,0.9923218307624154,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|36bc69afb5ea823da3f87add816200ef745f4303,2021-04-12,SideWinder,SideWinder,SideWinder,True,0.9911821914866847,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|3f9402a02d6bfd2e70fb913255f162cc7dea53eb,,SideWinder,SideWinder,SideWinder,True,0.7945717428580003,1,,,False,False,,,,True,False,,0.0,SideWinder
+train,report|459d4afeac4f379012af4f4d6e233c041fdd16c7,,SideWinder,SideWinder,SideWinder,True,0.9855101630686589,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|4c42a9f414320c0e154d8afafc8805382653d723,2022-02-18,SideWinder,SideWinder,SideWinder,True,0.8382181386135739,1,,,False,False,,,,True,False,,0.0,SideWinder
+train,report|4f61d46c453875e75176179a94b8658481592e60,2024-11-09,SideWinder,SideWinder,SideWinder,True,0.9927479327935658,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|537a97bb8360805e4c0bb7cec5c1cfc3d844efe0,2024-10-15,SideWinder,White Elephant,Bahamut,False,0.1850198738962465,27,,,False,False,,,,True,False,,0.0,Bahamut
+train,report|5a267c2eb5eb6786b835967a51a6fe2f27fcfa8c,2019-02-05,SideWinder,SideWinder,SideWinder,True,0.8337830819072904,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|6019aad4171f6393d19dfcd5a3262bed2328e734,2020-12-09,SideWinder,SideWinder,SideWinder,True,0.9940673723749825,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|685a4ea029bbbaf3aa0ce60fb4c882abdc98df8a,2025-09-11,SideWinder,SideWinder,SideWinder,True,0.9974788600867945,1,,,False,False,,,,True,False,,0.0,SideWinder
+train,report|6fe0ecc97966f222049cb3420854b7395f711533,2025-05-20,SideWinder,SideWinder,SideWinder,True,0.9962911816199466,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|7d232b7dac0e326bef8009b59159801bb7f6fbd5,2023-11-08,SideWinder,SideWinder,SideWinder,True,0.7651119726519092,1,,,False,False,,,,True,False,,0.0,SideWinder
+train,report|7ff431552c92f3ccfa9d106df73eeece3c7e662d,2022-08-26,SideWinder,Bahamut,Bahamut,False,0.9625259889402571,5,,,True,False,,,,False,False,,0.0,Bahamut
+train,report|81b4a01706ac2eb7712943e5ddb79eb7d057274b,,SideWinder,SideWinder,SideWinder,True,0.9669858932783735,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|84bda4ca9768bdf0447c633e277c001eca14565d,,SideWinder,SideWinder,SideWinder,True,0.9454449984577797,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|8739b255b9ce2cb90d78d27f99382ef6038f3ae9,2022-06-06,SideWinder,SideWinder,SideWinder,True,0.9947331923054257,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|9176cc28d0bf2c3857d56899409c0ecfa94526e6,2024-06-24,SideWinder,SideWinder,SideWinder,True,0.9565426364684193,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|933f49e44e4add1b5ae89b828885c93337184949,,SideWinder,SideWinder,SideWinder,True,0.9836971782050961,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|9b4678f2aec633439f45d688060a481b791aac7b,2019-10-29,SideWinder,SideWinder,SideWinder,True,0.9843746644384124,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|9c14837135c564ac6904fce599d76c0719b10d89,2019-10-18,SideWinder,SideWinder,Green Spot,False,0.41032897665748214,3,,,False,False,,,,True,False,,0.0,Green Spot
+train,report|b05d8ea6b9e14a75cbb5590a18ccf2dc7f87bf00,2018-07-31,SideWinder,SideWinder,SideWinder,True,0.980054120822042,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|b13adf3fe1b9acd06a91e3c91ad6147a87ac03b7,2019-05-13,SideWinder,SideWinder,SideWinder,True,0.9834391739814469,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|b6ec17b3013f91283ed764de59b2a6d7c02c3eff,2019-10-17,SideWinder,SideWinder,SideWinder,True,0.9388728920029017,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|c005bc36f0fca3e0a3392d4d74c60cb45758d8b9,2018-10-19,SideWinder,SideWinder,SideWinder,True,0.9413299336329886,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|caaf17e1379ed8c4245e183c7b349e1306c01e2c,2024-10-15,SideWinder,SideWinder,SideWinder,True,0.9807673541321208,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|da46a8b54111c0fa48675e98ec4ed65eb1251ca0,2022-01-18,SideWinder,SideWinder,SideWinder,True,0.981563623755935,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|de99e7208a40c37ba4ca9e259088d05268ea7ac5,2020-01-06,SideWinder,Arid Viper,SideWinder,True,0.6661991410491122,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|e88ffd7b46c9118e78b024b0cd969b6d5d2e9f60,2024-08-17,SideWinder,SideWinder,SideWinder,True,0.8563720845298938,1,,,False,False,,,,True,False,,0.0,SideWinder
+train,report|eb0119445a05f8495227747e0716c6284bc4de24,2020-04-20,SideWinder,SideWinder,SideWinder,True,0.9978529785357116,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|ecb46927dba84a2d7f3e701e3781476529cb7c88,2025-05-28,SideWinder,SideWinder,SideWinder,True,0.8722436983036997,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|f39911ace7808bfb65de276eb08933aa9ca7ccde,2022-10-21,SideWinder,SideWinder,SideWinder,True,0.8190803016678805,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|f5db8b404124fec6a513b11e3abb0ba80773e8b1,2020-04-14,SideWinder,SideWinder,SideWinder,True,0.9999861566741345,1,,,True,True,,,,False,False,,0.0,SideWinder
+train,report|024b1b9bbb45646e8c0e01af9f0197924fa49f11,2025-06-04,Kimsuky,Kimsuky,Kimsuky,True,0.995108740796713,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|065f6c629963dcc6404348a9c790dc72358bf613,2023-05-04,Kimsuky,Kimsuky,Kimsuky,True,0.9539081447306715,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|0d19475bca427553aaf5e9ec13b3d1c527cb40cf,2022-10-24,Kimsuky,Kimsuky,Kimsuky,True,0.985422142046194,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|137357f0e69ba2a352a7158a5ffbd560170cc69b,2023-11-30,Kimsuky,Kimsuky,Kimsuky,True,0.8892182191018946,1,,,False,False,,,,True,False,,0.0,Kimsuky
+train,report|14b88e214102c5dcd931ca549dff14cad73bbe7c,,Kimsuky,Group123,Kimsuky,True,0.6409415362795399,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|15012b91120bd60471181ddf114a5a59535fb1c6,,Kimsuky,Kimsuky,Kimsuky,True,0.9856227455062676,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|1f284adb53324a3feeddbf09e4a11eb4018786f2,2025-08-25,Kimsuky,Kimsuky,Kimsuky,True,0.6590920468370047,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|209b328d63e9aad3b450afd6931bd36f761ee4a3,2024-03-20,Kimsuky,Kimsuky,Kimsuky,True,0.7187909675934784,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|25ccad455a57a085aca6bcf4b33750698b700396,2025-07-08,Kimsuky,Kimsuky,Kimsuky,True,0.9968754979508471,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|28879719ba0a828acc9e40205a99d36306aeceb3,,Kimsuky,Kimsuky,Kimsuky,True,0.9283407238606418,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|33b9a349931f6d962e0207576cb34e71bc4a0735,2024-05-20,Kimsuky,Kimsuky,Kimsuky,True,0.9185727545464617,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|3b7af328b4f6470a463fac5ef8bbf7173858e47a,2025-04-11,Kimsuky,Kimsuky,Kimsuky,True,0.9992934452349868,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|3be6d30c5af16d74094a0173b9c7d7a249b419e0,2024-09-20,Kimsuky,Kimsuky,Kimsuky,True,0.8637241929252952,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|4bc5e9fec3b8df10366cea682535ae69f0ff29b7,2024-03-20,Kimsuky,Kimsuky,Kimsuky,True,0.9670794484834944,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|539c5c911ee7f9267a004300c71cc4ffd5cec3b3,2023-08-28,Kimsuky,Kimsuky,Kimsuky,True,0.975305622925774,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|5c62a0ebcc9b212dfbb28782c0a8f90272fae245,2024-05-20,Kimsuky,Kimsuky,Kimsuky,True,0.9974427938623303,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|5f1110ac2f0bc36036c1b359d0cd8479a7d8cdd0,2025-02-13,Kimsuky,Kimsuky,Kimsuky,True,0.9210668109482726,1,,,False,False,,,,True,False,,0.0,Kimsuky
+train,report|5fb6418f6bb08f528ccdd79ac258254612bf1514,,Kimsuky,Kimsuky,Kimsuky,True,0.6203340444053934,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|6b86c69857a2e91c55ac8b233e237667fe8f4891,,Kimsuky,Kimsuky,Kimsuky,True,0.9105103451594938,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|73ce41f5d582d1f79ab020db3d5802ad780dc1f4,2024-06-26,Kimsuky,Kimsuky,Kimsuky,True,0.9964152779856991,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|7528e77d95778034a53367a1d7fa7ef5e9b221a7,2024-01-30,Kimsuky,Kimsuky,Kimsuky,True,0.9984358676592855,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|76d5a61c4b26b9d5db8807dda3116e83e96181cb,2023-03-16,Kimsuky,Kimsuky,Kimsuky,True,0.7108422386717673,1,,,False,False,,,,True,False,,0.0,Kimsuky
+train,report|7885a1e6974c9a2b6bac4e79e5a133a557493c51,2024-05-27,Kimsuky,Kimsuky,Kimsuky,True,0.9545922911800264,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|791428ef364e55ba687d75d651421664a2d6009c,2024-08-27,Kimsuky,Kimsuky,Kimsuky,True,0.9817736089198619,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|7cc39b5ec9963f8d72d4247786c34d3f3dd19e70,2025-07-03,Kimsuky,Kimsuky,Kimsuky,True,0.9995710851554397,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|7fdfda8c3bb8ef1da8e7e085b14bd8d72e2eec17,2022-05-31,Kimsuky,Kimsuky,Kimsuky,True,0.927993255186894,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|802a51595bc4c674168f73e3cc248e51185b1288,2025-03-14,Kimsuky,Group123,Kimsuky,True,0.5891909499930391,1,,,True,True,,,,True,False,,0.0,Kimsuky
+train,report|81755ec01ae39f3c946e5f668721b8efaf8f428b,2023-07-31,Kimsuky,Gamaredon Group,Gamaredon Group,False,0.43864003598470813,4,,,True,False,,,,True,False,,0.0,Gamaredon Group
+train,report|82f347191a92834e2531176e52455ffa45b1857e,2024-06-20,Kimsuky,Kimsuky,Kimsuky,True,0.8348352082082999,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|8383c970a072aca33db142f39c1bd8daee61f81f,2022-03-28,Kimsuky,Kimsuky,Kimsuky,True,0.9644746631662453,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|8581d44ef9c9cf4490c6c5955fb3071b7594b063,2023-12-04,Kimsuky,Kimsuky,Kimsuky,True,0.8848385534966552,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|87559d4460a33afbced83ab1c109999c6ea78084,2024-03-15,Kimsuky,Kimsuky,Kimsuky,True,0.9553956605566087,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|8cad5e02f945bde0df3b9cfba222db9ab1d31d99,2023-08-02,Kimsuky,Kimsuky,Kimsuky,True,0.38479848655794835,1,,,False,False,,,,True,False,,0.0,Kimsuky
+train,report|9a647c1f4a247d1719a68f2c0843f0e1e73d9660,2024-10-31,Kimsuky,Kimsuky,Kimsuky,True,0.861194336251934,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|9ef12e4b8204252ac88c28db257d15019564dfd0,2025-03-25,Kimsuky,Kimsuky,Kimsuky,True,0.9748030572751852,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|a1d1d9cf56e504637f172f1aa8ce2cfe4938bbc6,2024-02-22,Kimsuky,Kimsuky,Kimsuky,True,0.9568403544494897,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|a36632ed7cc1e2a681e4b1917e64965f113786bb,2023-04-19,Kimsuky,Kimsuky,Kimsuky,True,0.9826592396777402,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|a3f5a4f588723d7e06d6b2e6534b62fd73f1a1af,2024-10-29,Kimsuky,Kimsuky,Kimsuky,True,0.9333227565801969,1,,,False,False,,,,True,False,,0.0,Kimsuky
+train,report|a5107f8f25e740ac6c045ac795b7d99f495f5518,2024-07-11,Kimsuky,Kimsuky,Kimsuky,True,0.4149866074285889,1,,,False,False,,,,True,False,,0.0,Kimsuky
+train,report|a649f2e87c4448dfe693566d3df158a3e5439346,2023-03-29,Kimsuky,Kimsuky,Kimsuky,True,0.21831712529208436,1,,,False,False,,,,True,False,,0.0,Kimsuky
+train,report|add8f80fc282389bce793bdd65264cc2be7b683a,2022-06-07,Kimsuky,Group123,Kimsuky,True,0.9225928065062446,1,,,False,False,,,,True,True,Kimsuky,1.0,Group123
+train,report|af088e8ebc2a92c0c926e0742ab111eeb513dd27,,Kimsuky,Kimsuky,Kimsuky,True,0.9490093199510374,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|b2fe1cd1d6c239d8a49f790262b7677683882933,2023-12-13,Kimsuky,Kimsuky,Kimsuky,True,0.9725959526784026,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|b4961196a88916d45d5d5193f143f4a481678377,2025-07-17,Kimsuky,Group123,Group123,False,0.6199268926618375,2,,,True,True,,,,False,False,,0.0,Group123
+train,report|bb67d72eacead0565ff1f412251c6736fcde06de,2024-08-07,Kimsuky,Kimsuky,Kimsuky,True,0.8783814876147159,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|bc286ded6e0a5209001019be61415c2d1a97336d,2022-08-26,Kimsuky,Kimsuky,Kimsuky,True,0.9438345330595964,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|bf5d9aabee73ee39faec209af7e72b3e3f52aeab,2025-02-12,Kimsuky,APT29,APT29,False,0.46471416696555684,6,,,False,False,,,,True,False,,0.0,APT29
+train,report|c2f55b74eb9e8bcca5381b9edeb2882ca0da33a1,2023-05-17,Kimsuky,Kimsuky,Kimsuky,True,0.7741250604607338,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|d2a0f307229aaf4f770cdddb116b95c3874f8be2,2023-01-01,Kimsuky,Kimsuky,Kimsuky,True,0.993020991727339,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|d8fad6f972f4550f1f918feff983178e59d6731f,2023-12-22,Kimsuky,Kimsuky,Kimsuky,True,0.9487167984124695,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|dd0041e8765a785047b550e404f3bcbb12bced58,2025-05-12,Kimsuky,Blind Eagle,Blind Eagle,False,0.4848325085556876,3,,,True,True,,,,True,False,,0.0,Blind Eagle
+train,report|e0c94efa428e6379740dd0feb9fd17c46d4fc904,2024-04-16,Kimsuky,APT29,APT29,False,0.3300152837348367,2,,,False,True,,,,True,False,,0.0,APT29
+train,report|e16692a22211e78ceb34db6f02f2c0389f9e50f2,2025-09-18,Kimsuky,Kimsuky,Kimsuky,True,0.9733913582653738,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|e8706e8b927a7c679b53bb4e7ce09d89623d3a58,2025-11-05,Kimsuky,Kimsuky,Kimsuky,True,0.6576602805256805,1,,,False,False,,,,True,False,,0.0,Kimsuky
+train,report|ecefaaf099b17cbef6ef098c88483366b1834102,2026-01-08,Kimsuky,APT29,Kimsuky,True,0.7901579576951667,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|ed89304d15dde52b7a0edc44e36b0961cd7554b0,,Kimsuky,Kimsuky,Kimsuky,True,0.8089369132387284,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|f4a96b345db08e3044a77ddb92043099a7e02b1c,2022-12-30,Kimsuky,Kimsuky,Kimsuky,True,0.9999056844986514,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|f717aa115c1bfc75442199d199c12c78ee695394,2025-08-18,Kimsuky,Kimsuky,Kimsuky,True,0.7293877946792358,1,,,False,False,,,,True,False,,0.0,Group123
+train,report|f793167eb3623cebbd08466e04b53cf64cd06b80,2023-11-22,Kimsuky,Kimsuky,Kimsuky,True,0.8877197571357692,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|fda6c7872ba3bed0f0284564136a0bd443a1a59e,2025-04-17,Kimsuky,Kimsuky,Kimsuky,True,0.9765421987012816,1,,,True,True,,,,False,False,,0.0,Kimsuky
+train,report|fe96b5e9c5d03cc350bcabacbec27ecb56241c95,2023-08-20,Kimsuky,Kimsuky,Kimsuky,True,0.526293844306931,1,,,False,False,,,,True,False,,0.0,Kimsuky
+train,report|02b7906a5e851d3c3d72e942971c80a434ae64d9,2019-08-08,Bitter Group,Bitter Group,Bitter Group,True,0.9732365472738198,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|07d517fcf0047e21aee62b1900c063dd5a062321,2022-05-05,Bitter Group,Bitter Group,Bitter Group,True,0.8839301622475079,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|0f6184629b347de9c10cd769af19e675da1665b6,,Bitter Group,Bitter Group,Bitter Group,True,0.9141421561835459,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|17993002aa895713c424d50a47e7b5ba9443262a,2021-07-06,Bitter Group,Bitter Group,Bitter Group,True,0.9687804864485124,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|192cc20137041b31ebc32b420041979b066b0d46,2019-10-31,Bitter Group,Bitter Group,Bitter Group,True,0.9960632049902903,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|19656ccfd55067d4de245d00998ffe92dcf06271,2025-08-22,Bitter Group,Bitter Group,Bitter Group,True,0.9482697841875842,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|1e90cc64733bf2229d50cab8c056aca83f71fa7e,,Bitter Group,Bitter Group,Bitter Group,True,0.9858819388078954,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|1ec5e36d58e0f181455b395c10013a6e2a0c8fdf,2024-01-10,Bitter Group,Bitter Group,Bitter Group,True,0.904352759808713,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|2b61fc9fe17c661873682d77072cc174ba287eeb,2019-10-30,Bitter Group,Bitter Group,Bitter Group,True,0.9848841003205211,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|2e0182bb6e6d87f40ddee5dc8e9ca410c3df112b,2018-09-12,Bitter Group,Bitter Group,Bitter Group,True,0.9810594051058323,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|3a91104f7ddd78174838e15d8cd2078e11ad9b25,2023-08-04,Bitter Group,Bitter Group,Bitter Group,True,0.9650708934681954,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|3c0a88098fe57841b0576dceb2caa7ae0fb8582c,2025-05-22,Bitter Group,Bitter Group,Bitter Group,True,0.9369011998351896,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|3ee845c11b8a083b7d6a8794a7a5f981c0005ab0,2019-05-30,Bitter Group,Bitter Group,Bitter Group,True,0.986773959425857,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|41a6c2234dc4b2e09f827d41b92d4ba982c12da3,2022-08-29,Bitter Group,Bitter Group,Bitter Group,True,0.9646715513700318,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|41ad52475e054aefc121db159c02ad2f301e350c,2019-01-14,Bitter Group,Bitter Group,Bitter Group,True,0.8158447075836992,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|42bcf7450c6b60a210ebcfafc8443f683d11104c,2019-10-30,Bitter Group,Bitter Group,Bitter Group,True,0.9836301037787639,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|4779a5c95b95bf234a204e309f59e37bfdfacd13,2021-10-26,Bitter Group,Bitter Group,Bitter Group,True,0.9793032834122648,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|4925c36f695c3117e6ab98df957082d0bacda727,2025-11-07,Bitter Group,Bitter Group,Bitter Group,True,0.9440866298487651,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|5be5f5dcb25f537d5501532f844684d562b9bef5,,Bitter Group,Bitter Group,Bitter Group,True,0.9703053910664838,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|624cbfa2361f45598d6e3116094c69733a48311a,2019-10-30,Bitter Group,Bitter Group,Bitter Group,True,0.9800718372674125,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|66ea0b5cfd4a34157286fd5392337ebec65857a3,2020-12-21,Bitter Group,Bitter Group,Bitter Group,True,0.9907881406365033,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|67eedef368c6e01d6c6fe82dc250531d00789b48,2019-12-20,Bitter Group,Bitter Group,Bitter Group,True,0.81192603202187,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|70928839a524811a7267c462cb03b54b072c150b,,Bitter Group,Bahamut,Bahamut,False,0.7068904062311564,4,,,True,False,,,,False,False,,0.0,Bahamut
+train,report|7437dfe34f8bf6f98227b3ee6d9ff091ead35175,2022-07-07,Bitter Group,Bitter Group,Bitter Group,True,0.9451811021200778,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|80c039885249e2e7e2ea9bc4e3ec9adbe3baad3d,2023-03-24,Bitter Group,Bitter Group,Bitter Group,True,0.9043085805273952,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|84a2a470c8fc50b00cad4ce3164c3e3766fd12d1,,Bitter Group,Bitter Group,Bitter Group,True,0.9470465316597951,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|86cf2ee8d756c1a2bd88e92b84c08e8008f52e87,2023-11-21,Bitter Group,Bitter Group,Bitter Group,True,0.96513112744536,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|a516cc85d5bbfce0ff55201c08c6fdf9f52784c8,2023-12-21,Bitter Group,Bitter Group,Bitter Group,True,0.6186718191714184,1,,,False,False,,,,True,False,,0.0,Bitter Group
+train,report|a5f2ed664ff323d5d4325f12a3248bf2dae0f917,,Bitter Group,Bitter Group,Bitter Group,True,0.9831792472902944,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|bbb195ff822ba3b259fe882e804528b0db233d9d,2022-05-12,Bitter Group,Bitter Group,Bitter Group,True,0.988238005810636,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|c262dc18c0169d8cdc81c39fe98f4ffa96c4047c,2019-11-11,Bitter Group,Bitter Group,Bitter Group,True,0.8707642141568077,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|c2fc3ff002866c038037ff2b7ca58d791f532fdc,2020-02-24,Bitter Group,Bitter Group,Bitter Group,True,0.944632611380219,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|c696b43cfb3b5b4fed19871ab5608aa294b2aa09,2019-10-28,Bitter Group,Bitter Group,Bitter Group,True,0.9980008674117895,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|cf171f6b8deaa383d8687d1e2fbaa5aa3a5e0434,2023-04-14,Bitter Group,Bitter Group,Bitter Group,True,0.9629880457892742,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|cfd3ec43c12aad743c5fb6515f481309439a9705,2024-10-12,Bitter Group,Bitter Group,Bitter Group,True,0.9499056542187785,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|d4730b8c0fb9e55dc73778abce636082921a42a5,2025-10-24,Bitter Group,Bitter Group,Bitter Group,True,0.9506718365489327,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|dc29647a19f8b439013400091a2ff024ea4b1f4e,2021-04-14,Bitter Group,White Elephant,White Elephant,False,0.5113102479033507,2,,,False,True,,,,True,False,,0.0,White Elephant
+train,report|e2876a055369facdb8ce1075397237ede20dca92,2024-11-05,Bitter Group,Bitter Group,Bitter Group,True,0.9496545449861038,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|e618a766912b01b6db19bc59ce202e429bc6cac2,2024-10-21,Bitter Group,Bitter Group,Bitter Group,True,0.8871841471398331,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|f6a8b0b6b00d36f0dacb88cddb1504d8a98ad752,2019-01-07,Bitter Group,Bitter Group,Bitter Group,True,0.9698868313740823,1,,,True,True,,,,False,False,,0.0,Bitter Group
+train,report|0273346d9918566c90b3155e4b6dd9bc1866e0f1,2024-01-29,APT29,APT29,APT29,True,0.8595279569339309,1,,,False,False,,,,True,False,,0.0,APT29
+train,report|1ba39485ae3060fbb735bba711c671d9b2fdf1f2,,APT29,APT29,APT29,True,0.7426770360381569,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|2c7b2757f98f038bf98ee2f4e892ffae596afe7e,2018-12-03,APT29,APT29,APT29,True,0.9425815844843469,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|301d2d667c0f089ad0db9378c306f1076acc3d2e,2021-06-25,APT29,APT29,APT29,True,0.46025386909024907,1,,,False,False,,,,True,False,,0.0,APT29
+train,report|3276becfed6860e51abbc03f0a82a20c8e116692,2021-03-05,APT29,Sandworm,Sandworm,False,0.5288960464260128,2,,,False,False,,,,True,False,,0.0,Sandworm
+train,report|363c9404d006be71bbd92f20a48d1b4b298857e8,2021-07-06,APT29,TRITON,TRITON,False,0.6031103587131081,6,,,False,False,,,,True,False,,0.0,TRITON
+train,report|38e420850816ea56fd492c0dc2ea6e0e6208a8a1,,APT29,APT29,APT29,True,0.9629531119525974,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|3a33a1bc5cd29e48746f15b73a18d174cb723f22,2025-04-15,APT29,APT29,APT29,True,0.8778124779033278,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|47f1415b314bca69684cdc678ca8669887e76910,2021-11-19,APT29,APT29,APT29,True,0.9148757542037503,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|47fab85399f3cc26cd45ad5026243a228108a805,2021-01-19,APT29,APT29,APT29,True,0.9016381756931998,1,,,False,False,,,,True,False,,0.0,APT29
+train,report|501397e4906693946d35411eb47366dd7037977d,2020-03-05,APT29,APT29,APT29,True,0.9045089715937399,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|53509f24f0c9213d92b51517395f10a71f0005b4,,APT29,APT29,APT29,True,0.9522817811305013,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|54e368656f8c1ec2ea9279668731bc1563ac0c93,2021-05-07,APT29,APT28,APT29,True,0.9462816729564146,1,,,False,False,,,,True,True,APT29,1.0,APT29
+train,report|61a5eb27ef3e633be66583c127de39fe19be7fb8,2022-01-11,APT29,Sandworm,Sandworm,False,0.7672871133395143,3,,,True,True,,,,False,False,,0.0,Sandworm
+train,report|6335741831aea9c49346bdaf04d3bf19b90f1670,2018-11-21,APT29,APT29,APT29,True,0.9547037128953879,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|6b1cf19c20a268e535ab797fd506877f414eb1e8,2020-03-26,APT29,APT29,APT29,True,0.9394105686292227,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|765faf4d3462283eef7b526f4a430fbec4b171df,2023-08-02,APT29,APT29,APT29,True,0.9327813700896408,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|780bb4a51acef0d7ed3cfc62864ef8ec0bdc7db6,,APT29,APT29,APT29,True,0.9733660246115037,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|7b0258a7d22b6363f3b260be94c994aeadd7bf85,2025-02-13,APT29,APT29,APT29,True,0.8209219907414426,1,,,False,False,,,,True,False,,0.0,APT29
+train,report|852b943b63ff3577d4a2c24c28f594551492d1cc,2023-03-16,APT29,APT29,APT29,True,0.9962174883511218,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|8a2fbe2ab98f9637192503dda977c785f471b88a,2023-03-15,APT29,APT29,APT29,True,0.9934700626344649,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|8d10ee9e6deb4b369ba08b6d8172086d026bee5a,2018-07-26,APT29,MuddyWater,MuddyWater,False,0.6212184540528113,2,,,True,False,,,,False,False,,0.0,MuddyWater
+train,report|b7edf82ef76653ba40e2f6c344917046c5f4df6b,2023-08-11,APT29,APT29,APT29,True,0.924795054579405,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|be22ca6cdd2ba5b01b81346d19a9aa2f612e09e4,2022-08-18,APT29,APT29,APT29,True,0.9074747834087625,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|c147de3d6da2aac981297370d926273da239bf9d,2024-10-10,APT29,Sandworm,Sandworm,False,0.3811589282614534,2,,,False,True,,,,True,False,,0.0,Sandworm
+train,report|c5e425ba4203108ca605853597dad7fb09e344e5,,APT29,APT29,APT29,True,0.7005230457958911,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|cf08c7b40b84856bb05aebaced828ebbeecd6b31,2021-05-25,APT29,APT29,APT29,True,0.9413048676074913,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|d6f66a51549b7c2090135e8cb8c40a68c152018d,,APT29,APT29,APT29,True,0.8154268734101203,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|dd28d02f5a9f6621880ba888b4833c7d5b84c85f,2019-01-18,APT29,APT29,APT29,True,0.9243174147532636,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|dd9dacb6b9bc34a2410f9c8fb3a5f04fdce77f29,2013-05-30,APT29,APT29,APT29,True,0.9824376884995545,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|ddf74da1cd2f3bb680e68f3ea0a579e0cbec1c1d,2018-11-14,APT29,APT29,APT29,True,0.8007974702392647,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|e4d6c96d2bef9f7cef2471c8e47081dd1d62cb70,2021-05-25,APT29,APT29,APT29,True,0.9363937960037818,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|e726213e5ba7a7ecafdd2782d1169eb4ecd8c971,,APT29,APT29,APT29,True,0.8880135057115622,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|e82021b5da5552c9d4e8e7149b21e69c4a0443a1,2021-09-27,APT29,APT29,APT29,True,0.7393059528764474,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|f565f3ba987963a5306c807fe66c2dfd21339b59,2016-11-09,APT29,APT29,APT29,True,0.9598471474952248,1,,,True,True,,,,False,False,,0.0,APT29
+train,report|012874b0d4d98d4acccdecd9715991e8dace641f,2025-04-11,Darkhotel,White Elephant,White Elephant,False,0.37884999251062645,2,,,True,False,,,,True,False,,0.0,White Elephant
+train,report|0d221a02534d8af6b73f28d1d7faaba75ec65989,2018-11-13,Darkhotel,Darkhotel,Darkhotel,True,0.795870393981279,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|1efa746107067a0cafa8eb3a7b272081218583ab,2018-12-14,Darkhotel,Darkhotel,Darkhotel,True,0.9771833498132966,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|2d0f6257381317b9b93d2632b078b29c7a531ef3,2018-12-14,Darkhotel,Group123,Group123,False,0.6926780464101416,3,,,False,False,,,,True,False,,0.0,Group123
+train,report|3532fd1588e28712a4665602ba8ab566ce36106a,,Darkhotel,Darkhotel,Darkhotel,True,0.6925803626960411,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|3e95392d12ed2c1a6fb78e1a0361dfc20415c3d4,2018-04-18,Darkhotel,Darkhotel,Darkhotel,True,0.9657940383076021,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|478eca9a90654ff53615de38b2583e20dc8d0820,2016-06-09,Darkhotel,Darkhotel,Darkhotel,True,0.5788888416330583,1,,,False,False,,,,True,False,,0.0,Darkhotel
+train,report|48bc142d50d957a03fd16e5276455805ff9be0b9,2020-06-14,Darkhotel,Darkhotel,Darkhotel,True,0.9570417134655994,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|49ff1795815cf9a8901c634a35734d0965c1cd0c,2022-03-17,Darkhotel,MuddyWater,MuddyWater,False,0.4865093338971935,11,,,True,False,,,,True,False,,0.0,MuddyWater
+train,report|4bfecab827e81722f515f23f0a703b32bd7c02ef,2020-04-02,Darkhotel,Darkhotel,Darkhotel,True,0.9623079460175412,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|57f29df329e77f103b6b4679b0d1235aaf0e5341,2025-06-24,Darkhotel,Bitter Group,Darkhotel,True,0.537508515362699,1,,,True,True,,,,True,False,,0.0,Darkhotel
+train,report|5d34d1b7c3dea3015c5e10a14f5ae1657b7093e8,2019-06-24,Darkhotel,Darkhotel,Darkhotel,True,0.9269214443993061,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|5fc1527d96e514fbedc7252aa7c278a107e089ff,2015-11-05,Darkhotel,Darkhotel,Darkhotel,True,0.9675584097166482,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|6063cf3c2266b4ef9f1f21c740a4b494ff82f216,2018-08-15,Darkhotel,Darkhotel,Darkhotel,True,0.9005951076594885,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|6576d7d839ba44fb0e56a8d76370b762106ed7c9,2019-05-29,Darkhotel,Gamaredon Group,Kimsuky,False,0.25713636508092985,3,,,True,False,,,,True,False,,0.0,Gamaredon Group
+train,report|6e0c90483050093fa3ae492035fed32d909590c5,2015-11-05,Darkhotel,Darkhotel,Darkhotel,True,0.9710336445174247,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|7e85f321e0bff1546f7585538d0979c1728a599c,2018-09-28,Darkhotel,Darkhotel,Darkhotel,True,0.9861499828142891,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|892ef1bc4ab1be6c4f6b2bad1e33067b949cf617,2026-01-14,Darkhotel,Darkhotel,Darkhotel,True,0.9567228863347572,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|9cd4e333d4b0fdf488518edb53e87029c7d9e7b8,2020-02-15,Darkhotel,Darkhotel,Darkhotel,True,0.9599453658601975,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|a3c9f233a68dec572cde8f6cc852f0c9f7460322,2025-07-23,Darkhotel,Darkhotel,Darkhotel,True,0.7940742009671501,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|a64af29a69de3357f31d2ed229430db1809d369f,2016-08-12,Darkhotel,White Elephant,White Elephant,False,0.2520569140900615,3,,,False,False,,,,True,False,,0.0,White Elephant
+train,report|a7da7bb733dba4676c448d7d6dac95c0ef468ddc,2020-08-13,Darkhotel,Darkhotel,Darkhotel,True,0.930404793111699,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|a91af8122e1d5be9c1800ddcb07c1dd27dd771a2,2020-04-07,Darkhotel,Darkhotel,Darkhotel,True,0.9196879919285716,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|b65d8f2a7be4990b63545f9bfd5332a8f338b58b,2022-06-27,Darkhotel,Kimsuky,Kimsuky,False,0.5469151829360372,2,,,False,False,,,,True,False,,0.0,Kimsuky
+train,report|cffa7b1f7b7754a4997c0c82e8ea2aab03fe84b4,2020-02-12,Darkhotel,Darkhotel,Darkhotel,True,0.9059230137761989,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|d1a6d02ca786100e90aabc738b02b54e5660bc76,2024-09-10,Darkhotel,Darkhotel,Darkhotel,True,0.6478271616501724,1,,,False,False,,,,True,False,,0.0,Darkhotel
+train,report|dc08d577cd5f67fbd2a7cdb40c9985eafc1c9874,2020-04-06,Darkhotel,Darkhotel,Darkhotel,True,0.8930855380776369,1,,,True,True,,,,False,False,,0.0,Darkhotel
+train,report|de66953d5cfc8c638be456e4849212bc54f2c9a3,2015-10-15,Darkhotel,Bitter Group,Bitter Group,False,0.3470539565682852,2,,,True,True,,,,True,False,,0.0,Darkhotel
+train,report|e76cc087cb5232f70bdd537342ed820e9dfd1819,2015-12-28,Darkhotel,Darkhotel,Darkhotel,True,0.5808880780742129,1,,,True,True,,,,True,False,,0.0,Darkhotel
+train,report|ef4469d1012d61712698bfb56f054c23136be243,2018-12-14,Darkhotel,Kimsuky,Kimsuky,False,0.482628201786285,2,,,False,True,,,,True,False,,0.0,Kimsuky
+train,report|fbb74f7d3132d4306532a00fc3419aa4017b094c,2020-06-08,Darkhotel,Group123,Group123,False,0.3198946338313078,3,,,True,False,,,,True,False,,0.0,Stealth Falcon
+train,report|0247dfd52784898815506925107a991587fa6b3c,,Donot Team,Donot Team,Donot Team,True,0.9362521042041531,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|173595f871dad9bd0fdaf6bee781b905dc469240,2018-07-26,Donot Team,Donot Team,Donot Team,True,0.9964266313143144,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|28a737a1f8d6879f9456435537ddc8a2d8feead4,2020-05-12,Donot Team,Donot Team,Donot Team,True,0.9764359597469662,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|2dbcfc417c8bc8096d54d91eb8d5fbd40be72e40,,Donot Team,Donot Team,Donot Team,True,0.9393140820976952,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|2f2c5687bb44251e8c3b842cb94ed770f37e4b5d,,Donot Team,Donot Team,Donot Team,True,0.6391193439076862,1,,,False,False,,,,True,False,,0.0,Donot Team
+train,report|31966e74bd57f82cff47e5d2be46f72c19628cd8,2018-12-12,Donot Team,Donot Team,Donot Team,True,0.9856697822767243,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|333651e6b5d0d642b12541c04b162f9ea1b81127,2019-09-12,Donot Team,Donot Team,Donot Team,True,0.9713437066138924,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|3478b6f0a089661707d44e654693f29ba196a079,2021-11-02,Donot Team,Donot Team,Donot Team,True,0.8161552752754199,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|5211d27dc086aa482bd1de8ca652d5b31038167f,2025-02-28,Donot Team,Donot Team,Donot Team,True,0.9824638714043394,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|5ac55f49d318876eec366e4f0a7c43d7d615fca5,2025-01-17,Donot Team,Arid Viper,Arid Viper,False,0.24148258972966172,2,,,True,True,,,,True,False,,0.0,Arid Viper
+train,report|5da3408f8bd2024abefbc6c31cb9925d3d800040,2025-07-08,Donot Team,Donot Team,Donot Team,True,0.9279452438860353,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|65d070968e8c8f701d52668f87b47868704c8aa7,,Donot Team,Donot Team,Donot Team,True,0.8636789819614963,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|759ffc588dce34977a2644b371dc994c1ee7c7a5,2022-01-18,Donot Team,Donot Team,Donot Team,True,0.9999538246689841,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|8122e872e8147e4732be9bbb05cdb84c7cade5cb,,Donot Team,PROMETHIUM,Donot Team,True,0.5678905748329363,1,,,True,True,,,,True,False,,0.0,Donot Team
+train,report|834db80ae09348f45940477b3a4c0eac96e2004c,2024-11-15,Donot Team,Donot Team,Donot Team,True,0.472106825245639,1,,,False,False,,,,True,False,,0.0,Donot Team
+train,report|90c1aea7d89856444ced94a776d1ac286651c4c2,2022-08-11,Donot Team,Donot Team,Donot Team,True,0.970846087002928,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|950174dabbfb6caea46b5f6d9b3cf683d8f930cf,2019-09-10,Donot Team,Donot Team,Donot Team,True,0.9971054398199644,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|9603f0a26aa5bf9aaa494141d14478d734e01edd,2020-05-07,Donot Team,Donot Team,Donot Team,True,0.6628053144386329,1,,,False,False,,,,True,False,,0.0,Donot Team
+train,report|9d242bbdbf778159503da4fc72e5720c64c0a9f7,,Donot Team,Donot Team,Donot Team,True,0.9672929451179446,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|a5532c498e9c6bbd90d4dab38f818e293f6704f6,,Donot Team,Donot Team,Donot Team,True,0.9438911407153912,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|b1fd94ed48576ed98fefb3e42144598682bffdfb,2023-06-22,Donot Team,Donot Team,Donot Team,True,0.9604387549368771,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|b45d2181532fbb7546981a7d1b986d777443e876,2021-11-24,Donot Team,Donot Team,Donot Team,True,0.9589605556538255,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|bc3488feb938712392821de159a2f203731cf3c2,2024-10-15,Donot Team,Donot Team,Donot Team,True,0.6642903740500944,1,,,False,False,,,,True,False,,0.0,Donot Team
+train,report|c89659f3ad68f00d0b4e8d4d93f08c61013048ac,,Donot Team,Donot Team,Donot Team,True,0.6390791442297753,1,,,False,False,,,,True,False,,0.0,Donot Team
+train,report|db4f43f8bcd10e5f5ccb25327e8206ba551c0553,2023-04-19,Donot Team,Donot Team,Donot Team,True,0.9874907803081873,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|efded5f05b302633651535db2e1f4fb7de3acd98,2019-11-22,Donot Team,Donot Team,Donot Team,True,0.9907202527765806,1,,,True,True,,,,False,False,,0.0,Donot Team
+train,report|f81a053932fe6a19fd4de9e185b06cf0c2549b7e,2023-08-15,Donot Team,Donot Team,Donot Team,True,0.6962069706395269,1,,,False,False,,,,True,False,,0.0,Donot Team
+train,report|031e24c9cc73a5122265f88e4cccaa4d6f8af08f,2019-01-02,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9763453739494989,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|0621f08d852904087205c196f112da5a97f26806,2022-02-28,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9229388847362318,1,,,False,False,,,,True,False,,0.0,Gamaredon Group
+train,report|0775e61ce8adfb2e7da7b1b7ec9ef101978b0642,2019-04-24,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9864223175165426,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|0f2d2988466bf48b904eedf4c861cd4b448a4534,2022-07-29,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.999554666341545,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|11bec70dbf3e8be28f1ef5f0c2b66c025a66db54,2023-11-17,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9406817155778956,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|143983ea9f1b972db61d0923521779b372612e4c,2022-05-10,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.974149712641777,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|149144c83d758a0050c5db5c9ff1226a3a5924c8,2023-09-11,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9397123187998279,1,,,False,False,,,,True,False,,0.0,Gamaredon Group
+train,report|1c9dede188716a13f3fc0130ce27713568dca617,2020-02-05,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9992190733733897,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|1d8c6eff0783a0f16026518f86e723fb0d67fb46,2021-12-16,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9674047487109125,1,,,False,False,,,,True,False,,0.0,Gamaredon Group
+train,report|2290b75777d8494f6f445ce5073acd7602bb6e9c,2022-03-04,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.671642218516907,1,,,False,False,,,,True,False,,0.0,Gamaredon Group
+train,report|22c00df762ab14faa30f790a9bad2485e01e9330,2020-04-17,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9963008187935198,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|24e24ecb103bed84684721a9b547d54b41a1d966,2025-04-18,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9996822551846254,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|321ab906f558b8b3ce494a0d53d34b439fbab16f,2019-09-05,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.966195574758307,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|3684ea719e3839443030f06d6d505b64b2193c09,2021-07-08,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9036233982422055,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|59e07d8caed0c8b2ee98a925822ff56727959efd,2019-06-11,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9913516579561558,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|5aa1a58a4a61cb92776b0ebd47caabf3cb7dd386,2020-02-03,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9995322722924095,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|5ab9b3b5f5082e4e8ed7b1696b9b2f9c08871d9e,2019-11-08,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9998453136470605,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|6b88a542b1682c9c65e1ef03cd5c8d8cb3db06a2,,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.905220202948413,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|6cf8b73c63c333d2b25eb9cadbfc5b109e2bbac3,2021-08-17,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9953451442377357,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|74f24e3dd8c79902c7d112ae7b6992c6722022e2,2020-07-07,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.997602686857967,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|8dd3487afc1bd637df3348a7404c4b4320c5cb93,2025-12-05,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9111906886873108,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|a32fe753a5078dad8126ddd9c59c21549702c2a0,2025-03-27,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9935636802879007,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|a37f1963c3225faec6ceff37f6653ca3e6414e64,2020-05-09,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9988316155351706,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|a551664d41808cc407abb512b862db7879b39e48,,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9793282412466716,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|aafe18e426387c4df7f9db6e25717df733148fd0,2018-11-21,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9593198189051213,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|b10b24b03e3f51721b2d60826327476a4b2beb0a,2022-03-18,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.39728314201013204,1,,,False,False,,,,True,False,,0.0,Gamaredon Group
+train,report|b326a8597a41e17c4b86561729de8c5edcab2c63,2022-04-21,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9958895137172948,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|c6232c6a6b2e943e4a579274c8f3a8fd94a411d3,2024-09-06,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9704085312037666,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|c93c3ed739fb97f81ba79f43fe46eb731470a8f2,2023-02-06,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.8285773241613592,1,,,False,False,,,,True,False,,0.0,Gamaredon Group
+train,report|c9cc10c159e274682c6107c4c3cb606babce7627,2023-04-17,Gamaredon Group,APT29,Gamaredon Group,True,0.5018945462469036,1,,,True,True,,,,True,False,,0.0,Sandworm
+train,report|cf1bc3e035ba07fed474d7059e73ce6399f1f7c8,2024-12-04,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9739877230519954,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|cf4b867e517bbf38f4b705c2279e90af8760cba2,2019-02-11,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9999179198805439,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|d2002ffe097f6e3c9450240d8adc180a46166f64,2021-07-14,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9874880148259549,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|dd94607aa4ca48d8eff12dce329b14a53fb1bf8e,2025-05-29,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9923542462853814,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|ddc8ff62ef3a944ce0de8c25f0b0cf425a10e5de,2019-06-04,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9711996930038636,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|df9e8a212cec95a79c83a9f18cc9ccb2596a2840,2022-05-30,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9995816565110169,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|e1064ef7227fde94d14299262fbd5dc6508e1012,2019-07-19,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9786890976223264,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|e64d0ec5c6b0e81b99e1a2d8768e3ad1c782ed85,2019-06-04,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9946161955947744,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|ea704428c7d66092552e00f91b6706b010d511a7,2025-04-14,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.99771902114847,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|ecbfde3412fcea9767d4791e873f06f3d4a390be,2024-12-05,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9799042880859434,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|10cd74e972ea689539a9a766bb40277f561d5da3,2025-07-04,C-Major,C-Major,C-Major,True,0.9473372471747122,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|1664364b7b16f2ffb7185a95b87dae43d49151cc,2023-04-17,C-Major,C-Major,C-Major,True,0.9954333597148358,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|21b6b23312fc34b7a1f6927806b3e07698799977,2025-08-29,C-Major,C-Major,C-Major,True,0.9409735417224625,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|245c8deafaf0e23af9814e1ed83859550a42e74f,2023-09-01,C-Major,C-Major,C-Major,True,0.9916457879074241,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|2826fbff40925c37bfbac4edb677e974b1834b73,2025-12-30,C-Major,Group123,C-Major,True,0.5287897115428828,1,,,False,False,,,,True,False,,0.0,C-Major
+train,report|2ca0df4f57aa0b348a9c2c7a787fccc4701a5870,2025-10-15,C-Major,C-Major,C-Major,True,0.9503803398326426,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|33d8164537ba3d13b55d5fbf3fc05554d20fa3f0,2022-02-11,C-Major,C-Major,C-Major,True,0.9493101935596147,1,,,True,True,,,,True,True,C-Major,1.0,C-Major
+train,report|35be3d272f7571372642080e8f87f7a8414357ab,2023-04-13,C-Major,C-Major,C-Major,True,0.9992861458100527,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|3908296826811284eb07ed7c1261ce9899898fbb,2024-11-04,C-Major,C-Major,C-Major,True,0.927645797867286,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|39ee7a6af5ff137bc2ffa6d821364f3e74be4e40,2022-04-29,C-Major,C-Major,C-Major,True,0.9869612649189687,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|3a1ee731e3415bac6404ee711598bd51c76a6738,,C-Major,C-Major,C-Major,True,0.6659239055656255,1,,,False,False,,,,True,False,,0.0,C-Major
+train,report|4deee1ac3da6e960733382fcd1b487b199b35e6c,,C-Major,C-Major,C-Major,True,0.9747367594819105,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|4e6e593d1599175f52c89285f50f9554dc788bdd,2023-12-07,C-Major,C-Major,C-Major,True,0.9781114167606391,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|5a3a7389375014f1e13710c6d0f7b55ff7bd9362,2025-10-17,C-Major,C-Major,C-Major,True,0.9956245470013362,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|5f70baf46fd0790ff845f90676b70dfb60c50128,,C-Major,C-Major,C-Major,True,0.964173757966555,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|601972e82c37dc86e63c250d0cc236d872621b19,2024-01-30,C-Major,C-Major,C-Major,True,0.9869987931103691,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|64a9f157ff8dc7e1cb9be22d9bc3ced0def169be,,C-Major,C-Major,C-Major,True,0.9558667452059381,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|6a877f03dfd5a37c4e2d9bc4aa8b6d22024e24eb,2025-04-01,C-Major,C-Major,C-Major,True,0.8122900502099261,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|75e380c8502296cdecb7c7907a1e769f53c5f7cf,2025-06-09,C-Major,C-Major,C-Major,True,0.9371240470983104,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|9d6ffcd4170bef2ed9a445e93fc45f9766aa10b3,2024-02-02,C-Major,C-Major,C-Major,True,0.9730346555430781,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|a77c8559e01f0b47d28bbeca661a2d55b86a7601,,C-Major,APT29,C-Major,True,0.7319344284511812,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|ae3c72f196e53514bc5d4b68cc8f86c76f8ffe9b,2025-08-03,C-Major,C-Major,C-Major,True,0.9474989420692018,1,,,False,False,,,,True,False,,0.0,C-Major
+train,report|c02fb08f330ab2fcbba8b3cf9c4a9ef042cb07ef,2025-08-21,C-Major,C-Major,C-Major,True,0.9500105056233628,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|c0a3d51cb2e8c2104b8ddd8f2a5de28ec5ea0a31,2025-06-21,C-Major,C-Major,C-Major,True,0.9867682851419368,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|c643edbd1cfcc3dc151632b81b776235786840e2,2021-09-13,C-Major,C-Major,C-Major,True,0.9821062596007639,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|cd6eeb0dc344965389c0060beb62b396a6e63f57,2023-09-12,C-Major,C-Major,C-Major,True,0.9772958625636887,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|d495bb2d544dfa5f96b6fcca5a23053dad21a736,,C-Major,C-Major,C-Major,True,0.9463369435883542,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|d9464af42561af4ee37fbfaae664870f91b02c91,,C-Major,C-Major,C-Major,True,0.7469356109518289,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|e287bbbe2a77bb4d1500c3c5b3fe63031cc7f3ae,2024-02-02,C-Major,C-Major,C-Major,True,0.979973978532773,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|e42802c0bebbe188352cc27cbec8eb630cc1a473,2022-07-25,C-Major,C-Major,C-Major,True,0.9805694882026162,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|f4b43ff909c740c738e6200910b5378b6d77f4e8,,C-Major,C-Major,C-Major,True,0.979075612000035,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|fe2b2f8f20157ff7bb9f5e16c6fa1eaddd7b4298,2025-05-05,C-Major,C-Major,C-Major,True,0.8807582079752365,1,,,True,True,,,,False,False,,0.0,C-Major
+train,report|21b42ddd79e9c2a1e973df97d5f80e7d0e87c253,2023-07-10,APT35,APT35,APT35,True,0.6397505857784515,1,,,True,True,,,,False,False,,0.0,APT35
+train,report|33352fb713e7b3bc37b56f2cd7aa725903d17fe6,2024-11-29,APT35,White Elephant,MuddyWater,False,0.4412352933894375,2,,,True,False,,,,True,False,,0.0,MuddyWater
+train,report|40295f46017131fcf9c3c72e089e9a2704a79e42,2024-01-17,APT35,APT29,APT29,False,0.4717371605035634,2,,,True,False,,,,True,False,,0.0,APT29
+train,report|4ff99ff1b5f317e687643e68e901f9ec053fb2d2,2025-11-23,APT35,MuddyWater,MuddyWater,False,0.39108322840203863,3,,,True,False,,,,True,False,,0.0,MuddyWater
+train,report|54061303ea4095afa800b78d7cbcfc5d57bbc743,,APT35,APT35,APT35,True,0.9068616467932562,1,,,True,True,,,,False,False,,0.0,APT35
+train,report|915195780bda46452a7e8d94ad26f79b3a12e1af,2020-10-28,APT35,Kimsuky,APT35,True,0.39091631811406724,1,,,False,False,,,,True,False,,0.0,APT35
+train,report|9773d73d8f5fa7731c250b8c5a120c7d2f122737,,APT35,APT29,APT35,True,0.6261697367407238,1,,,False,False,,,,True,False,,0.0,APT35
+train,report|9ab786fd0178705558322b209e273c4c2644f289,2022-04-29,APT35,MuddyWater,OilRig,False,0.22989463975865587,6,,,False,False,,,,True,False,,0.0,OceanLotus Group
+train,report|9d1959286c958f799ac6b425b94bc93653b38825,2022-01-11,APT35,MuddyWater,MuddyWater,False,0.657480811200846,2,,,True,True,,,,False,False,,0.0,MuddyWater
+train,report|d47d2d12f8588926bdea64c8541249aa8684fa6b,,APT35,MuddyWater,APT35,True,0.7859938065209989,1,,,True,True,,,,False,False,,0.0,APT35
+train,report|d52f75e26e0b65165e85acb2167a8ffd2b0d5eb0,2021-01-08,APT35,APT35,APT35,True,0.9545877594639075,1,,,True,True,,,,False,False,,0.0,APT35
+train,report|e3a8e2503652dea2373afd1f1e00010a68bb903a,2020-02-21,APT35,OilRig,OilRig,False,0.9744186702877966,2,,,True,False,,,,False,False,,0.0,OilRig
+train,report|e87db020b4db4ebfd1507a9d4c80b5a05e96e36a,,APT35,APT35,APT35,True,0.9807394729609589,1,,,True,True,,,,False,False,,0.0,APT35
+train,report|f0c8a29ba8f0db45baefb8b47f8c31d18e5d1a38,2022-09-07,APT35,Sandworm,Sandworm,False,0.4267836888378092,2,,,False,False,,,,True,False,,0.0,Sandworm
+train,report|0425666a5dd9ed2cf56ecd7643c007faa4fee1b6,2022-09-19,Sandworm,Gamaredon Group,Gamaredon Group,False,0.4463134442664524,2,,,False,False,,,,True,False,,0.0,Gamaredon Group
+train,report|08b0a4a90af4e32cb19f9c725a9398f3210b1285,2023-05-31,Sandworm,Sandworm,Sandworm,True,0.49734006240034684,1,,,True,True,,,,True,False,,0.0,Sandworm
+train,report|32aa73b21819feb1d1804241ded61ddfb6266f9d,2025-02-26,Sandworm,Gamaredon Group,Sandworm,True,0.8790021340777155,1,,,True,True,,,,False,False,,0.0,Gamaredon Group
+train,report|395e013b5da206db129413c8db3fd05602cc8732,,Sandworm,Sandworm,Sandworm,True,0.9368830357885979,1,,,True,True,,,,False,False,,0.0,Sandworm
+train,report|4485a72e8dfe4255f38ac3e0f3f2c549ec82a01f,,Sandworm,Sandworm,Sandworm,True,0.9798703600841011,1,,,True,True,,,,False,False,,0.0,Sandworm
+train,report|52465b2db6c2c1f5cc0f29d4a51bda81bfe83199,,Sandworm,Sandworm,Sandworm,True,0.8459712625940099,1,,,True,True,,,,False,False,,0.0,Sandworm
+train,report|5b9fb9734022c9d4235639e6b782942ffcc4e37b,2018-10-15,Sandworm,Sandworm,Sandworm,True,0.8828110849506415,1,,,True,True,,,,False,False,,0.0,Sandworm
+train,report|5e7f670fad9cc3e2e22e6d90d9c3270506f9134f,2026-01-23,Sandworm,Sandworm,Sandworm,True,0.9684513633164608,1,,,True,True,,,,False,False,,0.0,Sandworm
+train,report|69e406d02974502d5dee63acbb100011fab8091f,2023-05-04,Sandworm,Gamaredon Group,Gamaredon Group,False,0.5622715801688193,4,,,False,False,,,,True,False,,0.0,PROMETHIUM
+train,report|7f456638542a8e7a0ce1a2b1de1d12fe546ce692,2022-02-23,Sandworm,Sandworm,Sandworm,True,0.9061426490776726,1,,,True,True,,,,False,False,,0.0,Sandworm
+train,report|80585e9bee23b891aa158786440c1804ae5f1470,2022-03-15,Sandworm,Sandworm,Sandworm,True,0.9792293932702837,1,,,True,True,,,,False,False,,0.0,Sandworm
+train,report|a1519c08da350301105cf163e329978a6e2cdb09,2025-02-12,Sandworm,MuddyWater,Sandworm,True,0.6946050993051178,1,,,False,False,,,,True,False,,0.0,Sandworm
+train,report|b19e4b805a4c1de6e0ab2a3d95afe7ce4c10f498,2022-04-12,Sandworm,Sandworm,Sandworm,True,0.989219657728984,1,,,True,True,,,,False,False,,0.0,Sandworm
+train,report|b42f3ea7e95057d79476ab99025643e87c35682b,2025-12-15,Sandworm,Sandworm,Sandworm,True,0.48888041645113434,1,,,False,False,,,,True,False,,0.0,Sandworm
+train,report|c5ad278e1e9fb88abb047330255370eb2ba8da1a,2025-10-29,Sandworm,MuddyWater,Sandworm,True,0.8205385505638486,1,,,True,True,,,,False,False,,0.0,Sandworm
+train,report|d8186ca7c2acefc72ecf34e869d994528a4d5164,2020-02-20,Sandworm,Sandworm,Sandworm,True,0.8538874750543942,1,,,True,True,,,,False,False,,0.0,Sandworm
+train,report|da3c21b0b95d3d7460ecc1071a0ed6fa0197e48b,2022-11-25,Sandworm,Sandworm,Sandworm,True,0.992585396452416,1,,,True,True,,,,False,False,,0.0,Sandworm
+train,report|e5bad6312e4c810cda3884be3dbe11595872fd8c,2026-01-30,Sandworm,Sandworm,Sandworm,True,0.9342537506987212,1,,,True,True,,,,False,False,,0.0,Sandworm
+train,report|f1726f7aa66278624ce953888363c27bc97454de,2023-08-31,Sandworm,Sandworm,Sandworm,True,0.9907414748959071,1,,,True,True,,,,False,False,,0.0,Sandworm
+train,report|1d923e0e996449b4fc049ec57c362f37413a8521,,Turla,Turla,Turla,True,0.9907742740720422,1,,,True,True,,,,False,False,,0.0,Turla
+train,report|1f4517987a526ab5506e6b001de489a135375913,2022-04-01,Turla,Arid Viper,APT29,False,0.3402915781845579,9,,,False,False,,,,True,False,,0.0,Arid Viper
+train,report|430ced1f334ed06cc24a5a5158b95cdc08198162,2022-05-11,Turla,Turla,Turla,True,0.9852626680988273,1,,,True,True,,,,False,False,,0.0,Turla
+train,report|4325b36049d29d9a68e001249b7267dcaa3ed616,2024-05-15,Turla,APT29,APT29,False,0.3508269504057978,2,,,False,False,,,,True,False,,0.0,APT29
+train,report|52a35ea175d890c433605f2c1a7b275a24fd2b73,2023-09-20,Turla,Turla,Turla,True,0.9992886406634062,1,,,True,True,,,,False,False,,0.0,Turla
+train,report|6ee49494d16d6334b637aeaa838553b7e78e732d,2022-02-28,Turla,Turla,Turla,True,0.8971203162119538,1,,,True,True,,,,False,False,,0.0,Turla
+train,report|a74ad73f87c31eca8a04f8528ffd02811d472741,2023-01-05,Turla,Turla,Turla,True,0.8506732629088595,1,,,True,True,,,,False,False,,0.0,Turla
+train,report|b17baffa47cb993d934b942db768eec8825a904a,2021-09-22,Turla,Turla,Turla,True,0.9765056162690369,1,,,True,True,,,,False,False,,0.0,Turla
+train,report|dc405052e1ca35d53cd2e8742565cdfd3c4e8f25,,Turla,Turla,Turla,True,0.9872647516593007,1,,,True,True,,,,False,False,,0.0,Turla
+train,report|e3e23dd19eb8455332ccab803ac13d0229319a52,,Turla,Turla,Turla,True,0.9210791443138987,1,,,True,True,,,,False,False,,0.0,Turla
+train,report|e68619e28374c7a9d755c116db522243164e611c,2017-03-30,Turla,Turla,Turla,True,0.7734841487779828,1,,,True,True,,,,False,False,,0.0,Turla
+train,report|106fb4e1576066d419dc05a1df34e4ad06777281,2022-07-06,Arid Viper,Arid Viper,Arid Viper,True,0.8652770098582592,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|1cc16ec2f7879862a34f2f6a0b75436c82f7ea3a,2017-12-18,Arid Viper,Arid Viper,Arid Viper,True,0.8750790517600976,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|211f3373334208b74c29f643809efe42e1d29b1e,,Arid Viper,Arid Viper,Arid Viper,True,0.9585156238261242,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|25cfa6076a61b5e53f275097b701f39059910075,,Arid Viper,Arid Viper,Arid Viper,True,0.9476879558019394,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|2a7d92d5b5abc76eaf0a136027c118e40c9f02ed,2021-11-23,Arid Viper,Arid Viper,Arid Viper,True,0.8628883148258722,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|39a4ba167defb0f70bc71e419fc0449e221c3a2f,2022-02-07,Arid Viper,Arid Viper,Arid Viper,True,0.992988152774598,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|3cc287e2b59e0867547d0f13d5a65893b6bf4804,2017-03-09,Arid Viper,Arid Viper,Arid Viper,True,0.9899339802793946,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|4ad7f0e8d774017a74d7659b865044f5c606c552,2023-09-20,Arid Viper,Arid Viper,Arid Viper,True,0.9786180092899811,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|695622854d15827c4aa68c81adc061ed7d65ceea,,Arid Viper,Arid Viper,Arid Viper,True,0.9881528029498735,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|75240d3fce33a0c972acfd52e34c1465cb32b90c,2020-02-16,Arid Viper,Arid Viper,Arid Viper,True,0.47688022537401226,1,,,False,False,,,,True,False,,0.0,Arid Viper
+train,report|85bbd1b821d1a4464e329c2e436511f78a0bdf50,2020-12-14,Arid Viper,Arid Viper,Arid Viper,True,0.8547061673139732,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|8bcee6de964e0f334cec52e9a287c9d3b43ac9a2,,Arid Viper,Arid Viper,Arid Viper,True,0.9870843618140064,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|9f5c1a8a481b689bac8348653c53b4115d6e93cd,,Arid Viper,Arid Viper,Arid Viper,True,0.9846604449900718,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|a729716aa07b17bbe9a043926883e6c0318b8e45,,Arid Viper,Arid Viper,Arid Viper,True,0.9713424728124196,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|ab2ccc07ea77c14e3f106555392ada81bae10546,2020-09-30,Arid Viper,Arid Viper,Arid Viper,True,0.76669524029215,1,,,False,False,,,,True,False,,0.0,Arid Viper
+train,report|aebc5fa9af7f397d16996d624011c14605477cd5,2023-10-07,Arid Viper,Arid Viper,Arid Viper,True,0.9542821937304349,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|b32802738cf6f1407a64e8195125b4c816861f1a,2022-04-06,Arid Viper,Arid Viper,Arid Viper,True,0.7787219087539716,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|b9ce03b96cfa562fa009236a6f053629f230dde7,2022-06-15,Arid Viper,Arid Viper,Arid Viper,True,0.9488861828161115,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|b9ea3d1835fa241f5a71586587d8829749b6f33e,2018-07-27,Arid Viper,OilRig,OilRig,False,0.9397659112569062,3,,,True,False,,,,False,False,,0.0,OilRig
+train,report|c3e4277b54ec51a59fbaafa7ada189bcc40cf76f,2018-08-31,Arid Viper,Arid Viper,Arid Viper,True,0.5823389220680827,1,,,False,False,,,,True,False,,0.0,Arid Viper
+train,report|d851b97c410bcbf6093d4997f8dce88b11d0b6d1,,Arid Viper,Arid Viper,Arid Viper,True,0.7011467690518584,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|e580706b3784eb49c1ce704227ac6c2b02fd6a59,2026-03-06,Arid Viper,PROMETHIUM,PROMETHIUM,False,0.32386990873763016,2,,,True,True,,,,True,False,,0.0,PROMETHIUM
+train,report|ee30bbfe5c540c29095c9d58b1a239f8b9764689,,Arid Viper,Arid Viper,Arid Viper,True,0.9821953609941341,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|f1f290060c7b606b43bc3d7895123e70d78f4c83,2018-04-16,Arid Viper,Arid Viper,Arid Viper,True,0.9270001188891993,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|2aff9d542b08ce3fc375695b752d58c7f34bd1ff,2021-11-22,SideCopy,SideCopy,SideCopy,True,0.9597718644494277,1,,,True,True,,,,False,False,,0.0,SideCopy
+train,report|3ba18b0d4137ddc5ba0347b49a6d61f8a9ef8e4f,2023-05-04,SideCopy,SideCopy,SideCopy,True,0.9087366936885354,1,,,True,True,,,,False,False,,0.0,SideCopy
+train,report|3cd3b5a9d3c03fa95aade2d9eaa224abbf00e52f,2023-12-26,SideCopy,SideCopy,SideCopy,True,0.9895975122191847,1,,,True,True,,,,False,False,,0.0,SideCopy
+train,report|6e428be5cca0292257fdc6571a460823abf9bb49,2025-04-08,SideCopy,C-Major,C-Major,False,0.9632287626333336,2,,,True,False,,,,False,False,,0.0,C-Major
+train,report|7cfb1e105c2f66019c92040759a584f0837b6e20,2023-11-07,SideCopy,SideCopy,SideCopy,True,0.8081398182580255,1,,,True,True,,,,False,False,,0.0,SideCopy
+train,report|87dc598acc603bcd6de421893e5fcd0e35932538,2021-11-15,SideCopy,SideCopy,SideCopy,True,0.9803639230142522,1,,,True,True,,,,False,False,,0.0,SideCopy
+train,report|8cbea6bfc5ca57ec2a4555af4f491bc76d9fa91f,2021-11-11,SideCopy,SideCopy,SideCopy,True,0.9733032734671223,1,,,True,True,,,,False,False,,0.0,SideCopy
+train,report|b5473cf65ab3100b1d1059d774493faedd911d02,2022-07-12,SideCopy,SideCopy,SideCopy,True,0.9712806359411668,1,,,True,True,,,,False,False,,0.0,SideCopy
+train,report|bf4fbaf777a9d31158a1543b2319a5a92be8fe33,,SideCopy,SideCopy,SideCopy,True,0.9748738147532529,1,,,True,True,,,,False,False,,0.0,SideCopy
+train,report|c90f1d0956ac37ffd152bc67b5a4b7bfab237fbc,,SideCopy,C-Major,C-Major,False,0.8420850466736002,2,,,True,True,,,,False,False,,0.0,C-Major
+train,report|dd4e7801b242917b26c408e6b793bf89aae20008,2023-10-22,SideCopy,SideCopy,SideCopy,True,0.9845695929298013,1,,,True,True,,,,False,False,,0.0,SideCopy
+train,report|e860684e32f17dbe2691414ecd0c5b55f53536da,2023-02-25,SideCopy,SideCopy,SideCopy,True,0.6234961529505447,1,,,True,True,,,,False,False,,0.0,SideCopy
+train,report|ffa94d56fec359909d929656f6d80ae4b3f6b5c9,,SideCopy,SideCopy,SideCopy,True,0.9893045356351066,1,,,True,True,,,,False,False,,0.0,SideCopy
+train,report|338ed63e51b1279986d31a524e7e657ee3ada7b9,2025-06-20,Bahamut,Bahamut,Bahamut,True,0.966182237158757,1,,,True,True,,,,False,False,,0.0,Bahamut
+train,report|4f5871eeb5f22b3903cc9d8aaf54510179d76a61,2018-07-31,Bahamut,Bahamut,Bahamut,True,0.7282245420647269,1,,,True,True,,,,False,False,,0.0,Bahamut
+train,report|50349634dce1c0ade3f54d47ccef1d0c321bec2d,2021-06-09,Bahamut,White Elephant,White Elephant,False,0.6606746015345144,5,,,True,False,,,,False,False,,0.0,White Elephant
+train,report|59cc23c63ed8aa577e43e45a9e814e0521e4e1d4,2018-07-31,Bahamut,Bahamut,Bahamut,True,0.5456478251258615,1,,,True,True,,,,True,False,,0.0,Bahamut
+train,report|5cf1de888329022e6bfd619800642ea49c94473b,2019-07-15,Bahamut,Bitter Group,Bahamut,True,0.3696672368358442,1,,,True,True,,,,True,False,,0.0,Bahamut
+train,report|713e420b104828707525e529fcd9cec5a70fd900,2022-06-30,Bahamut,SideWinder,Bahamut,True,0.6334652130470676,1,,,True,True,,,,False,False,,0.0,Bahamut
+train,report|720b08447d9e3f9ea8ac63ec7ac365a701372d6d,2022-07-13,Bahamut,Bahamut,Bahamut,True,0.37808251257551867,1,,,True,True,,,,True,False,,0.0,Bahamut
+train,report|72a4674b9fc0d0a351bc78b6a3b9e204234ed3e4,2026-03-04,Bahamut,Bahamut,Bahamut,True,0.9724618061398063,1,,,True,True,,,,False,False,,0.0,Bahamut
+train,report|7df3375ade88eac8e2a0272deb460f0eddcdeff5,2021-02-10,Bahamut,Bahamut,Bahamut,True,0.8349332301810982,1,,,True,True,,,,False,False,,0.0,Bahamut
+train,report|7f63648960b0b17207817f501715829d8d218397,2021-08-17,Bahamut,SideWinder,SideWinder,False,0.6059843711164917,2,,,True,False,,,,False,False,,0.0,SideWinder
+train,report|93d37318acb949c18876982e6ab018e1f7fe2e0a,2018-09-27,Bahamut,Bahamut,Bahamut,True,0.8706086983875977,1,,,True,True,,,,False,False,,0.0,Bahamut
+train,report|98570ed849f368e964193df0fec9b1426e89a686,,Bahamut,Arid Viper,APT29,False,0.19496464681479567,13,,,False,False,,,,True,False,,0.0,APT29
+train,report|a21b4087636bfa2c3d5e6cd6f0ac74b7acfccb5c,2023-01-19,Bahamut,Donot Team,Donot Team,False,0.7614798340653228,3,,,True,False,,,,False,False,,0.0,Donot Team
+train,report|af74d1b8e8f237c68595b4565ce77f43b28e1302,2025-10-02,Bahamut,Bahamut,Bahamut,True,0.9841483116063142,1,,,True,True,,,,False,False,,0.0,Bahamut
+train,report|dd22a363183411d2508e0199a8ed75eb6563c6b9,,Bahamut,Bitter Group,Bitter Group,False,0.7277692049320938,4,,,False,False,,,,True,False,,0.0,Bitter Group
+train,report|e4705bb5e025a8dc10a0bd4935e0b5b836d1e569,2016-09-28,Bahamut,Bahamut,Bahamut,True,0.8412135168088507,1,,,True,True,,,,False,False,,0.0,Bahamut
+train,report|12fbd12ca8b49816a6b70e8d76c3de9a5af25fac,2022-06-29,Equation Group,Equation Group,Equation Group,True,0.9699771100663866,1,,,True,True,,,,False,False,,0.0,Equation Group
+train,report|143ba0dec654661b2da696e6d442f2e705d158a4,2019-05-16,Equation Group,Equation Group,Equation Group,True,0.9305120930956233,1,,,True,True,,,,False,False,,0.0,Equation Group
+train,report|1b7f1cebb3e8da9f36168374d4891cc342a88842,2022-06-30,Equation Group,Equation Group,Equation Group,True,0.9706880844894766,1,,,True,True,,,,False,False,,0.0,Equation Group
+train,report|2965867d26b8f13f6f7422b7657d7e965ddca17d,,Equation Group,Equation Group,Equation Group,True,0.7594063568558028,1,,,False,False,,,,True,False,,0.0,Equation Group
+train,report|2bbf80e15910b8e820f266ffcd4e0bf6614ffcd5,,Equation Group,Equation Group,Equation Group,True,0.985953907734083,1,,,True,True,,,,False,False,,0.0,Equation Group
+train,report|41aa5bd1ed03d80650a89de3649d051f900b958b,2015-02-05,Equation Group,Equation Group,Equation Group,True,0.9505136887917589,1,,,True,True,,,,False,False,,0.0,Equation Group
+train,report|62583225f0095724f4592f74e41963b13893288a,2024-04-15,Equation Group,OceanLotus Group,Turla,False,0.3189396549375224,2,,,False,False,,,,True,False,,0.0,Equation Group
+train,report|68f4c63cad6e9a4c3ab0117be2a5738c9c9887d6,2025-10-19,Equation Group,Equation Group,Equation Group,True,0.9191005210256489,1,,,True,True,,,,False,False,,0.0,Equation Group
+train,report|87fb2d428dd5e9060e64b7895c5889bf82c54dc8,2021-12-27,Equation Group,Equation Group,Equation Group,True,0.9594637545613451,1,,,True,True,,,,False,False,,0.0,Equation Group
+train,report|bd48d605d0420a7c7e82fec445ad450d0e4d882a,2022-03-02,Equation Group,Equation Group,Equation Group,True,0.9531444858328411,1,,,True,True,,,,False,False,,0.0,Equation Group
+train,report|c9e0bd7be8ebb244f85aa3d6338d60350e805b1a,2022-09-13,Equation Group,Equation Group,Equation Group,True,0.9605418794143982,1,,,False,False,,,,True,True,Equation Group,1.0,Equation Group
+train,report|ce504594b665cff69ba03053a2e1c8beed7474ea,2016-08-13,Equation Group,Equation Group,Equation Group,True,0.9578373329741897,1,,,True,True,,,,False,False,,0.0,Equation Group
+train,report|e2d6b8ec8c3b59570ad4086d4c8790d681e32132,2009-12-23,Equation Group,Equation Group,Equation Group,True,0.9616040396949006,1,,,True,True,,,,False,False,,0.0,Equation Group
+train,report|e827341803fdc8f40000ee9f9ec977394f969a66,2019-05-16,Equation Group,Equation Group,Equation Group,True,0.9082707953140956,1,,,True,True,,,,False,False,,0.0,Equation Group
+train,report|058efbf41fb5c4f358298dbae39e4566c5b9a809,2025-07-28,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.9147671991775617,1,,,False,False,,,,True,False,,0.0,OceanLotus Group
+train,report|065849709ea3c70f8e0e4df56b6ec087a105b7be,2022-06-20,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.7782728567167013,1,,,False,False,,,,True,False,,0.0,OceanLotus Group
+train,report|0dc9b9572fccf98f6741dedd9333e0d2ec0e059f,2022-01-20,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.9526499521245968,1,,,True,True,,,,False,False,,0.0,OceanLotus Group
+train,report|1e8dd36383b3f76ab12d7436b66165d7d25a75e5,2024-01-24,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.7538361690892753,1,,,False,False,,,,True,False,,0.0,OceanLotus Group
+train,report|41b4eaba5fe24d785a859eeed4ca45dd911ef623,,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.9035705585967868,1,,,True,True,,,,False,False,,0.0,OceanLotus Group
+train,report|4e6eb9595d2b1707e0bde71649a2d0e9d9d849bf,2024-11-11,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.7665315550537991,1,,,False,False,,,,True,False,,0.0,OceanLotus Group
+train,report|53ab5615f5bb4f67bc5bc64e25f36246fe0bfad0,,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.8146449667758942,1,,,False,False,,,,True,False,,0.0,OceanLotus Group
+train,report|71c4d298e248dae43d5df98ded32f60422e5365f,2024-09-23,OceanLotus Group,Gamaredon Group,OceanLotus Group,True,0.3573050145664315,1,,,False,False,,,,True,False,,0.0,OceanLotus Group
+train,report|7cf7d9fab41fb4615f92f0e9b1129e2f3d5bf77a,2022-07-23,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.931044549916688,1,,,True,True,,,,False,False,,0.0,OceanLotus Group
+train,report|84ae546b8f586d719e2ddacc600ac348c767c34d,2022-10-17,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.9882703117512914,1,,,True,True,,,,False,False,,0.0,OceanLotus Group
+train,report|bbc8a2f940f9ff083d72b8f2ab6ef937ec7bfd4d,,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.9817397341040929,1,,,False,False,,,,True,False,,0.0,OceanLotus Group
+train,report|c08bbdc5ef4a17cb6cd7a924bbc09f8d47e312a5,2022-11-02,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.9333286715930711,1,,,True,True,,,,False,False,,0.0,OceanLotus Group
+train,report|c2e65a80f452d1d41f96a6ec637348a1b642428c,2025-12-08,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.6304970109995024,1,,,False,False,,,,True,False,,0.0,OceanLotus Group
+train,report|ca8d02ef649f7f4e7f015087211e38ff38aafafc,2024-05-21,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.4208808599286138,1,,,False,False,,,,True,False,,0.0,OceanLotus Group
+train,report|d5d70700baba52f1c756cba4bbb9d2c6e61cdffc,2025-10-10,OceanLotus Group,C-Major,OceanLotus Group,True,0.22635776165808097,1,,,False,False,,,,True,False,,0.0,OceanLotus Group
+train,report|db7e139a6ade2fe03c0906240dc99e69f5bc849e,2022-08-06,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.850707640657653,1,,,False,False,,,,True,False,,0.0,OceanLotus Group
+train,report|dfe14aa76e7e9759d15a0b77d7cdf14b7b8e89c5,2025-01-08,OceanLotus Group,White Elephant,OceanLotus Group,True,0.5364650515049557,1,,,False,False,,,,True,False,,0.0,White Elephant
+train,report|f15439f34236b58857bfc17ef55a5afcc8736fa4,2020-12-10,OceanLotus Group,APT29,OceanLotus Group,True,0.8964486083546896,1,,,False,False,,,,True,False,,0.0,OceanLotus Group
+train,report|f15d839fc69960aeaa162f5e5f6f08cde1375a33,2024-08-28,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.9149706583939888,1,,,True,True,,,,False,False,,0.0,OceanLotus Group
+train,report|f93e235ff1e0b3f1cab8f3a0c3313b511971d83f,2022-06-01,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.9349797036739322,1,,,True,True,,,,False,False,,0.0,OceanLotus Group
+train,report|0492f83f0f46f4e83ab09b2065095b66a085dcbd,2023-01-05,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9854138429171757,1,,,True,True,,,,False,False,,0.0,Blind Eagle
+train,report|0587628bdc3bb4bbcbf599b36c6d2f3ae0e118af,2024-02-20,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9393492367277101,1,,,True,True,,,,False,False,,0.0,Blind Eagle
+train,report|0633f7d9502de7ed22eba8d44bdaa0b7875df7a3,2025-12-16,Blind Eagle,Blind Eagle,Blind Eagle,True,0.98481020299914,1,,,True,True,,,,False,False,,0.0,Blind Eagle
+train,report|0cd1989a6224434f6a89e617a469d116a99eaa97,,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9956226999587638,1,,,True,True,,,,False,False,,0.0,Blind Eagle
+train,report|371944d6da2ffadc3ddad52db60a38967f971aa9,2025-06-27,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9703180617357594,1,,,True,True,,,,False,False,,0.0,Blind Eagle
+train,report|3d45b965c52551501b3e1c8ca43b8011b84d8aef,,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9903451652220953,1,,,True,True,,,,False,False,,0.0,Blind Eagle
+train,report|3e67d8ea60649eb37732c2dbd6dd22692594ec6c,2021-09-13,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9877189858372881,1,,,True,True,,,,False,False,,0.0,Blind Eagle
+train,report|8b58ee680ee1bb414c6922ea3e1ed6cae311cd64,2023-10-31,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9248381488708051,1,,,False,False,,,,True,False,,0.0,Blind Eagle
+train,report|946c140927bc421dc5384bbc3c146577d26c9b6e,2019-04-04,Blind Eagle,Blind Eagle,Blind Eagle,True,0.969830764160287,1,,,True,True,,,,False,False,,0.0,Blind Eagle
+train,report|b3d611687c7eeff99ae705183e83c2fa0f96764c,2024-09-05,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9767521944846084,1,,,True,True,,,,False,False,,0.0,Blind Eagle
+train,report|bc319c2eb26050c347c7b91cc23e70638c4593c6,2022-04-26,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9944691512221304,1,,,True,True,,,,False,False,,0.0,Blind Eagle
+train,report|be3c98e49c35e3c53c04a4da51cbee5a178e937e,2024-11-20,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9943783628375171,1,,,True,True,,,,False,False,,0.0,Blind Eagle
+train,report|be842aa9fd10d969af2d9ee4e1bfd0c0fc87c228,2025-12-19,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9367772710215244,1,,,True,True,,,,False,False,,0.0,Blind Eagle
+train,report|ddfb075f6b359d1ee826fda08c1afd1b8bce8d4f,2025-08-26,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9942853689410047,1,,,True,True,,,,False,False,,0.0,Blind Eagle
+train,report|fb1a19cf977853b52b6ff05a4503be97595a875d,2024-12-16,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9829139058441223,1,,,True,True,,,,False,False,,0.0,Blind Eagle
+train,report|07756e51bc90b0562c75e69ab9e03a90d406a99e,2023-12-14,OilRig,MuddyWater,OilRig,True,0.6386160506006819,1,,,False,False,,,,True,False,,0.0,HEXANE
+train,report|0ac99c6037f3b637a75dd587cc952076dbfbf2b8,2019-12-23,OilRig,OilRig,OilRig,True,0.8813566002310841,1,,,True,True,,,,False,False,,0.0,OilRig
+train,report|2238f4176932277afb1d06e59e9440f6a2d3ccf8,2012-10-24,OilRig,OilRig,OilRig,True,0.7623306003084905,1,,,True,True,,,,False,False,,0.0,OilRig
+train,report|25c6e5fc36be480f0a111912623106ce81d5304b,2018-01-02,OilRig,OilRig,OilRig,True,0.9576368172627635,1,,,False,False,,,,True,False,,0.0,OilRig
+train,report|33b60f2fcc0f18c34c6b5d8d27a9b482f198979f,2019-12-17,OilRig,OilRig,OilRig,True,0.9865585500317462,1,,,False,False,,,,True,True,OilRig,1.0,OilRig
+train,report|53b7cc3be7726b1c4e13649efdbb023827ecb010,2020-01-21,OilRig,OilRig,OilRig,True,0.9911983188187189,1,,,True,True,,,,False,False,,0.0,OilRig
+train,report|5b9757246437be209845ab40f4f6062aa5949b22,2018-11-16,OilRig,OilRig,OilRig,True,0.9668036577660057,1,,,True,True,,,,False,False,,0.0,OilRig
+train,report|5e017d4ab7815a7412777627f70b283339d25942,2018-09-14,OilRig,OilRig,OilRig,True,0.8744630065895507,1,,,True,True,,,,False,False,,0.0,OilRig
+train,report|68fecdf93248f18cf191d8ac696ce8ec85176f83,2018-07-25,OilRig,OilRig,OilRig,True,0.8589598033290201,1,,,True,True,,,,False,False,,0.0,OilRig
+train,report|6b545ac3ed035ca2711fda159d0bdf07c600c286,2018-08-06,OilRig,Arid Viper,OilRig,True,0.7755469365450626,1,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|6e9f0c7dbaea53f69d7da23e4a36027cae51d8a6,,OilRig,MuddyWater,MuddyWater,False,0.4159876923610638,5,,,True,False,,,,True,False,,0.0,MuddyWater
+train,report|966c875e4e45a2cbae2b9c11dda18d8c55a92ae7,2020-01-22,OilRig,APT35,APT35,False,0.5867900697295593,2,,,True,False,,,,True,False,,0.0,APT35
+train,report|a93d869bc0d4893c042f91e40e777d72db92a77e,,OilRig,APT35,APT35,False,0.6468832174032636,2,,,True,True,,,,False,False,,0.0,APT35
+train,report|ca49f24707a35db23492e7a10d3a37b90bbd098c,2023-09-21,OilRig,HEXANE,HEXANE,False,0.9543287893891558,2,,,True,False,,,,True,True,HEXANE,1.0,HEXANE
+train,report|dc8e938e0922caf547d5f7baca4fc76268a32e54,2019-08-07,OilRig,Sandworm,OilRig,True,0.26295364318598924,1,,,False,False,,,,True,False,,0.0,OilRig
+train,report|7b94d8d3401b03fd16d87d7f3eb4fe3cf33c2802,2025-03-17,Green Spot,Bitter Group,Green Spot,True,0.7270161777265848,1,,,False,False,,,,True,False,,0.0,Green Spot
+train,report|98dcefd659a389d9bfcebdfe66fbee9a028af5d5,2018-09-19,Green Spot,Green Spot,Green Spot,True,0.8469706503835104,1,,,True,True,,,,False,False,,0.0,Green Spot
+train,report|cba1347cfddd742f4baa38f601fdcf5f88ad2c9f,,Green Spot,White Elephant,Green Spot,True,0.7876234562959514,1,,,True,True,,,,False,False,,0.0,Green Spot
+train,report|ead76858e31eb4cd2015afa2fce1986b2a7d3f4b,,Green Spot,Green Spot,Green Spot,True,0.8878892104645839,1,,,True,True,,,,False,False,,0.0,Green Spot
+train,report|fc3e06f71f84f951720718b1889dd5bd3d468170,2025-03-17,Green Spot,OceanLotus Group,Green Spot,True,0.4368116871861329,1,,,True,True,,,,True,False,,0.0,Green Spot
+train,report|fcf5feb94c7a0f4e71dbd84d37dc561d8eeffc43,2025-06-05,Green Spot,White Elephant,White Elephant,False,0.537483639272454,2,,,False,False,,,,True,False,,0.0,White Elephant
+train,report|fea378359b11eb707429cad0085f83e3dd2f445e,2025-03-18,Green Spot,Green Spot,Green Spot,True,0.9443020393655259,1,,,True,True,,,,False,False,,0.0,Green Spot
+train,report|0306cb4ccb9769a969bd0320eb80ba07272a2b60,2020-01-15,HEXANE,HEXANE,HEXANE,True,0.9600856942164364,1,,,True,True,,,,False,False,,0.0,HEXANE
+train,report|1338dcc3d2caa1a1f7b8fd4817029391301cce23,2019-08-27,HEXANE,HEXANE,HEXANE,True,0.8141018197856206,1,,,True,True,,,,False,False,,0.0,HEXANE
+train,report|6181589bf82560914586e1fb82057fa0ef339ad6,2022-06-13,HEXANE,Group123,HEXANE,True,0.3149829733947754,1,,,False,False,,,,True,False,,0.0,HEXANE
+train,report|baedafd5738f76de4cf76381afc917cb0facd962,,HEXANE,HEXANE,HEXANE,True,0.8434946333919936,1,,,True,True,,,,False,False,,0.0,HEXANE
+train,report|d94d49884c9e2cba21eca41d9a03955d00f4329c,2022-05-10,HEXANE,HEXANE,HEXANE,True,0.9637804222784673,1,,,True,True,,,,False,False,,0.0,HEXANE
+train,report|1b0df97b68ef8766084109cb64991d668093c867,2018-07-31,APT27,APT27,APT27,True,0.9927588021906916,1,,,True,True,,,,False,False,,0.0,APT27
+train,report|443e0dcb9e1bae64af994b64b3bfc29d9937400b,2018-10-19,APT27,APT27,APT27,True,0.9771299033851605,1,,,True,True,,,,False,False,,0.0,APT27
+train,report|71ae4495975328cb673f4d794490c2eea4216bd1,2018-01-04,APT27,APT27,APT27,True,0.9746043537754551,1,,,True,True,,,,False,False,,0.0,APT27
+train,report|9c1c7dfedf4ce4e8243155e17573263828d73408,,APT27,APT27,APT27,True,0.952655828238518,1,,,True,True,,,,False,False,,0.0,APT27
+train,report|aafbae6ae88da30ad6083f5dfaf20cc1df32a42a,2018-12-30,APT27,APT27,APT27,True,0.9688093667578102,1,,,True,True,,,,False,False,,0.0,APT27
+train,report|f9c53f9cb104b4143fe1bb0cfce2588ae3de8112,2025-04-21,APT27,APT27,APT27,True,0.9623416405958246,1,,,True,True,,,,False,False,,0.0,APT27
+train,report|40c54699edf12667018021870d85be7c3c3f70d6,2023-09-22,Stealth Falcon,Turla,Stealth Falcon,True,0.8491408698665145,1,,,False,False,,,,True,False,,0.0,HEXANE
+train,report|a6d7bd44da63db05912abb02ab8e9b68f2679dd1,2019-01-19,Stealth Falcon,Arid Viper,Arid Viper,False,0.6231631440236636,2,,,False,False,,,,True,False,,0.0,Arid Viper
+train,report|c326d8260da67fa7ad5a9fbc9a7b9349c9f82686,2018-08-17,Stealth Falcon,Stealth Falcon,Stealth Falcon,True,0.8345704309557732,1,,,False,False,,,,True,False,,0.0,Stealth Falcon
+train,report|ccc2e4b510d5529f74a4c3e1c4066a2fd0fe445a,2019-02-22,Stealth Falcon,Darkhotel,Darkhotel,False,0.31201366490149535,2,,,False,False,,,,True,False,,0.0,Stealth Falcon
+train,report|ea606d4180d8d33e3e7940c70e71f115e13e5401,2025-06-10,Stealth Falcon,APT28,C-Major,False,0.17739727845445025,4,,,True,False,,,,True,False,,0.0,Stealth Falcon
+train,report|01dce64fc0c495c26a2515e66c12ac55dfcca762,,PROMETHIUM,PROMETHIUM,PROMETHIUM,True,0.9452175215215326,1,,,True,True,,,,False,False,,0.0,PROMETHIUM
+train,report|6d0604cbdf63e2110b48c1873770b722235565eb,,PROMETHIUM,PROMETHIUM,PROMETHIUM,True,0.9779885822828901,1,,,True,True,,,,False,False,,0.0,PROMETHIUM
+train,report|6e0a367873be8eaf349af7e52655ff9591e4aef6,2018-10-29,PROMETHIUM,PROMETHIUM,PROMETHIUM,True,0.9892665403318418,1,,,True,True,,,,False,False,,0.0,PROMETHIUM
+train,report|79bb4d6046e529107fe8dfe9ddfc47678532cb10,,PROMETHIUM,PROMETHIUM,PROMETHIUM,True,0.9528671282452474,1,,,True,True,,,,False,False,,0.0,PROMETHIUM
+train,report|86b6be0e5ed5b7ba6619bc0c8383724cd38bef24,2023-01-10,PROMETHIUM,Arid Viper,Arid Viper,False,0.26347002606051895,8,,,True,False,,,,True,False,,0.0,Arid Viper
+train,report|b3be2bdbceca85e353c69ac11ce1e075a00f44ad,2016-12-14,PROMETHIUM,PROMETHIUM,PROMETHIUM,True,0.965181354521685,1,,,True,True,,,,False,False,,0.0,PROMETHIUM
+train,report|107ccac621becf863f7b334e46a034ec56913f64,,Blue Mushroom,Blue Mushroom,Blue Mushroom,True,0.8161229819828236,1,,,False,False,,,,True,False,,0.0,Blue Mushroom
+train,report|5515a2402a22a98a5ff13d881d58b085916dbdf1,2020-02-10,Blue Mushroom,Gamaredon Group,Green Spot,False,0.38688181580433856,2,,,False,False,,,,True,False,,0.0,Green Spot
+train,report|5977b5d2154e190e35e02ebd3e1c72b2a39e5d6f,2018-11-21,Blue Mushroom,Blue Mushroom,Blue Mushroom,True,0.7341086104163934,1,,,True,True,,,,False,False,,0.0,Blue Mushroom
+train,report|8b69fdf4e13d442cf3a54a489172b60a98fa32d7,,Blue Mushroom,Blue Mushroom,Blue Mushroom,True,0.7365524564577178,1,,,True,True,,,,False,False,,0.0,Blue Mushroom
+train,report|08e2b5cfeede88e536eccc5b9e253d4e1cf3c5a8,2018-08-09,TRITON,TRITON,TRITON,True,0.9854164963383412,1,,,True,True,,,,False,False,,0.0,TRITON
+train,report|1817cdb3d427dc54021f43296e866411d2f4407f,2018-06-15,TRITON,TRITON,TRITON,True,0.8223741341132385,1,,,False,False,,,,True,False,,0.0,TRITON
+train,report|3bc1980639888f00a4079d985ba57f8ae9d06e92,2018-10-23,TRITON,TRITON,TRITON,True,0.8522637939086858,1,,,True,True,,,,False,False,,0.0,TRITON
+train,report|48ece5a7037f435e85b7535d76e1e7b51effb387,2017-12-14,TRITON,TRITON,TRITON,True,0.9887394555492302,1,,,True,True,,,,False,False,,0.0,TRITON
+train,report|4f8604c43bf098d21f9f186478238b1bb0f2001a,2019-04-10,TRITON,TRITON,TRITON,True,0.9452606648815942,1,,,True,True,,,,False,False,,0.0,TRITON
+train,report|7d004bddd42ec1a5b447b60a035e2cd376c649ff,2017-12-16,TRITON,TRITON,TRITON,True,0.7732121900845935,1,,,True,True,,,,False,False,,0.0,TRITON
+train,report|8b1c717874b38fecfc218920342fe7b7494c0c8e,2017-08-03,TRITON,TRITON,TRITON,True,0.9851373850467178,1,,,True,True,,,,False,False,,0.0,TRITON
+train,report|a870d422bc3bc5af12c06013959ccd9e4f27c458,,TRITON,TRITON,TRITON,True,0.9915923927262263,1,,,True,True,,,,False,False,,0.0,TRITON
+train,report|949dd327777d86eaa74886d2534784b4358f5103,,DarkCaracal,Arid Viper,DarkCaracal,True,0.5747123220446095,1,,,True,True,,,,True,False,,0.0,DarkCaracal
+train,report|c9d1147e0ba6cdb6cdb1cb6fa61c6e8a5d107043,2019-01-04,DarkCaracal,DarkCaracal,DarkCaracal,True,0.9331077609762475,1,,,True,True,,,,False,False,,0.0,DarkCaracal
+train,report|cd5b9227ed7670421a0420ded0b95883b37f3794,,DarkCaracal,DarkCaracal,DarkCaracal,True,0.9578581691729705,1,,,True,True,,,,False,False,,0.0,DarkCaracal
+train,report|009359243cb7585e77ab134962f1cfbb8bda8954,2019-11-18,Gaza Cybergang Group1,Gamaredon Group,Gaza Cybergang Group1,True,0.6479241490153007,1,,,True,True,,,,False,False,,0.0,Gaza Cybergang Group1
+train,report|3bc1c6c21d2db305209177e5ac7c89d15433eb75,2020-01-15,Gaza Cybergang Group1,Arid Viper,Arid Viper,False,0.741089738435713,2,,,True,True,,,,False,False,,0.0,Arid Viper
+train,report|5ed9832dbb89088fc9d1ec7136bbd5b699c482c4,2019-03-26,Gaza Cybergang Group1,APT27,APT27,False,0.6704363631165702,3,,,True,True,,,,False,False,,0.0,APT27
+val,report|0ba6b32e60f2e97be2548eb53ebce7657435850c,2025-12-17,APT28,APT28,APT28,True,0.9957611663690097,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+val,report|1311cbedf6aabe75e742b6c72dc6af50847c8c4b,2024-05-30,APT28,APT28,APT28,True,0.9969226393195112,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+val,report|674a33cc3df7f29e9e04fdb8478a06cbc468fe4f,2024-12-12,APT28,APT28,APT28,True,0.9783537392718443,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+val,report|7d005cacf578b18aad826dcd3c6a609f71466a18,2024-04-22,APT28,APT28,APT28,True,0.8654118620257004,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+val,report|b0323411c988e9554c9b56802747d405c9b4fe5c,2023-09-06,APT28,APT28,APT28,True,0.9594609244776561,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+val,report|d81d770282eff87222c939d8a1954004d1b394e9,2024-10-10,APT28,APT28,APT28,True,0.9116871082332507,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+val,report|dbd47e7a30d9650dace0aa4b1fa1b93d37a04450,2025-09-03,APT28,APT28,APT28,True,0.9746044327481446,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+val,report|ddc87c4626fdd309b2dd588f05cc70506951f1cd,2022-01-25,APT28,APT28,APT28,True,0.833373800148583,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+val,report|e054fe7fbef1fb6b7304e6739a841d11847fa8d6,2025-09-08,APT28,APT28,APT28,True,0.9823306594264067,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+val,report|e41ef9ecdc097d8a6ec024487e914d45c5e01e04,,APT28,APT28,APT28,True,0.9746113545286338,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+val,report|138049d6f23b6b3f689d93e8d6f6881ca16891dc,2020-02-05,White Elephant,White Elephant,White Elephant,True,0.9927878025007354,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+val,report|3e19d4d5d2d60501f252da05e811b3d6d926ea11,2013-05-20,White Elephant,White Elephant,White Elephant,True,0.8647653015044756,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+val,report|4bb3c1176798b3607d045b66e69f1662d4738462,2021-11-02,White Elephant,SideWinder,SideWinder,False,0.9807578263018124,3,1.0,1.0,True,False,1.0,1.0,False,False,False,,0.0,SideWinder
+val,report|6496943ca7bc2f6fd9492266ab4e3d3a60a4a366,2016-08-08,White Elephant,White Elephant,White Elephant,True,0.9122986886494073,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+val,report|72b871daebe8f2d04b205d91c6bc7fc050e65f2c,2025-11-24,White Elephant,Bahamut,Bahamut,False,0.9857270818705625,4,1.0,1.0,True,False,1.0,1.0,False,False,False,,0.0,Bahamut
+val,report|829b226486a4b0a51764283ccffe81393b4c028b,2024-09-30,White Elephant,White Elephant,White Elephant,True,0.9637549373556445,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+val,report|a5fbb1a47cc170a883aec5e08ca0fc53b52c7951,2020-02-06,White Elephant,White Elephant,White Elephant,True,0.8610231425947066,1,1.0,1.0,False,False,1.0,2.0,False,True,False,,0.0,White Elephant
+val,report|cc7f52c61840b940d8cf430abdfbd9f076c61d7e,2013-11-05,White Elephant,White Elephant,White Elephant,True,0.9574551645115431,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+val,report|def95ef0b26bb7d3e690ee7188cd1eb348149035,2019-08-13,White Elephant,White Elephant,White Elephant,True,0.9669613643617908,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+val,report|ffec3d5bd750acc68c1569d29e1d6de4991311aa,2024-07-22,White Elephant,White Elephant,White Elephant,True,0.8654609475069607,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+val,report|25673afc63e6df856c03089096135b2486c7ef5f,2019-03-21,MuddyWater,MuddyWater,MuddyWater,True,0.9754077890133863,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+val,report|31a5516e755c34ff09e92ba3da34175ef964f47c,2022-06-21,MuddyWater,MuddyWater,MuddyWater,True,0.970961095332998,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+val,report|3b486b318c2d909d38d41a49e2ab790677ca9bad,2019-04-10,MuddyWater,MuddyWater,MuddyWater,True,0.806951952564631,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+val,report|4418f8917f2e6ba1fbfe69d3f6a348a144e324c7,2018-06-14,MuddyWater,MuddyWater,MuddyWater,True,0.4400729720373925,1,2.0,2.0,True,True,1.0,2.0,False,True,False,,0.0,MuddyWater
+val,report|498987257e560fc15f3dd691cb1a43281dfdb181,2026-01-24,MuddyWater,MuddyWater,MuddyWater,True,0.9412468702974247,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+val,report|83df185f6de2f173c4231f7c7240c07829789e82,2023-05-02,MuddyWater,MuddyWater,MuddyWater,True,0.9110329712942076,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+val,report|88f62a90e4ed0c82298f04e488a004e80f56678c,2019-03-07,MuddyWater,MuddyWater,MuddyWater,True,0.957866066987928,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+val,report|89798e2eade4141f72d9d47ec564be9134d26b1b,2024-05-21,MuddyWater,MuddyWater,MuddyWater,True,0.9958297781365558,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+val,report|92e4322fb4576020ffc062cb2b5b87d413f92572,2023-11-06,MuddyWater,MuddyWater,MuddyWater,True,0.9804638222683061,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+val,report|beea729fed0944d99002d867c09dd38f83022b26,2019-04-12,MuddyWater,APT28,APT28,False,0.20200240238883013,4,1.0,4.0,False,False,7.0,9.0,True,True,False,,0.0,APT28
+val,report|f022c28e74d1dddbff381c2504023874ec5ecc21,2018-05-06,MuddyWater,MuddyWater,MuddyWater,True,0.9715186827045359,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+val,report|f432928368e65f4a4419f22327a0f4aa528ffda2,,MuddyWater,MuddyWater,MuddyWater,True,0.9436856577657636,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+val,report|01dc228fe5ba4d3fed8ca96bb2e20918c1b22226,2024-04-23,Group123,Group123,Group123,True,0.976117487570448,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+val,report|095c763cb66c58a7f61e97b0dcd7328ae0a51d59,,Group123,Group123,Group123,True,0.9399269820192236,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+val,report|0c636c0abe7a796241395ee80cff6d66f24a01d8,,Group123,Group123,Group123,True,0.7547313522840541,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+val,report|142a11122242b59bec6da3d5c880cafc43bad414,2020-12-15,Group123,MuddyWater,MuddyWater,False,0.5940255001512303,7,1.0,1.0,False,False,5.0,8.0,False,True,False,,0.0,MuddyWater
+val,report|1a909875a6794f3732044bbc2bc8a3f07b5ce29e,2018-10-09,Group123,Group123,Group123,True,0.953237078601918,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+val,report|220a639c52e8a9b6815d41cbf1a54de58b45fa4e,2019-05-13,Group123,Group123,Group123,True,0.9688825460120438,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+val,report|35ce8eb3e0be8bad96a64437e43796302bdbb1be,,Group123,Group123,Group123,True,0.9451681307362454,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+val,report|3d6966bc6456ecff463506e943ce99b67badc57e,2023-03-21,Group123,Group123,Group123,True,0.9277049214671327,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+val,report|4d4ec7f9dd1a56611688fb3f274483d660cfbb87,2023-08-21,Group123,Group123,Group123,True,0.982383507846135,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+val,report|6eef454dae8c7d0b38d539544f421b76b235662d,2021-08-17,Group123,Group123,Group123,True,0.8691559331555676,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+val,report|a8c11a6ed65c85ddc5c796babf0f0a194054350c,2021-11-29,Group123,Group123,Group123,True,0.9168076265596553,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+val,report|b3e51ad2836d03c295d0e1219a07fb00856a2ce3,2019-11-05,Group123,Group123,Group123,True,0.8808654570438028,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+val,report|c4cd07d240806b9a05626dc72bd6213551d1d37a,2023-09-25,Group123,Group123,Group123,True,0.9847493114574741,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+val,report|d2bcc2a4f465236490a03be015fefc1f496f78bf,,Group123,Kimsuky,Kimsuky,False,0.5898264083204422,3,1.0,2.0,False,False,4.0,4.0,False,True,False,,0.0,Kimsuky
+val,report|ee568a3c9ebf95924377fafccfdf8f165c16c985,,Group123,Group123,Group123,True,0.7757556823942601,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+val,report|0467ef0bbfa76110d554f6a7b57681b1411b1795,2023-05-17,SideWinder,SideWinder,SideWinder,True,0.9311669542012846,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+val,report|1088c9b9a1a1d52daf40cce2fabeee83d0b6df68,2025-03-10,SideWinder,SideWinder,SideWinder,True,0.9999529007819633,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+val,report|268a8328b9bbc0ecf1db11cd7f98edc25a8c9d95,2023-05-09,SideWinder,SideWinder,SideWinder,True,0.9831431345243365,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+val,report|281dc92fbba7ed554ef014eefcbd039ddef7500c,2025-10-22,SideWinder,SideWinder,SideWinder,True,0.9974816874289787,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+val,report|3c01103329bed86b202fcad48c8c551d8dea1971,,SideWinder,SideWinder,SideWinder,True,0.9788192154805709,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+val,report|6a0efea0ed9538197d09e81def702828df3a69af,2019-04-30,SideWinder,SideWinder,SideWinder,True,0.9171683783411503,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+val,report|70b1114104b8428f86210ee3821db0642d407173,2019-09-09,SideWinder,SideWinder,SideWinder,True,0.9818933227615824,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+val,report|8b0a9351da8ac98f42a68972c011e8a14e986a52,2022-09-20,SideWinder,SideWinder,SideWinder,True,0.8888610153798165,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+val,report|b9358fd9273194be1a5b68d344b2f5e776c3aa75,2025-12-19,SideWinder,APT29,C-Major,False,0.5350642130312562,3,1.0,4.0,True,False,1.0,1.0,False,True,False,,0.0,C-Major
+val,report|cad844865f7076ad5c6aca3645a3413d6a7e8d30,,SideWinder,SideWinder,SideWinder,True,0.924534768452341,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+val,report|e5d97156d97b2b4d5572502ee672a312ee1ee860,2023-06-25,SideWinder,SideWinder,SideWinder,True,0.9718824976412417,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+val,report|10ea07b783bc44db35498e47594d4d64ddbe9595,2023-03-16,Kimsuky,Bitter Group,Kimsuky,True,0.5234667823686447,1,1.0,3.0,False,False,3.0,4.0,False,True,False,,0.0,Kimsuky
+val,report|18b7c3facfc123f96b94f91f55e7f28754d541db,2024-09-30,Kimsuky,Kimsuky,Kimsuky,True,0.3157972319125022,1,2.0,4.0,False,False,5.0,5.0,False,True,False,,0.0,Kimsuky
+val,report|21ec6bffbd9a3ebc5c28d9683345c63676d9b009,,Kimsuky,Group123,Kimsuky,True,0.44630954788821664,1,2.0,2.0,True,True,1.0,2.0,False,True,False,,0.0,Kimsuky
+val,report|3364702735b8e73a3795ccae986ded24b6eca6e7,2022-09-14,Kimsuky,Kimsuky,Kimsuky,True,0.8159327236218615,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+val,report|4b791aabf6a261b0cbd0c9c0c3f5afe2a1a7be5f,2024-09-15,Kimsuky,Gamaredon Group,Kimsuky,True,0.45718880820219626,1,1.0,4.0,True,True,1.0,1.0,False,True,False,,0.0,Kimsuky
+val,report|55567f2b2918577979092fb7c9100a19cdd8f4c7,2025-12-16,Kimsuky,Kimsuky,Kimsuky,True,0.8364218023350868,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+val,report|671eb6cbfd6f8ff3ac14a4636911e3225e42a510,2023-03-17,Kimsuky,Group123,Group123,False,0.6699381435531885,2,2.0,2.0,True,True,1.0,2.0,False,False,False,,0.0,Group123
+val,report|6b4bf51abe6da0bb67dcd6bfa55f4a6bc4c19c60,2023-12-28,Kimsuky,Kimsuky,Kimsuky,True,0.9944264915543827,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+val,report|6f6f9722d4e6364a98f5bafca8f74d1bfc888f76,2024-11-14,Kimsuky,White Elephant,Kimsuky,True,0.7130450495590805,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+val,report|7fa494ae1aad79e897cf284db9697bf458826bfb,,Kimsuky,Kimsuky,Kimsuky,True,0.8270053756632865,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+val,report|8ce93803b9037887944791861ce4616502fe54c6,2023-06-01,Kimsuky,Kimsuky,Kimsuky,True,0.34534979935319676,1,2.0,3.0,True,True,1.0,2.0,False,True,False,,0.0,Kimsuky
+val,report|91134f910ff88785c77aaeda0237c4d0908b0a97,2025-02-07,Kimsuky,Kimsuky,Kimsuky,True,0.9930344430748238,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+val,report|aa004dc0a693b9892589c83cf21999f67f4a53c9,2024-07-01,Kimsuky,Kimsuky,Kimsuky,True,0.8963100767162892,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+val,report|fb80043b8e7b945fa5f5d0653f26df4c8ee7fdeb,2022-08-09,Kimsuky,Group123,Group123,False,0.8639761546219927,2,1.0,2.0,True,False,1.0,1.0,False,False,False,,0.0,Group123
+val,report|fd20e69d6382c3f8cf6fb8b8f8741f3bf3161a31,2023-03-16,Kimsuky,Kimsuky,Kimsuky,True,0.9231650859637067,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+val,report|3de1ca4becb47d95d6f35c45d9d5f5bc51dda263,,Bitter Group,Bitter Group,Bitter Group,True,0.9091926583601676,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+val,report|4da848c67cc1fd3e70da5d6ce1863bf8cbaf9b2e,2024-12-17,Bitter Group,Bitter Group,Bitter Group,True,0.8335369236998454,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+val,report|6afc9d6850e6d89dac3ea7c69855065d9bc1c337,2019-10-31,Bitter Group,Bitter Group,Bitter Group,True,0.6204323307990263,1,1.0,3.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+val,report|7bd23129e953ee38aabbf0f09a7136474f3ea224,2024-05-14,Bitter Group,Bitter Group,Bitter Group,True,0.8963601178570697,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+val,report|7e819dac283d761b947d223441ca739a5bcbbd72,,Bitter Group,Bitter Group,Bitter Group,True,0.9760376138059861,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+val,report|998c433aa5093d0d0392e7e34a2ddd5d5a595d80,2021-09-01,Bitter Group,Bitter Group,Bitter Group,True,0.9198080134673955,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+val,report|a71ec1f5fbad16bc97084bc7e095815ddeca06d8,2025-05-07,Bitter Group,Bitter Group,Bitter Group,True,0.8615219690976924,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+val,report|e8ac7c3225b7389332e3428e5784710e1ed84c14,,Bitter Group,Bitter Group,Bitter Group,True,0.9324318181866943,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+val,report|f057d1ec242050c435df0bc60d793c1b9cfdd448,2024-12-09,Bitter Group,Bitter Group,Bitter Group,True,0.8498671204009749,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+val,report|f243eefcd8a622f1323f3149fbfadab4b46f880a,2025-06-04,Bitter Group,Bitter Group,Bitter Group,True,0.9879991688338785,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+val,report|fb7933971490424de5f572f90ad31e0d9a89c67a,2019-03-29,Bitter Group,Bitter Group,Bitter Group,True,0.9955618887822734,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+val,report|0d07f06db9c3d1b8a2164385074a9a54c7f8c8af,2023-05-04,APT29,APT29,APT29,True,0.6665538795022691,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,APT29
+val,report|2be038c9285ff655839b8166c2e6100309f024cc,2022-01-27,APT29,APT29,APT29,True,0.987576705905009,1,1.0,1.0,False,False,1.0,1.0,False,True,True,APT29,1.0,APT29
+val,report|62bec3e7fa0705d1ab19c63eae4af074c2253eb7,2024-12-17,APT29,APT29,Sandworm,False,0.497097346393513,2,2.0,3.0,True,False,1.0,2.0,False,True,False,,0.0,Sandworm
+val,report|660259e27c9b834a78124c065af61c3db5f9c15c,2021-03-16,APT29,APT29,APT29,True,0.8064859758891008,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,APT29
+val,report|87a26aee514132508956bf68c4adb014978ab0a5,2024-08-29,APT29,SideWinder,APT29,True,0.3666791681128401,1,1.0,3.0,True,True,1.0,2.0,False,True,False,,0.0,SideWinder
+val,report|a358a8425b80d3da690b53a16b56c7789c087043,2020-01-03,APT29,White Elephant,APT29,True,0.9621094056350836,1,1.0,1.0,False,False,1.0,1.0,False,True,True,APT29,1.0,APT29
+val,report|b079278f5862c03faae660f293e61bd5e5ebdede,2022-04-28,APT29,APT29,APT29,True,0.9288247181668828,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT29
+val,report|b894eee20070f4ebf2d8fcce4bfb533350e88392,2023-07-26,APT29,APT29,APT29,True,0.9365079390869123,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT29
+val,report|e4c5cb4cd8f1a35ae51bd93770e9831193d3cb92,2025-08-29,APT29,APT29,APT29,True,0.4535816612648196,1,1.0,3.0,False,False,4.0,5.0,False,True,False,,0.0,APT29
+val,report|fcfc076006b3508856e6da47f9170772718271e8,2024-10-22,APT29,APT29,APT29,True,0.840962270731353,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,APT29
+val,report|1ea5655893d9ff0f9bb58869bdef573f185fdf3e,2016-06-30,Darkhotel,Darkhotel,Darkhotel,True,0.989951528319582,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Darkhotel
+val,report|823db6446031c44233bd2971f6a457cfa44ab7a1,2018-12-14,Darkhotel,Darkhotel,Darkhotel,True,0.7364467637569464,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,Darkhotel
+val,report|8a4d287689cd10c8bf447a143b5d0153c549c498,2018-04-18,Darkhotel,Darkhotel,Darkhotel,True,0.8193854535520527,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Darkhotel
+val,report|9458d13c475d350b27cec986bc88ad88f86c8622,2018-04-18,Darkhotel,Darkhotel,Darkhotel,True,0.9517392765461512,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Darkhotel
+val,report|ec809a4638a34028ebc1fe9944310a5bd26151d1,,Darkhotel,Darkhotel,Darkhotel,True,0.9747668320478273,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Darkhotel
+val,report|f4675cf0338260131f43fa9ef39fb53c1dd3bbbb,2020-04-07,Darkhotel,Darkhotel,Darkhotel,True,0.9907008873464058,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Darkhotel
+val,report|fa077f69a622a337bede8bfd7d558d499608b7c2,2019-08-22,Darkhotel,Darkhotel,Darkhotel,True,0.96137464656743,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Darkhotel
+val,report|047762fc1a9d9ecd7736e40a7552b56638a08dd7,2021-11-23,Donot Team,Donot Team,Donot Team,True,0.9046239697579153,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Donot Team
+val,report|62a8d15706a62f93b1311327d3d86f7f60eb70c7,,Donot Team,White Elephant,White Elephant,False,0.9490499281971838,4,1.0,1.0,True,False,1.0,1.0,False,False,False,,0.0,White Elephant
+val,report|737a64a17f194f3c67c812e9bdef65ba70113b82,2019-11-25,Donot Team,Donot Team,Donot Team,True,0.9961840563504937,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Donot Team
+val,report|bf0b9c7b6fb260d68403cf4d3b8e748fa1d64cae,2024-07-30,Donot Team,White Elephant,White Elephant,False,0.4461844088483519,2,2.0,3.0,False,True,3.0,5.0,False,True,False,,0.0,White Elephant
+val,report|dcb8b8a9863100c301663a3850840f97694cf993,2021-10-10,Donot Team,Donot Team,Donot Team,True,0.9277069581879963,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Donot Team
+val,report|ee2dc3a745d3f15a489611a65cd44421e1281ab2,2019-11-01,Donot Team,Donot Team,Donot Team,True,0.9897839758381848,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Donot Team
+val,report|f384dfa8ef4bb9f8d2d8aaa5c71f458efe535e3f,2020-02-24,Donot Team,Donot Team,Donot Team,True,0.9970253081668009,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Donot Team
+val,report|0a8dea5698540af0d02223af983ca8886c677cb6,2025-07-18,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9836724792582109,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+val,report|1c97f920e62b9489f0bb2263e1de9b549b233819,2023-07-17,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9894331581917487,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+val,report|2e17085133717c24cb129b3b0d93df44f7f37ca7,2019-09-24,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9971791159948676,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+val,report|475102cd010b354fb569e495f88f469cc183c4f4,2022-06-27,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.999932343797188,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+val,report|538bb18814b72fcdd85b143fb4c8bd322af9eb0e,2022-12-21,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9993113345167277,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+val,report|5e3d6faeec48c8a462cbca1d5c9e385d45dd32f0,2022-02-04,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9997009490464378,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+val,report|87c846cbd49f6e4980aa7cd5ee3125d51d049c23,2019-09-24,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9998541312182491,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+val,report|993faa51b72f3d48fc4aa73951f555f05408aaf7,2022-09-16,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.99935222970768,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+val,report|9ba44671308ffafbb35e02744c6c9acfe02710d0,2020-02-17,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9992327619042977,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+val,report|c2d891bb11b4a6b75bbdd329afcb206a1c15eeb0,,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.8689022903003997,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+val,report|de03b718280d3d7dd80f5ac859bfe6fb25d03191,2023-01-23,Gamaredon Group,APT29,APT29,False,0.4658884448658742,3,1.0,4.0,False,False,4.0,4.0,False,True,False,,0.0,APT29
+val,report|094bd80bd9aea0733923ba6612b5046cfc20bed2,2022-03-30,C-Major,C-Major,C-Major,True,0.9909667590050036,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+val,report|250948b435a58f6463cc665155057b327b56fa70,2024-06-21,C-Major,C-Major,C-Major,True,0.9977588416638908,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+val,report|349c6044930d4d8af95aa2863484794f2b8ab397,2024-05-29,C-Major,C-Major,C-Major,True,0.975855894162759,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+val,report|37aa68959e96f0bbdc3758140052bf90b18264dc,2025-03-25,C-Major,C-Major,C-Major,True,0.9809090799915836,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+val,report|5685ff761c452e06329cf08520eb048715e98b57,2021-06-29,C-Major,C-Major,C-Major,True,0.9236838233108825,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+val,report|5d0678c0019a7e61973affc739ec43481d3ef115,2021-06-07,C-Major,C-Major,C-Major,True,0.9932723097183637,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+val,report|724c95e1ee205107a85a2aec35a83cdcfb1f0aef,2022-12-30,C-Major,C-Major,C-Major,True,0.8365804854668628,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+val,report|7815acb2a2c04e4589365fad556fab795e82d66d,2025-05-09,C-Major,C-Major,C-Major,True,0.9191031785422137,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+val,report|89d3ca894e2bdec473df4cd758adbe6e0f316870,2022-07-07,C-Major,C-Major,C-Major,True,0.989185049588821,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+val,report|cee8e066bcfbacbcf99f92505b5d5d5f6610d147,2025-11-29,C-Major,C-Major,C-Major,True,0.8533022330287674,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+val,report|0357672ef1b6b7b7db6edbd300686a353cb495c0,2021-11-15,APT35,APT35,APT35,True,0.7202005114206922,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,APT35
+val,report|540498da06aa5e8d780d0df175146ff385f778c4,2023-09-13,APT35,MuddyWater,APT35,True,0.9946634067876562,1,1.0,1.0,False,False,1.0,1.0,False,True,True,APT35,1.0,APT35
+val,report|78acc8e923317eb508930a787078f0193b3a5c84,2025-10-07,APT35,Sandworm,MuddyWater,False,0.6306711505202259,2,1.0,3.0,True,False,1.0,1.0,False,False,False,,0.0,MuddyWater
+val,report|b867c33a893ffa6e39a6e07a296656523f04e8a2,,APT35,APT35,APT35,True,0.45613322037043746,1,1.0,4.0,False,False,6.0,6.0,True,True,False,,0.0,APT35
+val,report|1919c6be5eeb4203ab15c657454716a4d355c165,2018-10-11,Sandworm,Sandworm,Sandworm,True,0.9815759600940893,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Sandworm
+val,report|49354acc359db42323edfaf4383071624ae29610,2024-03-21,Sandworm,Sandworm,Sandworm,True,0.9908802249513711,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Sandworm
+val,report|516a8768baf102fdf2f04ae32ad0557ebe11229a,2023-11-09,Sandworm,Sandworm,Sandworm,True,0.9903958100397092,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Sandworm
+val,report|5817f9403e7a8d26241c78319773ecd817b967cc,2024-04-23,Sandworm,Sandworm,Sandworm,True,0.9657624599915509,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Sandworm
+val,report|e34225236bb0a3a87688ba63fa6572add25f5e5e,2023-02-03,Sandworm,Sandworm,Sandworm,True,0.9635208098548089,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Sandworm
+val,report|f31ff704d71f34cc5584a7109f31403d214c8b69,2023-12-12,Sandworm,OceanLotus Group,Sandworm,True,0.5001640648164742,1,2.0,3.0,False,False,3.0,5.0,False,True,False,,0.0,Sandworm
+val,report|4607b86d2180efc793aefa68b8e715a96c4204aa,,Turla,Gamaredon Group,Gamaredon Group,False,0.2769939348833551,4,1.0,4.0,True,False,1.0,1.0,False,True,False,,0.0,Gamaredon Group
+val,report|4e1ea2b464e715cf65d4edba5f80338175bba6d5,,Turla,Turla,Sandworm,False,0.6021301232363597,2,1.0,4.0,True,True,1.0,2.0,False,False,False,,0.0,Sandworm
+val,report|9e5eb2ab770f14683c2794e2a51f8f203988f497,2025-07-31,Turla,APT29,Turla,True,0.34887419334695774,1,1.0,4.0,False,False,4.0,4.0,False,True,False,,0.0,APT29
+val,report|e625543dadc6073e8184982808257172a53821f6,2023-11-07,Turla,Turla,Turla,True,0.9798748218784695,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Turla
+val,report|edd64bba968c783d25d2ca6b64d51b9249b94ec3,2023-07-20,Turla,Turla,Turla,True,0.9907844712584291,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Turla
+val,report|27e59cabe987108bad0570847a56632281bfddba,2023-11-01,Arid Viper,Arid Viper,Arid Viper,True,0.9515685523224436,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Arid Viper
+val,report|2c5725c57f769c0db74d8ff1042a323c3ba6f64d,2023-03-30,Arid Viper,Arid Viper,Arid Viper,True,0.2960418594255463,1,1.0,3.0,False,False,8.0,10.0,True,True,False,,0.0,Arid Viper
+val,report|900f2676434cc35390802a2612dee954dab56f47,,Arid Viper,Arid Viper,Arid Viper,True,0.9712420557526497,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Arid Viper
+val,report|a32a96f861eead0f8dd38d299aa87370d8a0bb66,2022-12-18,Arid Viper,Arid Viper,Arid Viper,True,0.9766597786321636,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Arid Viper
+val,report|a460d265679fed5bca03be6309778381b081172d,2019-05-08,Arid Viper,Arid Viper,Arid Viper,True,0.9709693996396884,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Arid Viper
+val,report|dc641767dfecf2604e634d2a849c5988dc010621,,Arid Viper,Arid Viper,Arid Viper,True,0.9236311095312215,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Arid Viper
+val,report|2f44839afed1c12fd6e2e7f0fa8dd38dd632b065,,SideCopy,SideCopy,SideCopy,True,0.8727523514198267,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,SideCopy
+val,report|974959b982a7b722939c90d8a5e7e2464597c9bf,2024-05-14,SideCopy,SideCopy,SideCopy,True,0.6674192019463142,1,2.0,2.0,True,True,1.0,2.0,False,False,False,,0.0,SideCopy
+val,report|a591866af2b418a3f7bab26843e1cf5b58d46f75,2023-07-25,SideCopy,SideCopy,SideCopy,True,0.9815614092032365,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideCopy
+val,report|b3d9d201fd0cc9cc96892a38e085b83f2f4ac520,2023-03-21,SideCopy,SideCopy,SideCopy,True,0.9933503412591663,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideCopy
+val,report|08417e2edb854da6da49a3a9ab5494557f614188,2025-09-30,Bahamut,White Elephant,White Elephant,False,0.457252530166246,2,2.0,2.0,False,True,3.0,3.0,False,True,False,,0.0,White Elephant
+val,report|93d561129091d822ec1d402a359e7dedb472766d,,Bahamut,Bitter Group,Bahamut,True,0.4262285374745358,1,2.0,4.0,True,True,1.0,2.0,False,True,False,,0.0,Bahamut
+val,report|5f657cf65168a490b78ddc416da437c4a02b59a4,2015-02-17,Equation Group,Equation Group,Equation Group,True,0.818828166589808,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Equation Group
+val,report|7000c4d97d8ceb80edbf49d9f1d8f42506198e6f,2023-06-01,Equation Group,Equation Group,Equation Group,True,0.9175044165857364,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Equation Group
+val,report|b1cfaa08d0d3d584d500358a595c60393eb48bca,2019-06-03,Equation Group,Equation Group,Equation Group,True,0.401468229117636,1,1.0,4.0,False,False,7.0,8.0,True,True,False,,0.0,Equation Group
+val,report|f4d0b0f66978f2eefe8f9694761f9270e061a048,,Equation Group,Equation Group,Equation Group,True,0.9702401736208004,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Equation Group
+val,report|2ce108788fac7f27260d36137d4f55e28135489a,2026-01-21,OceanLotus Group,Darkhotel,Darkhotel,False,0.3845766341718007,5,1.0,3.0,False,False,8.0,9.0,True,True,False,,0.0,Darkhotel
+val,report|55a132817d6063aa28344a0332ca480043863b8e,,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.8185362748066249,1,1.0,1.0,False,False,1.0,2.0,False,True,False,,0.0,OceanLotus Group
+val,report|79dc19a5748c64a64b36b382101ac5f013a4e261,2025-06-06,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.7372752108382117,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,OceanLotus Group
+val,report|aa1074555d6a47e0437e4dcce9d5c146ca92f9bb,2025-09-19,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.9817356264202705,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,OceanLotus Group
+val,report|e59e293aa3619e8cdf073044fd3fcaebbe44ea72,2021-05-06,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.7984818971027277,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,OceanLotus Group
+val,report|0f0a819cc386a2b289e884c2ea86aa79db01d60a,2023-08-17,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9895347231979605,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Blind Eagle
+val,report|4b239d7ea46b0d6d8b03c3cbb6bd37999ee6c0e7,2025-08-13,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9637055691640449,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Blind Eagle
+val,report|9d4e22ddd17a64a1210009db138d2fb73b4935c4,2025-06-27,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9519110027767795,1,1.0,1.0,False,False,1.0,1.0,False,True,False,,0.0,Blind Eagle
+val,report|a23ea0522978586cb15827b274d605ea8657a748,2024-11-12,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9840918340314834,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Blind Eagle
+val,report|35bca7cefcee35348a14d8e752727d7557cb091a,,OilRig,APT35,APT35,False,0.4575719961741182,2,1.0,2.0,False,False,7.0,7.0,True,True,False,,0.0,APT35
+val,report|55ca010929e4c1d677866f71dbd1c532c90e654a,2019-04-30,OilRig,OilRig,OilRig,True,0.892156412602516,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,OilRig
+val,report|75ff62c4fabf2c91828e35a820a1045f6af889ec,2018-09-04,OilRig,OilRig,OilRig,True,0.9868644355714261,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,OilRig
+val,report|9f03b502e2ad3ec83477d216901b07fd1fe2fe4a,,OilRig,Sandworm,APT29,False,0.39538412927214023,7,1.0,3.0,False,False,6.0,8.0,True,True,False,,0.0,APT29
+val,report|074db41de2c0cad74bbb35513d0b53e1f0667181,2024-11-29,Green Spot,Green Spot,Green Spot,True,0.7512466785467027,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Green Spot
+val,report|ceb463a504bd3a7450411288d6b19182af654aa3,,Green Spot,Green Spot,Green Spot,True,0.9100072360640556,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Green Spot
+val,report|e706f49643690f865c919d778f78a1ce09342a4d,,Green Spot,Green Spot,Green Spot,True,0.8411741194253132,1,1.0,1.0,False,False,1.0,1.0,False,True,False,,0.0,Green Spot
+val,report|1fe9553e84c5cac4a571ef27aa96229506ff2830,2022-06-22,HEXANE,HEXANE,HEXANE,True,0.9907386097069475,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,HEXANE
+val,report|89eff3a4a01211ec8d97a9975ca30c2e06fe7948,2019-08-02,HEXANE,MuddyWater,MuddyWater,False,0.497425487593748,2,1.0,3.0,False,False,4.0,4.0,False,True,False,,0.0,MuddyWater
+val,report|b776acca0d742aa5bf8837e890155cdf60e75283,2018-07-31,APT27,APT27,APT27,True,0.9908840377254186,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT27
+val,report|d956388125bc8c726d251a79f2ea2b4c7b1e7ca7,2019-03-19,APT27,APT27,APT27,True,0.5817799495990408,1,1.0,2.0,True,True,1.0,1.0,False,True,False,,0.0,APT27
+val,report|14daced29d472983bd12be87a25ced42bbe0f94d,2019-09-09,Stealth Falcon,Stealth Falcon,Stealth Falcon,True,0.5656011800642032,1,1.0,2.0,False,False,4.0,7.0,False,True,False,,0.0,Stealth Falcon
+val,report|e1a9d01dc05d84a59f85432ca8519c6854f9af45,2018-09-17,Stealth Falcon,Darkhotel,Darkhotel,False,0.6977809699265112,5,1.0,2.0,False,False,2.0,3.0,False,True,False,,0.0,Darkhotel
+val,report|e7f23d416b273ec467713b3c7036c366589658b8,,PROMETHIUM,PROMETHIUM,PROMETHIUM,True,0.9238709073827022,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,PROMETHIUM
+val,report|a0ae01c239225beb5194901fa6475005173a25b3,2018-07-12,Blue Mushroom,Blue Mushroom,Blue Mushroom,True,0.9744284200800658,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Blue Mushroom
+val,report|bda085d23cc615671271df9c4d881e934ddc9065,2019-01-03,TRITON,TRITON,TRITON,True,0.9888847398651397,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,TRITON
+val,report|dc6c5e52a6713463d0fb3550b0dec682df70b5fc,2019-06-17,TRITON,TRITON,TRITON,True,0.6837522721088183,1,1.0,2.0,False,False,5.0,5.0,False,True,False,,0.0,TRITON
+val,report|fbca05a7094315ccd851f02e99ac8fd0b4fde917,2020-11-26,DarkCaracal,DarkCaracal,DarkCaracal,True,0.9973673517376554,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,DarkCaracal
+val,report|8ff84e766bdf13c6fc3c14f5eb1b4fcc78de6a5a,2019-11-08,Gaza Cybergang Group1,Gaza Cybergang Group1,Gaza Cybergang Group1,True,0.9743945070629323,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gaza Cybergang Group1
+test,report|58d9f1f07092e4cb75a160dfed4ac2e10a5a4eac,2023-04-23,APT28,APT28,APT28,True,0.38416326004453777,1,1.0,3.0,False,False,4.0,4.0,False,True,False,,0.0,APT28
+test,report|66d8ff8facc9e84340fbe97755c524faafa8c854,,APT28,APT35,Sandworm,False,0.29333657100066396,3,1.0,4.0,False,False,5.0,7.0,False,True,False,,0.0,APT35
+test,report|848f8439edea39a1519ad53b053a5d62c6b0ad19,2021-04-19,APT28,APT28,APT28,True,0.995806826568876,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+test,report|945860ffbb0ff10316685bef8d317234c05d9134,2024-11-21,APT28,APT28,APT28,True,0.9812830808557168,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+test,report|affe077f5be06699455f5638cdf51c04e6e6bb48,2024-02-27,APT28,APT28,APT28,True,0.9843981169359355,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+test,report|c1dc02a049e71ce9ec25cbbf73f04bc3bd3afde1,2025-07-10,APT28,APT28,APT28,True,0.9960134482308463,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+test,report|c4c6aff2993f8b40875f8a29688db2cd41131084,2024-11-22,APT28,APT29,APT28,True,0.9003028591650013,1,1.0,1.0,False,False,2.0,3.0,False,True,True,APT28,1.0,APT29
+test,report|d3a4c3743592b286a1d94f3148e3fd14c662ce4a,2025-09-18,APT28,APT28,APT28,True,0.9468588022915053,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+test,report|e6b84bcbae274a09205ecd16a85cc7b772bf8f5e,,APT28,APT28,APT28,True,0.9785844151451576,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT28
+test,report|00583de9237881131440f6637d0f3178c57ee23c,2025-08-08,White Elephant,White Elephant,White Elephant,True,0.9985068394712949,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+test,report|17f12b06a33b59eece3c4570089bdaa0304d7095,2017-04-05,White Elephant,White Elephant,White Elephant,True,0.9622287262796015,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+test,report|3029effeac71308b34e2b9c9d23ebdb663a9f72c,2018-12-14,White Elephant,White Elephant,White Elephant,True,0.9563932298178786,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+test,report|404684de15d532cfce5a6f7523c461134d362319,2014-06-10,White Elephant,White Elephant,Donot Team,False,0.45367480263925264,2,2.0,2.0,True,True,1.0,2.0,False,True,False,,0.0,Donot Team
+test,report|6e34190620e79ee61682ea7451d816d3be3fe31a,2022-01-07,White Elephant,White Elephant,White Elephant,True,0.9762392762597814,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+test,report|710880328f86df758a51755ad4dec0bf4326f5ce,2022-10-27,White Elephant,White Elephant,White Elephant,True,0.9082877668956348,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+test,report|7361b633f5664c22255c02f206ad51306ae4fec7,2025-09-08,White Elephant,White Elephant,White Elephant,True,0.9556308636497252,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+test,report|7d25b2573a8ee093485c7a5ca0b8848a50efefba,2022-01-10,White Elephant,White Elephant,White Elephant,True,0.9749886868307373,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+test,report|a0d8845f0a00feda40ebf2507f75d33b0180c59e,2013-11-05,White Elephant,White Elephant,White Elephant,True,0.9659573739447889,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+test,report|a923ed3b50a1ddc3305b32aa2db17154e628f244,2019-10-22,White Elephant,White Elephant,White Elephant,True,0.9931579871743207,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+test,report|ae86ac48dd55ad0d425bc2daa71d623dc6516011,2024-03-27,White Elephant,White Elephant,White Elephant,True,0.9754905663106956,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+test,report|e139a965922399b19ae9abd96afd43e9cf23ae7d,,White Elephant,White Elephant,White Elephant,True,0.9727056260050655,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+test,report|fc3c31facc4cd386ce1ca9e985a45d965b088c97,2024-12-04,White Elephant,White Elephant,White Elephant,True,0.9736531892610205,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+test,report|07571d422a129baf513aabff515376c8875a221a,2026-03-05,MuddyWater,MuddyWater,MuddyWater,True,0.916434834962191,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+test,report|1174049de098533780743129a7ca7f0942460833,2025-12-04,MuddyWater,MuddyWater,MuddyWater,True,0.984253231014714,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+test,report|45a206fefc9a23d1b1280ce03c4217abaeefe834,2025-07-21,MuddyWater,MuddyWater,MuddyWater,True,0.47612852995346566,1,2.0,2.0,False,False,4.0,4.0,False,True,False,,0.0,MuddyWater
+test,report|54313fc1a109a895a780caed3a6ed67d829b4c00,2022-02-24,MuddyWater,MuddyWater,MuddyWater,True,0.8788889859190233,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+test,report|781b47990381c5d03dcbdba0c5cd6332cf556a20,2024-04-03,MuddyWater,MuddyWater,MuddyWater,True,0.9956212761181518,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+test,report|836cab113637a023f24c58d692bc136bcb3db0a8,2018-07-31,MuddyWater,MuddyWater,MuddyWater,True,0.9871905498574108,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+test,report|937a037ee701830d6f9dde49929679d83f9e5ba1,2018-12-07,MuddyWater,MuddyWater,MuddyWater,True,0.9613259003452969,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+test,report|97ce698b9a6bcca2744e9c6c3d3e93ff37c1035e,2021-03-05,MuddyWater,MuddyWater,MuddyWater,True,0.9105706204428946,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+test,report|aa4ea0bee2e80052db14a20d3a64ad38fc55618b,2025-09-17,MuddyWater,MuddyWater,MuddyWater,True,0.979410350890002,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+test,report|ea90e2a12c7cd634b82cccac75a8c3349c54510e,,MuddyWater,MuddyWater,MuddyWater,True,0.9705814282134764,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+test,report|ed6cf708b67fb80df97913f7d5fdde7e77be8ba6,2019-09-17,MuddyWater,MuddyWater,MuddyWater,True,0.8969278611089033,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+test,report|f0f277ccd12e3623151435070b78b379bfdf6bd8,2018-11-30,MuddyWater,MuddyWater,MuddyWater,True,0.9737331351599638,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,MuddyWater
+test,report|039911932224ed8eb1936fb2c1dfd9a68c408ee5,2018-11-08,Group123,Group123,Group123,True,0.9772683397664009,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+test,report|120412e4b32f20c0cde864b3b0025b2e15b0b1f4,2019-09-02,Group123,Kimsuky,Kimsuky,False,0.9657048374980876,19,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+test,report|25b833c447e92173a24fbe5f54261ed317e7b167,2019-04-29,Group123,Group123,Group123,True,0.9586869366078383,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+test,report|34477c6bd4a485023fda931a653ba3141b6503b0,2025-03-12,Group123,Arid Viper,Kimsuky,False,0.5741310793080506,2,2.0,2.0,False,False,2.0,3.0,False,True,False,,0.0,Kimsuky
+test,report|411c9d1891174d3eaee5e13c44b751521b8ac324,2023-05-25,Group123,Group123,Group123,True,0.934455400254578,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+test,report|49e944acebff4d55910cf13bb0fb09b2db3066f8,2018-12-13,Group123,Group123,Group123,True,0.9242844285088258,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+test,report|50ffc63cb08bb19ef7f04a31e5819788fc164a05,2019-05-02,Group123,Group123,Group123,True,0.984650573677953,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+test,report|68d50fc05275841cff614b83f3343f248d170d02,,Group123,Group123,Group123,True,0.9421412683114323,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+test,report|730113b9e5bf903e5f64fd410e2f0a6ab83affbc,2022-11-30,Group123,Group123,Group123,True,0.998226570922475,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+test,report|7d1aa248cc1aaa8ebca677e2f3aa6c8488cd70c7,2025-02-19,Group123,Group123,Group123,True,0.9974020676006515,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+test,report|88f9624b94db4681cf06e747ea740819dbda2be2,,Group123,Group123,Group123,True,0.9677148158723499,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+test,report|9e6afc62401a0d2a500e992c8bdd02928862f35d,2019-10-28,Group123,Darkhotel,Darkhotel,False,0.4536903303797155,3,2.0,3.0,False,False,4.0,4.0,False,True,False,,0.0,Darkhotel
+test,report|b262e09517bd3bf9abb0c19c20ef8fddb2b0012d,,Group123,Group123,Group123,True,0.9468899552892227,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Group123
+test,report|2d2b794de386cfa9815f6b0aeb95487abf4868e5,2023-11-10,SideWinder,SideWinder,SideWinder,True,0.9695808394992136,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+test,report|35dd1636b329cb8d039e4df982f25ebc95a1ea58,,SideWinder,SideWinder,SideWinder,True,0.8768751217958327,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+test,report|4693de89326a0e9455f33738ba53853e53150fa7,2022-05-18,SideWinder,Donot Team,Donot Team,False,0.4967353873496719,3,1.0,3.0,False,False,4.0,6.0,False,True,False,,0.0,Donot Team
+test,report|8271ea184af91f4e01d46dae1b31f7bdd5105ae7,2025-10-01,SideWinder,SideWinder,SideWinder,True,0.9998547047824876,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+test,report|8dd659bc44c60023898c22afd502ef8f16f2402e,,SideWinder,SideWinder,SideWinder,True,0.9348282470083795,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+test,report|9a98969a84bcf9149a75921c227046171b133266,2020-01-02,SideWinder,SideWinder,SideWinder,True,0.9999955451576246,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+test,report|a9963bc551a7a2694c7b4ce6ecc1f289f00c9c9b,2019-08-30,SideWinder,SideWinder,SideWinder,True,0.9779356791560466,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+test,report|aacadee612c5e6e01225e798d90938605e0e8e51,,SideWinder,C-Major,C-Major,False,0.9373358905482942,2,1.0,1.0,True,False,1.0,1.0,False,False,False,,0.0,C-Major
+test,report|c7a846b6c2424d4fbcad02c4ecf7ae95322c2890,2024-08-01,SideWinder,SideWinder,SideWinder,True,0.981059123855114,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+test,report|c8d58e702db5bfc5e1b1baf05227fb2e8f076400,,SideWinder,SideWinder,SideWinder,True,0.9885116689345714,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideWinder
+test,report|021f5d5373ca6685d544bb4a137f7a87f9bc4b8b,2022-08-31,Kimsuky,Group123,Group123,False,0.8551623625236044,2,1.0,1.0,True,False,1.0,1.0,False,False,False,,0.0,Group123
+test,report|1dd82e3f4e9cf98b6f6061ef36535d0c98a35ee4,2024-12-03,Kimsuky,Group123,Kimsuky,True,0.9735652109705558,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+test,report|35bd832ef2a56cb20faab3fd9e8b888304c5a640,2024-03-06,Kimsuky,Sandworm,Sandworm,False,0.3930829428986857,3,1.0,4.0,True,True,1.0,1.0,False,True,False,,0.0,Sandworm
+test,report|479d6026181dd75574d44cf6b179a5f9515813d7,2023-07-21,Kimsuky,Kimsuky,Kimsuky,True,0.984511037522732,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+test,report|62fa0676f635ca056eca8dcd0f4ea5bc6abca8bd,2025-06-10,Kimsuky,Kimsuky,Kimsuky,True,0.9812871763766169,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+test,report|757485d511f4418f7d45f958c856aade3a6f0842,2024-06-12,Kimsuky,Kimsuky,Kimsuky,True,0.9779105501122389,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+test,report|8b3c0f402e0d6ba01ec22d9c52f6cbe284bb2774,2022-06-17,Kimsuky,Group123,Group123,False,0.8839197819382316,2,1.0,2.0,True,False,1.0,1.0,False,False,False,,0.0,Group123
+test,report|96fd808e7510eba9f6106cdd675b6255c2dde6a0,2023-10-30,Kimsuky,Kimsuky,Kimsuky,True,0.9525235578420552,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+test,report|aef4f35d137ea5390c052b8ee9e38a1d550c78de,,Kimsuky,Kimsuky,Kimsuky,True,0.9558382628914623,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+test,report|bf9d3200a13bea2f134d356716f573b6cf6e0ae0,2025-04-04,Kimsuky,Kimsuky,Kimsuky,True,0.9990183012873609,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+test,report|c0bce122950eb271ec6e58dc0beeef17f6915e3d,2025-11-28,Kimsuky,Kimsuky,Kimsuky,True,0.8699379705013113,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+test,report|d26953bf2707b6e4b9c3888f66f1c81b445d9dbb,2025-06-18,Kimsuky,Kimsuky,Kimsuky,True,0.9836408413137502,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+test,report|d6ac0a92dbedb93c7e97f12acdc752251ad3959d,2025-09-09,Kimsuky,Kimsuky,Kimsuky,True,0.7048561113137599,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+test,report|e0eb2adf07badea96c8eec9a08ba6a09c54f914e,2024-09-11,Kimsuky,Kimsuky,Kimsuky,True,0.3378614859163928,1,2.0,2.0,False,False,3.0,4.0,False,True,False,,0.0,Kimsuky
+test,report|f9a04d5febf6801b9a4c2e542a275339604315bc,2022-05-31,Kimsuky,Kimsuky,Kimsuky,True,0.9350634281602529,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+test,report|fe57218bb1fac6322530e8a7f286dfb5fbc3035b,2023-07-04,Kimsuky,Kimsuky,Kimsuky,True,0.9626992554785456,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Kimsuky
+test,report|27fa4f15b0bf089e2b51230ae3772dc8e84c8668,2025-10-20,Bitter Group,Bitter Group,Bitter Group,True,0.9833451545317573,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+test,report|2d8b9bd3dba2e8caa77949d88c610c4bd2631df4,2022-03-11,Bitter Group,Bitter Group,Bitter Group,True,0.830728239521914,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+test,report|3557e394c14e539211c91802ba9b2aeb15be5782,,Bitter Group,Bitter Group,Bitter Group,True,0.6772716293727363,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+test,report|355da87fb714d7b8e4f7067d7224aed996ff9473,2018-12-24,Bitter Group,Bitter Group,Bitter Group,True,0.9792174888067826,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+test,report|40da9e9bed749d84485a9bee0e0f0f960787ea03,,Bitter Group,Bitter Group,Bitter Group,True,0.46921428424885386,1,2.0,2.0,True,True,1.0,2.0,False,True,False,,0.0,Bitter Group
+test,report|547f8badf16a8ae8389d099929eee83b475d85e7,2018-11-29,Bitter Group,Bahamut,Bahamut,False,0.9457272021106699,3,1.0,1.0,True,False,1.0,1.0,False,False,False,,0.0,Bahamut
+test,report|76504b22552c9935034538e8bc79bb29dc311678,2022-08-09,Bitter Group,Arid Viper,Bitter Group,True,0.3848606257517433,1,2.0,3.0,False,False,6.0,7.0,True,True,False,,0.0,DarkCaracal
+test,report|890a385f581766277276edcedf31b7cdb71b1a4d,2020-12-10,Bitter Group,Bitter Group,Bitter Group,True,0.5229598191514498,1,2.0,2.0,True,True,1.0,2.0,False,True,False,,0.0,Bitter Group
+test,report|958dfd5892a42fcf58553484559050dce8fd15e9,2023-08-02,Bitter Group,Bitter Group,Bitter Group,True,0.9979374960395413,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+test,report|e1da213f5f225fbf9ac7577c02a99e92b96c0b78,2019-12-09,Bitter Group,SideWinder,SideWinder,False,0.7052836133782601,2,1.0,2.0,False,False,4.0,5.0,False,True,False,,0.0,SideWinder
+test,report|e2245d643b7e0da51a18ca583ccd4705ae644ba6,2020-02-27,Bitter Group,Bitter Group,Bitter Group,True,0.9989921241535776,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bitter Group
+test,report|056744374338cf6083b3abb35c7ff4dc7c790fb6,,APT29,APT29,APT29,True,0.9571829981433105,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT29
+test,report|12591c3511652ffbdde27462aa582de85d7347b1,2022-03-31,APT29,OceanLotus Group,APT29,True,0.9773776287390873,1,1.0,1.0,False,False,1.0,1.0,False,True,True,APT29,1.0,APT29
+test,report|18c6f528f465aa1bcd591dc13ff30a4942e139eb,2023-07-27,APT29,APT29,APT29,True,0.9994322788151437,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT29
+test,report|336f0aecaffc098333d03d87795abbf611434fa1,,APT29,APT29,APT29,True,0.8877573650814913,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT29
+test,report|560e6da8d06f2ebfcb2c6ede4c89bbf10841e11d,2013-02-27,APT29,APT29,APT29,True,0.9841762343256857,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT29
+test,report|5bf1d04c0119cb1d80921919ddece1fa28aa169d,2018-11-19,APT29,APT29,APT29,True,0.9664939862846225,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT29
+test,report|805fe680a6c52c643474ba24963630b0766317d2,2021-06-01,APT29,APT29,APT29,True,0.9715492330344556,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT29
+test,report|9a07c2de5a4a59afeda4856e91b56b850754b98c,2024-03-22,APT29,APT29,APT29,True,0.947248074247407,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT29
+test,report|d8d52b8f1ffb8c25f0718e97fdeeb66d61cc1656,2025-01-17,APT29,Green Spot,APT29,True,0.5238783236748671,1,1.0,2.0,False,False,3.0,3.0,False,True,False,,0.0,Green Spot
+test,report|e949240f03a19f2c33f911199f818f5e1f2fb85c,2018-12-23,APT29,APT29,APT29,True,0.8984663087941145,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT29
+test,report|5294a1ccd2d7ac090e3ac618aae23366fd0eb607,2018-10-19,Darkhotel,Darkhotel,Darkhotel,True,0.8827191228398338,1,1.0,1.0,False,False,1.0,1.0,False,True,False,,0.0,Darkhotel
+test,report|a4f93dfde7fbd4e4fc6e4f42eabe99683610a8b5,2020-09-08,Darkhotel,Gamaredon Group,Darkhotel,True,0.2890453701385494,1,1.0,3.0,False,False,8.0,9.0,True,True,False,,0.0,Darkhotel
+test,report|a7e0917c03144ee90fe876b652820a8474165460,2014-11-17,Darkhotel,APT29,Group123,False,0.3291284169692871,2,1.0,5.0,True,False,1.0,2.0,False,True,False,,0.0,APT29
+test,report|abdbc8f8a9b3aa993576c2589fe6510d3ffedf20,2018-05-08,Darkhotel,Darkhotel,Darkhotel,True,0.9510067033421808,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Darkhotel
+test,report|c8d9f7ef573b8b85ef756fed4136dd78addfbe89,2020-05-13,Darkhotel,Darkhotel,Darkhotel,True,0.9944839857206772,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Darkhotel
+test,report|cdfd61a766ad8132415f0eecc584f37e304d7ea6,,Darkhotel,Darkhotel,Darkhotel,True,0.9319875281240857,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Darkhotel
+test,report|dc84757c3d42d2a384b2022e50addce8eb1dd0df,,Darkhotel,Darkhotel,Darkhotel,True,0.8922840785999936,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Darkhotel
+test,report|44095b5bad49905ddac5ce51f5d9fa2c5599b049,2019-07-03,Donot Team,Donot Team,Donot Team,True,0.9831325445944356,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Donot Team
+test,report|59e7cb2115dc9684b8416dfd9ae1e703904adbf5,2020-04-09,Donot Team,Donot Team,Donot Team,True,0.9898818291943303,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Donot Team
+test,report|6300a60b42c2399a78098dcf93ded12ef2d25d8b,2021-07-15,Donot Team,Donot Team,Donot Team,True,0.8572578766466125,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,Donot Team
+test,report|6bba0177b124530a6e70ce437a3bc5e399e933cc,2021-12-01,Donot Team,Gamaredon Group,Gamaredon Group,False,0.9170941611161244,9,1.0,1.0,False,False,2.0,2.0,False,True,False,,0.0,Gamaredon Group
+test,report|b25a1fe7b5d033e811d6a981b81b15d895638b76,2019-08-02,Donot Team,Donot Team,Donot Team,True,0.9850728997411214,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Donot Team
+test,report|b3368627aa8fa1b9c13504343d730b184bd20f9c,2019-04-17,Donot Team,Donot Team,Donot Team,True,0.986504814129373,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Donot Team
+test,report|bdf05f0aa0dd5add642dab6c330d68ff9d39be71,2018-08-14,Donot Team,Donot Team,Donot Team,True,0.9446138405112233,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Donot Team
+test,report|188cfe4ab77ae46d7c0f982f717e7ba15fb94c46,2023-02-17,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9627052671699051,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+test,report|1e739ece00fdecd1a39bcaeaf34b7bbbe7c9b4f3,2019-05-05,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9990124385954647,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+test,report|240f63f46220e5cec677f9d291c04c1e1d01e506,2019-02-07,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9596769080481052,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+test,report|86c4b62d00ea31ccfba6e2b39ab29731616e59f7,2025-03-28,Gamaredon Group,Blind Eagle,Sandworm,False,0.26298348909510144,2,1.0,5.0,False,False,9.0,10.0,True,True,False,,0.0,Blind Eagle
+test,report|c7b1760d49e50aa40144d371d2f003ac347b37dd,2022-04-03,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.6979398548137673,1,1.0,2.0,True,True,1.0,2.0,False,False,False,,0.0,Gamaredon Group
+test,report|cbedbd781d85337478a374791fbc1dd00b53f748,2019-08-21,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9932974854150528,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+test,report|d3f9c773389f17b868a23739bed521300cea3bae,,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9816135246856637,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+test,report|d51463a3d950290f4d7c8a125629d12b6a826aa7,2023-02-22,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9887565541245553,1,1.0,1.0,False,False,1.0,1.0,False,True,False,,0.0,Gamaredon Group
+test,report|ecec7b39e4b7f9f4f6d4aad9c1c24669f445b503,,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.9758321262923417,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gamaredon Group
+test,report|f2bcd63e4bb2a9cc031670008f5bc89093a72df0,2024-12-11,Gamaredon Group,Gamaredon Group,Gamaredon Group,True,0.436505879341357,1,2.0,2.0,False,False,3.0,4.0,False,True,False,,0.0,Gamaredon Group
+test,report|004dd41690b0e8ceaad5da35e0fee4397ae6d422,2022-03-07,C-Major,C-Major,C-Major,True,0.9600977040783082,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+test,report|76229bc2463328e6c773aee379c4d920635f2980,,C-Major,C-Major,C-Major,True,0.9750273593048587,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+test,report|79d179f5661e99d5db934b7dc8fbddeaf988634c,2022-06-21,C-Major,C-Major,C-Major,True,0.9614175979343744,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+test,report|909420f3408f3b006eb5b0aa68b30150abd3bf31,2026-02-10,C-Major,C-Major,C-Major,True,0.6111369467879654,1,2.0,2.0,True,True,1.0,2.0,False,False,False,,0.0,C-Major
+test,report|aad206e2874c28f98c47f42ce77aa932b4f7fe3d,2025-10-14,C-Major,C-Major,C-Major,True,0.955553155107942,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+test,report|b352f8014b93250074d7330e4e7d5681a7cc848c,2022-11-08,C-Major,C-Major,C-Major,True,0.9997311867046852,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+test,report|b9d9ca445691a097d6694e780eb79480fc119edb,2025-04-27,C-Major,C-Major,C-Major,True,0.8714082483255825,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+test,report|bda7465267c096cf358e0d57e69c5c977cf06f33,2022-01-24,C-Major,C-Major,C-Major,True,0.9970109382751204,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,C-Major
+test,report|e90a77f2cf2ad1406c83fd8bc28d693ff6a6b9fa,2023-03-07,C-Major,C-Major,C-Major,True,0.8258550133398724,1,1.0,2.0,True,True,1.0,1.0,False,False,False,,0.0,White Elephant
+test,report|ea1c4d6c1e85b1ac7d903c2959c9f6ad6341d7ca,2021-04-20,C-Major,APT29,APT29,False,0.4708742322211351,15,1.0,2.0,False,False,7.0,9.0,True,True,False,,0.0,APT29
+test,report|03ea6ba69b6219101a1d04fc730d438f0b8d045c,2025-06-25,APT35,APT35,APT35,True,0.9915196872358112,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT35
+test,report|26680389ccb129753050f632336a9806cb14d782,2025-05-07,APT35,White Elephant,APT35,True,0.9153875551827656,1,1.0,1.0,False,False,1.0,2.0,False,True,True,APT35,1.0,Stealth Falcon
+test,report|7825d0d1d7c87ebdf389c4650734d14408441c71,2023-04-25,APT35,MuddyWater,APT35,True,0.916186366477955,1,1.0,2.0,False,False,2.0,2.0,False,True,True,APT35,1.0,MuddyWater
+test,report|f13fed3ed56faee9e0bcedc95af5c3c46ee9a7cf,2022-09-27,APT35,APT35,APT35,True,0.9984056131408795,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT35
+test,report|b926d77b20c1aa064d813c1a862a607fa08c923f,2023-01-27,Sandworm,Sandworm,Sandworm,True,0.9867635396389605,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Sandworm
+test,report|c4514bc6fcd237699fe27f25e1137f69eb6e2c05,,Sandworm,Sandworm,Sandworm,True,0.9953798077465986,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Sandworm
+test,report|c72821f6ec76ba2604250aaed31c1f8a58f2a968,2025-02-11,Sandworm,Sandworm,Sandworm,True,0.9300058866594286,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Sandworm
+test,report|d16401908e7c5bc4df4cd5c1c92c9221c0ec4e8f,2025-06-05,Sandworm,Sandworm,Sandworm,True,0.9865035317195558,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Sandworm
+test,report|1f735d39d3c81827da36c654db179baf08ba3b4f,2023-04-24,Turla,Turla,Turla,True,0.9646958629388735,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Turla
+test,report|67bc8a288e1d9b9d47c7f6982c0109decf9c1193,2024-10-12,Turla,APT29,APT29,False,0.6173754232130512,6,1.0,1.0,False,False,4.0,7.0,False,True,False,,0.0,APT29
+test,report|a7d44b8dc3cd7d68a12ea0a62dedc3d6e7507d99,,Turla,Turla,Turla,True,0.8545638472971766,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Turla
+test,report|b27034ef7e0e2efae5a098cacc8d2bc81d0ece39,2024-02-22,Turla,Turla,Turla,True,0.9726311915199841,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Turla
+test,report|1c3a36efd8c68bd9c5350259f14636909685c498,2024-06-17,Arid Viper,Arid Viper,Arid Viper,True,0.9963428080459964,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Arid Viper
+test,report|3a78295e0fb63702209071103fb60a404c8d9b16,2023-08-04,Arid Viper,Arid Viper,Arid Viper,True,0.9364985760911592,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Arid Viper
+test,report|3f99721784c6dc3885f2389e4607143fb6031264,2018-08-13,Arid Viper,Arid Viper,Arid Viper,True,0.9303710500727824,1,1.0,1.0,False,False,1.0,1.0,False,True,False,,0.0,Arid Viper
+test,report|44c204b491f864816e77898e3e9767a16ac2766b,2017-10-05,Arid Viper,Arid Viper,Arid Viper,True,0.9898650712394661,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Arid Viper
+test,report|5155db26e7ab6b6b464260d763e4adbb41808782,2020-02-16,Arid Viper,Arid Viper,Arid Viper,True,0.9829103047584408,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Arid Viper
+test,report|623b86e588c02108d54cfd36f52e53943f5133a1,,Arid Viper,Gaza Cybergang Group1,Gaza Cybergang Group1,False,0.7042142224522782,2,2.0,2.0,True,True,1.0,2.0,False,False,False,,0.0,Gaza Cybergang Group1
+test,report|991c46544bcddd14f835548f11b00023053147ea,2018-09-03,Arid Viper,Arid Viper,Arid Viper,True,0.9817747517031049,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Arid Viper
+test,report|2c8805b0fdaf96b8f2ec4f6883f2d7fe18a6ecf3,2021-11-16,SideCopy,APT27,APT27,False,0.9686937667687721,17,1.0,1.0,False,False,1.0,1.0,False,True,False,,0.0,APT27
+test,report|3b99a3503974ffd6e957c89acd9bd1d0b38f29da,2021-12-02,SideCopy,SideCopy,SideCopy,True,0.9841120879950805,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,SideCopy
+test,report|43d7be34ac22e1f9229d97ed27c1cd1e0cf917af,2021-09-14,SideCopy,C-Major,C-Major,False,0.9081936077018455,3,1.0,1.0,False,False,1.0,3.0,False,True,False,,0.0,C-Major
+test,report|56b8fc0ff59902b3d663b78ae155840aeed2f6fd,2021-11-16,SideCopy,C-Major,C-Major,False,0.9774346738064918,2,1.0,1.0,True,False,1.0,1.0,False,False,False,,0.0,C-Major
+test,report|b21808a386c48c77a32cdcdca5ee26e837f6e6d0,2024-04-24,SideCopy,SideCopy,SideCopy,True,0.7190191252874092,1,1.0,2.0,True,True,1.0,2.0,False,False,False,,0.0,SideCopy
+test,report|0c74359ac5e3b0a7ebe639168fe2b9026585112d,2023-10-12,Bahamut,Bahamut,Bahamut,True,0.9380705365541855,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bahamut
+test,report|28a04eab1e850617ada931e4822b10efa14fd036,2024-09-25,Bahamut,Bahamut,Bahamut,True,0.9452814652783714,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bahamut
+test,report|2a419946e659c4aa8f56dbe9ce676dbb43a19669,2022-07-04,Bahamut,Bahamut,Bahamut,True,0.6387723633871073,1,1.0,3.0,True,True,1.0,1.0,False,False,False,,0.0,Bahamut
+test,report|a5e3a70283ff998bdc8b8a030c31882929a610a4,2023-09-08,Bahamut,Bahamut,Bahamut,True,0.9539552752820893,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Bahamut
+test,report|3723d025a72ead008afb9046eff8c6e75c6ef831,,Equation Group,Equation Group,Equation Group,True,0.9754808568255278,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Equation Group
+test,report|74f2a10cf97d4804511e9aaf467462ff1d0f9cdf,2015-03-11,Equation Group,Equation Group,Equation Group,True,0.9299141420747907,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Equation Group
+test,report|77b8f0a221eadfb051c248cbcb5d69dce4404e1c,2020-03-05,Equation Group,Darkhotel,Darkhotel,False,0.4362017580857713,3,2.0,2.0,True,False,1.0,2.0,False,True,False,,0.0,Darkhotel
+test,report|e0e24015e1791320e5e81cd74aa57d88d4f5ef08,,Equation Group,Stealth Falcon,Stealth Falcon,False,0.699634743994218,6,1.0,2.0,False,False,3.0,6.0,False,True,False,,0.0,Stealth Falcon
+test,report|1a2d77734dfd3da7caf70881f2f6b52ac963f7c3,2022-01-11,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.9203562952286777,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,OceanLotus Group
+test,report|2d9fabebb2ddb83cd4ae121b9c2e90a9ffa221b4,2022-04-02,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.6029625401996458,1,1.0,2.0,False,False,4.0,5.0,False,True,False,,0.0,OceanLotus Group
+test,report|474ae8a3ad1ccc6f525464f403ac57bcac50be01,2022-01-13,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.5883773595855185,1,1.0,2.0,True,True,1.0,1.0,False,True,False,,0.0,OceanLotus Group
+test,report|69be894f7f70caa47af9a3e3b9fa01b07b3e6060,2024-07-09,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.47926761357946146,1,1.0,2.0,False,False,6.0,7.0,True,True,False,,0.0,OceanLotus Group
+test,report|b2103a9115509069f89cb997c5a6759ae085e383,2022-03-15,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.9883933983704845,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,OceanLotus Group
+test,report|e8469bd2bac27c00e317309630d2d4495630ea6b,2023-11-30,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.3329458163414461,1,1.0,3.0,False,False,5.0,8.0,False,True,False,,0.0,OceanLotus Group
+test,report|f6d79fb44f42a622da427d87f238900a0b5e6b8e,2025-01-20,OceanLotus Group,OceanLotus Group,OceanLotus Group,True,0.5124027345227511,1,1.0,3.0,False,False,4.0,4.0,False,True,False,,0.0,OceanLotus Group
+test,report|2892784eb77b413509d34321e0b8ee1a79a8e579,2024-08-19,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9827980082161596,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Blind Eagle
+test,report|30ae91ca366114d8297f159cc8e85c26b35bc390,2023-03-01,Blind Eagle,Blind Eagle,Blind Eagle,True,0.9777078717841313,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Blind Eagle
+test,report|8559d989bd81653a44d2b4c90aae0889844b5fc3,2022-04-07,Blind Eagle,Blind Eagle,Blind Eagle,True,0.994328991453192,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Blind Eagle
+test,report|9f8a5f6cabb02de390c9f214c538de9c195526fb,2022-12-27,Blind Eagle,Blind Eagle,Blind Eagle,True,0.995041120671383,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Blind Eagle
+test,report|8adb13e98c1e125ee9387b25b67bd8708be96918,,OilRig,MuddyWater,MuddyWater,False,0.7668896121128471,3,1.0,2.0,True,False,1.0,1.0,False,False,False,,0.0,MuddyWater
+test,report|8b746ebdc14944ce8bf5e785dd4cdae846ae257f,2017-01-15,OilRig,OilRig,OilRig,True,0.942156187487,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,OilRig
+test,report|e2269d348c0c1d535bd81acc0337016083292504,2018-09-12,OilRig,OilRig,OilRig,True,0.9788433262287911,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,OilRig
+test,report|f5a81e774658bfdf0a0adddcdf065e0395b56e7b,2019-04-16,OilRig,OilRig,OilRig,True,0.9991242138071796,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,OilRig
+test,report|4d97a51b7861a4446061053148a4a2a53dcc87c5,,Green Spot,Green Spot,Green Spot,True,0.7308960759679739,1,1.0,2.0,False,False,2.0,4.0,False,True,False,,0.0,Green Spot
+test,report|542423b43d47f18acb9944ea86c73a14a1911810,2020-02-08,Green Spot,Green Spot,Green Spot,True,0.954291711765003,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Green Spot
+test,report|667f1379170388a9984c24154da1507f02b5fd19,,Green Spot,Green Spot,Green Spot,True,0.8793883685273062,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Green Spot
+test,report|19ed71adf4dbc79f5599200646359e4989122ad6,,HEXANE,HEXANE,HEXANE,True,0.916305128955369,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,HEXANE
+test,report|6ccc7e27eb5e17b7bb1e82e13fd53a41a40f61b2,,HEXANE,Gamaredon Group,HEXANE,True,0.16673855385636932,1,1.0,6.0,False,False,9.0,10.0,True,True,False,,0.0,HEXANE
+test,report|c3cec74dad798d59464b30f4344b5e26be5fd43c,2021-07-15,APT27,APT27,APT27,True,0.6337679176706897,1,1.0,2.0,False,False,3.0,3.0,False,True,False,,0.0,APT27
+test,report|d41a67d3b2d798f3bd695746244cbc829fd87c88,2021-08-23,APT27,APT27,APT27,True,0.9435685962152766,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,APT27
+test,report|9d1e776a693bbb1940d2b9a361c8613ee80fb72e,2018-10-29,Stealth Falcon,Stealth Falcon,Stealth Falcon,True,0.9589812770485279,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Stealth Falcon
+test,report|124e6dc70a5a8005beb8aee2e76ecd9a86fe9b26,2021-12-09,PROMETHIUM,PROMETHIUM,PROMETHIUM,True,0.9322067462613205,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,PROMETHIUM
+test,report|9401f14ea81c7fe67725724ad4b58f7e1fbe236b,2021-05-03,PROMETHIUM,PROMETHIUM,PROMETHIUM,True,0.8163479790073754,1,1.0,2.0,False,False,2.0,3.0,False,True,False,,0.0,PROMETHIUM
+test,report|a0b41d8c4625c10374d0a87c638324009c81cdb7,2018-07-23,Blue Mushroom,Darkhotel,Darkhotel,False,0.44565532645080386,11,1.0,3.0,False,False,7.0,9.0,True,True,False,,0.0,Darkhotel
+test,report|9ce601818183f475fffb0e323e70b8f94818d3d8,2018-11-08,TRITON,TRITON,TRITON,True,0.9874181881669649,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,TRITON
+test,report|ff73361ad8aa78c3819a0caf807a6411e980f303,2018-09-17,TRITON,TRITON,TRITON,True,0.991362907325665,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,TRITON
+test,report|57c099caa187be1fccb4926c1329d9ebccbdf5f4,2025-02-28,DarkCaracal,Blind Eagle,DarkCaracal,True,0.8938319982385594,1,1.0,2.0,True,True,1.0,1.0,False,True,True,DarkCaracal,1.0,Blind Eagle
+test,report|a567f50338a2740bcfb6fae29c4a9eeb5c0ca3bd,2019-10-31,Gaza Cybergang Group1,Gaza Cybergang Group1,Gaza Cybergang Group1,True,0.9913212558266699,1,1.0,1.0,True,True,1.0,1.0,False,False,False,,0.0,Gaza Cybergang Group1

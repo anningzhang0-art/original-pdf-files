@@ -1,0 +1,6 @@
+{
+  "status": "COMPLETED",
+  "completed_epochs": 50,
+  "best_epoch": 50,
+  "patch": "2026-10-15-v197-cma-frozen-shrinkage"
+}
