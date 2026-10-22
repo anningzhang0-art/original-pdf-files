@@ -1,0 +1,47 @@
+{
+ "kit": "E8-external-2026-10-21",
+ "args": {
+  "v197": "/root/APT_data/Run/V197_AMPRA_CMA.py",
+  "input_dir": "/root/APT_data/Run/input/output_export/attribution_projection_v15_evidenceset_report31",
+  "cache_dir": "/root/APT_data/Run/output/exp_v197/_cache/E8",
+  "out_dir": "/root/APT_data/Run/output/exp_v197/E8_external",
+  "methods": "apt_mmf",
+  "setting": "all",
+  "partitions": "1,2",
+  "ks": "0,1,2",
+  "seeds": [
+   42,
+   43,
+   44,
+   45,
+   46
+  ],
+  "holdout_seeds": [
+   42
+  ],
+  "device": "cuda",
+  "mmf_text": "tfidf",
+  "gnn_epochs": 200,
+  "gnn_patience": 100,
+  "smoke": false
+ },
+ "versions": {
+  "python": "3.9.25",
+  "platform": "Linux-5.15.0-94-generic-x86_64-with-glibc2.35",
+  "numpy": "1.26.4",
+  "scipy": "1.13.1",
+  "pandas": "2.3.3",
+  "sklearn": "1.6.1",
+  "torch": "2.3.0+cu121",
+  "gensim": "4.4.0",
+  "ctgan": "0.12.1",
+  "transformers": "4.57.6",
+  "cuda": true,
+  "gpu": "NVIDIA GeForce RTX 2080 Ti"
+ },
+ "md5": {
+  "V197_AMPRA_CMA.py": "cfd29dc16bff60e60ae8fb5eab2bc10e",
+  "baselines.py": "b82fc65591d9fa83e920721fd2120da5"
+ },
+ "started": "2026-10-21 23:18:53"
+}

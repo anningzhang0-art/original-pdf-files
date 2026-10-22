@@ -1,0 +1,16 @@
+{
+ "method": "apt_att_prov",
+ "hp": {
+  "d_text": 128,
+  "ctgan_epochs": 300
+ },
+ "epochs": [],
+ "holdout_epochs": null,
+ "seeds": [
+  42,
+  43,
+  44,
+  45,
+  46
+ ]
+}

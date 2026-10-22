@@ -1,0 +1,124 @@
+[E8Start] methods=apt_att_prov setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=62
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/torch/autograd/graph.py:744: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at ../aten/src/ATen/cuda/CublasHandlePool.cpp:135.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[E8Search] method=apt_att_prov config=1/2 hp={"ctgan_epochs": 300, "d_text": 64} Val=0.5106 ValMacroF1=0.3757 epoch=-
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8Search] method=apt_att_prov config=2/2 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.5585 ValMacroF1=0.3943 epoch=-
+[E8Chosen] method=apt_att_prov hp={"ctgan_epochs": 300, "d_text": 128} configurations=2 seconds=309
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[External] setting=official method=apt_att_prov seed=42 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.5585 Test=0.5526 TestMacroF1=0.3858 TestMRR=0.6512 Top3=0.6842 test_n=190 epoch=- seconds=197.8
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[External] setting=official method=apt_att_prov seed=43 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.5479 Test=0.5737 TestMacroF1=0.4033 TestMRR=0.6573 Top3=0.6842 test_n=190 epoch=- seconds=195.9
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[External] setting=official method=apt_att_prov seed=44 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.5851 Test=0.5526 TestMacroF1=0.3929 TestMRR=0.6535 Top3=0.7158 test_n=190 epoch=- seconds=196.2
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[External] setting=official method=apt_att_prov seed=45 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.5372 Test=0.5368 TestMacroF1=0.3920 TestMRR=0.6463 Top3=0.6947 test_n=190 epoch=- seconds=193.1
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[External] setting=official method=apt_att_prov seed=46 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.5532 Test=0.5526 TestMacroF1=0.3940 TestMRR=0.6493 Top3=0.7053 test_n=190 epoch=- seconds=191.8
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=0 k=0 method=apt_att_prov seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=263 hidden_top1=0.0000 known_top1=0.5784
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=1 k=0 method=apt_att_prov seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=233 hidden_top1=0.0000 known_top1=0.5676
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=2 k=0 method=apt_att_prov seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=192 hidden_top1=0.0000 known_top1=0.5414
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=3 k=0 method=apt_att_prov seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=172 hidden_top1=0.0000 known_top1=0.5905
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=4 k=0 method=apt_att_prov seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=215 hidden_top1=0.0000 known_top1=0.5400
+[ExternalHoldout] partition=1 k=0 method=apt_att_prov seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.5635 seconds=904.4
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=0 k=1 method=apt_att_prov seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=256 hidden_top1=0.0000 known_top1=0.5784
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=1 k=1 method=apt_att_prov seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=226 hidden_top1=0.0000 known_top1=0.5642
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=2 k=1 method=apt_att_prov seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=185 hidden_top1=0.0000 known_top1=0.5350
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=3 k=1 method=apt_att_prov seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=166 hidden_top1=0.0000 known_top1=0.5810
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=4 k=1 method=apt_att_prov seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=209 hidden_top1=0.0000 known_top1=0.5133
+[ExternalHoldout] partition=1 k=1 method=apt_att_prov seed=42 hidden_queries=1042 hidden_top1=0.0000 known_queries=1512 known_top1=0.5542 seconds=978.2
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=0 k=2 method=apt_att_prov seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=247 hidden_top1=0.0000 known_top1=0.5610
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=1 k=2 method=apt_att_prov seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=220 hidden_top1=0.0000 known_top1=0.6115
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=2 k=2 method=apt_att_prov seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=179 hidden_top1=0.0000 known_top1=0.5318
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=3 k=2 method=apt_att_prov seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=160 hidden_top1=0.0000 known_top1=0.5937
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=4 k=2 method=apt_att_prov seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=203 hidden_top1=0.0000 known_top1=0.5433
+[ExternalHoldout] partition=1 k=2 method=apt_att_prov seed=42 hidden_queries=1009 hidden_top1=0.0000 known_queries=1512 known_top1=0.5681 seconds=974.8
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=0 k=0 method=apt_att_prov seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=234 hidden_top1=0.0000 known_top1=0.5719
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=1 k=0 method=apt_att_prov seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=177 hidden_top1=0.0000 known_top1=0.5570
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=2 k=0 method=apt_att_prov seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=190 hidden_top1=0.0000 known_top1=0.6013
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=3 k=0 method=apt_att_prov seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=241 hidden_top1=0.0000 known_top1=0.5351
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=4 k=0 method=apt_att_prov seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=233 hidden_top1=0.0000 known_top1=0.5987
+[ExternalHoldout] partition=2 k=0 method=apt_att_prov seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.5728 seconds=912.1
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=0 k=1 method=apt_att_prov seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=227 hidden_top1=0.0000 known_top1=0.5651
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=1 k=1 method=apt_att_prov seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=171 hidden_top1=0.0000 known_top1=0.5380
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=2 k=1 method=apt_att_prov seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=184 hidden_top1=0.0000 known_top1=0.5850
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=3 k=1 method=apt_att_prov seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=235 hidden_top1=0.0000 known_top1=0.5351
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=4 k=1 method=apt_att_prov seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=224 hidden_top1=0.0000 known_top1=0.5719
+[ExternalHoldout] partition=2 k=1 method=apt_att_prov seed=42 hidden_queries=1041 hidden_top1=0.0000 known_queries=1512 known_top1=0.5589 seconds=950.9
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=0 k=2 method=apt_att_prov seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=220 hidden_top1=0.0000 known_top1=0.5616
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=1 k=2 method=apt_att_prov seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=165 hidden_top1=0.0000 known_top1=0.5411
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=2 k=2 method=apt_att_prov seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=177 hidden_top1=0.0000 known_top1=0.5588
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=3 k=2 method=apt_att_prov seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=227 hidden_top1=0.0000 known_top1=0.5652
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=4 k=2 method=apt_att_prov seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=218 hidden_top1=0.0000 known_top1=0.6020
+[ExternalHoldout] partition=2 k=2 method=apt_att_prov seed=42 hidden_queries=1007 hidden_top1=0.0000 known_queries=1512 known_top1=0.5655 seconds=950.7
+[E8MethodDone] method=apt_att_prov minutes=115.9
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=117.0

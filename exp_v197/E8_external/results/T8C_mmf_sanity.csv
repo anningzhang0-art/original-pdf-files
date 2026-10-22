@@ -1,0 +1,5 @@
+﻿method,ours_micro_f1(=Top-1),ours_macro_f1,paper_micro_f1,paper_macro_f1,our_rank,paper_rank,order_reproduced
+APT-MMF,58.63 ± 1.27,50.05 ± 2.74,83.21,70.51,4,1,no (HAN > GAT > GCN > APT-MMF)
+HAN,62.95 ± 0.42,54.72 ± 0.88,78.10,68.38,1,2,no (HAN > GAT > GCN > APT-MMF)
+GAT,60.84 ± 0.54,50.85 ± 1.58,77.37,66.41,2,3,no (HAN > GAT > GCN > APT-MMF)
+GCN,58.84 ± 1.31,48.70 ± 1.38,75.18,56.93,3,4,no (HAN > GAT > GCN > APT-MMF)

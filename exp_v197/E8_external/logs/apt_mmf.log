@@ -1,0 +1,72 @@
+[E8Start] methods=apt_mmf setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=62
+[E8MMFGraph] nodes=31252 report=1075 malware=12683 tactic=14 technique=471 vulnerability=190 ip=2631 domain=6481 url=2206 filename=4544 filepath=817 registry=134 email=6 inclusion_edges=40254 domain_malware=27824 homology=26545 ip_malware=18548 resolution=13308
+[E8MMFMetapaths] kept=17 dropped=3 (R-email-R,R-ip-malware-malware-ip-R,R-domain-malware-malware-domain-R) edges(excl. self) R-filename-R:2828 R-malware-R:73764 R-url-R:246 R-filepath-R:24 R-domain-R:2500 R-registry-R:84 R-ip-R:1640 R-vulnerability-R:1418 R-tactic-R:167192 R-ip-malware-R:2298 R-domain-malware-R:1182 R-malware-malware-R:42352 R-ip-malware-ip-R:3440 R-ip-domain-ip-R:4302 R-domain-ip-domain-R:5176 R-malware-domain-malware-R:766 R-malware-ip-malware-R:1646
+[E8Search] method=apt_mmf config=1/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6755 ValMacroF1=0.6259 epoch=168
+[E8Search] method=apt_mmf config=2/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6330 ValMacroF1=0.5206 epoch=196
+[E8Search] method=apt_mmf config=3/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6170 ValMacroF1=0.5042 epoch=129
+[E8Search] method=apt_mmf config=4/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.5426 ValMacroF1=0.4127 epoch=190
+[E8Search] method=apt_mmf config=5/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6809 ValMacroF1=0.6485 epoch=146
+[E8Search] method=apt_mmf config=6/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6543 ValMacroF1=0.5698 epoch=181
+[E8Search] method=apt_mmf config=7/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6383 ValMacroF1=0.5475 epoch=94
+[E8Search] method=apt_mmf config=8/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.5904 ValMacroF1=0.4641 epoch=158
+[E8Search] method=apt_mmf config=9/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6702 ValMacroF1=0.6207 epoch=156
+[E8Search] method=apt_mmf config=10/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6383 ValMacroF1=0.5421 epoch=188
+[E8Search] method=apt_mmf config=11/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6436 ValMacroF1=0.5500 epoch=133
+[E8Search] method=apt_mmf config=12/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.5745 ValMacroF1=0.4344 epoch=199
+[E8Search] method=apt_mmf config=13/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6702 ValMacroF1=0.6134 epoch=125
+[E8Search] method=apt_mmf config=14/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6649 ValMacroF1=0.5612 epoch=198
+[E8Search] method=apt_mmf config=15/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6436 ValMacroF1=0.5518 epoch=74
+[E8Search] method=apt_mmf config=16/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6277 ValMacroF1=0.4988 epoch=188
+[E8Search] method=apt_mmf config=17/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6755 ValMacroF1=0.5985 epoch=143
+[E8Search] method=apt_mmf config=18/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6702 ValMacroF1=0.5457 epoch=162
+[E8Search] method=apt_mmf config=19/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6170 ValMacroF1=0.5202 epoch=141
+[E8Search] method=apt_mmf config=20/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.5691 ValMacroF1=0.4445 epoch=181
+[E8Search] method=apt_mmf config=21/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6862 ValMacroF1=0.6292 epoch=159
+[E8Search] method=apt_mmf config=22/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6649 ValMacroF1=0.5967 epoch=179
+[E8Search] method=apt_mmf config=23/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6330 ValMacroF1=0.5252 epoch=70
+[E8Search] method=apt_mmf config=24/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6064 ValMacroF1=0.4749 epoch=174
+[E8Chosen] method=apt_mmf hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} configurations=24 seconds=673
+[External] setting=official method=apt_mmf seed=42 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6862 Test=0.5842 TestMacroF1=0.4810 TestMRR=0.6806 Top3=0.7053 test_n=190 epoch=159 seconds=15.8
+[External] setting=official method=apt_mmf seed=43 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6489 Test=0.5632 TestMacroF1=0.4664 TestMRR=0.6482 Top3=0.6632 test_n=190 epoch=45 seconds=11.1
+[External] setting=official method=apt_mmf seed=44 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6596 Test=0.5947 TestMacroF1=0.5291 TestMRR=0.6793 Top3=0.6895 test_n=190 epoch=129 seconds=15.7
+[External] setting=official method=apt_mmf seed=45 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6649 Test=0.6000 TestMacroF1=0.5362 TestMRR=0.6830 Top3=0.7211 test_n=190 epoch=150 seconds=15.5
+[External] setting=official method=apt_mmf seed=46 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6543 Test=0.5895 TestMacroF1=0.4900 TestMRR=0.6771 Top3=0.7053 test_n=190 epoch=149 seconds=14.8
+[E8HoldoutFold] partition=1 fold=0 k=0 method=apt_mmf seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=263 hidden_top1=0.0000 known_top1=0.6516
+[E8HoldoutFold] partition=1 fold=1 k=0 method=apt_mmf seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=233 hidden_top1=0.0000 known_top1=0.6318
+[E8HoldoutFold] partition=1 fold=2 k=0 method=apt_mmf seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=192 hidden_top1=0.0000 known_top1=0.6274
+[E8HoldoutFold] partition=1 fold=3 k=0 method=apt_mmf seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=172 hidden_top1=0.0000 known_top1=0.6381
+[E8HoldoutFold] partition=1 fold=4 k=0 method=apt_mmf seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=215 hidden_top1=0.0000 known_top1=0.6533
+[ExternalHoldout] partition=1 k=0 method=apt_mmf seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6402 seconds=40.5
+[E8HoldoutFold] partition=1 fold=0 k=1 method=apt_mmf seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=256 hidden_top1=0.0078 known_top1=0.6376
+[E8HoldoutFold] partition=1 fold=1 k=1 method=apt_mmf seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=226 hidden_top1=0.0487 known_top1=0.6351
+[E8HoldoutFold] partition=1 fold=2 k=1 method=apt_mmf seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=185 hidden_top1=0.0432 known_top1=0.6210
+[E8HoldoutFold] partition=1 fold=3 k=1 method=apt_mmf seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=166 hidden_top1=0.0542 known_top1=0.6349
+[E8HoldoutFold] partition=1 fold=4 k=1 method=apt_mmf seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=209 hidden_top1=0.1196 known_top1=0.6467
+[ExternalHoldout] partition=1 k=1 method=apt_mmf seed=42 hidden_queries=1042 hidden_top1=0.0528 known_queries=1512 known_top1=0.6349 seconds=40.7
+[E8HoldoutFold] partition=1 fold=0 k=2 method=apt_mmf seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=247 hidden_top1=0.0567 known_top1=0.6481
+[E8HoldoutFold] partition=1 fold=1 k=2 method=apt_mmf seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=220 hidden_top1=0.1227 known_top1=0.6318
+[E8HoldoutFold] partition=1 fold=2 k=2 method=apt_mmf seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=179 hidden_top1=0.1453 known_top1=0.6338
+[E8HoldoutFold] partition=1 fold=3 k=2 method=apt_mmf seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=160 hidden_top1=0.1625 known_top1=0.6286
+[E8HoldoutFold] partition=1 fold=4 k=2 method=apt_mmf seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=203 hidden_top1=0.2020 known_top1=0.6400
+[ExternalHoldout] partition=1 k=2 method=apt_mmf seed=42 hidden_queries=1009 hidden_top1=0.1328 known_queries=1512 known_top1=0.6362 seconds=41.3
+[E8HoldoutFold] partition=2 fold=0 k=0 method=apt_mmf seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=234 hidden_top1=0.0000 known_top1=0.6336
+[E8HoldoutFold] partition=2 fold=1 k=0 method=apt_mmf seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=177 hidden_top1=0.0000 known_top1=0.6266
+[E8HoldoutFold] partition=2 fold=2 k=0 method=apt_mmf seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=190 hidden_top1=0.0000 known_top1=0.6503
+[E8HoldoutFold] partition=2 fold=3 k=0 method=apt_mmf seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=241 hidden_top1=0.0000 known_top1=0.5886
+[E8HoldoutFold] partition=2 fold=4 k=0 method=apt_mmf seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=233 hidden_top1=0.0000 known_top1=0.6321
+[ExternalHoldout] partition=2 k=0 method=apt_mmf seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6263 seconds=40.3
+[E8HoldoutFold] partition=2 fold=0 k=1 method=apt_mmf seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=227 hidden_top1=0.0793 known_top1=0.6336
+[E8HoldoutFold] partition=2 fold=1 k=1 method=apt_mmf seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=171 hidden_top1=0.0117 known_top1=0.6361
+[E8HoldoutFold] partition=2 fold=2 k=1 method=apt_mmf seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=184 hidden_top1=0.0163 known_top1=0.6601
+[E8HoldoutFold] partition=2 fold=3 k=1 method=apt_mmf seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=235 hidden_top1=0.0128 known_top1=0.5886
+[E8HoldoutFold] partition=2 fold=4 k=1 method=apt_mmf seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=224 hidden_top1=0.0357 known_top1=0.6321
+[ExternalHoldout] partition=2 k=1 method=apt_mmf seed=42 hidden_queries=1041 hidden_top1=0.0327 known_queries=1512 known_top1=0.6303 seconds=40.1
+[E8HoldoutFold] partition=2 fold=0 k=2 method=apt_mmf seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=220 hidden_top1=0.1773 known_top1=0.6370
+[E8HoldoutFold] partition=2 fold=1 k=2 method=apt_mmf seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=165 hidden_top1=0.0788 known_top1=0.6361
+[E8HoldoutFold] partition=2 fold=2 k=2 method=apt_mmf seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=177 hidden_top1=0.0339 known_top1=0.6601
+[E8HoldoutFold] partition=2 fold=3 k=2 method=apt_mmf seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=227 hidden_top1=0.0573 known_top1=0.5920
+[E8HoldoutFold] partition=2 fold=4 k=2 method=apt_mmf seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=218 hidden_top1=0.1927 known_top1=0.6421
+[ExternalHoldout] partition=2 k=2 method=apt_mmf seed=42 hidden_queries=1007 hidden_top1=0.1122 known_queries=1512 known_top1=0.6336 seconds=41.2
+[E8MethodDone] method=apt_mmf minutes=16.5
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=17.6

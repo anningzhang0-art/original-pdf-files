@@ -1,0 +1,9 @@
+{
+ "method": "camp2vec_all",
+ "hp": {},
+ "epochs": [],
+ "holdout_epochs": null,
+ "seeds": [
+  42
+ ]
+}

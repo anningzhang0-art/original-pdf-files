@@ -1,0 +1,21 @@
+{
+ "method": "apt_scope_kb",
+ "hp": {
+  "dim": 512,
+  "weights": [
+   0.0,
+   1.0,
+   1.0
+  ],
+  "C": 1.0
+ },
+ "epochs": [],
+ "holdout_epochs": null,
+ "seeds": [
+  42,
+  43,
+  44,
+  45,
+  46
+ ]
+}

@@ -1,0 +1,826 @@
+nohup: ignoring input
+torch 2.3.0+cu121 cuda True NVIDIA GeForce RTX 2080 Ti
+[2026-10-21 23:18:50] E8 start  ROOT=/root/APT_data/Run  OUT=/root/APT_data/Run/output/exp_v197/E8_external  methods=apt_mmf,han,gat,gcn,apt_scope,apt_scope_kb,camp2vec_all,camp2vec_len5,mucamp_all,mucamp_len5,pso_msvm,apt_att_prov,apt_att_prov_noaug
+[2026-10-21 23:18:50] run apt_mmf
+[E8Start] methods=apt_mmf setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=62
+[E8MMFGraph] nodes=31252 report=1075 malware=12683 tactic=14 technique=471 vulnerability=190 ip=2631 domain=6481 url=2206 filename=4544 filepath=817 registry=134 email=6 inclusion_edges=40254 domain_malware=27824 homology=26545 ip_malware=18548 resolution=13308
+[E8MMFMetapaths] kept=17 dropped=3 (R-email-R,R-ip-malware-malware-ip-R,R-domain-malware-malware-domain-R) edges(excl. self) R-filename-R:2828 R-malware-R:73764 R-url-R:246 R-filepath-R:24 R-domain-R:2500 R-registry-R:84 R-ip-R:1640 R-vulnerability-R:1418 R-tactic-R:167192 R-ip-malware-R:2298 R-domain-malware-R:1182 R-malware-malware-R:42352 R-ip-malware-ip-R:3440 R-ip-domain-ip-R:4302 R-domain-ip-domain-R:5176 R-malware-domain-malware-R:766 R-malware-ip-malware-R:1646
+[E8Search] method=apt_mmf config=1/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6755 ValMacroF1=0.6259 epoch=168
+[E8Search] method=apt_mmf config=2/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6330 ValMacroF1=0.5206 epoch=196
+[E8Search] method=apt_mmf config=3/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6170 ValMacroF1=0.5042 epoch=129
+[E8Search] method=apt_mmf config=4/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.5426 ValMacroF1=0.4127 epoch=190
+[E8Search] method=apt_mmf config=5/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6809 ValMacroF1=0.6485 epoch=146
+[E8Search] method=apt_mmf config=6/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6543 ValMacroF1=0.5698 epoch=181
+[E8Search] method=apt_mmf config=7/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6383 ValMacroF1=0.5475 epoch=94
+[E8Search] method=apt_mmf config=8/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.5904 ValMacroF1=0.4641 epoch=158
+[E8Search] method=apt_mmf config=9/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6702 ValMacroF1=0.6207 epoch=156
+[E8Search] method=apt_mmf config=10/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6383 ValMacroF1=0.5421 epoch=188
+[E8Search] method=apt_mmf config=11/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6436 ValMacroF1=0.5500 epoch=133
+[E8Search] method=apt_mmf config=12/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.5745 ValMacroF1=0.4344 epoch=199
+[E8Search] method=apt_mmf config=13/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6702 ValMacroF1=0.6134 epoch=125
+[E8Search] method=apt_mmf config=14/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6649 ValMacroF1=0.5612 epoch=198
+[E8Search] method=apt_mmf config=15/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6436 ValMacroF1=0.5518 epoch=74
+[E8Search] method=apt_mmf config=16/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6277 ValMacroF1=0.4988 epoch=188
+[E8Search] method=apt_mmf config=17/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6755 ValMacroF1=0.5985 epoch=143
+[E8Search] method=apt_mmf config=18/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6702 ValMacroF1=0.5457 epoch=162
+[E8Search] method=apt_mmf config=19/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6170 ValMacroF1=0.5202 epoch=141
+[E8Search] method=apt_mmf config=20/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.5691 ValMacroF1=0.4445 epoch=181
+[E8Search] method=apt_mmf config=21/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6862 ValMacroF1=0.6292 epoch=159
+[E8Search] method=apt_mmf config=22/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6649 ValMacroF1=0.5967 epoch=179
+[E8Search] method=apt_mmf config=23/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6330 ValMacroF1=0.5252 epoch=70
+[E8Search] method=apt_mmf config=24/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6064 ValMacroF1=0.4749 epoch=174
+[E8Chosen] method=apt_mmf hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} configurations=24 seconds=673
+[External] setting=official method=apt_mmf seed=42 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6862 Test=0.5842 TestMacroF1=0.4810 TestMRR=0.6806 Top3=0.7053 test_n=190 epoch=159 seconds=15.8
+[External] setting=official method=apt_mmf seed=43 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6489 Test=0.5632 TestMacroF1=0.4664 TestMRR=0.6482 Top3=0.6632 test_n=190 epoch=45 seconds=11.1
+[External] setting=official method=apt_mmf seed=44 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6596 Test=0.5947 TestMacroF1=0.5291 TestMRR=0.6793 Top3=0.6895 test_n=190 epoch=129 seconds=15.7
+[External] setting=official method=apt_mmf seed=45 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6649 Test=0.6000 TestMacroF1=0.5362 TestMRR=0.6830 Top3=0.7211 test_n=190 epoch=150 seconds=15.5
+[External] setting=official method=apt_mmf seed=46 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6543 Test=0.5895 TestMacroF1=0.4900 TestMRR=0.6771 Top3=0.7053 test_n=190 epoch=149 seconds=14.8
+[E8HoldoutFold] partition=1 fold=0 k=0 method=apt_mmf seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=263 hidden_top1=0.0000 known_top1=0.6516
+[E8HoldoutFold] partition=1 fold=1 k=0 method=apt_mmf seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=233 hidden_top1=0.0000 known_top1=0.6318
+[E8HoldoutFold] partition=1 fold=2 k=0 method=apt_mmf seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=192 hidden_top1=0.0000 known_top1=0.6274
+[E8HoldoutFold] partition=1 fold=3 k=0 method=apt_mmf seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=172 hidden_top1=0.0000 known_top1=0.6381
+[E8HoldoutFold] partition=1 fold=4 k=0 method=apt_mmf seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=215 hidden_top1=0.0000 known_top1=0.6533
+[ExternalHoldout] partition=1 k=0 method=apt_mmf seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6402 seconds=40.5
+[E8HoldoutFold] partition=1 fold=0 k=1 method=apt_mmf seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=256 hidden_top1=0.0078 known_top1=0.6376
+[E8HoldoutFold] partition=1 fold=1 k=1 method=apt_mmf seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=226 hidden_top1=0.0487 known_top1=0.6351
+[E8HoldoutFold] partition=1 fold=2 k=1 method=apt_mmf seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=185 hidden_top1=0.0432 known_top1=0.6210
+[E8HoldoutFold] partition=1 fold=3 k=1 method=apt_mmf seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=166 hidden_top1=0.0542 known_top1=0.6349
+[E8HoldoutFold] partition=1 fold=4 k=1 method=apt_mmf seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=209 hidden_top1=0.1196 known_top1=0.6467
+[ExternalHoldout] partition=1 k=1 method=apt_mmf seed=42 hidden_queries=1042 hidden_top1=0.0528 known_queries=1512 known_top1=0.6349 seconds=40.7
+[E8HoldoutFold] partition=1 fold=0 k=2 method=apt_mmf seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=247 hidden_top1=0.0567 known_top1=0.6481
+[E8HoldoutFold] partition=1 fold=1 k=2 method=apt_mmf seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=220 hidden_top1=0.1227 known_top1=0.6318
+[E8HoldoutFold] partition=1 fold=2 k=2 method=apt_mmf seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=179 hidden_top1=0.1453 known_top1=0.6338
+[E8HoldoutFold] partition=1 fold=3 k=2 method=apt_mmf seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=160 hidden_top1=0.1625 known_top1=0.6286
+[E8HoldoutFold] partition=1 fold=4 k=2 method=apt_mmf seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=203 hidden_top1=0.2020 known_top1=0.6400
+[ExternalHoldout] partition=1 k=2 method=apt_mmf seed=42 hidden_queries=1009 hidden_top1=0.1328 known_queries=1512 known_top1=0.6362 seconds=41.3
+[E8HoldoutFold] partition=2 fold=0 k=0 method=apt_mmf seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=234 hidden_top1=0.0000 known_top1=0.6336
+[E8HoldoutFold] partition=2 fold=1 k=0 method=apt_mmf seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=177 hidden_top1=0.0000 known_top1=0.6266
+[E8HoldoutFold] partition=2 fold=2 k=0 method=apt_mmf seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=190 hidden_top1=0.0000 known_top1=0.6503
+[E8HoldoutFold] partition=2 fold=3 k=0 method=apt_mmf seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=241 hidden_top1=0.0000 known_top1=0.5886
+[E8HoldoutFold] partition=2 fold=4 k=0 method=apt_mmf seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=233 hidden_top1=0.0000 known_top1=0.6321
+[ExternalHoldout] partition=2 k=0 method=apt_mmf seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6263 seconds=40.3
+[E8HoldoutFold] partition=2 fold=0 k=1 method=apt_mmf seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=227 hidden_top1=0.0793 known_top1=0.6336
+[E8HoldoutFold] partition=2 fold=1 k=1 method=apt_mmf seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=171 hidden_top1=0.0117 known_top1=0.6361
+[E8HoldoutFold] partition=2 fold=2 k=1 method=apt_mmf seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=184 hidden_top1=0.0163 known_top1=0.6601
+[E8HoldoutFold] partition=2 fold=3 k=1 method=apt_mmf seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=235 hidden_top1=0.0128 known_top1=0.5886
+[E8HoldoutFold] partition=2 fold=4 k=1 method=apt_mmf seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=224 hidden_top1=0.0357 known_top1=0.6321
+[ExternalHoldout] partition=2 k=1 method=apt_mmf seed=42 hidden_queries=1041 hidden_top1=0.0327 known_queries=1512 known_top1=0.6303 seconds=40.1
+[E8HoldoutFold] partition=2 fold=0 k=2 method=apt_mmf seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=220 hidden_top1=0.1773 known_top1=0.6370
+[E8HoldoutFold] partition=2 fold=1 k=2 method=apt_mmf seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=165 hidden_top1=0.0788 known_top1=0.6361
+[E8HoldoutFold] partition=2 fold=2 k=2 method=apt_mmf seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=177 hidden_top1=0.0339 known_top1=0.6601
+[E8HoldoutFold] partition=2 fold=3 k=2 method=apt_mmf seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=227 hidden_top1=0.0573 known_top1=0.5920
+[E8HoldoutFold] partition=2 fold=4 k=2 method=apt_mmf seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=218 hidden_top1=0.1927 known_top1=0.6421
+[ExternalHoldout] partition=2 k=2 method=apt_mmf seed=42 hidden_queries=1007 hidden_top1=0.1122 known_queries=1512 known_top1=0.6336 seconds=41.2
+[E8MethodDone] method=apt_mmf minutes=16.5
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=17.6
+[2026-10-21 23:36:26] done apt_mmf
+[2026-10-21 23:36:26] run han
+[E8Start] methods=han setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=62
+[E8MMFGraph] nodes=31252 report=1075 malware=12683 tactic=14 technique=471 vulnerability=190 ip=2631 domain=6481 url=2206 filename=4544 filepath=817 registry=134 email=6 inclusion_edges=40254 domain_malware=27824 homology=26545 ip_malware=18548 resolution=13308
+[E8MMFMetapaths] kept=17 dropped=3 (R-email-R,R-ip-malware-malware-ip-R,R-domain-malware-malware-domain-R) edges(excl. self) R-filename-R:2828 R-malware-R:73764 R-url-R:246 R-filepath-R:24 R-domain-R:2500 R-registry-R:84 R-ip-R:1640 R-vulnerability-R:1418 R-tactic-R:167192 R-ip-malware-R:2298 R-domain-malware-R:1182 R-malware-malware-R:42352 R-ip-malware-ip-R:3440 R-ip-domain-ip-R:4302 R-domain-ip-domain-R:5176 R-malware-domain-malware-R:766 R-malware-ip-malware-R:1646
+[E8Search] method=han config=1/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6915 ValMacroF1=0.6521 epoch=155
+[E8Search] method=han config=2/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6436 ValMacroF1=0.5746 epoch=199
+[E8Search] method=han config=3/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6543 ValMacroF1=0.5801 epoch=180
+[E8Search] method=han config=4/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.5798 ValMacroF1=0.4308 epoch=192
+[E8Search] method=han config=5/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6915 ValMacroF1=0.6616 epoch=171
+[E8Search] method=han config=6/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6543 ValMacroF1=0.6174 epoch=180
+[E8Search] method=han config=7/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6383 ValMacroF1=0.5868 epoch=124
+[E8Search] method=han config=8/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6117 ValMacroF1=0.4976 epoch=167
+[E8Search] method=han config=9/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6862 ValMacroF1=0.6507 epoch=124
+[E8Search] method=han config=10/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6383 ValMacroF1=0.5533 epoch=163
+[E8Search] method=han config=11/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6596 ValMacroF1=0.5747 epoch=191
+[E8Search] method=han config=12/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6011 ValMacroF1=0.4543 epoch=172
+[E8Search] method=han config=13/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6862 ValMacroF1=0.6597 epoch=139
+[E8Search] method=han config=14/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6809 ValMacroF1=0.6510 epoch=199
+[E8Search] method=han config=15/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6649 ValMacroF1=0.6017 epoch=161
+[E8Search] method=han config=16/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6117 ValMacroF1=0.5419 epoch=174
+[E8Search] method=han config=17/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6809 ValMacroF1=0.6208 epoch=138
+[E8Search] method=han config=18/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6596 ValMacroF1=0.5706 epoch=170
+[E8Search] method=han config=19/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6383 ValMacroF1=0.5442 epoch=184
+[E8Search] method=han config=20/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6011 ValMacroF1=0.4537 epoch=172
+[E8Search] method=han config=21/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6649 ValMacroF1=0.6040 epoch=55
+[E8Search] method=han config=22/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6543 ValMacroF1=0.5461 epoch=181
+[E8Search] method=han config=23/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6596 ValMacroF1=0.5773 epoch=128
+[E8Search] method=han config=24/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6223 ValMacroF1=0.4687 epoch=196
+[E8Chosen] method=han hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} configurations=24 seconds=354
+[External] setting=official method=han seed=42 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6915 Test=0.6316 TestMacroF1=0.5426 TestMRR=0.7073 Top3=0.7368 test_n=190 epoch=155 seconds=14.8
+[External] setting=official method=han seed=43 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6702 Test=0.6316 TestMacroF1=0.5532 TestMRR=0.7138 Top3=0.7474 test_n=190 epoch=147 seconds=14.5
+[External] setting=official method=han seed=44 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6649 Test=0.6316 TestMacroF1=0.5615 TestMRR=0.7078 Top3=0.7211 test_n=190 epoch=71 seconds=11.8
+[External] setting=official method=han seed=45 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6649 Test=0.6316 TestMacroF1=0.5406 TestMRR=0.7090 Top3=0.7474 test_n=190 epoch=161 seconds=13.7
+[External] setting=official method=han seed=46 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6809 Test=0.6211 TestMacroF1=0.5382 TestMRR=0.7037 Top3=0.7474 test_n=190 epoch=197 seconds=14.4
+[E8HoldoutFold] partition=1 fold=0 k=0 method=han seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=263 hidden_top1=0.0000 known_top1=0.6620
+[E8HoldoutFold] partition=1 fold=1 k=0 method=han seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=233 hidden_top1=0.0000 known_top1=0.6689
+[E8HoldoutFold] partition=1 fold=2 k=0 method=han seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=192 hidden_top1=0.0000 known_top1=0.6497
+[E8HoldoutFold] partition=1 fold=3 k=0 method=han seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=172 hidden_top1=0.0000 known_top1=0.6603
+[E8HoldoutFold] partition=1 fold=4 k=0 method=han seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=215 hidden_top1=0.0000 known_top1=0.6467
+[ExternalHoldout] partition=1 k=0 method=han seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6574 seconds=39.5
+[E8HoldoutFold] partition=1 fold=0 k=1 method=han seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=256 hidden_top1=0.0312 known_top1=0.6585
+[E8HoldoutFold] partition=1 fold=1 k=1 method=han seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=226 hidden_top1=0.0088 known_top1=0.6757
+[E8HoldoutFold] partition=1 fold=2 k=1 method=han seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=185 hidden_top1=0.0270 known_top1=0.6529
+[E8HoldoutFold] partition=1 fold=3 k=1 method=han seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=166 hidden_top1=0.0120 known_top1=0.6571
+[E8HoldoutFold] partition=1 fold=4 k=1 method=han seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=209 hidden_top1=0.0861 known_top1=0.6533
+[ExternalHoldout] partition=1 k=1 method=han seed=42 hidden_queries=1042 hidden_top1=0.0336 known_queries=1512 known_top1=0.6594 seconds=40.1
+[E8HoldoutFold] partition=1 fold=0 k=2 method=han seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=247 hidden_top1=0.0891 known_top1=0.6481
+[E8HoldoutFold] partition=1 fold=1 k=2 method=han seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=220 hidden_top1=0.1091 known_top1=0.6723
+[E8HoldoutFold] partition=1 fold=2 k=2 method=han seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=179 hidden_top1=0.0950 known_top1=0.6561
+[E8HoldoutFold] partition=1 fold=3 k=2 method=han seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=160 hidden_top1=0.1812 known_top1=0.6603
+[E8HoldoutFold] partition=1 fold=4 k=2 method=han seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=203 hidden_top1=0.1823 known_top1=0.6633
+[ExternalHoldout] partition=1 k=2 method=han seed=42 hidden_queries=1009 hidden_top1=0.1278 known_queries=1512 known_top1=0.6601 seconds=40.6
+[E8HoldoutFold] partition=2 fold=0 k=0 method=han seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=234 hidden_top1=0.0000 known_top1=0.6575
+[E8HoldoutFold] partition=2 fold=1 k=0 method=han seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=177 hidden_top1=0.0000 known_top1=0.6804
+[E8HoldoutFold] partition=2 fold=2 k=0 method=han seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=190 hidden_top1=0.0000 known_top1=0.6961
+[E8HoldoutFold] partition=2 fold=3 k=0 method=han seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=241 hidden_top1=0.0000 known_top1=0.6288
+[E8HoldoutFold] partition=2 fold=4 k=0 method=han seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=233 hidden_top1=0.0000 known_top1=0.6488
+[ExternalHoldout] partition=2 k=0 method=han seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6627 seconds=40.6
+[E8HoldoutFold] partition=2 fold=0 k=1 method=han seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=227 hidden_top1=0.0793 known_top1=0.6541
+[E8HoldoutFold] partition=2 fold=1 k=1 method=han seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=171 hidden_top1=0.0175 known_top1=0.6804
+[E8HoldoutFold] partition=2 fold=2 k=1 method=han seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=184 hidden_top1=0.0054 known_top1=0.6961
+[E8HoldoutFold] partition=2 fold=3 k=1 method=han seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=235 hidden_top1=0.0170 known_top1=0.6388
+[E8HoldoutFold] partition=2 fold=4 k=1 method=han seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=224 hidden_top1=0.0312 known_top1=0.6656
+[ExternalHoldout] partition=2 k=1 method=han seed=42 hidden_queries=1041 hidden_top1=0.0317 known_queries=1512 known_top1=0.6673 seconds=40.0
+[E8HoldoutFold] partition=2 fold=0 k=2 method=han seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=220 hidden_top1=0.1500 known_top1=0.6541
+[E8HoldoutFold] partition=2 fold=1 k=2 method=han seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=165 hidden_top1=0.0788 known_top1=0.6709
+[E8HoldoutFold] partition=2 fold=2 k=2 method=han seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=177 hidden_top1=0.0621 known_top1=0.6928
+[E8HoldoutFold] partition=2 fold=3 k=2 method=han seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=227 hidden_top1=0.0661 known_top1=0.6421
+[E8HoldoutFold] partition=2 fold=4 k=2 method=han seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=218 hidden_top1=0.1560 known_top1=0.6656
+[ExternalHoldout] partition=2 k=2 method=han seed=42 hidden_queries=1007 hidden_top1=0.1053 known_queries=1512 known_top1=0.6653 seconds=40.6
+[E8MethodDone] method=han minutes=11.1
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=12.2
+[2026-10-21 23:48:38] done han
+[2026-10-21 23:48:38] run gat
+[E8Start] methods=gat setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=61
+[E8MMFGraph] nodes=31252 report=1075 malware=12683 tactic=14 technique=471 vulnerability=190 ip=2631 domain=6481 url=2206 filename=4544 filepath=817 registry=134 email=6 inclusion_edges=40254 domain_malware=27824 homology=26545 ip_malware=18548 resolution=13308
+[E8Homogeneous] nodes=31252 edges_with_self_loops=284210
+[E8Search] method=gat config=1/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6809 ValMacroF1=0.6537 epoch=181
+[E8Search] method=gat config=2/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6383 ValMacroF1=0.5409 epoch=176
+[E8Search] method=gat config=3/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6649 ValMacroF1=0.6041 epoch=174
+[E8Search] method=gat config=4/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6011 ValMacroF1=0.4051 epoch=187
+[E8Search] method=gat config=5/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.7074 ValMacroF1=0.6865 epoch=96
+[E8Search] method=gat config=6/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6755 ValMacroF1=0.5790 epoch=138
+[E8Search] method=gat config=7/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6915 ValMacroF1=0.6712 epoch=173
+[E8Search] method=gat config=8/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6489 ValMacroF1=0.5315 epoch=189
+[E8Search] method=gat config=9/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7021 ValMacroF1=0.6774 epoch=139
+[E8Search] method=gat config=10/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.6596 ValMacroF1=0.5639 epoch=185
+[E8Search] method=gat config=11/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.6968 ValMacroF1=0.6639 epoch=156
+[E8Search] method=gat config=12/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.6064 ValMacroF1=0.4588 epoch=192
+[E8Search] method=gat config=13/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7234 ValMacroF1=0.6949 epoch=73
+[E8Search] method=gat config=14/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.6915 ValMacroF1=0.6632 epoch=188
+[E8Search] method=gat config=15/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7074 ValMacroF1=0.6754 epoch=131
+[E8Search] method=gat config=16/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.6543 ValMacroF1=0.5835 epoch=167
+[E8Search] method=gat config=17/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6915 ValMacroF1=0.6503 epoch=115
+[E8Search] method=gat config=18/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6543 ValMacroF1=0.5075 epoch=167
+[E8Search] method=gat config=19/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6755 ValMacroF1=0.5681 epoch=137
+[E8Search] method=gat config=20/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6277 ValMacroF1=0.4705 epoch=194
+[E8Search] method=gat config=21/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6809 ValMacroF1=0.6087 epoch=170
+[E8Search] method=gat config=22/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6436 ValMacroF1=0.5653 epoch=167
+[E8Search] method=gat config=23/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6809 ValMacroF1=0.5906 epoch=184
+[E8Search] method=gat config=24/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6223 ValMacroF1=0.4597 epoch=177
+[E8Chosen] method=gat hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} configurations=24 seconds=97
+[External] setting=official method=gat seed=42 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7234 Test=0.6105 TestMacroF1=0.5085 TestMRR=0.6948 Top3=0.7316 test_n=190 epoch=73 seconds=3.9
+[External] setting=official method=gat seed=43 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7021 Test=0.6000 TestMacroF1=0.4832 TestMRR=0.6897 Top3=0.7263 test_n=190 epoch=127 seconds=4.5
+[External] setting=official method=gat seed=44 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7287 Test=0.6053 TestMacroF1=0.5289 TestMRR=0.7030 Top3=0.7579 test_n=190 epoch=125 seconds=4.5
+[External] setting=official method=gat seed=45 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.6968 Test=0.6158 TestMacroF1=0.5206 TestMRR=0.7058 Top3=0.7526 test_n=190 epoch=97 seconds=4.5
+[External] setting=official method=gat seed=46 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7128 Test=0.6105 TestMacroF1=0.5016 TestMRR=0.6964 Top3=0.7421 test_n=190 epoch=146 seconds=4.5
+[E8HoldoutFold] partition=1 fold=0 k=0 method=gat seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=263 hidden_top1=0.0000 known_top1=0.6725
+[E8HoldoutFold] partition=1 fold=1 k=0 method=gat seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=233 hidden_top1=0.0000 known_top1=0.6858
+[E8HoldoutFold] partition=1 fold=2 k=0 method=gat seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=192 hidden_top1=0.0000 known_top1=0.6401
+[E8HoldoutFold] partition=1 fold=3 k=0 method=gat seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=172 hidden_top1=0.0000 known_top1=0.6794
+[E8HoldoutFold] partition=1 fold=4 k=0 method=gat seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=215 hidden_top1=0.0000 known_top1=0.6767
+[ExternalHoldout] partition=1 k=0 method=gat seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6706 seconds=9.7
+[E8HoldoutFold] partition=1 fold=0 k=1 method=gat seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=256 hidden_top1=0.0156 known_top1=0.6725
+[E8HoldoutFold] partition=1 fold=1 k=1 method=gat seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=226 hidden_top1=0.0398 known_top1=0.6757
+[E8HoldoutFold] partition=1 fold=2 k=1 method=gat seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=185 hidden_top1=0.0378 known_top1=0.6465
+[E8HoldoutFold] partition=1 fold=3 k=1 method=gat seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=166 hidden_top1=0.0904 known_top1=0.6730
+[E8HoldoutFold] partition=1 fold=4 k=1 method=gat seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=209 hidden_top1=0.0813 known_top1=0.6733
+[ExternalHoldout] partition=1 k=1 method=gat seed=42 hidden_queries=1042 hidden_top1=0.0499 known_queries=1512 known_top1=0.6680 seconds=9.7
+[E8HoldoutFold] partition=1 fold=0 k=2 method=gat seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=247 hidden_top1=0.0810 known_top1=0.6620
+[E8HoldoutFold] partition=1 fold=1 k=2 method=gat seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=220 hidden_top1=0.0955 known_top1=0.6858
+[E8HoldoutFold] partition=1 fold=2 k=2 method=gat seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=179 hidden_top1=0.0950 known_top1=0.6401
+[E8HoldoutFold] partition=1 fold=3 k=2 method=gat seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=160 hidden_top1=0.2125 known_top1=0.6730
+[E8HoldoutFold] partition=1 fold=4 k=2 method=gat seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=203 hidden_top1=0.1724 known_top1=0.6767
+[ExternalHoldout] partition=1 k=2 method=gat seed=42 hidden_queries=1009 hidden_top1=0.1259 known_queries=1512 known_top1=0.6673 seconds=9.7
+[E8HoldoutFold] partition=2 fold=0 k=0 method=gat seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=234 hidden_top1=0.0000 known_top1=0.6781
+[E8HoldoutFold] partition=2 fold=1 k=0 method=gat seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=177 hidden_top1=0.0000 known_top1=0.6646
+[E8HoldoutFold] partition=2 fold=2 k=0 method=gat seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=190 hidden_top1=0.0000 known_top1=0.6863
+[E8HoldoutFold] partition=2 fold=3 k=0 method=gat seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=241 hidden_top1=0.0000 known_top1=0.6254
+[E8HoldoutFold] partition=2 fold=4 k=0 method=gat seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=233 hidden_top1=0.0000 known_top1=0.6656
+[ExternalHoldout] partition=2 k=0 method=gat seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6640 seconds=9.7
+[E8HoldoutFold] partition=2 fold=0 k=1 method=gat seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=227 hidden_top1=0.0573 known_top1=0.6747
+[E8HoldoutFold] partition=2 fold=1 k=1 method=gat seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=171 hidden_top1=0.0117 known_top1=0.6646
+[E8HoldoutFold] partition=2 fold=2 k=1 method=gat seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=184 hidden_top1=0.0326 known_top1=0.6830
+[E8HoldoutFold] partition=2 fold=3 k=1 method=gat seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=235 hidden_top1=0.0213 known_top1=0.6221
+[E8HoldoutFold] partition=2 fold=4 k=1 method=gat seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=224 hidden_top1=0.0179 known_top1=0.6656
+[ExternalHoldout] partition=2 k=1 method=gat seed=42 hidden_queries=1041 hidden_top1=0.0288 known_queries=1512 known_top1=0.6620 seconds=9.6
+[E8HoldoutFold] partition=2 fold=0 k=2 method=gat seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=220 hidden_top1=0.1864 known_top1=0.6781
+[E8HoldoutFold] partition=2 fold=1 k=2 method=gat seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=165 hidden_top1=0.0848 known_top1=0.6646
+[E8HoldoutFold] partition=2 fold=2 k=2 method=gat seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=177 hidden_top1=0.0791 known_top1=0.6928
+[E8HoldoutFold] partition=2 fold=3 k=2 method=gat seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=227 hidden_top1=0.0485 known_top1=0.6321
+[E8HoldoutFold] partition=2 fold=4 k=2 method=gat seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=218 hidden_top1=0.1376 known_top1=0.6756
+[ExternalHoldout] partition=2 k=2 method=gat seed=42 hidden_queries=1007 hidden_top1=0.1092 known_queries=1512 known_top1=0.6687 seconds=9.6
+[E8MethodDone] method=gat minutes=3.0
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=4.0
+[2026-10-21 23:52:41] done gat
+[2026-10-21 23:52:41] run gcn
+[E8Start] methods=gcn setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=62
+[E8MMFGraph] nodes=31252 report=1075 malware=12683 tactic=14 technique=471 vulnerability=190 ip=2631 domain=6481 url=2206 filename=4544 filepath=817 registry=134 email=6 inclusion_edges=40254 domain_malware=27824 homology=26545 ip_malware=18548 resolution=13308
+[E8Homogeneous] nodes=31252 edges_with_self_loops=284210
+[E8Search] method=gcn config=1/24 hp={"dropout": 0.3, "hidden": 64, "lr": 0.01, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6862 ValMacroF1=0.6441 epoch=42
+[E8Search] method=gcn config=2/24 hp={"dropout": 0.3, "hidden": 64, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6968 ValMacroF1=0.7036 epoch=94
+[E8Search] method=gcn config=3/24 hp={"dropout": 0.6, "hidden": 64, "lr": 0.01, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6915 ValMacroF1=0.6582 epoch=48
+[E8Search] method=gcn config=4/24 hp={"dropout": 0.6, "hidden": 64, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6915 ValMacroF1=0.6622 epoch=81
+[E8Search] method=gcn config=5/24 hp={"dropout": 0.3, "hidden": 128, "lr": 0.01, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6862 ValMacroF1=0.6418 epoch=36
+[E8Search] method=gcn config=6/24 hp={"dropout": 0.3, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6702 ValMacroF1=0.6192 epoch=68
+[E8Search] method=gcn config=7/24 hp={"dropout": 0.6, "hidden": 128, "lr": 0.01, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.7021 ValMacroF1=0.6507 epoch=174
+[E8Search] method=gcn config=8/24 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6915 ValMacroF1=0.6615 epoch=77
+[E8Search] method=gcn config=9/24 hp={"dropout": 0.3, "hidden": 64, "lr": 0.01, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7021 ValMacroF1=0.6173 epoch=71
+[E8Search] method=gcn config=10/24 hp={"dropout": 0.3, "hidden": 64, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.6968 ValMacroF1=0.6362 epoch=70
+[E8Search] method=gcn config=11/24 hp={"dropout": 0.6, "hidden": 64, "lr": 0.01, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7021 ValMacroF1=0.6457 epoch=35
+[E8Search] method=gcn config=12/24 hp={"dropout": 0.6, "hidden": 64, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7021 ValMacroF1=0.6487 epoch=49
+[E8Search] method=gcn config=13/24 hp={"dropout": 0.3, "hidden": 128, "lr": 0.01, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7074 ValMacroF1=0.6436 epoch=63
+[E8Search] method=gcn config=14/24 hp={"dropout": 0.3, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7074 ValMacroF1=0.6444 epoch=156
+[E8Search] method=gcn config=15/24 hp={"dropout": 0.6, "hidden": 128, "lr": 0.01, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7021 ValMacroF1=0.6834 epoch=25
+[E8Search] method=gcn config=16/24 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7021 ValMacroF1=0.6428 epoch=112
+[E8Search] method=gcn config=17/24 hp={"dropout": 0.3, "hidden": 64, "lr": 0.01, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6862 ValMacroF1=0.6400 epoch=38
+[E8Search] method=gcn config=18/24 hp={"dropout": 0.3, "hidden": 64, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6862 ValMacroF1=0.6199 epoch=90
+[E8Search] method=gcn config=19/24 hp={"dropout": 0.6, "hidden": 64, "lr": 0.01, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6809 ValMacroF1=0.6118 epoch=45
+[E8Search] method=gcn config=20/24 hp={"dropout": 0.6, "hidden": 64, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6862 ValMacroF1=0.6252 epoch=133
+[E8Search] method=gcn config=21/24 hp={"dropout": 0.3, "hidden": 128, "lr": 0.01, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6915 ValMacroF1=0.6166 epoch=81
+[E8Search] method=gcn config=22/24 hp={"dropout": 0.3, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6915 ValMacroF1=0.6290 epoch=60
+[E8Search] method=gcn config=23/24 hp={"dropout": 0.6, "hidden": 128, "lr": 0.01, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.7074 ValMacroF1=0.6380 epoch=50
+[E8Search] method=gcn config=24/24 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.7128 ValMacroF1=0.6405 epoch=139
+[E8Chosen] method=gcn hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} configurations=24 seconds=52
+[External] setting=official method=gcn seed=42 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.7128 Test=0.5632 TestMacroF1=0.4612 TestMRR=0.6563 Top3=0.6895 test_n=190 epoch=139 seconds=2.8
+[External] setting=official method=gcn seed=43 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6968 Test=0.5947 TestMacroF1=0.4939 TestMRR=0.6725 Top3=0.6737 test_n=190 epoch=187 seconds=2.8
+[External] setting=official method=gcn seed=44 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6862 Test=0.5895 TestMacroF1=0.4849 TestMRR=0.6759 Top3=0.7105 test_n=190 epoch=133 seconds=2.8
+[External] setting=official method=gcn seed=45 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6915 Test=0.5947 TestMacroF1=0.5005 TestMRR=0.6868 Top3=0.7263 test_n=190 epoch=54 seconds=2.1
+[External] setting=official method=gcn seed=46 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.7128 Test=0.6000 TestMacroF1=0.4945 TestMRR=0.6784 Top3=0.7000 test_n=190 epoch=174 seconds=2.8
+[E8HoldoutFold] partition=1 fold=0 k=0 method=gcn seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=263 hidden_top1=0.0000 known_top1=0.6516
+[E8HoldoutFold] partition=1 fold=1 k=0 method=gcn seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=233 hidden_top1=0.0000 known_top1=0.6723
+[E8HoldoutFold] partition=1 fold=2 k=0 method=gcn seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=192 hidden_top1=0.0000 known_top1=0.6083
+[E8HoldoutFold] partition=1 fold=3 k=0 method=gcn seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=172 hidden_top1=0.0000 known_top1=0.6508
+[E8HoldoutFold] partition=1 fold=4 k=0 method=gcn seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=215 hidden_top1=0.0000 known_top1=0.6433
+[ExternalHoldout] partition=1 k=0 method=gcn seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6448 seconds=6.4
+[E8HoldoutFold] partition=1 fold=0 k=1 method=gcn seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=256 hidden_top1=0.0078 known_top1=0.6481
+[E8HoldoutFold] partition=1 fold=1 k=1 method=gcn seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=226 hidden_top1=0.0487 known_top1=0.6723
+[E8HoldoutFold] partition=1 fold=2 k=1 method=gcn seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=185 hidden_top1=0.0324 known_top1=0.6115
+[E8HoldoutFold] partition=1 fold=3 k=1 method=gcn seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=166 hidden_top1=0.1325 known_top1=0.6444
+[E8HoldoutFold] partition=1 fold=4 k=1 method=gcn seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=209 hidden_top1=0.1148 known_top1=0.6400
+[ExternalHoldout] partition=1 k=1 method=gcn seed=42 hidden_queries=1042 hidden_top1=0.0624 known_queries=1512 known_top1=0.6429 seconds=6.5
+[E8HoldoutFold] partition=1 fold=0 k=2 method=gcn seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=247 hidden_top1=0.0729 known_top1=0.6516
+[E8HoldoutFold] partition=1 fold=1 k=2 method=gcn seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=220 hidden_top1=0.1182 known_top1=0.6723
+[E8HoldoutFold] partition=1 fold=2 k=2 method=gcn seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=179 hidden_top1=0.0894 known_top1=0.6115
+[E8HoldoutFold] partition=1 fold=3 k=2 method=gcn seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=160 hidden_top1=0.2188 known_top1=0.6476
+[E8HoldoutFold] partition=1 fold=4 k=2 method=gcn seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=203 hidden_top1=0.1921 known_top1=0.6433
+[ExternalHoldout] partition=1 k=2 method=gcn seed=42 hidden_queries=1009 hidden_top1=0.1328 known_queries=1512 known_top1=0.6448 seconds=6.4
+[E8HoldoutFold] partition=2 fold=0 k=0 method=gcn seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=234 hidden_top1=0.0000 known_top1=0.6473
+[E8HoldoutFold] partition=2 fold=1 k=0 method=gcn seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=177 hidden_top1=0.0000 known_top1=0.6456
+[E8HoldoutFold] partition=2 fold=2 k=0 method=gcn seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=190 hidden_top1=0.0000 known_top1=0.6765
+[E8HoldoutFold] partition=2 fold=3 k=0 method=gcn seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=241 hidden_top1=0.0000 known_top1=0.6054
+[E8HoldoutFold] partition=2 fold=4 k=0 method=gcn seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=233 hidden_top1=0.0000 known_top1=0.6254
+[ExternalHoldout] partition=2 k=0 method=gcn seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6402 seconds=6.4
+[E8HoldoutFold] partition=2 fold=0 k=1 method=gcn seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=227 hidden_top1=0.0661 known_top1=0.6473
+[E8HoldoutFold] partition=2 fold=1 k=1 method=gcn seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=171 hidden_top1=0.0117 known_top1=0.6487
+[E8HoldoutFold] partition=2 fold=2 k=1 method=gcn seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=184 hidden_top1=0.0272 known_top1=0.6765
+[E8HoldoutFold] partition=2 fold=3 k=1 method=gcn seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=235 hidden_top1=0.0128 known_top1=0.5987
+[E8HoldoutFold] partition=2 fold=4 k=1 method=gcn seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=224 hidden_top1=0.0179 known_top1=0.6254
+[ExternalHoldout] partition=2 k=1 method=gcn seed=42 hidden_queries=1041 hidden_top1=0.0279 known_queries=1512 known_top1=0.6396 seconds=6.6
+[E8HoldoutFold] partition=2 fold=0 k=2 method=gcn seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=220 hidden_top1=0.1727 known_top1=0.6541
+[E8HoldoutFold] partition=2 fold=1 k=2 method=gcn seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=165 hidden_top1=0.0485 known_top1=0.6487
+[E8HoldoutFold] partition=2 fold=2 k=2 method=gcn seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=177 hidden_top1=0.0621 known_top1=0.6830
+[E8HoldoutFold] partition=2 fold=3 k=2 method=gcn seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=227 hidden_top1=0.0573 known_top1=0.5987
+[E8HoldoutFold] partition=2 fold=4 k=2 method=gcn seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=218 hidden_top1=0.1284 known_top1=0.6288
+[ExternalHoldout] partition=2 k=2 method=gcn seed=42 hidden_queries=1007 hidden_top1=0.0973 known_queries=1512 known_top1=0.6429 seconds=6.4
+[E8MethodDone] method=gcn minutes=1.8
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=2.8
+[2026-10-21 23:55:31] done gcn
+[2026-10-21 23:55:32] run apt_scope
+[E8Start] methods=apt_scope setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=61
+[E8Relations] infrastructure_pairs=94438 hash_family_case_pairs=26545
+[E8ScopeHIN] reports=1075 entities=34064 groups=31 report_entity_edges=45388 transformation_edges=33201
+[E8Search] method=apt_scope config=1/27 hp={"C": 0.1, "dim": 128, "weights": [0.0, 1.0, 1.0]} Val=0.1862 ValMacroF1=0.1638 epoch=-
+[E8Search] method=apt_scope config=2/27 hp={"C": 1.0, "dim": 128, "weights": [0.0, 1.0, 1.0]} Val=0.1862 ValMacroF1=0.1585 epoch=-
+[E8Search] method=apt_scope config=3/27 hp={"C": 10.0, "dim": 128, "weights": [0.0, 1.0, 1.0]} Val=0.1862 ValMacroF1=0.1582 epoch=-
+[E8Search] method=apt_scope config=4/27 hp={"C": 0.1, "dim": 128, "weights": [0.0, 1.0, 1.0, 1.0]} Val=0.1862 ValMacroF1=0.1617 epoch=-
+[E8Search] method=apt_scope config=5/27 hp={"C": 1.0, "dim": 128, "weights": [0.0, 1.0, 1.0, 1.0]} Val=0.1702 ValMacroF1=0.1521 epoch=-
+[E8Search] method=apt_scope config=6/27 hp={"C": 10.0, "dim": 128, "weights": [0.0, 1.0, 1.0, 1.0]} Val=0.1649 ValMacroF1=0.1421 epoch=-
+[E8Search] method=apt_scope config=7/27 hp={"C": 0.1, "dim": 128, "weights": [1.0, 1.0, 1.0, 1.0]} Val=0.1915 ValMacroF1=0.1584 epoch=-
+[E8Search] method=apt_scope config=8/27 hp={"C": 1.0, "dim": 128, "weights": [1.0, 1.0, 1.0, 1.0]} Val=0.1809 ValMacroF1=0.1544 epoch=-
+[E8Search] method=apt_scope config=9/27 hp={"C": 10.0, "dim": 128, "weights": [1.0, 1.0, 1.0, 1.0]} Val=0.1809 ValMacroF1=0.1550 epoch=-
+[E8Search] method=apt_scope config=10/27 hp={"C": 0.1, "dim": 256, "weights": [0.0, 1.0, 1.0]} Val=0.2447 ValMacroF1=0.2016 epoch=-
+[E8Search] method=apt_scope config=11/27 hp={"C": 1.0, "dim": 256, "weights": [0.0, 1.0, 1.0]} Val=0.2447 ValMacroF1=0.2016 epoch=-
+[E8Search] method=apt_scope config=12/27 hp={"C": 10.0, "dim": 256, "weights": [0.0, 1.0, 1.0]} Val=0.2340 ValMacroF1=0.2232 epoch=-
+[E8Search] method=apt_scope config=13/27 hp={"C": 0.1, "dim": 256, "weights": [0.0, 1.0, 1.0, 1.0]} Val=0.2766 ValMacroF1=0.2238 epoch=-
+[E8Search] method=apt_scope config=14/27 hp={"C": 1.0, "dim": 256, "weights": [0.0, 1.0, 1.0, 1.0]} Val=0.2500 ValMacroF1=0.2206 epoch=-
+[E8Search] method=apt_scope config=15/27 hp={"C": 10.0, "dim": 256, "weights": [0.0, 1.0, 1.0, 1.0]} Val=0.2394 ValMacroF1=0.2234 epoch=-
+[E8Search] method=apt_scope config=16/27 hp={"C": 0.1, "dim": 256, "weights": [1.0, 1.0, 1.0, 1.0]} Val=0.2394 ValMacroF1=0.2109 epoch=-
+[E8Search] method=apt_scope config=17/27 hp={"C": 1.0, "dim": 256, "weights": [1.0, 1.0, 1.0, 1.0]} Val=0.2287 ValMacroF1=0.2056 epoch=-
+[E8Search] method=apt_scope config=18/27 hp={"C": 10.0, "dim": 256, "weights": [1.0, 1.0, 1.0, 1.0]} Val=0.2181 ValMacroF1=0.1984 epoch=-
+[E8Search] method=apt_scope config=19/27 hp={"C": 0.1, "dim": 512, "weights": [0.0, 1.0, 1.0]} Val=0.3404 ValMacroF1=0.2691 epoch=-
+[E8Search] method=apt_scope config=20/27 hp={"C": 1.0, "dim": 512, "weights": [0.0, 1.0, 1.0]} Val=0.3404 ValMacroF1=0.2691 epoch=-
+[E8Search] method=apt_scope config=21/27 hp={"C": 10.0, "dim": 512, "weights": [0.0, 1.0, 1.0]} Val=0.3138 ValMacroF1=0.2577 epoch=-
+[E8Search] method=apt_scope config=22/27 hp={"C": 0.1, "dim": 512, "weights": [0.0, 1.0, 1.0, 1.0]} Val=0.3617 ValMacroF1=0.2868 epoch=-
+[E8Search] method=apt_scope config=23/27 hp={"C": 1.0, "dim": 512, "weights": [0.0, 1.0, 1.0, 1.0]} Val=0.3032 ValMacroF1=0.2483 epoch=-
+[E8Search] method=apt_scope config=24/27 hp={"C": 10.0, "dim": 512, "weights": [0.0, 1.0, 1.0, 1.0]} Val=0.2606 ValMacroF1=0.2144 epoch=-
+[E8Search] method=apt_scope config=25/27 hp={"C": 0.1, "dim": 512, "weights": [1.0, 1.0, 1.0, 1.0]} Val=0.3245 ValMacroF1=0.2747 epoch=-
+[E8Search] method=apt_scope config=26/27 hp={"C": 1.0, "dim": 512, "weights": [1.0, 1.0, 1.0, 1.0]} Val=0.2819 ValMacroF1=0.2373 epoch=-
+[E8Search] method=apt_scope config=27/27 hp={"C": 10.0, "dim": 512, "weights": [1.0, 1.0, 1.0, 1.0]} Val=0.2340 ValMacroF1=0.1994 epoch=-
+[E8Chosen] method=apt_scope hp={"C": 0.1, "dim": 512, "weights": [0.0, 1.0, 1.0, 1.0]} configurations=27 seconds=213
+[External] setting=official method=apt_scope seed=42 hp={"C": 0.1, "dim": 512, "weights": [0.0, 1.0, 1.0, 1.0]} Val=0.3617 Test=0.3263 TestMacroF1=0.2915 TestMRR=0.4568 Top3=0.4947 test_n=190 epoch=- seconds=14.6
+[External] setting=official method=apt_scope seed=43 hp={"C": 0.1, "dim": 512, "weights": [0.0, 1.0, 1.0, 1.0]} Val=0.3617 Test=0.3632 TestMacroF1=0.3105 TestMRR=0.4959 Top3=0.5316 test_n=190 epoch=- seconds=14.8
+[External] setting=official method=apt_scope seed=44 hp={"C": 0.1, "dim": 512, "weights": [0.0, 1.0, 1.0, 1.0]} Val=0.4043 Test=0.2895 TestMacroF1=0.2319 TestMRR=0.4185 Top3=0.4474 test_n=190 epoch=- seconds=15.0
+[External] setting=official method=apt_scope seed=45 hp={"C": 0.1, "dim": 512, "weights": [0.0, 1.0, 1.0, 1.0]} Val=0.3298 Test=0.3632 TestMacroF1=0.3013 TestMRR=0.4801 Top3=0.4895 test_n=190 epoch=- seconds=14.5
+[External] setting=official method=apt_scope seed=46 hp={"C": 0.1, "dim": 512, "weights": [0.0, 1.0, 1.0, 1.0]} Val=0.3245 Test=0.2789 TestMacroF1=0.2320 TestMRR=0.4121 Top3=0.4684 test_n=190 epoch=- seconds=14.3
+[E8HoldoutFold] partition=1 fold=0 k=0 method=apt_scope seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=263 hidden_top1=0.0000 known_top1=0.3693
+[E8HoldoutFold] partition=1 fold=1 k=0 method=apt_scope seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=233 hidden_top1=0.0000 known_top1=0.3581
+[E8HoldoutFold] partition=1 fold=2 k=0 method=apt_scope seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=192 hidden_top1=0.0000 known_top1=0.3344
+[E8HoldoutFold] partition=1 fold=3 k=0 method=apt_scope seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=172 hidden_top1=0.0000 known_top1=0.3556
+[E8HoldoutFold] partition=1 fold=4 k=0 method=apt_scope seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=215 hidden_top1=0.0000 known_top1=0.3633
+[ExternalHoldout] partition=1 k=0 method=apt_scope seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.3558 seconds=72.2
+[E8HoldoutFold] partition=1 fold=0 k=1 method=apt_scope seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=256 hidden_top1=0.0273 known_top1=0.3589
+[E8HoldoutFold] partition=1 fold=1 k=1 method=apt_scope seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=226 hidden_top1=0.0796 known_top1=0.3547
+[E8HoldoutFold] partition=1 fold=2 k=1 method=apt_scope seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=185 hidden_top1=0.0486 known_top1=0.3312
+[E8HoldoutFold] partition=1 fold=3 k=1 method=apt_scope seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=166 hidden_top1=0.1566 known_top1=0.3492
+[E8HoldoutFold] partition=1 fold=4 k=1 method=apt_scope seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=209 hidden_top1=0.0287 known_top1=0.3400
+[ExternalHoldout] partition=1 k=1 method=apt_scope seed=42 hidden_queries=1042 hidden_top1=0.0633 known_queries=1512 known_top1=0.3466 seconds=73.0
+[E8HoldoutFold] partition=1 fold=0 k=2 method=apt_scope seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=247 hidden_top1=0.0445 known_top1=0.3659
+[E8HoldoutFold] partition=1 fold=1 k=2 method=apt_scope seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=220 hidden_top1=0.0727 known_top1=0.3649
+[E8HoldoutFold] partition=1 fold=2 k=2 method=apt_scope seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=179 hidden_top1=0.0950 known_top1=0.3344
+[E8HoldoutFold] partition=1 fold=3 k=2 method=apt_scope seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=160 hidden_top1=0.1625 known_top1=0.3333
+[E8HoldoutFold] partition=1 fold=4 k=2 method=apt_scope seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=203 hidden_top1=0.0837 known_top1=0.3400
+[ExternalHoldout] partition=1 k=2 method=apt_scope seed=42 hidden_queries=1009 hidden_top1=0.0862 known_queries=1512 known_top1=0.3472 seconds=71.9
+[E8HoldoutFold] partition=2 fold=0 k=0 method=apt_scope seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=234 hidden_top1=0.0000 known_top1=0.3527
+[E8HoldoutFold] partition=2 fold=1 k=0 method=apt_scope seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=177 hidden_top1=0.0000 known_top1=0.3449
+[E8HoldoutFold] partition=2 fold=2 k=0 method=apt_scope seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=190 hidden_top1=0.0000 known_top1=0.3693
+[E8HoldoutFold] partition=2 fold=3 k=0 method=apt_scope seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=241 hidden_top1=0.0000 known_top1=0.3411
+[E8HoldoutFold] partition=2 fold=4 k=0 method=apt_scope seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=233 hidden_top1=0.0000 known_top1=0.3512
+[ExternalHoldout] partition=2 k=0 method=apt_scope seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.3519 seconds=72.9
+[E8HoldoutFold] partition=2 fold=0 k=1 method=apt_scope seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=227 hidden_top1=0.0969 known_top1=0.3459
+[E8HoldoutFold] partition=2 fold=1 k=1 method=apt_scope seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=171 hidden_top1=0.0585 known_top1=0.3418
+[E8HoldoutFold] partition=2 fold=2 k=1 method=apt_scope seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=184 hidden_top1=0.0598 known_top1=0.3529
+[E8HoldoutFold] partition=2 fold=3 k=1 method=apt_scope seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=235 hidden_top1=0.0596 known_top1=0.3344
+[E8HoldoutFold] partition=2 fold=4 k=1 method=apt_scope seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=224 hidden_top1=0.0268 known_top1=0.3545
+[ExternalHoldout] partition=2 k=1 method=apt_scope seed=42 hidden_queries=1041 hidden_top1=0.0605 known_queries=1512 known_top1=0.3459 seconds=72.3
+[E8HoldoutFold] partition=2 fold=0 k=2 method=apt_scope seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=220 hidden_top1=0.1364 known_top1=0.3390
+[E8HoldoutFold] partition=2 fold=1 k=2 method=apt_scope seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=165 hidden_top1=0.0727 known_top1=0.3354
+[E8HoldoutFold] partition=2 fold=2 k=2 method=apt_scope seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=177 hidden_top1=0.0678 known_top1=0.3497
+[E8HoldoutFold] partition=2 fold=3 k=2 method=apt_scope seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=227 hidden_top1=0.0617 known_top1=0.3177
+[E8HoldoutFold] partition=2 fold=4 k=2 method=apt_scope seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=218 hidden_top1=0.0826 known_top1=0.3512
+[ExternalHoldout] partition=2 k=2 method=apt_scope seed=42 hidden_queries=1007 hidden_top1=0.0854 known_queries=1512 known_top1=0.3386 seconds=73.3
+[E8MethodDone] method=apt_scope minutes=12.0
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=13.1
+[2026-10-22 00:08:39] done apt_scope
+[2026-10-22 00:08:39] run apt_scope_kb
+[E8Start] methods=apt_scope_kb setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=62
+[E8Relations] infrastructure_pairs=94438 hash_family_case_pairs=26545
+[E8ScopeHIN] reports=1075 entities=34064 groups=31 report_entity_edges=45388 transformation_edges=33201
+Traceback (most recent call last):
+  File "/root/APT_data/Run/exp_v197_external/run_external.py", line 235, in <module>
+    main()
+  File "/root/APT_data/Run/exp_v197_external/run_external.py", line 223, in main
+    meth.setup(ctx, a)
+  File "/root/APT_data/Run/exp_v197_external/m_apt_scope.py", line 107, in setup
+    ks, cover = C.BL.knowledge_scores(ctx.M, ctx.args, ctx.D, ctx.here)
+  File "/root/APT_data/Run/exp_v197_external/baselines.py", line 71, in knowledge_scores
+    kn = M.knowledge_runtime(args, D, None)
+  File "/root/APT_data/Run/V197_AMPRA_CMA.py", line 2897, in knowledge_runtime
+    raise FileNotFoundError(f'knowledge memory {str(path)!r} not found (--kmem-file; public_kb_v192.json next to this script by default)')
+FileNotFoundError: knowledge memory '/root/APT_data/Run/public_kb_v192.json' not found (--kmem-file; public_kb_v192.json next to this script by default)
+[2026-10-22 00:09:44] FAILED apt_scope_kb (see /root/APT_data/Run/output/exp_v197/E8_external/logs/apt_scope_kb.log)
+[2026-10-22 00:09:44] run camp2vec_all
+[E8Start] methods=camp2vec_all setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=62
+[E8TTP] reports_with_ttp=459 with_ge5=174 median_len_if_any=3.0
+[E8Search] method=camp2vec_all config=1/1 hp={} Val=0.0426 ValMacroF1=0.0256 epoch=-
+[E8Chosen] method=camp2vec_all hp={} configurations=1 seconds=0
+[External] setting=official method=camp2vec_all seed=42 hp={} Val=0.0426 Test=0.0263 TestMacroF1=0.0055 TestMRR=0.1848 Top3=0.1842 test_n=190 epoch=- seconds=0.0
+[E8HoldoutFold] partition=1 fold=0 k=0 method=camp2vec_all seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=263 hidden_top1=0.0000 known_top1=0.0418
+[E8HoldoutFold] partition=1 fold=1 k=0 method=camp2vec_all seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=233 hidden_top1=0.0000 known_top1=0.0473
+[E8HoldoutFold] partition=1 fold=2 k=0 method=camp2vec_all seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=192 hidden_top1=0.0000 known_top1=0.0478
+[E8HoldoutFold] partition=1 fold=3 k=0 method=camp2vec_all seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=172 hidden_top1=0.0000 known_top1=0.0413
+[E8HoldoutFold] partition=1 fold=4 k=0 method=camp2vec_all seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=215 hidden_top1=0.0000 known_top1=0.0800
+[ExternalHoldout] partition=1 k=0 method=camp2vec_all seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.0516 seconds=0.1
+[E8HoldoutFold] partition=1 fold=0 k=1 method=camp2vec_all seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=256 hidden_top1=0.0039 known_top1=0.0418
+[E8HoldoutFold] partition=1 fold=1 k=1 method=camp2vec_all seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=226 hidden_top1=0.0088 known_top1=0.0473
+[E8HoldoutFold] partition=1 fold=2 k=1 method=camp2vec_all seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=185 hidden_top1=0.0000 known_top1=0.0414
+[E8HoldoutFold] partition=1 fold=3 k=1 method=camp2vec_all seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=166 hidden_top1=0.0241 known_top1=0.0317
+[E8HoldoutFold] partition=1 fold=4 k=1 method=camp2vec_all seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=209 hidden_top1=0.1244 known_top1=0.0167
+[ExternalHoldout] partition=1 k=1 method=camp2vec_all seed=42 hidden_queries=1042 hidden_top1=0.0317 known_queries=1512 known_top1=0.0357 seconds=0.1
+[E8HoldoutFold] partition=1 fold=0 k=2 method=camp2vec_all seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=247 hidden_top1=0.0364 known_top1=0.0383
+[E8HoldoutFold] partition=1 fold=1 k=2 method=camp2vec_all seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=220 hidden_top1=0.0273 known_top1=0.0405
+[E8HoldoutFold] partition=1 fold=2 k=2 method=camp2vec_all seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=179 hidden_top1=0.0112 known_top1=0.0382
+[E8HoldoutFold] partition=1 fold=3 k=2 method=camp2vec_all seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=160 hidden_top1=0.0250 known_top1=0.0317
+[E8HoldoutFold] partition=1 fold=4 k=2 method=camp2vec_all seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=203 hidden_top1=0.1182 known_top1=0.0067
+[ExternalHoldout] partition=1 k=2 method=camp2vec_all seed=42 hidden_queries=1009 hidden_top1=0.0446 known_queries=1512 known_top1=0.0311 seconds=0.1
+[E8HoldoutFold] partition=2 fold=0 k=0 method=camp2vec_all seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=234 hidden_top1=0.0000 known_top1=0.0925
+[E8HoldoutFold] partition=2 fold=1 k=0 method=camp2vec_all seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=177 hidden_top1=0.0000 known_top1=0.0411
+[E8HoldoutFold] partition=2 fold=2 k=0 method=camp2vec_all seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=190 hidden_top1=0.0000 known_top1=0.0425
+[E8HoldoutFold] partition=2 fold=3 k=0 method=camp2vec_all seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=241 hidden_top1=0.0000 known_top1=0.0368
+[E8HoldoutFold] partition=2 fold=4 k=0 method=camp2vec_all seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=233 hidden_top1=0.0000 known_top1=0.0468
+[ExternalHoldout] partition=2 k=0 method=camp2vec_all seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.0516 seconds=0.1
+[E8HoldoutFold] partition=2 fold=0 k=1 method=camp2vec_all seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=227 hidden_top1=0.1278 known_top1=0.0103
+[E8HoldoutFold] partition=2 fold=1 k=1 method=camp2vec_all seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=171 hidden_top1=0.0351 known_top1=0.0348
+[E8HoldoutFold] partition=2 fold=2 k=1 method=camp2vec_all seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=184 hidden_top1=0.0217 known_top1=0.0425
+[E8HoldoutFold] partition=2 fold=3 k=1 method=camp2vec_all seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=235 hidden_top1=0.0085 known_top1=0.0268
+[E8HoldoutFold] partition=2 fold=4 k=1 method=camp2vec_all seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=224 hidden_top1=0.0000 known_top1=0.0468
+[ExternalHoldout] partition=2 k=1 method=camp2vec_all seed=42 hidden_queries=1041 hidden_top1=0.0394 known_queries=1512 known_top1=0.0324 seconds=0.1
+[E8HoldoutFold] partition=2 fold=0 k=2 method=camp2vec_all seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=220 hidden_top1=0.1091 known_top1=0.0171
+[E8HoldoutFold] partition=2 fold=1 k=2 method=camp2vec_all seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=165 hidden_top1=0.0545 known_top1=0.0316
+[E8HoldoutFold] partition=2 fold=2 k=2 method=camp2vec_all seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=177 hidden_top1=0.0169 known_top1=0.0425
+[E8HoldoutFold] partition=2 fold=3 k=2 method=camp2vec_all seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=227 hidden_top1=0.0441 known_top1=0.0268
+[E8HoldoutFold] partition=2 fold=4 k=2 method=camp2vec_all seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=218 hidden_top1=0.0229 known_top1=0.0368
+[ExternalHoldout] partition=2 k=2 method=camp2vec_all seed=42 hidden_queries=1007 hidden_top1=0.0506 known_queries=1512 known_top1=0.0311 seconds=0.1
+[E8MethodDone] method=camp2vec_all minutes=0.0
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=1.1
+[2026-10-22 00:10:52] done camp2vec_all
+[2026-10-22 00:10:52] run camp2vec_len5
+[E8Start] methods=camp2vec_len5 setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=62
+[E8TTP] reports_with_ttp=459 with_ge5=174 median_len_if_any=3.0
+[E8Search] method=camp2vec_len5 config=1/1 hp={} Val=0.0303 ValMacroF1=0.0080 epoch=-
+[E8Chosen] method=camp2vec_len5 hp={} configurations=1 seconds=0
+[External] setting=official method=camp2vec_len5 seed=42 hp={} Val=0.0303 Test=0.0323 TestMacroF1=0.0278 TestMRR=0.1877 Top3=0.1613 test_n=31 epoch=- seconds=0.0
+[E8HoldoutFold] partition=1 fold=0 k=0 method=camp2vec_len5 seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=46 hidden_top1=0.0000 known_top1=0.0400
+[E8HoldoutFold] partition=1 fold=1 k=0 method=camp2vec_len5 seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=34 hidden_top1=0.0000 known_top1=0.0370
+[E8HoldoutFold] partition=1 fold=2 k=0 method=camp2vec_len5 seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=26 hidden_top1=0.0000 known_top1=0.1111
+[E8HoldoutFold] partition=1 fold=3 k=0 method=camp2vec_len5 seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=29 hidden_top1=0.0000 known_top1=0.0784
+[E8HoldoutFold] partition=1 fold=4 k=0 method=camp2vec_len5 seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=39 hidden_top1=0.0000 known_top1=0.0426
+[ExternalHoldout] partition=1 k=0 method=camp2vec_len5 seed=42 hidden_queries=174 hidden_top1=0.0000 known_queries=256 known_top1=0.0625 seconds=0.1
+[E8HoldoutFold] partition=1 fold=0 k=1 method=camp2vec_len5 seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=46 hidden_top1=0.0000 known_top1=0.0400
+[E8HoldoutFold] partition=1 fold=1 k=1 method=camp2vec_len5 seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=33 hidden_top1=0.0000 known_top1=0.0370
+[E8HoldoutFold] partition=1 fold=2 k=1 method=camp2vec_len5 seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=25 hidden_top1=0.0000 known_top1=0.0926
+[E8HoldoutFold] partition=1 fold=3 k=1 method=camp2vec_len5 seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=28 hidden_top1=0.0000 known_top1=0.0784
+[E8HoldoutFold] partition=1 fold=4 k=1 method=camp2vec_len5 seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=38 hidden_top1=0.0789 known_top1=0.0426
+[ExternalHoldout] partition=1 k=1 method=camp2vec_len5 seed=42 hidden_queries=170 hidden_top1=0.0176 known_queries=256 known_top1=0.0586 seconds=0.1
+[E8HoldoutFold] partition=1 fold=0 k=2 method=camp2vec_len5 seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=46 hidden_top1=0.0000 known_top1=0.0400
+[E8HoldoutFold] partition=1 fold=1 k=2 method=camp2vec_len5 seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=32 hidden_top1=0.0938 known_top1=0.0370
+[E8HoldoutFold] partition=1 fold=2 k=2 method=camp2vec_len5 seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=24 hidden_top1=0.0000 known_top1=0.0185
+[E8HoldoutFold] partition=1 fold=3 k=2 method=camp2vec_len5 seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=27 hidden_top1=0.0370 known_top1=0.0784
+[E8HoldoutFold] partition=1 fold=4 k=2 method=camp2vec_len5 seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=36 hidden_top1=0.1111 known_top1=0.0213
+[ExternalHoldout] partition=1 k=2 method=camp2vec_len5 seed=42 hidden_queries=165 hidden_top1=0.0485 known_queries=256 known_top1=0.0391 seconds=0.1
+[E8HoldoutFold] partition=2 fold=0 k=0 method=camp2vec_len5 seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=47 hidden_top1=0.0000 known_top1=0.0889
+[E8HoldoutFold] partition=2 fold=1 k=0 method=camp2vec_len5 seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=42 hidden_top1=0.0000 known_top1=0.0364
+[E8HoldoutFold] partition=2 fold=2 k=0 method=camp2vec_len5 seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=24 hidden_top1=0.0000 known_top1=0.0769
+[E8HoldoutFold] partition=2 fold=3 k=0 method=camp2vec_len5 seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=34 hidden_top1=0.0000 known_top1=0.0204
+[E8HoldoutFold] partition=2 fold=4 k=0 method=camp2vec_len5 seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=27 hidden_top1=0.0000 known_top1=0.0364
+[ExternalHoldout] partition=2 k=0 method=camp2vec_len5 seed=42 hidden_queries=174 hidden_top1=0.0000 known_queries=256 known_top1=0.0508 seconds=0.1
+[E8HoldoutFold] partition=2 fold=0 k=1 method=camp2vec_len5 seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=45 hidden_top1=0.1111 known_top1=0.0444
+[E8HoldoutFold] partition=2 fold=1 k=1 method=camp2vec_len5 seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=41 hidden_top1=0.0244 known_top1=0.0364
+[E8HoldoutFold] partition=2 fold=2 k=1 method=camp2vec_len5 seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=23 hidden_top1=0.0000 known_top1=0.0577
+[E8HoldoutFold] partition=2 fold=3 k=1 method=camp2vec_len5 seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=33 hidden_top1=0.0000 known_top1=0.0204
+[E8HoldoutFold] partition=2 fold=4 k=1 method=camp2vec_len5 seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=27 hidden_top1=0.0000 known_top1=0.0364
+[ExternalHoldout] partition=2 k=1 method=camp2vec_len5 seed=42 hidden_queries=169 hidden_top1=0.0355 known_queries=256 known_top1=0.0391 seconds=0.1
+[E8HoldoutFold] partition=2 fold=0 k=2 method=camp2vec_len5 seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=44 hidden_top1=0.1136 known_top1=0.0444
+[E8HoldoutFold] partition=2 fold=1 k=2 method=camp2vec_len5 seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=40 hidden_top1=0.0250 known_top1=0.0364
+[E8HoldoutFold] partition=2 fold=2 k=2 method=camp2vec_len5 seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=22 hidden_top1=0.0000 known_top1=0.0577
+[E8HoldoutFold] partition=2 fold=3 k=2 method=camp2vec_len5 seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=32 hidden_top1=0.0000 known_top1=0.0204
+[E8HoldoutFold] partition=2 fold=4 k=2 method=camp2vec_len5 seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=27 hidden_top1=0.0000 known_top1=0.0364
+[ExternalHoldout] partition=2 k=2 method=camp2vec_len5 seed=42 hidden_queries=165 hidden_top1=0.0364 known_queries=256 known_top1=0.0391 seconds=0.1
+[E8MethodDone] method=camp2vec_len5 minutes=0.0
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=1.1
+[2026-10-22 00:11:59] done camp2vec_len5
+[2026-10-22 00:11:59] run mucamp_all
+[E8Start] methods=mucamp_all setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=62
+[E8TTP] reports_with_ttp=459 with_ge5=174 median_len_if_any=3.0
+[E8Search] method=mucamp_all config=1/8 hp={"alpha": 0.2, "beta": 0.2, "nm": 10} Val=0.0372 ValMacroF1=0.0231 epoch=-
+[E8Search] method=mucamp_all config=2/8 hp={"alpha": 0.2, "beta": 0.2, "nm": 64} Val=0.0372 ValMacroF1=0.0140 epoch=-
+[E8Search] method=mucamp_all config=3/8 hp={"alpha": 0.2, "beta": 0.5, "nm": 10} Val=0.0266 ValMacroF1=0.0137 epoch=-
+[E8Search] method=mucamp_all config=4/8 hp={"alpha": 0.2, "beta": 0.5, "nm": 64} Val=0.0213 ValMacroF1=0.0056 epoch=-
+[E8Search] method=mucamp_all config=5/8 hp={"alpha": 0.5, "beta": 0.2, "nm": 10} Val=0.0479 ValMacroF1=0.0433 epoch=-
+[E8Search] method=mucamp_all config=6/8 hp={"alpha": 0.5, "beta": 0.2, "nm": 64} Val=0.0372 ValMacroF1=0.0143 epoch=-
+[E8Search] method=mucamp_all config=7/8 hp={"alpha": 0.5, "beta": 0.5, "nm": 10} Val=0.0372 ValMacroF1=0.0301 epoch=-
+[E8Search] method=mucamp_all config=8/8 hp={"alpha": 0.5, "beta": 0.5, "nm": 64} Val=0.0266 ValMacroF1=0.0148 epoch=-
+[E8Chosen] method=mucamp_all hp={"alpha": 0.5, "beta": 0.2, "nm": 10} configurations=8 seconds=1
+[External] setting=official method=mucamp_all seed=42 hp={"alpha": 0.5, "beta": 0.2, "nm": 10} Val=0.0479 Test=0.0368 TestMacroF1=0.0132 TestMRR=0.1834 Top3=0.1684 test_n=190 epoch=- seconds=0.1
+[External] setting=official method=mucamp_all seed=43 hp={"alpha": 0.5, "beta": 0.2, "nm": 10} Val=0.0372 Test=0.0368 TestMacroF1=0.0143 TestMRR=0.1877 Top3=0.1895 test_n=190 epoch=- seconds=0.1
+[External] setting=official method=mucamp_all seed=44 hp={"alpha": 0.5, "beta": 0.2, "nm": 10} Val=0.0479 Test=0.0316 TestMacroF1=0.0126 TestMRR=0.1782 Top3=0.1579 test_n=190 epoch=- seconds=0.1
+[External] setting=official method=mucamp_all seed=45 hp={"alpha": 0.5, "beta": 0.2, "nm": 10} Val=0.0372 Test=0.0421 TestMacroF1=0.0192 TestMRR=0.1848 Top3=0.1579 test_n=190 epoch=- seconds=0.1
+[External] setting=official method=mucamp_all seed=46 hp={"alpha": 0.5, "beta": 0.2, "nm": 10} Val=0.0426 Test=0.0316 TestMacroF1=0.0126 TestMRR=0.1831 Top3=0.1737 test_n=190 epoch=- seconds=0.1
+[E8HoldoutFold] partition=1 fold=0 k=0 method=mucamp_all seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=263 hidden_top1=0.0000 known_top1=0.0488
+[E8HoldoutFold] partition=1 fold=1 k=0 method=mucamp_all seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=233 hidden_top1=0.0000 known_top1=0.0541
+[E8HoldoutFold] partition=1 fold=2 k=0 method=mucamp_all seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=192 hidden_top1=0.0000 known_top1=0.0478
+[E8HoldoutFold] partition=1 fold=3 k=0 method=mucamp_all seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=172 hidden_top1=0.0000 known_top1=0.0444
+[E8HoldoutFold] partition=1 fold=4 k=0 method=mucamp_all seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=215 hidden_top1=0.0000 known_top1=0.0867
+[ExternalHoldout] partition=1 k=0 method=mucamp_all seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.0562 seconds=0.2
+[E8HoldoutFold] partition=1 fold=0 k=1 method=mucamp_all seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=256 hidden_top1=0.0039 known_top1=0.0418
+[E8HoldoutFold] partition=1 fold=1 k=1 method=mucamp_all seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=226 hidden_top1=0.0133 known_top1=0.0541
+[E8HoldoutFold] partition=1 fold=2 k=1 method=mucamp_all seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=185 hidden_top1=0.0000 known_top1=0.0414
+[E8HoldoutFold] partition=1 fold=3 k=1 method=mucamp_all seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=166 hidden_top1=0.0241 known_top1=0.0286
+[E8HoldoutFold] partition=1 fold=4 k=1 method=mucamp_all seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=209 hidden_top1=0.1148 known_top1=0.0200
+[ExternalHoldout] partition=1 k=1 method=mucamp_all seed=42 hidden_queries=1042 hidden_top1=0.0307 known_queries=1512 known_top1=0.0370 seconds=0.2
+[E8HoldoutFold] partition=1 fold=0 k=2 method=mucamp_all seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=247 hidden_top1=0.0364 known_top1=0.0383
+[E8HoldoutFold] partition=1 fold=1 k=2 method=mucamp_all seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=220 hidden_top1=0.0227 known_top1=0.0338
+[E8HoldoutFold] partition=1 fold=2 k=2 method=mucamp_all seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=179 hidden_top1=0.0056 known_top1=0.0382
+[E8HoldoutFold] partition=1 fold=3 k=2 method=mucamp_all seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=160 hidden_top1=0.0250 known_top1=0.0254
+[E8HoldoutFold] partition=1 fold=4 k=2 method=mucamp_all seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=203 hidden_top1=0.1133 known_top1=0.0133
+[ExternalHoldout] partition=1 k=2 method=mucamp_all seed=42 hidden_queries=1009 hidden_top1=0.0416 known_queries=1512 known_top1=0.0298 seconds=0.2
+[E8HoldoutFold] partition=2 fold=0 k=0 method=mucamp_all seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=234 hidden_top1=0.0000 known_top1=0.0856
+[E8HoldoutFold] partition=2 fold=1 k=0 method=mucamp_all seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=177 hidden_top1=0.0000 known_top1=0.0380
+[E8HoldoutFold] partition=2 fold=2 k=0 method=mucamp_all seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=190 hidden_top1=0.0000 known_top1=0.0490
+[E8HoldoutFold] partition=2 fold=3 k=0 method=mucamp_all seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=241 hidden_top1=0.0000 known_top1=0.0368
+[E8HoldoutFold] partition=2 fold=4 k=0 method=mucamp_all seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=233 hidden_top1=0.0000 known_top1=0.0502
+[ExternalHoldout] partition=2 k=0 method=mucamp_all seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.0516 seconds=0.2
+[E8HoldoutFold] partition=2 fold=0 k=1 method=mucamp_all seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=227 hidden_top1=0.1322 known_top1=0.0034
+[E8HoldoutFold] partition=2 fold=1 k=1 method=mucamp_all seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=171 hidden_top1=0.0292 known_top1=0.0380
+[E8HoldoutFold] partition=2 fold=2 k=1 method=mucamp_all seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=184 hidden_top1=0.0217 known_top1=0.0490
+[E8HoldoutFold] partition=2 fold=3 k=1 method=mucamp_all seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=235 hidden_top1=0.0085 known_top1=0.0301
+[E8HoldoutFold] partition=2 fold=4 k=1 method=mucamp_all seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=224 hidden_top1=0.0000 known_top1=0.0468
+[ExternalHoldout] partition=2 k=1 method=mucamp_all seed=42 hidden_queries=1041 hidden_top1=0.0394 known_queries=1512 known_top1=0.0337 seconds=0.2
+[E8HoldoutFold] partition=2 fold=0 k=2 method=mucamp_all seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=220 hidden_top1=0.1227 known_top1=0.0137
+[E8HoldoutFold] partition=2 fold=1 k=2 method=mucamp_all seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=165 hidden_top1=0.0545 known_top1=0.0380
+[E8HoldoutFold] partition=2 fold=2 k=2 method=mucamp_all seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=177 hidden_top1=0.0113 known_top1=0.0458
+[E8HoldoutFold] partition=2 fold=3 k=2 method=mucamp_all seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=227 hidden_top1=0.0441 known_top1=0.0301
+[E8HoldoutFold] partition=2 fold=4 k=2 method=mucamp_all seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=218 hidden_top1=0.0229 known_top1=0.0368
+[ExternalHoldout] partition=2 k=2 method=mucamp_all seed=42 hidden_queries=1007 hidden_top1=0.0526 known_queries=1512 known_top1=0.0331 seconds=0.2
+[E8MethodDone] method=mucamp_all minutes=0.1
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=1.1
+[2026-10-22 00:13:08] done mucamp_all
+[2026-10-22 00:13:08] run mucamp_len5
+[E8Start] methods=mucamp_len5 setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=62
+[E8TTP] reports_with_ttp=459 with_ge5=174 median_len_if_any=3.0
+[E8Search] method=mucamp_len5 config=1/8 hp={"alpha": 0.2, "beta": 0.2, "nm": 10} Val=0.0606 ValMacroF1=0.0208 epoch=-
+[E8Search] method=mucamp_len5 config=2/8 hp={"alpha": 0.2, "beta": 0.2, "nm": 64} Val=0.0909 ValMacroF1=0.0446 epoch=-
+[E8Search] method=mucamp_len5 config=3/8 hp={"alpha": 0.2, "beta": 0.5, "nm": 10} Val=0.0909 ValMacroF1=0.0298 epoch=-
+[E8Search] method=mucamp_len5 config=4/8 hp={"alpha": 0.2, "beta": 0.5, "nm": 64} Val=0.0606 ValMacroF1=0.0208 epoch=-
+[E8Search] method=mucamp_len5 config=5/8 hp={"alpha": 0.5, "beta": 0.2, "nm": 10} Val=0.0303 ValMacroF1=0.0109 epoch=-
+[E8Search] method=mucamp_len5 config=6/8 hp={"alpha": 0.5, "beta": 0.2, "nm": 64} Val=0.1212 ValMacroF1=0.0394 epoch=-
+[E8Search] method=mucamp_len5 config=7/8 hp={"alpha": 0.5, "beta": 0.5, "nm": 10} Val=0.1212 ValMacroF1=0.0422 epoch=-
+[E8Search] method=mucamp_len5 config=8/8 hp={"alpha": 0.5, "beta": 0.5, "nm": 64} Val=0.1515 ValMacroF1=0.0500 epoch=-
+[E8Chosen] method=mucamp_len5 hp={"alpha": 0.5, "beta": 0.5, "nm": 64} configurations=8 seconds=1
+[External] setting=official method=mucamp_len5 seed=42 hp={"alpha": 0.5, "beta": 0.5, "nm": 64} Val=0.1515 Test=0.0323 TestMacroF1=0.0278 TestMRR=0.1520 Top3=0.0645 test_n=31 epoch=- seconds=0.2
+[External] setting=official method=mucamp_len5 seed=43 hp={"alpha": 0.5, "beta": 0.5, "nm": 64} Val=0.1515 Test=0.0323 TestMacroF1=0.0208 TestMRR=0.1506 Top3=0.0645 test_n=31 epoch=- seconds=0.3
+[External] setting=official method=mucamp_len5 seed=44 hp={"alpha": 0.5, "beta": 0.5, "nm": 64} Val=0.1515 Test=0.0323 TestMacroF1=0.0278 TestMRR=0.1515 Top3=0.0968 test_n=31 epoch=- seconds=0.2
+[External] setting=official method=mucamp_len5 seed=45 hp={"alpha": 0.5, "beta": 0.5, "nm": 64} Val=0.1515 Test=0.0323 TestMacroF1=0.0278 TestMRR=0.1441 Top3=0.0645 test_n=31 epoch=- seconds=0.2
+[External] setting=official method=mucamp_len5 seed=46 hp={"alpha": 0.5, "beta": 0.5, "nm": 64} Val=0.1515 Test=0.0323 TestMacroF1=0.0290 TestMRR=0.1463 Top3=0.0968 test_n=31 epoch=- seconds=0.2
+[E8HoldoutFold] partition=1 fold=0 k=0 method=mucamp_len5 seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=46 hidden_top1=0.0000 known_top1=0.0800
+[E8HoldoutFold] partition=1 fold=1 k=0 method=mucamp_len5 seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=34 hidden_top1=0.0000 known_top1=0.0926
+[E8HoldoutFold] partition=1 fold=2 k=0 method=mucamp_len5 seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=26 hidden_top1=0.0000 known_top1=0.1111
+[E8HoldoutFold] partition=1 fold=3 k=0 method=mucamp_len5 seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=29 hidden_top1=0.0000 known_top1=0.1373
+[E8HoldoutFold] partition=1 fold=4 k=0 method=mucamp_len5 seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=39 hidden_top1=0.0000 known_top1=0.0851
+[ExternalHoldout] partition=1 k=0 method=mucamp_len5 seed=42 hidden_queries=174 hidden_top1=0.0000 known_queries=256 known_top1=0.1016 seconds=0.9
+[E8HoldoutFold] partition=1 fold=0 k=1 method=mucamp_len5 seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=46 hidden_top1=0.0000 known_top1=0.0800
+[E8HoldoutFold] partition=1 fold=1 k=1 method=mucamp_len5 seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=33 hidden_top1=0.0000 known_top1=0.1111
+[E8HoldoutFold] partition=1 fold=2 k=1 method=mucamp_len5 seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=25 hidden_top1=0.0000 known_top1=0.0926
+[E8HoldoutFold] partition=1 fold=3 k=1 method=mucamp_len5 seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=28 hidden_top1=0.0000 known_top1=0.1176
+[E8HoldoutFold] partition=1 fold=4 k=1 method=mucamp_len5 seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=38 hidden_top1=0.0789 known_top1=0.0638
+[ExternalHoldout] partition=1 k=1 method=mucamp_len5 seed=42 hidden_queries=170 hidden_top1=0.0176 known_queries=256 known_top1=0.0938 seconds=0.9
+[E8HoldoutFold] partition=1 fold=0 k=2 method=mucamp_len5 seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=46 hidden_top1=0.0000 known_top1=0.0800
+[E8HoldoutFold] partition=1 fold=1 k=2 method=mucamp_len5 seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=32 hidden_top1=0.1250 known_top1=0.1111
+[E8HoldoutFold] partition=1 fold=2 k=2 method=mucamp_len5 seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=24 hidden_top1=0.0000 known_top1=0.0926
+[E8HoldoutFold] partition=1 fold=3 k=2 method=mucamp_len5 seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=27 hidden_top1=0.0370 known_top1=0.1373
+[E8HoldoutFold] partition=1 fold=4 k=2 method=mucamp_len5 seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=36 hidden_top1=0.1111 known_top1=0.0426
+[ExternalHoldout] partition=1 k=2 method=mucamp_len5 seed=42 hidden_queries=165 hidden_top1=0.0545 known_queries=256 known_top1=0.0938 seconds=1.0
+[E8HoldoutFold] partition=2 fold=0 k=0 method=mucamp_len5 seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=47 hidden_top1=0.0000 known_top1=0.0444
+[E8HoldoutFold] partition=2 fold=1 k=0 method=mucamp_len5 seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=42 hidden_top1=0.0000 known_top1=0.0909
+[E8HoldoutFold] partition=2 fold=2 k=0 method=mucamp_len5 seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=24 hidden_top1=0.0000 known_top1=0.1154
+[E8HoldoutFold] partition=2 fold=3 k=0 method=mucamp_len5 seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=34 hidden_top1=0.0000 known_top1=0.1224
+[E8HoldoutFold] partition=2 fold=4 k=0 method=mucamp_len5 seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=27 hidden_top1=0.0000 known_top1=0.1091
+[ExternalHoldout] partition=2 k=0 method=mucamp_len5 seed=42 hidden_queries=174 hidden_top1=0.0000 known_queries=256 known_top1=0.0977 seconds=0.9
+[E8HoldoutFold] partition=2 fold=0 k=1 method=mucamp_len5 seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=45 hidden_top1=0.0667 known_top1=0.0222
+[E8HoldoutFold] partition=2 fold=1 k=1 method=mucamp_len5 seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=41 hidden_top1=0.0488 known_top1=0.0909
+[E8HoldoutFold] partition=2 fold=2 k=1 method=mucamp_len5 seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=23 hidden_top1=0.0000 known_top1=0.0962
+[E8HoldoutFold] partition=2 fold=3 k=1 method=mucamp_len5 seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=33 hidden_top1=0.0000 known_top1=0.1224
+[E8HoldoutFold] partition=2 fold=4 k=1 method=mucamp_len5 seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=27 hidden_top1=0.0000 known_top1=0.1091
+[ExternalHoldout] partition=2 k=1 method=mucamp_len5 seed=42 hidden_queries=169 hidden_top1=0.0296 known_queries=256 known_top1=0.0898 seconds=0.9
+[E8HoldoutFold] partition=2 fold=0 k=2 method=mucamp_len5 seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=44 hidden_top1=0.0909 known_top1=0.0000
+[E8HoldoutFold] partition=2 fold=1 k=2 method=mucamp_len5 seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=40 hidden_top1=0.0250 known_top1=0.0909
+[E8HoldoutFold] partition=2 fold=2 k=2 method=mucamp_len5 seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=22 hidden_top1=0.0000 known_top1=0.0962
+[E8HoldoutFold] partition=2 fold=3 k=2 method=mucamp_len5 seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=32 hidden_top1=0.0000 known_top1=0.1224
+[E8HoldoutFold] partition=2 fold=4 k=2 method=mucamp_len5 seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=27 hidden_top1=0.0000 known_top1=0.1091
+[ExternalHoldout] partition=2 k=2 method=mucamp_len5 seed=42 hidden_queries=165 hidden_top1=0.0303 known_queries=256 known_top1=0.0859 seconds=0.9
+[E8MethodDone] method=mucamp_len5 minutes=0.2
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=1.2
+[2026-10-22 00:14:22] done mucamp_len5
+[2026-10-22 00:14:22] run pso_msvm
+[E8Start] methods=pso_msvm setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=63
+[E8Chosen] method=pso_msvm hp={"log10_C": 1.7982465955626399, "log10_gamma": -1.9545285014022966} configurations=30 seconds=862
+[External] setting=official method=pso_msvm seed=42 hp={"log10_C": 1.7982465955626399, "log10_gamma": -1.9545285014022966} Val=0.6649 Test=0.6368 TestMacroF1=0.5007 TestMRR=0.7139 Top3=0.7579 test_n=190 epoch=- seconds=33.8
+[E8HoldoutFold] partition=1 fold=0 k=0 method=pso_msvm seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=263 hidden_top1=0.0000 known_top1=0.6760
+[E8HoldoutFold] partition=1 fold=1 k=0 method=pso_msvm seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=233 hidden_top1=0.0000 known_top1=0.6926
+[E8HoldoutFold] partition=1 fold=2 k=0 method=pso_msvm seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=192 hidden_top1=0.0000 known_top1=0.6720
+[E8HoldoutFold] partition=1 fold=3 k=0 method=pso_msvm seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=172 hidden_top1=0.0000 known_top1=0.6667
+[E8HoldoutFold] partition=1 fold=4 k=0 method=pso_msvm seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=215 hidden_top1=0.0000 known_top1=0.6467
+[ExternalHoldout] partition=1 k=0 method=pso_msvm seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6706 seconds=243.4
+[E8HoldoutFold] partition=1 fold=0 k=1 method=pso_msvm seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=256 hidden_top1=0.0000 known_top1=0.6760
+[E8HoldoutFold] partition=1 fold=1 k=1 method=pso_msvm seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=226 hidden_top1=0.0000 known_top1=0.6892
+[E8HoldoutFold] partition=1 fold=2 k=1 method=pso_msvm seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=185 hidden_top1=0.0000 known_top1=0.6688
+[E8HoldoutFold] partition=1 fold=3 k=1 method=pso_msvm seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=166 hidden_top1=0.0000 known_top1=0.6698
+[E8HoldoutFold] partition=1 fold=4 k=1 method=pso_msvm seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=209 hidden_top1=0.0000 known_top1=0.6467
+[ExternalHoldout] partition=1 k=1 method=pso_msvm seed=42 hidden_queries=1042 hidden_top1=0.0000 known_queries=1512 known_top1=0.6700 seconds=257.0
+[E8HoldoutFold] partition=1 fold=0 k=2 method=pso_msvm seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=247 hidden_top1=0.0000 known_top1=0.6760
+[E8HoldoutFold] partition=1 fold=1 k=2 method=pso_msvm seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=220 hidden_top1=0.0000 known_top1=0.6892
+[E8HoldoutFold] partition=1 fold=2 k=2 method=pso_msvm seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=179 hidden_top1=0.0000 known_top1=0.6656
+[E8HoldoutFold] partition=1 fold=3 k=2 method=pso_msvm seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=160 hidden_top1=0.0000 known_top1=0.6698
+[E8HoldoutFold] partition=1 fold=4 k=2 method=pso_msvm seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=203 hidden_top1=0.0000 known_top1=0.6467
+[ExternalHoldout] partition=1 k=2 method=pso_msvm seed=42 hidden_queries=1009 hidden_top1=0.0000 known_queries=1512 known_top1=0.6693 seconds=257.9
+[E8HoldoutFold] partition=2 fold=0 k=0 method=pso_msvm seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=234 hidden_top1=0.0000 known_top1=0.6610
+[E8HoldoutFold] partition=2 fold=1 k=0 method=pso_msvm seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=177 hidden_top1=0.0000 known_top1=0.6519
+[E8HoldoutFold] partition=2 fold=2 k=0 method=pso_msvm seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=190 hidden_top1=0.0000 known_top1=0.6993
+[E8HoldoutFold] partition=2 fold=3 k=0 method=pso_msvm seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=241 hidden_top1=0.0000 known_top1=0.6622
+[E8HoldoutFold] partition=2 fold=4 k=0 method=pso_msvm seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=233 hidden_top1=0.0000 known_top1=0.6823
+[ExternalHoldout] partition=2 k=0 method=pso_msvm seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6713 seconds=243.2
+[E8HoldoutFold] partition=2 fold=0 k=1 method=pso_msvm seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=227 hidden_top1=0.0000 known_top1=0.6610
+[E8HoldoutFold] partition=2 fold=1 k=1 method=pso_msvm seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=171 hidden_top1=0.0000 known_top1=0.6487
+[E8HoldoutFold] partition=2 fold=2 k=1 method=pso_msvm seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=184 hidden_top1=0.0000 known_top1=0.6993
+[E8HoldoutFold] partition=2 fold=3 k=1 method=pso_msvm seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=235 hidden_top1=0.0000 known_top1=0.6622
+[E8HoldoutFold] partition=2 fold=4 k=1 method=pso_msvm seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=224 hidden_top1=0.0000 known_top1=0.6823
+[ExternalHoldout] partition=2 k=1 method=pso_msvm seed=42 hidden_queries=1041 hidden_top1=0.0000 known_queries=1512 known_top1=0.6706 seconds=258.0
+[E8HoldoutFold] partition=2 fold=0 k=2 method=pso_msvm seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=220 hidden_top1=0.0000 known_top1=0.6610
+[E8HoldoutFold] partition=2 fold=1 k=2 method=pso_msvm seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=165 hidden_top1=0.0000 known_top1=0.6519
+[E8HoldoutFold] partition=2 fold=2 k=2 method=pso_msvm seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=177 hidden_top1=0.0000 known_top1=0.6993
+[E8HoldoutFold] partition=2 fold=3 k=2 method=pso_msvm seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=227 hidden_top1=0.0000 known_top1=0.6622
+[E8HoldoutFold] partition=2 fold=4 k=2 method=pso_msvm seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=218 hidden_top1=0.0000 known_top1=0.6823
+[ExternalHoldout] partition=2 k=2 method=pso_msvm seed=42 hidden_queries=1007 hidden_top1=0.0000 known_queries=1512 known_top1=0.6713 seconds=259.3
+[E8MethodDone] method=pso_msvm minutes=40.3
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=41.3
+[2026-10-22 00:55:44] done pso_msvm
+[2026-10-22 00:55:44] run apt_att_prov
+[E8Start] methods=apt_att_prov setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=62
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/torch/autograd/graph.py:744: UserWarning: Attempting to run cuBLAS, but there was no current CUDA context! Attempting to set the primary context... (Triggered internally at ../aten/src/ATen/cuda/CublasHandlePool.cpp:135.)
+  return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+[E8Search] method=apt_att_prov config=1/2 hp={"ctgan_epochs": 300, "d_text": 64} Val=0.5106 ValMacroF1=0.3757 epoch=-
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8Search] method=apt_att_prov config=2/2 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.5585 ValMacroF1=0.3943 epoch=-
+[E8Chosen] method=apt_att_prov hp={"ctgan_epochs": 300, "d_text": 128} configurations=2 seconds=309
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[External] setting=official method=apt_att_prov seed=42 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.5585 Test=0.5526 TestMacroF1=0.3858 TestMRR=0.6512 Top3=0.6842 test_n=190 epoch=- seconds=197.8
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[External] setting=official method=apt_att_prov seed=43 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.5479 Test=0.5737 TestMacroF1=0.4033 TestMRR=0.6573 Top3=0.6842 test_n=190 epoch=- seconds=195.9
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[External] setting=official method=apt_att_prov seed=44 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.5851 Test=0.5526 TestMacroF1=0.3929 TestMRR=0.6535 Top3=0.7158 test_n=190 epoch=- seconds=196.2
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[External] setting=official method=apt_att_prov seed=45 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.5372 Test=0.5368 TestMacroF1=0.3920 TestMRR=0.6463 Top3=0.6947 test_n=190 epoch=- seconds=193.1
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[External] setting=official method=apt_att_prov seed=46 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.5532 Test=0.5526 TestMacroF1=0.3940 TestMRR=0.6493 Top3=0.7053 test_n=190 epoch=- seconds=191.8
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=0 k=0 method=apt_att_prov seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=263 hidden_top1=0.0000 known_top1=0.5784
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=1 k=0 method=apt_att_prov seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=233 hidden_top1=0.0000 known_top1=0.5676
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=2 k=0 method=apt_att_prov seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=192 hidden_top1=0.0000 known_top1=0.5414
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=3 k=0 method=apt_att_prov seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=172 hidden_top1=0.0000 known_top1=0.5905
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=4 k=0 method=apt_att_prov seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=215 hidden_top1=0.0000 known_top1=0.5400
+[ExternalHoldout] partition=1 k=0 method=apt_att_prov seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.5635 seconds=904.4
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=0 k=1 method=apt_att_prov seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=256 hidden_top1=0.0000 known_top1=0.5784
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=1 k=1 method=apt_att_prov seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=226 hidden_top1=0.0000 known_top1=0.5642
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=2 k=1 method=apt_att_prov seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=185 hidden_top1=0.0000 known_top1=0.5350
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=3 k=1 method=apt_att_prov seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=166 hidden_top1=0.0000 known_top1=0.5810
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=4 k=1 method=apt_att_prov seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=209 hidden_top1=0.0000 known_top1=0.5133
+[ExternalHoldout] partition=1 k=1 method=apt_att_prov seed=42 hidden_queries=1042 hidden_top1=0.0000 known_queries=1512 known_top1=0.5542 seconds=978.2
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=0 k=2 method=apt_att_prov seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=247 hidden_top1=0.0000 known_top1=0.5610
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=1 k=2 method=apt_att_prov seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=220 hidden_top1=0.0000 known_top1=0.6115
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=2 k=2 method=apt_att_prov seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=179 hidden_top1=0.0000 known_top1=0.5318
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=3 k=2 method=apt_att_prov seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=160 hidden_top1=0.0000 known_top1=0.5937
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=1 fold=4 k=2 method=apt_att_prov seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=203 hidden_top1=0.0000 known_top1=0.5433
+[ExternalHoldout] partition=1 k=2 method=apt_att_prov seed=42 hidden_queries=1009 hidden_top1=0.0000 known_queries=1512 known_top1=0.5681 seconds=974.8
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=0 k=0 method=apt_att_prov seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=234 hidden_top1=0.0000 known_top1=0.5719
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=1 k=0 method=apt_att_prov seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=177 hidden_top1=0.0000 known_top1=0.5570
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=2 k=0 method=apt_att_prov seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=190 hidden_top1=0.0000 known_top1=0.6013
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=3 k=0 method=apt_att_prov seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=241 hidden_top1=0.0000 known_top1=0.5351
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=4 k=0 method=apt_att_prov seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=233 hidden_top1=0.0000 known_top1=0.5987
+[ExternalHoldout] partition=2 k=0 method=apt_att_prov seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.5728 seconds=912.1
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=0 k=1 method=apt_att_prov seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=227 hidden_top1=0.0000 known_top1=0.5651
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=1 k=1 method=apt_att_prov seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=171 hidden_top1=0.0000 known_top1=0.5380
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=2 k=1 method=apt_att_prov seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=184 hidden_top1=0.0000 known_top1=0.5850
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=3 k=1 method=apt_att_prov seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=235 hidden_top1=0.0000 known_top1=0.5351
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=4 k=1 method=apt_att_prov seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=224 hidden_top1=0.0000 known_top1=0.5719
+[ExternalHoldout] partition=2 k=1 method=apt_att_prov seed=42 hidden_queries=1041 hidden_top1=0.0000 known_queries=1512 known_top1=0.5589 seconds=950.9
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=0 k=2 method=apt_att_prov seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=220 hidden_top1=0.0000 known_top1=0.5616
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=1 k=2 method=apt_att_prov seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=165 hidden_top1=0.0000 known_top1=0.5411
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=2 k=2 method=apt_att_prov seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=177 hidden_top1=0.0000 known_top1=0.5588
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=3 k=2 method=apt_att_prov seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=227 hidden_top1=0.0000 known_top1=0.5652
+/root/miniconda3/envs/anning/lib/python3.9/site-packages/ctgan/synthesizers/_utils.py:16: FutureWarning: `cuda` parameter is deprecated and will be removed in a future release. Please use `enable_gpu` instead.
+  warnings.warn(
+[E8HoldoutFold] partition=2 fold=4 k=2 method=apt_att_prov seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=218 hidden_top1=0.0000 known_top1=0.6020
+[ExternalHoldout] partition=2 k=2 method=apt_att_prov seed=42 hidden_queries=1007 hidden_top1=0.0000 known_queries=1512 known_top1=0.5655 seconds=950.7
+[E8MethodDone] method=apt_att_prov minutes=115.9
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=117.0
+[2026-10-22 02:52:47] done apt_att_prov
+[2026-10-22 02:52:47] run apt_att_prov_noaug
+[E8Start] methods=apt_att_prov_noaug setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=61
+[E8Search] method=apt_att_prov_noaug config=1/2 hp={"ctgan_epochs": 300, "d_text": 64} Val=0.5691 ValMacroF1=0.4087 epoch=-
+[E8Search] method=apt_att_prov_noaug config=2/2 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.6117 ValMacroF1=0.4537 epoch=-
+[E8Chosen] method=apt_att_prov_noaug hp={"ctgan_epochs": 300, "d_text": 128} configurations=2 seconds=26
+[External] setting=official method=apt_att_prov_noaug seed=42 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.6117 Test=0.6158 TestMacroF1=0.4686 TestMRR=0.6992 Top3=0.7316 test_n=190 epoch=- seconds=14.5
+[External] setting=official method=apt_att_prov_noaug seed=43 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.6011 Test=0.6105 TestMacroF1=0.4587 TestMRR=0.7051 Top3=0.7632 test_n=190 epoch=- seconds=14.7
+[External] setting=official method=apt_att_prov_noaug seed=44 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.6170 Test=0.6263 TestMacroF1=0.4685 TestMRR=0.7056 Top3=0.7263 test_n=190 epoch=- seconds=14.7
+[External] setting=official method=apt_att_prov_noaug seed=45 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.6064 Test=0.6211 TestMacroF1=0.4715 TestMRR=0.7030 Top3=0.7368 test_n=190 epoch=- seconds=14.6
+[External] setting=official method=apt_att_prov_noaug seed=46 hp={"ctgan_epochs": 300, "d_text": 128} Val=0.5904 Test=0.6211 TestMacroF1=0.4625 TestMRR=0.7093 Top3=0.7474 test_n=190 epoch=- seconds=14.6
+[E8HoldoutFold] partition=1 fold=0 k=0 method=apt_att_prov_noaug seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=263 hidden_top1=0.0000 known_top1=0.6132
+[E8HoldoutFold] partition=1 fold=1 k=0 method=apt_att_prov_noaug seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=233 hidden_top1=0.0000 known_top1=0.6419
+[E8HoldoutFold] partition=1 fold=2 k=0 method=apt_att_prov_noaug seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=192 hidden_top1=0.0000 known_top1=0.6369
+[E8HoldoutFold] partition=1 fold=3 k=0 method=apt_att_prov_noaug seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=172 hidden_top1=0.0000 known_top1=0.6476
+[E8HoldoutFold] partition=1 fold=4 k=0 method=apt_att_prov_noaug seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=215 hidden_top1=0.0000 known_top1=0.6167
+[ExternalHoldout] partition=1 k=0 method=apt_att_prov_noaug seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6316 seconds=65.5
+[E8HoldoutFold] partition=1 fold=0 k=1 method=apt_att_prov_noaug seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=256 hidden_top1=0.0000 known_top1=0.6132
+[E8HoldoutFold] partition=1 fold=1 k=1 method=apt_att_prov_noaug seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=226 hidden_top1=0.0000 known_top1=0.6486
+[E8HoldoutFold] partition=1 fold=2 k=1 method=apt_att_prov_noaug seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=185 hidden_top1=0.0000 known_top1=0.6306
+[E8HoldoutFold] partition=1 fold=3 k=1 method=apt_att_prov_noaug seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=166 hidden_top1=0.0000 known_top1=0.6508
+[E8HoldoutFold] partition=1 fold=4 k=1 method=apt_att_prov_noaug seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=209 hidden_top1=0.0000 known_top1=0.6233
+[ExternalHoldout] partition=1 k=1 method=apt_att_prov_noaug seed=42 hidden_queries=1042 hidden_top1=0.0000 known_queries=1512 known_top1=0.6336 seconds=65.9
+[E8HoldoutFold] partition=1 fold=0 k=2 method=apt_att_prov_noaug seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=247 hidden_top1=0.0000 known_top1=0.6063
+[E8HoldoutFold] partition=1 fold=1 k=2 method=apt_att_prov_noaug seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=220 hidden_top1=0.0000 known_top1=0.6385
+[E8HoldoutFold] partition=1 fold=2 k=2 method=apt_att_prov_noaug seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=179 hidden_top1=0.0000 known_top1=0.6242
+[E8HoldoutFold] partition=1 fold=3 k=2 method=apt_att_prov_noaug seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=160 hidden_top1=0.0000 known_top1=0.6603
+[E8HoldoutFold] partition=1 fold=4 k=2 method=apt_att_prov_noaug seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=203 hidden_top1=0.0000 known_top1=0.6033
+[ExternalHoldout] partition=1 k=2 method=apt_att_prov_noaug seed=42 hidden_queries=1009 hidden_top1=0.0000 known_queries=1512 known_top1=0.6270 seconds=57.5
+[E8HoldoutFold] partition=2 fold=0 k=0 method=apt_att_prov_noaug seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=234 hidden_top1=0.0000 known_top1=0.6301
+[E8HoldoutFold] partition=2 fold=1 k=0 method=apt_att_prov_noaug seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=177 hidden_top1=0.0000 known_top1=0.6076
+[E8HoldoutFold] partition=2 fold=2 k=0 method=apt_att_prov_noaug seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=190 hidden_top1=0.0000 known_top1=0.6863
+[E8HoldoutFold] partition=2 fold=3 k=0 method=apt_att_prov_noaug seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=241 hidden_top1=0.0000 known_top1=0.6120
+[E8HoldoutFold] partition=2 fold=4 k=0 method=apt_att_prov_noaug seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=233 hidden_top1=0.0000 known_top1=0.6321
+[ExternalHoldout] partition=2 k=0 method=apt_att_prov_noaug seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6336 seconds=65.2
+[E8HoldoutFold] partition=2 fold=0 k=1 method=apt_att_prov_noaug seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=227 hidden_top1=0.0000 known_top1=0.6404
+[E8HoldoutFold] partition=2 fold=1 k=1 method=apt_att_prov_noaug seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=171 hidden_top1=0.0000 known_top1=0.6013
+[E8HoldoutFold] partition=2 fold=2 k=1 method=apt_att_prov_noaug seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=184 hidden_top1=0.0000 known_top1=0.6699
+[E8HoldoutFold] partition=2 fold=3 k=1 method=apt_att_prov_noaug seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=235 hidden_top1=0.0000 known_top1=0.6254
+[E8HoldoutFold] partition=2 fold=4 k=1 method=apt_att_prov_noaug seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=224 hidden_top1=0.0000 known_top1=0.6321
+[ExternalHoldout] partition=2 k=1 method=apt_att_prov_noaug seed=42 hidden_queries=1041 hidden_top1=0.0000 known_queries=1512 known_top1=0.6336 seconds=66.1
+[E8HoldoutFold] partition=2 fold=0 k=2 method=apt_att_prov_noaug seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=220 hidden_top1=0.0000 known_top1=0.6370
+[E8HoldoutFold] partition=2 fold=1 k=2 method=apt_att_prov_noaug seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=165 hidden_top1=0.0000 known_top1=0.6013
+[E8HoldoutFold] partition=2 fold=2 k=2 method=apt_att_prov_noaug seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=177 hidden_top1=0.0000 known_top1=0.6863
+[E8HoldoutFold] partition=2 fold=3 k=2 method=apt_att_prov_noaug seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=227 hidden_top1=0.0000 known_top1=0.6120
+[E8HoldoutFold] partition=2 fold=4 k=2 method=apt_att_prov_noaug seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=218 hidden_top1=0.0000 known_top1=0.6254
+[ExternalHoldout] partition=2 k=2 method=apt_att_prov_noaug seed=42 hidden_queries=1007 hidden_top1=0.0000 known_queries=1512 known_top1=0.6323 seconds=57.4
+[E8MethodDone] method=apt_att_prov_noaug minutes=8.0
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=9.0
+[2026-10-22 03:01:50] done apt_att_prov_noaug
+[E8Collect] E1 seed-42 run: not found (no paired tests)
+[E8Collect] T8A_official: 12 rows -> /root/APT_data/Run/output/exp_v197/E8_external/results/T8A_official.csv
+[E8Collect] T8B_holdout: 72 rows -> /root/APT_data/Run/output/exp_v197/E8_external/results/T8B_holdout.csv
+[E8Collect] T8C_mmf_sanity: 4 rows -> /root/APT_data/Run/output/exp_v197/E8_external/results/T8C_mmf_sanity.csv
+[E8Collect] figure -> /root/APT_data/Run/output/exp_v197/E8_external/results/fig_e8_holdout_k1.png
+[2026-10-22 03:01:52] E8 finished: tables in /root/APT_data/Run/output/exp_v197/E8_external/results

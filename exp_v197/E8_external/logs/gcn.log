@@ -1,0 +1,72 @@
+[E8Start] methods=gcn setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=62
+[E8MMFGraph] nodes=31252 report=1075 malware=12683 tactic=14 technique=471 vulnerability=190 ip=2631 domain=6481 url=2206 filename=4544 filepath=817 registry=134 email=6 inclusion_edges=40254 domain_malware=27824 homology=26545 ip_malware=18548 resolution=13308
+[E8Homogeneous] nodes=31252 edges_with_self_loops=284210
+[E8Search] method=gcn config=1/24 hp={"dropout": 0.3, "hidden": 64, "lr": 0.01, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6862 ValMacroF1=0.6441 epoch=42
+[E8Search] method=gcn config=2/24 hp={"dropout": 0.3, "hidden": 64, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6968 ValMacroF1=0.7036 epoch=94
+[E8Search] method=gcn config=3/24 hp={"dropout": 0.6, "hidden": 64, "lr": 0.01, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6915 ValMacroF1=0.6582 epoch=48
+[E8Search] method=gcn config=4/24 hp={"dropout": 0.6, "hidden": 64, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6915 ValMacroF1=0.6622 epoch=81
+[E8Search] method=gcn config=5/24 hp={"dropout": 0.3, "hidden": 128, "lr": 0.01, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6862 ValMacroF1=0.6418 epoch=36
+[E8Search] method=gcn config=6/24 hp={"dropout": 0.3, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6702 ValMacroF1=0.6192 epoch=68
+[E8Search] method=gcn config=7/24 hp={"dropout": 0.6, "hidden": 128, "lr": 0.01, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.7021 ValMacroF1=0.6507 epoch=174
+[E8Search] method=gcn config=8/24 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.0005} Val=0.6915 ValMacroF1=0.6615 epoch=77
+[E8Search] method=gcn config=9/24 hp={"dropout": 0.3, "hidden": 64, "lr": 0.01, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7021 ValMacroF1=0.6173 epoch=71
+[E8Search] method=gcn config=10/24 hp={"dropout": 0.3, "hidden": 64, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.6968 ValMacroF1=0.6362 epoch=70
+[E8Search] method=gcn config=11/24 hp={"dropout": 0.6, "hidden": 64, "lr": 0.01, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7021 ValMacroF1=0.6457 epoch=35
+[E8Search] method=gcn config=12/24 hp={"dropout": 0.6, "hidden": 64, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7021 ValMacroF1=0.6487 epoch=49
+[E8Search] method=gcn config=13/24 hp={"dropout": 0.3, "hidden": 128, "lr": 0.01, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7074 ValMacroF1=0.6436 epoch=63
+[E8Search] method=gcn config=14/24 hp={"dropout": 0.3, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7074 ValMacroF1=0.6444 epoch=156
+[E8Search] method=gcn config=15/24 hp={"dropout": 0.6, "hidden": 128, "lr": 0.01, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7021 ValMacroF1=0.6834 epoch=25
+[E8Search] method=gcn config=16/24 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.0005} Val=0.7021 ValMacroF1=0.6428 epoch=112
+[E8Search] method=gcn config=17/24 hp={"dropout": 0.3, "hidden": 64, "lr": 0.01, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6862 ValMacroF1=0.6400 epoch=38
+[E8Search] method=gcn config=18/24 hp={"dropout": 0.3, "hidden": 64, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6862 ValMacroF1=0.6199 epoch=90
+[E8Search] method=gcn config=19/24 hp={"dropout": 0.6, "hidden": 64, "lr": 0.01, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6809 ValMacroF1=0.6118 epoch=45
+[E8Search] method=gcn config=20/24 hp={"dropout": 0.6, "hidden": 64, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6862 ValMacroF1=0.6252 epoch=133
+[E8Search] method=gcn config=21/24 hp={"dropout": 0.3, "hidden": 128, "lr": 0.01, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6915 ValMacroF1=0.6166 epoch=81
+[E8Search] method=gcn config=22/24 hp={"dropout": 0.3, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6915 ValMacroF1=0.6290 epoch=60
+[E8Search] method=gcn config=23/24 hp={"dropout": 0.6, "hidden": 128, "lr": 0.01, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.7074 ValMacroF1=0.6380 epoch=50
+[E8Search] method=gcn config=24/24 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.7128 ValMacroF1=0.6405 epoch=139
+[E8Chosen] method=gcn hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} configurations=24 seconds=52
+[External] setting=official method=gcn seed=42 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.7128 Test=0.5632 TestMacroF1=0.4612 TestMRR=0.6563 Top3=0.6895 test_n=190 epoch=139 seconds=2.8
+[External] setting=official method=gcn seed=43 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6968 Test=0.5947 TestMacroF1=0.4939 TestMRR=0.6725 Top3=0.6737 test_n=190 epoch=187 seconds=2.8
+[External] setting=official method=gcn seed=44 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6862 Test=0.5895 TestMacroF1=0.4849 TestMRR=0.6759 Top3=0.7105 test_n=190 epoch=133 seconds=2.8
+[External] setting=official method=gcn seed=45 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.6915 Test=0.5947 TestMacroF1=0.5005 TestMRR=0.6868 Top3=0.7263 test_n=190 epoch=54 seconds=2.1
+[External] setting=official method=gcn seed=46 hp={"dropout": 0.6, "hidden": 128, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.0005} Val=0.7128 Test=0.6000 TestMacroF1=0.4945 TestMRR=0.6784 Top3=0.7000 test_n=190 epoch=174 seconds=2.8
+[E8HoldoutFold] partition=1 fold=0 k=0 method=gcn seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=263 hidden_top1=0.0000 known_top1=0.6516
+[E8HoldoutFold] partition=1 fold=1 k=0 method=gcn seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=233 hidden_top1=0.0000 known_top1=0.6723
+[E8HoldoutFold] partition=1 fold=2 k=0 method=gcn seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=192 hidden_top1=0.0000 known_top1=0.6083
+[E8HoldoutFold] partition=1 fold=3 k=0 method=gcn seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=172 hidden_top1=0.0000 known_top1=0.6508
+[E8HoldoutFold] partition=1 fold=4 k=0 method=gcn seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=215 hidden_top1=0.0000 known_top1=0.6433
+[ExternalHoldout] partition=1 k=0 method=gcn seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6448 seconds=6.4
+[E8HoldoutFold] partition=1 fold=0 k=1 method=gcn seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=256 hidden_top1=0.0078 known_top1=0.6481
+[E8HoldoutFold] partition=1 fold=1 k=1 method=gcn seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=226 hidden_top1=0.0487 known_top1=0.6723
+[E8HoldoutFold] partition=1 fold=2 k=1 method=gcn seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=185 hidden_top1=0.0324 known_top1=0.6115
+[E8HoldoutFold] partition=1 fold=3 k=1 method=gcn seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=166 hidden_top1=0.1325 known_top1=0.6444
+[E8HoldoutFold] partition=1 fold=4 k=1 method=gcn seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=209 hidden_top1=0.1148 known_top1=0.6400
+[ExternalHoldout] partition=1 k=1 method=gcn seed=42 hidden_queries=1042 hidden_top1=0.0624 known_queries=1512 known_top1=0.6429 seconds=6.5
+[E8HoldoutFold] partition=1 fold=0 k=2 method=gcn seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=247 hidden_top1=0.0729 known_top1=0.6516
+[E8HoldoutFold] partition=1 fold=1 k=2 method=gcn seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=220 hidden_top1=0.1182 known_top1=0.6723
+[E8HoldoutFold] partition=1 fold=2 k=2 method=gcn seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=179 hidden_top1=0.0894 known_top1=0.6115
+[E8HoldoutFold] partition=1 fold=3 k=2 method=gcn seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=160 hidden_top1=0.2188 known_top1=0.6476
+[E8HoldoutFold] partition=1 fold=4 k=2 method=gcn seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=203 hidden_top1=0.1921 known_top1=0.6433
+[ExternalHoldout] partition=1 k=2 method=gcn seed=42 hidden_queries=1009 hidden_top1=0.1328 known_queries=1512 known_top1=0.6448 seconds=6.4
+[E8HoldoutFold] partition=2 fold=0 k=0 method=gcn seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=234 hidden_top1=0.0000 known_top1=0.6473
+[E8HoldoutFold] partition=2 fold=1 k=0 method=gcn seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=177 hidden_top1=0.0000 known_top1=0.6456
+[E8HoldoutFold] partition=2 fold=2 k=0 method=gcn seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=190 hidden_top1=0.0000 known_top1=0.6765
+[E8HoldoutFold] partition=2 fold=3 k=0 method=gcn seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=241 hidden_top1=0.0000 known_top1=0.6054
+[E8HoldoutFold] partition=2 fold=4 k=0 method=gcn seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=233 hidden_top1=0.0000 known_top1=0.6254
+[ExternalHoldout] partition=2 k=0 method=gcn seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6402 seconds=6.4
+[E8HoldoutFold] partition=2 fold=0 k=1 method=gcn seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=227 hidden_top1=0.0661 known_top1=0.6473
+[E8HoldoutFold] partition=2 fold=1 k=1 method=gcn seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=171 hidden_top1=0.0117 known_top1=0.6487
+[E8HoldoutFold] partition=2 fold=2 k=1 method=gcn seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=184 hidden_top1=0.0272 known_top1=0.6765
+[E8HoldoutFold] partition=2 fold=3 k=1 method=gcn seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=235 hidden_top1=0.0128 known_top1=0.5987
+[E8HoldoutFold] partition=2 fold=4 k=1 method=gcn seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=224 hidden_top1=0.0179 known_top1=0.6254
+[ExternalHoldout] partition=2 k=1 method=gcn seed=42 hidden_queries=1041 hidden_top1=0.0279 known_queries=1512 known_top1=0.6396 seconds=6.6
+[E8HoldoutFold] partition=2 fold=0 k=2 method=gcn seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=220 hidden_top1=0.1727 known_top1=0.6541
+[E8HoldoutFold] partition=2 fold=1 k=2 method=gcn seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=165 hidden_top1=0.0485 known_top1=0.6487
+[E8HoldoutFold] partition=2 fold=2 k=2 method=gcn seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=177 hidden_top1=0.0621 known_top1=0.6830
+[E8HoldoutFold] partition=2 fold=3 k=2 method=gcn seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=227 hidden_top1=0.0573 known_top1=0.5987
+[E8HoldoutFold] partition=2 fold=4 k=2 method=gcn seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=218 hidden_top1=0.1284 known_top1=0.6288
+[ExternalHoldout] partition=2 k=2 method=gcn seed=42 hidden_queries=1007 hidden_top1=0.0973 known_queries=1512 known_top1=0.6429 seconds=6.4
+[E8MethodDone] method=gcn minutes=1.8
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=2.8

@@ -1,0 +1,5 @@
+[E8Collect] E1 seed-42 run: not found (no paired tests)
+[E8Collect] T8A_official: 13 rows -> /root/APT_data/Run/output/exp_v197/E8_external/results/T8A_official.csv
+[E8Collect] T8B_holdout: 78 rows -> /root/APT_data/Run/output/exp_v197/E8_external/results/T8B_holdout.csv
+[E8Collect] T8C_mmf_sanity: 4 rows -> /root/APT_data/Run/output/exp_v197/E8_external/results/T8C_mmf_sanity.csv
+[E8Collect] figure -> /root/APT_data/Run/output/exp_v197/E8_external/results/fig_e8_holdout_k1.png

@@ -1,0 +1,72 @@
+[E8Start] methods=han setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=62
+[E8MMFGraph] nodes=31252 report=1075 malware=12683 tactic=14 technique=471 vulnerability=190 ip=2631 domain=6481 url=2206 filename=4544 filepath=817 registry=134 email=6 inclusion_edges=40254 domain_malware=27824 homology=26545 ip_malware=18548 resolution=13308
+[E8MMFMetapaths] kept=17 dropped=3 (R-email-R,R-ip-malware-malware-ip-R,R-domain-malware-malware-domain-R) edges(excl. self) R-filename-R:2828 R-malware-R:73764 R-url-R:246 R-filepath-R:24 R-domain-R:2500 R-registry-R:84 R-ip-R:1640 R-vulnerability-R:1418 R-tactic-R:167192 R-ip-malware-R:2298 R-domain-malware-R:1182 R-malware-malware-R:42352 R-ip-malware-ip-R:3440 R-ip-domain-ip-R:4302 R-domain-ip-domain-R:5176 R-malware-domain-malware-R:766 R-malware-ip-malware-R:1646
+[E8Search] method=han config=1/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6915 ValMacroF1=0.6521 epoch=155
+[E8Search] method=han config=2/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6436 ValMacroF1=0.5746 epoch=199
+[E8Search] method=han config=3/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6543 ValMacroF1=0.5801 epoch=180
+[E8Search] method=han config=4/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.5798 ValMacroF1=0.4308 epoch=192
+[E8Search] method=han config=5/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6915 ValMacroF1=0.6616 epoch=171
+[E8Search] method=han config=6/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6543 ValMacroF1=0.6174 epoch=180
+[E8Search] method=han config=7/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6383 ValMacroF1=0.5868 epoch=124
+[E8Search] method=han config=8/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6117 ValMacroF1=0.4976 epoch=167
+[E8Search] method=han config=9/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6862 ValMacroF1=0.6507 epoch=124
+[E8Search] method=han config=10/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6383 ValMacroF1=0.5533 epoch=163
+[E8Search] method=han config=11/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6596 ValMacroF1=0.5747 epoch=191
+[E8Search] method=han config=12/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6011 ValMacroF1=0.4543 epoch=172
+[E8Search] method=han config=13/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6862 ValMacroF1=0.6597 epoch=139
+[E8Search] method=han config=14/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6809 ValMacroF1=0.6510 epoch=199
+[E8Search] method=han config=15/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6649 ValMacroF1=0.6017 epoch=161
+[E8Search] method=han config=16/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 0.5, "wd": 0.001} Val=0.6117 ValMacroF1=0.5419 epoch=174
+[E8Search] method=han config=17/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6809 ValMacroF1=0.6208 epoch=138
+[E8Search] method=han config=18/24 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6596 ValMacroF1=0.5706 epoch=170
+[E8Search] method=han config=19/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6383 ValMacroF1=0.5442 epoch=184
+[E8Search] method=han config=20/24 hp={"dh": 8, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6011 ValMacroF1=0.4537 epoch=172
+[E8Search] method=han config=21/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6649 ValMacroF1=0.6040 epoch=55
+[E8Search] method=han config=22/24 hp={"dh": 16, "dropout": 0.3, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6543 ValMacroF1=0.5461 epoch=181
+[E8Search] method=han config=23/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.005, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6596 ValMacroF1=0.5773 epoch=128
+[E8Search] method=han config=24/24 hp={"dh": 16, "dropout": 0.6, "heads": 8, "lr": 0.001, "p": 1.0, "q": 2.0, "wd": 0.001} Val=0.6223 ValMacroF1=0.4687 epoch=196
+[E8Chosen] method=han hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} configurations=24 seconds=354
+[External] setting=official method=han seed=42 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6915 Test=0.6316 TestMacroF1=0.5426 TestMRR=0.7073 Top3=0.7368 test_n=190 epoch=155 seconds=14.8
+[External] setting=official method=han seed=43 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6702 Test=0.6316 TestMacroF1=0.5532 TestMRR=0.7138 Top3=0.7474 test_n=190 epoch=147 seconds=14.5
+[External] setting=official method=han seed=44 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6649 Test=0.6316 TestMacroF1=0.5615 TestMRR=0.7078 Top3=0.7211 test_n=190 epoch=71 seconds=11.8
+[External] setting=official method=han seed=45 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6649 Test=0.6316 TestMacroF1=0.5406 TestMRR=0.7090 Top3=0.7474 test_n=190 epoch=161 seconds=13.7
+[External] setting=official method=han seed=46 hp={"dh": 8, "dropout": 0.3, "heads": 8, "lr": 0.005, "p": 1.0, "q": 1.0, "wd": 0.001} Val=0.6809 Test=0.6211 TestMacroF1=0.5382 TestMRR=0.7037 Top3=0.7474 test_n=190 epoch=197 seconds=14.4
+[E8HoldoutFold] partition=1 fold=0 k=0 method=han seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=263 hidden_top1=0.0000 known_top1=0.6620
+[E8HoldoutFold] partition=1 fold=1 k=0 method=han seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=233 hidden_top1=0.0000 known_top1=0.6689
+[E8HoldoutFold] partition=1 fold=2 k=0 method=han seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=192 hidden_top1=0.0000 known_top1=0.6497
+[E8HoldoutFold] partition=1 fold=3 k=0 method=han seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=172 hidden_top1=0.0000 known_top1=0.6603
+[E8HoldoutFold] partition=1 fold=4 k=0 method=han seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=215 hidden_top1=0.0000 known_top1=0.6467
+[ExternalHoldout] partition=1 k=0 method=han seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6574 seconds=39.5
+[E8HoldoutFold] partition=1 fold=0 k=1 method=han seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=256 hidden_top1=0.0312 known_top1=0.6585
+[E8HoldoutFold] partition=1 fold=1 k=1 method=han seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=226 hidden_top1=0.0088 known_top1=0.6757
+[E8HoldoutFold] partition=1 fold=2 k=1 method=han seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=185 hidden_top1=0.0270 known_top1=0.6529
+[E8HoldoutFold] partition=1 fold=3 k=1 method=han seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=166 hidden_top1=0.0120 known_top1=0.6571
+[E8HoldoutFold] partition=1 fold=4 k=1 method=han seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=209 hidden_top1=0.0861 known_top1=0.6533
+[ExternalHoldout] partition=1 k=1 method=han seed=42 hidden_queries=1042 hidden_top1=0.0336 known_queries=1512 known_top1=0.6594 seconds=40.1
+[E8HoldoutFold] partition=1 fold=0 k=2 method=han seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=247 hidden_top1=0.0891 known_top1=0.6481
+[E8HoldoutFold] partition=1 fold=1 k=2 method=han seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=220 hidden_top1=0.1091 known_top1=0.6723
+[E8HoldoutFold] partition=1 fold=2 k=2 method=han seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=179 hidden_top1=0.0950 known_top1=0.6561
+[E8HoldoutFold] partition=1 fold=3 k=2 method=han seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=160 hidden_top1=0.1812 known_top1=0.6603
+[E8HoldoutFold] partition=1 fold=4 k=2 method=han seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=203 hidden_top1=0.1823 known_top1=0.6633
+[ExternalHoldout] partition=1 k=2 method=han seed=42 hidden_queries=1009 hidden_top1=0.1278 known_queries=1512 known_top1=0.6601 seconds=40.6
+[E8HoldoutFold] partition=2 fold=0 k=0 method=han seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=234 hidden_top1=0.0000 known_top1=0.6575
+[E8HoldoutFold] partition=2 fold=1 k=0 method=han seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=177 hidden_top1=0.0000 known_top1=0.6804
+[E8HoldoutFold] partition=2 fold=2 k=0 method=han seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=190 hidden_top1=0.0000 known_top1=0.6961
+[E8HoldoutFold] partition=2 fold=3 k=0 method=han seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=241 hidden_top1=0.0000 known_top1=0.6288
+[E8HoldoutFold] partition=2 fold=4 k=0 method=han seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=233 hidden_top1=0.0000 known_top1=0.6488
+[ExternalHoldout] partition=2 k=0 method=han seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.6627 seconds=40.6
+[E8HoldoutFold] partition=2 fold=0 k=1 method=han seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=227 hidden_top1=0.0793 known_top1=0.6541
+[E8HoldoutFold] partition=2 fold=1 k=1 method=han seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=171 hidden_top1=0.0175 known_top1=0.6804
+[E8HoldoutFold] partition=2 fold=2 k=1 method=han seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=184 hidden_top1=0.0054 known_top1=0.6961
+[E8HoldoutFold] partition=2 fold=3 k=1 method=han seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=235 hidden_top1=0.0170 known_top1=0.6388
+[E8HoldoutFold] partition=2 fold=4 k=1 method=han seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=224 hidden_top1=0.0312 known_top1=0.6656
+[ExternalHoldout] partition=2 k=1 method=han seed=42 hidden_queries=1041 hidden_top1=0.0317 known_queries=1512 known_top1=0.6673 seconds=40.0
+[E8HoldoutFold] partition=2 fold=0 k=2 method=han seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=220 hidden_top1=0.1500 known_top1=0.6541
+[E8HoldoutFold] partition=2 fold=1 k=2 method=han seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=165 hidden_top1=0.0788 known_top1=0.6709
+[E8HoldoutFold] partition=2 fold=2 k=2 method=han seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=177 hidden_top1=0.0621 known_top1=0.6928
+[E8HoldoutFold] partition=2 fold=3 k=2 method=han seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=227 hidden_top1=0.0661 known_top1=0.6421
+[E8HoldoutFold] partition=2 fold=4 k=2 method=han seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=218 hidden_top1=0.1560 known_top1=0.6656
+[ExternalHoldout] partition=2 k=2 method=han seed=42 hidden_queries=1007 hidden_top1=0.1053 known_queries=1512 known_top1=0.6653 seconds=40.6
+[E8MethodDone] method=han minutes=11.1
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=12.2

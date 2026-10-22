@@ -1,0 +1,12 @@
+{
+ "method": "pso_msvm",
+ "hp": {
+  "log10_C": 1.7982465955626399,
+  "log10_gamma": -1.9545285014022966
+ },
+ "epochs": [],
+ "holdout_epochs": null,
+ "seeds": [
+  42
+ ]
+}

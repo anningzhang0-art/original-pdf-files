@@ -1,0 +1,55 @@
+[E8Start] methods=mucamp_all setting=all seeds=[42, 43, 44, 45, 46] holdout_seeds=[42] device=cuda V197_md5=cfd29dc16bff60e60ae8fb5eab2bc10e versions={"python": "3.9.25", "numpy": "1.26.4", "scipy": "1.13.1", "pandas": "2.3.3", "sklearn": "1.6.1", "torch": "2.3.0+cu121", "gensim": "4.4.0", "ctgan": "0.12.1", "transformers": "4.57.6", "cuda": true, "gpu": "NVIDIA GeForce RTX 2080 Ti"}
+[E8Setup] kit=E8-external-2026-10-21 reports=1075 train/val/test=697/188/190 classes=31 entities_per_report_median=52 seconds=62
+[E8TTP] reports_with_ttp=459 with_ge5=174 median_len_if_any=3.0
+[E8Search] method=mucamp_all config=1/8 hp={"alpha": 0.2, "beta": 0.2, "nm": 10} Val=0.0372 ValMacroF1=0.0231 epoch=-
+[E8Search] method=mucamp_all config=2/8 hp={"alpha": 0.2, "beta": 0.2, "nm": 64} Val=0.0372 ValMacroF1=0.0140 epoch=-
+[E8Search] method=mucamp_all config=3/8 hp={"alpha": 0.2, "beta": 0.5, "nm": 10} Val=0.0266 ValMacroF1=0.0137 epoch=-
+[E8Search] method=mucamp_all config=4/8 hp={"alpha": 0.2, "beta": 0.5, "nm": 64} Val=0.0213 ValMacroF1=0.0056 epoch=-
+[E8Search] method=mucamp_all config=5/8 hp={"alpha": 0.5, "beta": 0.2, "nm": 10} Val=0.0479 ValMacroF1=0.0433 epoch=-
+[E8Search] method=mucamp_all config=6/8 hp={"alpha": 0.5, "beta": 0.2, "nm": 64} Val=0.0372 ValMacroF1=0.0143 epoch=-
+[E8Search] method=mucamp_all config=7/8 hp={"alpha": 0.5, "beta": 0.5, "nm": 10} Val=0.0372 ValMacroF1=0.0301 epoch=-
+[E8Search] method=mucamp_all config=8/8 hp={"alpha": 0.5, "beta": 0.5, "nm": 64} Val=0.0266 ValMacroF1=0.0148 epoch=-
+[E8Chosen] method=mucamp_all hp={"alpha": 0.5, "beta": 0.2, "nm": 10} configurations=8 seconds=1
+[External] setting=official method=mucamp_all seed=42 hp={"alpha": 0.5, "beta": 0.2, "nm": 10} Val=0.0479 Test=0.0368 TestMacroF1=0.0132 TestMRR=0.1834 Top3=0.1684 test_n=190 epoch=- seconds=0.1
+[External] setting=official method=mucamp_all seed=43 hp={"alpha": 0.5, "beta": 0.2, "nm": 10} Val=0.0372 Test=0.0368 TestMacroF1=0.0143 TestMRR=0.1877 Top3=0.1895 test_n=190 epoch=- seconds=0.1
+[External] setting=official method=mucamp_all seed=44 hp={"alpha": 0.5, "beta": 0.2, "nm": 10} Val=0.0479 Test=0.0316 TestMacroF1=0.0126 TestMRR=0.1782 Top3=0.1579 test_n=190 epoch=- seconds=0.1
+[External] setting=official method=mucamp_all seed=45 hp={"alpha": 0.5, "beta": 0.2, "nm": 10} Val=0.0372 Test=0.0421 TestMacroF1=0.0192 TestMRR=0.1848 Top3=0.1579 test_n=190 epoch=- seconds=0.1
+[External] setting=official method=mucamp_all seed=46 hp={"alpha": 0.5, "beta": 0.2, "nm": 10} Val=0.0426 Test=0.0316 TestMacroF1=0.0126 TestMRR=0.1831 Top3=0.1737 test_n=190 epoch=- seconds=0.1
+[E8HoldoutFold] partition=1 fold=0 k=0 method=mucamp_all seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=263 hidden_top1=0.0000 known_top1=0.0488
+[E8HoldoutFold] partition=1 fold=1 k=0 method=mucamp_all seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=233 hidden_top1=0.0000 known_top1=0.0541
+[E8HoldoutFold] partition=1 fold=2 k=0 method=mucamp_all seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=192 hidden_top1=0.0000 known_top1=0.0478
+[E8HoldoutFold] partition=1 fold=3 k=0 method=mucamp_all seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=172 hidden_top1=0.0000 known_top1=0.0444
+[E8HoldoutFold] partition=1 fold=4 k=0 method=mucamp_all seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=215 hidden_top1=0.0000 known_top1=0.0867
+[ExternalHoldout] partition=1 k=0 method=mucamp_all seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.0562 seconds=0.2
+[E8HoldoutFold] partition=1 fold=0 k=1 method=mucamp_all seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=256 hidden_top1=0.0039 known_top1=0.0418
+[E8HoldoutFold] partition=1 fold=1 k=1 method=mucamp_all seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=226 hidden_top1=0.0133 known_top1=0.0541
+[E8HoldoutFold] partition=1 fold=2 k=1 method=mucamp_all seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=185 hidden_top1=0.0000 known_top1=0.0414
+[E8HoldoutFold] partition=1 fold=3 k=1 method=mucamp_all seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=166 hidden_top1=0.0241 known_top1=0.0286
+[E8HoldoutFold] partition=1 fold=4 k=1 method=mucamp_all seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=209 hidden_top1=0.1148 known_top1=0.0200
+[ExternalHoldout] partition=1 k=1 method=mucamp_all seed=42 hidden_queries=1042 hidden_top1=0.0307 known_queries=1512 known_top1=0.0370 seconds=0.2
+[E8HoldoutFold] partition=1 fold=0 k=2 method=mucamp_all seed=42 hidden=SideCopy,Bahamut,Gaza Cybergang Group1,OceanLotus Group,Kimsuky,Sandworm,Gamaredon Group hidden_queries=247 hidden_top1=0.0364 known_top1=0.0383
+[E8HoldoutFold] partition=1 fold=1 k=2 method=mucamp_all seed=42 hidden=Donot Team,Bitter Group,APT35,Green Spot,Group123,TRITON hidden_queries=220 hidden_top1=0.0227 known_top1=0.0338
+[E8HoldoutFold] partition=1 fold=2 k=2 method=mucamp_all seed=42 hidden=White Elephant,Stealth Falcon,MuddyWater,Blue Mushroom,PROMETHIUM,Turla hidden_queries=179 hidden_top1=0.0056 known_top1=0.0382
+[E8HoldoutFold] partition=1 fold=3 k=2 method=mucamp_all seed=42 hidden=SideWinder,DarkCaracal,OilRig,APT27,Blind Eagle,APT29 hidden_queries=160 hidden_top1=0.0250 known_top1=0.0254
+[E8HoldoutFold] partition=1 fold=4 k=2 method=mucamp_all seed=42 hidden=C-Major,Arid Viper,HEXANE,Darkhotel,Equation Group,APT28 hidden_queries=203 hidden_top1=0.1133 known_top1=0.0133
+[ExternalHoldout] partition=1 k=2 method=mucamp_all seed=42 hidden_queries=1009 hidden_top1=0.0416 known_queries=1512 known_top1=0.0298 seconds=0.2
+[E8HoldoutFold] partition=2 fold=0 k=0 method=mucamp_all seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=234 hidden_top1=0.0000 known_top1=0.0856
+[E8HoldoutFold] partition=2 fold=1 k=0 method=mucamp_all seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=177 hidden_top1=0.0000 known_top1=0.0380
+[E8HoldoutFold] partition=2 fold=2 k=0 method=mucamp_all seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=190 hidden_top1=0.0000 known_top1=0.0490
+[E8HoldoutFold] partition=2 fold=3 k=0 method=mucamp_all seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=241 hidden_top1=0.0000 known_top1=0.0368
+[E8HoldoutFold] partition=2 fold=4 k=0 method=mucamp_all seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=233 hidden_top1=0.0000 known_top1=0.0502
+[ExternalHoldout] partition=2 k=0 method=mucamp_all seed=42 hidden_queries=1075 hidden_top1=0.0000 known_queries=1512 known_top1=0.0516 seconds=0.2
+[E8HoldoutFold] partition=2 fold=0 k=1 method=mucamp_all seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=227 hidden_top1=0.1322 known_top1=0.0034
+[E8HoldoutFold] partition=2 fold=1 k=1 method=mucamp_all seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=171 hidden_top1=0.0292 known_top1=0.0380
+[E8HoldoutFold] partition=2 fold=2 k=1 method=mucamp_all seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=184 hidden_top1=0.0217 known_top1=0.0490
+[E8HoldoutFold] partition=2 fold=3 k=1 method=mucamp_all seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=235 hidden_top1=0.0085 known_top1=0.0301
+[E8HoldoutFold] partition=2 fold=4 k=1 method=mucamp_all seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=224 hidden_top1=0.0000 known_top1=0.0468
+[ExternalHoldout] partition=2 k=1 method=mucamp_all seed=42 hidden_queries=1041 hidden_top1=0.0394 known_queries=1512 known_top1=0.0337 seconds=0.2
+[E8HoldoutFold] partition=2 fold=0 k=2 method=mucamp_all seed=42 hidden=Stealth Falcon,PROMETHIUM,APT28,Group123,APT27,C-Major,SideCopy hidden_queries=220 hidden_top1=0.1227 known_top1=0.0137
+[E8HoldoutFold] partition=2 fold=1 k=2 method=mucamp_all seed=42 hidden=Arid Viper,Blind Eagle,Gamaredon Group,HEXANE,Blue Mushroom,Donot Team hidden_queries=165 hidden_top1=0.0545 known_top1=0.0380
+[E8HoldoutFold] partition=2 fold=2 k=2 method=mucamp_all seed=42 hidden=Gaza Cybergang Group1,Turla,APT29,APT35,OceanLotus Group,SideWinder hidden_queries=177 hidden_top1=0.0113 known_top1=0.0458
+[E8HoldoutFold] partition=2 fold=3 k=2 method=mucamp_all seed=42 hidden=DarkCaracal,Sandworm,Darkhotel,MuddyWater,Green Spot,White Elephant hidden_queries=227 hidden_top1=0.0441 known_top1=0.0301
+[E8HoldoutFold] partition=2 fold=4 k=2 method=mucamp_all seed=42 hidden=Equation Group,TRITON,Kimsuky,OilRig,Bahamut,Bitter Group hidden_queries=218 hidden_top1=0.0229 known_top1=0.0368
+[ExternalHoldout] partition=2 k=2 method=mucamp_all seed=42 hidden_queries=1007 hidden_top1=0.0526 known_queries=1512 known_top1=0.0331 seconds=0.2
+[E8MethodDone] method=mucamp_all minutes=0.1
+[E8Done] methods=1 out=/root/APT_data/Run/output/exp_v197/E8_external minutes=1.1
